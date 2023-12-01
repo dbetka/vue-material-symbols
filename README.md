@@ -26,12 +26,28 @@ npm install -D @dbetka/vue-material-symbols
 
 Add as Vue3 plugin:
 ```js
-import '@dbetka/vue-material-icons/dist/index.css'
-import materialIcons from '@dbetka/vue-material-icons';
+import '@dbetka/vue-material-symbols/dist/index.css'
+import materialIcons from '@dbetka/vue-material-symbols';
 
 const app = createApp(App);
 app.use(materialIcons);
 ```
+
+### Setup in project with configuration
+
+```js
+import '@dbetka/vue-material-symbols/dist/index.css'
+import materialIcons from '@dbetka/vue-material-symbols';
+
+const app = createApp(App);
+app.use(materialIcons, {
+  defaultWeight: '100',
+  defaultGrade: 'thin',
+  defaultSize: 24,
+  defaultType: 'outlined',
+});
+```
+
 
 ## Usage
 
@@ -39,46 +55,39 @@ app.use(materialIcons);
 ```vue
 <template>
   <div>
-    <material-icon name="delete" />
-    <material-icon name="delete" filled/>
-    <material-icon name="delete" outlined/>
-    <material-icon name="delete" round/>
-    <material-icon name="delete" sharp/>
-    <material-icon name="delete" two-tone/>
-    <material-icon name="delete" size="26"/>
+    <material-symbol name="delete" />
+    <material-symbol name="delete" filled/>
+    <material-symbol name="delete" outlined/>
+    <material-symbol name="delete" round/>
+    <material-symbol name="delete" sharp/>
+    <material-symbol name="delete" two-tone/>
+    <material-symbol name="delete" size="26"/>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'some-component',
-};
-</script>
 ```
 
 ### Usage in Composition API
 ```vue
 <template>
   <div>
-    <material-icon :name="elIcon" />
+    <symbol :name="iconName" />
   </div>
 </template>
 
 <script>
-import { useIcons } from '@dbetka/vue-material-icons';
+import { useIcons } from '@dbetka/vue-material-symbols';
 
 export default {
-  name: 'some-component',
   props: {
     done: Boolean,
   },
   setup(props) {
     const icons = useIcons()
     
-    const elIcon = computed(() => props.done ? icons.names.done : icons.names.hourglass_empty)
+    const iconName = computed(() => props.done ? icons.names.done : icons.names.hourglass_empty)
     
     return {
-      elIcon
+      iconName
     }
   }
 };
@@ -86,7 +95,6 @@ export default {
 ```
 
 ## Own styles
-Icon component CSS class is `material-icon`. You can modify this class styles by new CSS styles.
 
 ### Set icon color
 
@@ -94,57 +102,14 @@ Component with CSS example:
 ```vue
 <template>
   <div>
-    <material-icon name="delete" class="red"/>
+    <material-symbol name="delete" class="red"/>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'some-page',
-};
-</script>
-
 <style>
-.material-icon.red {
+.red {
    color: red;
 }
 </style>
 ```
 
-### Set icon size by style
-
-Component with CSS example:
-```vue
-<template>
-  <div>
-    <material-icon name="delete" class="bigger"/>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'some-page',
-};
-</script>
-
-<style>
-.material-icon.bigger {
-   font-size: 64px;
-   width: 64px;
-   height: 64px;
-}
-</style>
-```
-
-SASS example:
-```sass
-// mixins.sass
-=icon-size($size)
-   font-size: $size
-   width: $size
-   height: $size
-
-// icons.sass
-.material-icon.bigger 
-  +icon-size(64px)
-```

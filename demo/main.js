@@ -5,5 +5,8 @@ import '../dist/index.css'
 import materialIcons from '../'
 
 createApp(App)
-  .use(materialIcons)
+  .use(materialIcons, {
+    defaultFilled: true,
+    defaultSize: 26,
+  })
   .mount('#app')

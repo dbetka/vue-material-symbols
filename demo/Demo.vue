@@ -9,6 +9,7 @@
       type="outlined"
       :size="size"
       grade="thin"
+      :filled="false"
     />
     <material-icon
       name="home"
@@ -32,7 +33,6 @@
     <material-icon
       name="home"
       type="outlined"
-      filled
       :size="size"
       grade="bold"
       class="text-green"
