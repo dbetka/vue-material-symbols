@@ -1,7 +1,7 @@
-import { MaterialIcons } from '@/index'
+import { ConstructorOptions } from '@/index'
 
 declare module '@vue/runtime-core' {
   export interface ComponentCustomProperties {
-    $icons: MaterialIcons
+    materialSymbolsDefaults: ConstructorOptions
   }
 }

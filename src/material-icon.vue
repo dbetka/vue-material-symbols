@@ -3,24 +3,22 @@ import { computed } from 'vue'
 import { IconsTypesProp } from '@/jscache/icons-types'
 import { IconsProp } from '@/jscache/icons-names'
 import { useIcons } from '@/index'
+import { materialSymbolsDefaults } from '@/propsDefaults'
 
 const props = withDefaults(
   defineProps<{
-    type?: IconsTypesProp
     name: IconsProp | '' | null | undefined
+    type?: IconsTypesProp
     weight?: '100' | '200' | '300' | '400' | '500' | '600' | '700'
-    grade?: 'thin' | 'medium' | 'semibold' | 'bold'
+    grade?: 'thin' | 'medium' | 'bold'
     size?: number | string
     filled?: boolean,
-    outlined?: boolean,
-    round?: boolean,
-    sharp?: boolean,
   }>(),
   {
-    type: 'filled',
-    weight: '300',
-    grade: 'thin',
-    size: 24,
+    type: () => materialSymbolsDefaults.defaultType || 'outlined',
+    weight: () => materialSymbolsDefaults.defaultWeight || '300',
+    grade: () => materialSymbolsDefaults.defaultGrade || 'medium',
+    size: () => materialSymbolsDefaults.defaultSize || 24,
   }
 )
 
@@ -28,13 +26,12 @@ const icons = useIcons()
 
 const GRADES = {
   thin: -50,
-  medium: 0,
-  semibold: 100,
+  medium: 100,
   bold: 200,
 } as const
 
 const styles = computed(() => {
-  const fill = props.type === 'filled' ? '1' : '0'
+  const fill = props.filled ? '1' : '0'
   const weight = props.weight
   const grade = GRADES[props.grade]
   const size = props.size
@@ -45,32 +42,19 @@ const styles = computed(() => {
   ]
 })
 
-const typeClassFromType = computed(() => {
+const classes = computed(() => {
+  console.log(props.type, icons.types.outlined)
   switch (props.type) {
-    case icons.types.filled: return 'material-icon-filled'
-    case icons.types.outlined: return 'material-icon-outlined'
-    case icons.types.round: return 'material-icon-round'
-    case icons.types.sharp: return 'material-icon-sharp'
+    case icons.types.outlined: return 'material-symbols-outlined'
+    case icons.types.rounded: return 'material-symbols-rounded'
+    case icons.types.sharp: return 'material-symbols-sharp'
     default: return ''
   }
 })
-const typeClassFromParams = computed(() => {
-  if (props.filled) return 'material-icon-filled'
-  if (props.outlined) return 'material-icon-outlined'
-  if (props.round) return 'material-icon-round'
-  if (props.sharp) return 'material-icon-sharp'
-  else return ''
-})
-
-const classes = computed(() => ([
-  typeClassFromType.value,
-  typeClassFromParams.value,
-]))
 </script>
 
 <template>
   <i
-    class="material-icon"
     :class="classes"
     :style="styles"
   >

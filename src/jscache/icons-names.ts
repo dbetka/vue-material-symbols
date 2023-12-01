@@ -1,2126 +1,3444 @@
 export declare type Icons = {
-  '10k': string
-  '10mp': string
-  '11mp': string
-  '123': string
-  '12mp': string
-  '13mp': string
-  '14mp': string
-  '15mp': string
-  '16mp': string
-  '17mp': string
-  '18_up_rating': string
-  '18mp': string
-  '19mp': string
-  '1k': string
-  '1k_plus': string
-  '1x_mobiledata': string
-  '20mp': string
-  '21mp': string
-  '22mp': string
-  '23mp': string
-  '24mp': string
-  '2k': string
-  '2k_plus': string
-  '2mp': string
-  '30fps': string
-  '30fps_select': string
-  '360': string
-  '3d_rotation': string
-  '3g_mobiledata': string
-  '3k': string
-  '3k_plus': string
-  '3mp': string
-  '3p': string
-  '4g_mobiledata': string
-  '4g_plus_mobiledata': string
-  '4k': string
-  '4k_plus': string
-  '4mp': string
-  '5g': string
-  '5k': string
-  '5k_plus': string
-  '5mp': string
-  '60fps': string
-  '60fps_select': string
-  '6_ft_apart': string
-  '6k': string
-  '6k_plus': string
-  '6mp': string
-  '7k': string
-  '7k_plus': string
-  '7mp': string
-  '8k': string
-  '8k_plus': string
-  '8mp': string
-  '9k': string
-  '9k_plus': string
-  '9mp': string
-  'abc': string
-  'ac_unit': string
-  'access_alarm': string
-  'access_alarms': string
-  'access_time': string
-  'access_time_filled': string
-  'accessibility': string
-  'accessibility_new': string
-  'accessible': string
-  'accessible_forward': string
-  'account_balance': string
-  'account_balance_wallet': string
-  'account_box': string
-  'account_circle': string
-  'account_tree': string
-  'ad_units': string
-  'adb': string
-  'add': string
-  'add_a_photo': string
-  'add_alarm': string
-  'add_alert': string
-  'add_box': string
-  'add_business': string
-  'add_card': string
-  'add_chart': string
-  'add_circle': string
-  'add_circle_outline': string
-  'add_comment': string
-  'add_home': string
-  'add_home_work': string
-  'add_ic_call': string
-  'add_link': string
-  'add_location': string
-  'add_location_alt': string
-  'add_moderator': string
-  'add_photo_alternate': string
-  'add_reaction': string
-  'add_road': string
-  'add_shopping_cart': string
-  'add_task': string
-  'add_to_drive': string
-  'add_to_home_screen': string
-  'add_to_photos': string
-  'add_to_queue': string
-  'addchart': string
-  'adf_scanner': string
-  'adjust': string
-  'admin_panel_settings': string
-  'ads_click': string
-  'agriculture': string
-  'air': string
-  'airline_seat_flat': string
-  'airline_seat_flat_angled': string
-  'airline_seat_individual_suite': string
-  'airline_seat_legroom_extra': string
-  'airline_seat_legroom_normal': string
-  'airline_seat_legroom_reduced': string
-  'airline_seat_recline_extra': string
-  'airline_seat_recline_normal': string
-  'airline_stops': string
-  'airlines': string
-  'airplane_ticket': string
-  'airplanemode_active': string
-  'airplanemode_inactive': string
-  'airplay': string
-  'airport_shuttle': string
-  'alarm': string
-  'alarm_add': string
-  'alarm_off': string
-  'alarm_on': string
-  'album': string
-  'align_horizontal_center': string
-  'align_horizontal_left': string
-  'align_horizontal_right': string
-  'align_vertical_bottom': string
-  'align_vertical_center': string
-  'align_vertical_top': string
-  'all_inbox': string
-  'all_inclusive': string
-  'all_out': string
-  'alt_route': string
-  'alternate_email': string
-  'analytics': string
-  'anchor': string
-  'android': string
-  'animation': string
-  'announcement': string
-  'aod': string
-  'apartment': string
-  'api': string
-  'app_blocking': string
-  'app_registration': string
-  'app_settings_alt': string
-  'app_shortcut': string
-  'approval': string
-  'apps': string
-  'apps_outage': string
-  'architecture': string
-  'archive': string
-  'area_chart': string
-  'arrow_back': string
-  'arrow_back_ios': string
-  'arrow_back_ios_new': string
-  'arrow_circle_down': string
-  'arrow_circle_left': string
-  'arrow_circle_right': string
-  'arrow_circle_up': string
-  'arrow_downward': string
-  'arrow_drop_down': string
-  'arrow_drop_down_circle': string
-  'arrow_drop_up': string
-  'arrow_forward': string
-  'arrow_forward_ios': string
-  'arrow_left': string
-  'arrow_outward': string
-  'arrow_right': string
-  'arrow_right_alt': string
-  'arrow_upward': string
-  'art_track': string
-  'article': string
-  'aspect_ratio': string
-  'assessment': string
-  'assignment': string
-  'assignment_ind': string
-  'assignment_late': string
-  'assignment_return': string
-  'assignment_returned': string
-  'assignment_turned_in': string
-  'assist_walker': string
-  'assistant': string
-  'assistant_direction': string
-  'assistant_photo': string
-  'assured_workload': string
-  'atm': string
-  'attach_email': string
-  'attach_file': string
-  'attach_money': string
-  'attachment': string
-  'attractions': string
-  'attribution': string
-  'audio_file': string
-  'audiotrack': string
-  'auto_awesome': string
-  'auto_awesome_mosaic': string
-  'auto_awesome_motion': string
-  'auto_delete': string
-  'auto_fix_high': string
-  'auto_fix_normal': string
-  'auto_fix_off': string
-  'auto_graph': string
-  'auto_mode': string
-  'auto_stories': string
-  'autofps_select': string
-  'autorenew': string
-  'av_timer': string
-  'baby_changing_station': string
-  'back_hand': string
-  'backpack': string
-  'backspace': string
-  'backup': string
-  'backup_table': string
-  'badge': string
-  'bakery_dining': string
-  'balance': string
-  'balcony': string
-  'ballot': string
-  'bar_chart': string
-  'batch_prediction': string
-  'bathroom': string
-  'bathtub': string
-  'battery_0_bar': string
-  'battery_1_bar': string
-  'battery_2_bar': string
-  'battery_3_bar': string
-  'battery_4_bar': string
-  'battery_5_bar': string
-  'battery_6_bar': string
-  'battery_alert': string
-  'battery_charging_full': string
-  'battery_full': string
-  'battery_saver': string
-  'battery_std': string
-  'battery_unknown': string
-  'beach_access': string
-  'bed': string
-  'bedroom_baby': string
-  'bedroom_child': string
-  'bedroom_parent': string
-  'bedtime': string
-  'bedtime_off': string
-  'beenhere': string
-  'bento': string
-  'bike_scooter': string
-  'biotech': string
-  'blender': string
-  'blind': string
-  'blinds': string
-  'blinds_closed': string
-  'block': string
-  'bloodtype': string
-  'bluetooth': string
-  'bluetooth_audio': string
-  'bluetooth_connected': string
-  'bluetooth_disabled': string
-  'bluetooth_drive': string
-  'bluetooth_searching': string
-  'blur_circular': string
-  'blur_linear': string
-  'blur_off': string
-  'blur_on': string
-  'bolt': string
-  'book': string
-  'book_online': string
-  'bookmark': string
-  'bookmark_add': string
-  'bookmark_added': string
-  'bookmark_border': string
-  'bookmark_remove': string
-  'bookmarks': string
-  'border_all': string
-  'border_bottom': string
-  'border_clear': string
-  'border_color': string
-  'border_horizontal': string
-  'border_inner': string
-  'border_left': string
-  'border_outer': string
-  'border_right': string
-  'border_style': string
-  'border_top': string
-  'border_vertical': string
-  'boy': string
-  'branding_watermark': string
-  'breakfast_dining': string
-  'brightness_1': string
-  'brightness_2': string
-  'brightness_3': string
-  'brightness_4': string
-  'brightness_5': string
-  'brightness_6': string
-  'brightness_7': string
-  'brightness_auto': string
-  'brightness_high': string
-  'brightness_low': string
-  'brightness_medium': string
-  'broadcast_on_home': string
-  'broadcast_on_personal': string
-  'broken_image': string
-  'browse_gallery': string
-  'browser_not_supported': string
-  'browser_updated': string
-  'brunch_dining': string
-  'brush': string
-  'bubble_chart': string
-  'bug_report': string
-  'build': string
-  'build_circle': string
-  'bungalow': string
-  'burst_mode': string
-  'bus_alert': string
-  'business': string
-  'business_center': string
-  'cabin': string
-  'cable': string
-  'cached': string
-  'cake': string
-  'calculate': string
-  'calendar_month': string
-  'calendar_today': string
-  'calendar_view_day': string
-  'calendar_view_month': string
-  'calendar_view_week': string
-  'call': string
-  'call_end': string
-  'call_made': string
-  'call_merge': string
-  'call_missed': string
-  'call_missed_outgoing': string
-  'call_received': string
-  'call_split': string
-  'call_to_action': string
-  'camera': string
-  'camera_alt': string
-  'camera_enhance': string
-  'camera_front': string
-  'camera_indoor': string
-  'camera_outdoor': string
-  'camera_rear': string
-  'camera_roll': string
-  'cameraswitch': string
-  'campaign': string
-  'cancel': string
-  'cancel_presentation': string
-  'cancel_schedule_send': string
-  'candlestick_chart': string
-  'car_crash': string
-  'car_rental': string
-  'car_repair': string
-  'card_giftcard': string
-  'card_membership': string
-  'card_travel': string
-  'carpenter': string
-  'cases': string
-  'casino': string
-  'cast': string
-  'cast_connected': string
-  'cast_for_education': string
-  'castle': string
-  'catching_pokemon': string
-  'category': string
-  'celebration': string
-  'cell_tower': string
-  'cell_wifi': string
-  'center_focus_strong': string
-  'center_focus_weak': string
-  'chair': string
-  'chair_alt': string
-  'chalet': string
-  'change_circle': string
-  'change_history': string
-  'charging_station': string
-  'chat': string
-  'chat_bubble': string
-  'chat_bubble_outline': string
-  'check': string
-  'check_box': string
-  'check_box_outline_blank': string
-  'check_circle': string
-  'check_circle_outline': string
-  'checklist': string
-  'checklist_rtl': string
-  'checkroom': string
-  'chevron_left': string
-  'chevron_right': string
-  'child_care': string
-  'child_friendly': string
-  'chrome_reader_mode': string
-  'church': string
-  'circle': string
-  'circle_notifications': string
-  'class': string
-  'clean_hands': string
-  'cleaning_services': string
-  'clear': string
-  'clear_all': string
-  'close': string
-  'close_fullscreen': string
-  'closed_caption': string
-  'closed_caption_disabled': string
-  'closed_caption_off': string
-  'cloud': string
-  'cloud_circle': string
-  'cloud_done': string
-  'cloud_download': string
-  'cloud_off': string
-  'cloud_queue': string
-  'cloud_sync': string
-  'cloud_upload': string
-  'co2': string
-  'co_present': string
-  'code': string
-  'code_off': string
-  'coffee': string
-  'coffee_maker': string
-  'collections': string
-  'collections_bookmark': string
-  'color_lens': string
-  'colorize': string
-  'comment': string
-  'comment_bank': string
-  'comments_disabled': string
-  'commit': string
-  'commute': string
-  'compare': string
-  'compare_arrows': string
-  'compass_calibration': string
-  'compost': string
-  'compress': string
-  'computer': string
-  'confirmation_number': string
-  'connect_without_contact': string
-  'connected_tv': string
-  'connecting_airports': string
-  'construction': string
-  'contact_emergency': string
-  'contact_mail': string
-  'contact_page': string
-  'contact_phone': string
-  'contact_support': string
-  'contactless': string
-  'contacts': string
-  'content_copy': string
-  'content_cut': string
-  'content_paste': string
-  'content_paste_go': string
-  'content_paste_off': string
-  'content_paste_search': string
-  'contrast': string
-  'control_camera': string
-  'control_point': string
-  'control_point_duplicate': string
-  'cookie': string
-  'copy_all': string
-  'copyright': string
-  'coronavirus': string
-  'corporate_fare': string
-  'cottage': string
-  'countertops': string
-  'create': string
-  'create_new_folder': string
-  'credit_card': string
-  'credit_card_off': string
-  'credit_score': string
-  'crib': string
-  'crisis_alert': string
-  'crop': string
-  'crop_16_9': string
-  'crop_3_2': string
-  'crop_5_4': string
-  'crop_7_5': string
-  'crop_din': string
-  'crop_free': string
-  'crop_landscape': string
-  'crop_original': string
-  'crop_portrait': string
-  'crop_rotate': string
-  'crop_square': string
-  'cruelty_free': string
-  'css': string
-  'currency_bitcoin': string
-  'currency_exchange': string
-  'currency_franc': string
-  'currency_lira': string
-  'currency_pound': string
-  'currency_ruble': string
-  'currency_rupee': string
-  'currency_yen': string
-  'currency_yuan': string
-  'curtains': string
-  'curtains_closed': string
-  'cyclone': string
-  'dangerous': string
-  'dark_mode': string
-  'dashboard': string
-  'dashboard_customize': string
-  'data_array': string
-  'data_exploration': string
-  'data_object': string
-  'data_saver_off': string
-  'data_saver_on': string
-  'data_thresholding': string
-  'data_usage': string
-  'dataset': string
-  'dataset_linked': string
-  'date_range': string
-  'deblur': string
-  'deck': string
-  'dehaze': string
-  'delete': string
-  'delete_forever': string
-  'delete_outline': string
-  'delete_sweep': string
-  'delivery_dining': string
-  'density_large': string
-  'density_medium': string
-  'density_small': string
-  'departure_board': string
-  'description': string
-  'deselect': string
-  'design_services': string
-  'desk': string
-  'desktop_access_disabled': string
-  'desktop_mac': string
-  'desktop_windows': string
-  'details': string
-  'developer_board': string
-  'developer_board_off': string
-  'developer_mode': string
-  'device_hub': string
-  'device_thermostat': string
-  'device_unknown': string
-  'devices': string
-  'devices_fold': string
-  'devices_other': string
-  'dialer_sip': string
-  'dialpad': string
-  'diamond': string
-  'difference': string
-  'dining': string
-  'dinner_dining': string
-  'directions': string
-  'directions_bike': string
-  'directions_boat': string
-  'directions_boat_filled': string
-  'directions_bus': string
-  'directions_bus_filled': string
-  'directions_car': string
-  'directions_car_filled': string
-  'directions_off': string
-  'directions_railway': string
-  'directions_railway_filled': string
-  'directions_run': string
-  'directions_subway': string
-  'directions_subway_filled': string
-  'directions_transit': string
-  'directions_transit_filled': string
-  'directions_walk': string
-  'dirty_lens': string
-  'disabled_by_default': string
-  'disabled_visible': string
-  'disc_full': string
-  'discount': string
-  'display_settings': string
-  'diversity_1': string
-  'diversity_2': string
-  'diversity_3': string
-  'dns': string
-  'do_disturb': string
-  'do_disturb_alt': string
-  'do_disturb_off': string
-  'do_disturb_on': string
-  'do_not_disturb': string
-  'do_not_disturb_alt': string
-  'do_not_disturb_off': string
-  'do_not_disturb_on': string
-  'do_not_disturb_on_total_silence': string
-  'do_not_step': string
-  'do_not_touch': string
-  'dock': string
-  'document_scanner': string
-  'domain': string
-  'domain_add': string
-  'domain_disabled': string
-  'domain_verification': string
-  'done': string
-  'done_all': string
-  'done_outline': string
-  'donut_large': string
-  'donut_small': string
-  'door_back': string
-  'door_front': string
-  'door_sliding': string
-  'doorbell': string
-  'double_arrow': string
-  'downhill_skiing': string
-  'download': string
-  'download_done': string
-  'download_for_offline': string
-  'downloading': string
-  'drafts': string
-  'drag_handle': string
-  'drag_indicator': string
-  'draw': string
-  'drive_eta': string
-  'drive_file_move': string
-  'drive_file_move_rtl': string
-  'drive_file_rename_outline': string
-  'drive_folder_upload': string
-  'dry': string
-  'dry_cleaning': string
-  'duo': string
-  'dvr': string
-  'dynamic_feed': string
-  'dynamic_form': string
-  'e_mobiledata': string
-  'earbuds': string
-  'earbuds_battery': string
-  'east': string
-  'edgesensor_high': string
-  'edgesensor_low': string
-  'edit': string
-  'edit_attributes': string
-  'edit_calendar': string
-  'edit_location': string
-  'edit_location_alt': string
-  'edit_note': string
-  'edit_notifications': string
-  'edit_off': string
-  'edit_road': string
-  'egg': string
-  'egg_alt': string
-  'eject': string
-  'elderly': string
-  'elderly_woman': string
-  'electric_bike': string
-  'electric_bolt': string
-  'electric_car': string
-  'electric_meter': string
-  'electric_moped': string
-  'electric_rickshaw': string
-  'electric_scooter': string
-  'electrical_services': string
-  'elevator': string
-  'email': string
-  'emergency': string
-  'emergency_recording': string
-  'emergency_share': string
-  'emoji_emotions': string
-  'emoji_events': string
-  'emoji_food_beverage': string
-  'emoji_nature': string
-  'emoji_objects': string
-  'emoji_people': string
-  'emoji_symbols': string
-  'emoji_transportation': string
-  'energy_savings_leaf': string
-  'engineering': string
-  'enhanced_encryption': string
-  'equalizer': string
-  'error': string
-  'error_outline': string
-  'escalator': string
-  'escalator_warning': string
-  'euro': string
-  'euro_symbol': string
-  'ev_station': string
-  'event': string
-  'event_available': string
-  'event_busy': string
-  'event_note': string
-  'event_repeat': string
-  'event_seat': string
-  'exit_to_app': string
-  'expand': string
-  'expand_circle_down': string
-  'expand_less': string
-  'expand_more': string
-  'explicit': string
-  'explore': string
-  'explore_off': string
-  'exposure': string
-  'exposure_neg_1': string
-  'exposure_neg_2': string
-  'exposure_plus_1': string
-  'exposure_plus_2': string
-  'exposure_zero': string
-  'extension': string
-  'extension_off': string
-  'face': string
-  'face_2': string
-  'face_3': string
-  'face_4': string
-  'face_5': string
-  'face_6': string
-  'face_retouching_natural': string
-  'face_retouching_off': string
-  'fact_check': string
-  'factory': string
-  'family_restroom': string
-  'fast_forward': string
-  'fast_rewind': string
-  'fastfood': string
-  'favorite': string
-  'favorite_border': string
-  'fax': string
-  'featured_play_list': string
-  'featured_video': string
-  'feed': string
-  'feedback': string
-  'female': string
-  'fence': string
-  'festival': string
-  'fiber_dvr': string
-  'fiber_manual_record': string
-  'fiber_new': string
-  'fiber_pin': string
-  'fiber_smart_record': string
-  'file_copy': string
-  'file_download': string
-  'file_download_done': string
-  'file_download_off': string
-  'file_open': string
-  'file_present': string
-  'file_upload': string
-  'filter': string
-  'filter_1': string
-  'filter_2': string
-  'filter_3': string
-  'filter_4': string
-  'filter_5': string
-  'filter_6': string
-  'filter_7': string
-  'filter_8': string
-  'filter_9': string
-  'filter_9_plus': string
-  'filter_alt': string
-  'filter_alt_off': string
-  'filter_b_and_w': string
-  'filter_center_focus': string
-  'filter_drama': string
-  'filter_frames': string
-  'filter_hdr': string
-  'filter_list': string
-  'filter_list_off': string
-  'filter_none': string
-  'filter_tilt_shift': string
-  'filter_vintage': string
-  'find_in_page': string
-  'find_replace': string
-  'fingerprint': string
-  'fire_extinguisher': string
-  'fire_hydrant_alt': string
-  'fire_truck': string
-  'fireplace': string
-  'first_page': string
-  'fit_screen': string
-  'fitbit': string
-  'fitness_center': string
-  'flag': string
-  'flag_circle': string
-  'flaky': string
-  'flare': string
-  'flash_auto': string
-  'flash_off': string
-  'flash_on': string
-  'flashlight_off': string
-  'flashlight_on': string
-  'flatware': string
-  'flight': string
-  'flight_class': string
-  'flight_land': string
-  'flight_takeoff': string
-  'flip': string
-  'flip_camera_android': string
-  'flip_camera_ios': string
-  'flip_to_back': string
-  'flip_to_front': string
-  'flood': string
-  'fluorescent': string
-  'flutter_dash': string
-  'fmd_bad': string
-  'fmd_good': string
-  'folder': string
-  'folder_copy': string
-  'folder_delete': string
-  'folder_off': string
-  'folder_open': string
-  'folder_shared': string
-  'folder_special': string
-  'folder_zip': string
-  'follow_the_signs': string
-  'font_download': string
-  'font_download_off': string
-  'food_bank': string
-  'forest': string
-  'fork_left': string
-  'fork_right': string
-  'format_align_center': string
-  'format_align_justify': string
-  'format_align_left': string
-  'format_align_right': string
-  'format_bold': string
-  'format_clear': string
-  'format_color_fill': string
-  'format_color_reset': string
-  'format_color_text': string
-  'format_indent_decrease': string
-  'format_indent_increase': string
-  'format_italic': string
-  'format_line_spacing': string
-  'format_list_bulleted': string
-  'format_list_numbered': string
-  'format_list_numbered_rtl': string
-  'format_overline': string
-  'format_paint': string
-  'format_quote': string
-  'format_shapes': string
-  'format_size': string
-  'format_strikethrough': string
-  'format_textdirection_l_to_r': string
-  'format_textdirection_r_to_l': string
-  'format_underlined': string
-  'fort': string
-  'forum': string
-  'forward': string
-  'forward_10': string
-  'forward_30': string
-  'forward_5': string
-  'forward_to_inbox': string
-  'foundation': string
-  'free_breakfast': string
-  'free_cancellation': string
-  'front_hand': string
-  'fullscreen': string
-  'fullscreen_exit': string
-  'functions': string
-  'g_mobiledata': string
-  'g_translate': string
-  'gamepad': string
-  'games': string
-  'garage': string
-  'gas_meter': string
-  'gavel': string
-  'generating_tokens': string
-  'gesture': string
-  'get_app': string
-  'gif': string
-  'gif_box': string
-  'girl': string
-  'gite': string
-  'golf_course': string
-  'gpp_bad': string
-  'gpp_good': string
-  'gpp_maybe': string
-  'gps_fixed': string
-  'gps_not_fixed': string
-  'gps_off': string
-  'grade': string
-  'gradient': string
-  'grading': string
-  'grain': string
-  'graphic_eq': string
-  'grass': string
-  'grid_3x3': string
-  'grid_4x4': string
-  'grid_goldenratio': string
-  'grid_off': string
-  'grid_on': string
-  'grid_view': string
-  'group': string
-  'group_add': string
-  'group_off': string
-  'group_remove': string
-  'group_work': string
-  'groups': string
-  'groups_2': string
-  'groups_3': string
-  'h_mobiledata': string
-  'h_plus_mobiledata': string
-  'hail': string
-  'handshake': string
-  'handyman': string
-  'hardware': string
-  'hd': string
-  'hdr_auto': string
-  'hdr_auto_select': string
-  'hdr_enhanced_select': string
-  'hdr_off': string
-  'hdr_off_select': string
-  'hdr_on': string
-  'hdr_on_select': string
-  'hdr_plus': string
-  'hdr_strong': string
-  'hdr_weak': string
-  'headphones': string
-  'headphones_battery': string
-  'headset': string
-  'headset_mic': string
-  'headset_off': string
-  'healing': string
-  'health_and_safety': string
-  'hearing': string
-  'hearing_disabled': string
-  'heart_broken': string
-  'heat_pump': string
-  'height': string
-  'help': string
-  'help_center': string
-  'help_outline': string
-  'hevc': string
-  'hexagon': string
-  'hide_image': string
-  'hide_source': string
-  'high_quality': string
-  'highlight': string
-  'highlight_alt': string
-  'highlight_off': string
-  'hiking': string
-  'history': string
-  'history_edu': string
-  'history_toggle_off': string
-  'hive': string
-  'hls': string
-  'hls_off': string
-  'holiday_village': string
-  'home': string
-  'home_max': string
-  'home_mini': string
-  'home_repair_service': string
-  'home_work': string
-  'horizontal_distribute': string
-  'horizontal_rule': string
-  'horizontal_split': string
-  'hot_tub': string
-  'hotel': string
-  'hotel_class': string
-  'hourglass_bottom': string
-  'hourglass_disabled': string
-  'hourglass_empty': string
-  'hourglass_full': string
-  'hourglass_top': string
-  'house': string
-  'house_siding': string
-  'houseboat': string
-  'how_to_reg': string
-  'how_to_vote': string
-  'html': string
-  'http': string
-  'https': string
-  'hub': string
-  'hvac': string
-  'ice_skating': string
-  'icecream': string
-  'image': string
-  'image_aspect_ratio': string
-  'image_not_supported': string
-  'image_search': string
-  'imagesearch_roller': string
-  'import_contacts': string
-  'import_export': string
-  'important_devices': string
-  'inbox': string
-  'incomplete_circle': string
-  'indeterminate_check_box': string
-  'info': string
-  'input': string
-  'insert_chart': string
-  'insert_chart_outlined': string
-  'insert_comment': string
-  'insert_drive_file': string
-  'insert_emoticon': string
-  'insert_invitation': string
-  'insert_link': string
-  'insert_page_break': string
-  'insert_photo': string
-  'insights': string
-  'install_desktop': string
-  'install_mobile': string
-  'integration_instructions': string
-  'interests': string
-  'interpreter_mode': string
-  'inventory': string
-  'inventory_2': string
-  'invert_colors': string
-  'invert_colors_off': string
-  'ios_share': string
-  'iron': string
-  'iso': string
-  'javascript': string
-  'join_full': string
-  'join_inner': string
-  'join_left': string
-  'join_right': string
-  'kayaking': string
-  'kebab_dining': string
-  'key': string
-  'key_off': string
-  'keyboard': string
-  'keyboard_alt': string
-  'keyboard_arrow_down': string
-  'keyboard_arrow_left': string
-  'keyboard_arrow_right': string
-  'keyboard_arrow_up': string
-  'keyboard_backspace': string
-  'keyboard_capslock': string
-  'keyboard_command_key': string
-  'keyboard_control_key': string
-  'keyboard_double_arrow_down': string
-  'keyboard_double_arrow_left': string
-  'keyboard_double_arrow_right': string
-  'keyboard_double_arrow_up': string
-  'keyboard_hide': string
-  'keyboard_option_key': string
-  'keyboard_return': string
-  'keyboard_tab': string
-  'keyboard_voice': string
-  'king_bed': string
-  'kitchen': string
-  'kitesurfing': string
-  'label': string
-  'label_important': string
-  'label_off': string
-  'lan': string
-  'landscape': string
-  'landslide': string
-  'language': string
-  'laptop': string
-  'laptop_chromebook': string
-  'laptop_mac': string
-  'laptop_windows': string
-  'last_page': string
-  'launch': string
-  'layers': string
-  'layers_clear': string
-  'leaderboard': string
-  'leak_add': string
-  'leak_remove': string
-  'legend_toggle': string
-  'lens': string
-  'lens_blur': string
-  'library_add': string
-  'library_add_check': string
-  'library_books': string
-  'library_music': string
-  'light': string
-  'light_mode': string
-  'lightbulb': string
-  'lightbulb_circle': string
-  'line_axis': string
-  'line_style': string
-  'line_weight': string
-  'linear_scale': string
-  'link': string
-  'link_off': string
-  'linked_camera': string
-  'liquor': string
-  'list': string
-  'list_alt': string
-  'live_help': string
-  'live_tv': string
-  'living': string
-  'local_activity': string
-  'local_airport': string
-  'local_atm': string
-  'local_bar': string
-  'local_cafe': string
-  'local_car_wash': string
-  'local_convenience_store': string
-  'local_dining': string
-  'local_drink': string
-  'local_fire_department': string
-  'local_florist': string
-  'local_gas_station': string
-  'local_grocery_store': string
-  'local_hospital': string
-  'local_hotel': string
-  'local_laundry_service': string
-  'local_library': string
-  'local_mall': string
-  'local_movies': string
-  'local_offer': string
-  'local_parking': string
-  'local_pharmacy': string
-  'local_phone': string
-  'local_pizza': string
-  'local_play': string
-  'local_police': string
-  'local_post_office': string
-  'local_printshop': string
-  'local_see': string
-  'local_shipping': string
-  'local_taxi': string
-  'location_city': string
-  'location_disabled': string
-  'location_off': string
-  'location_on': string
-  'location_searching': string
-  'lock': string
-  'lock_clock': string
-  'lock_open': string
-  'lock_person': string
-  'lock_reset': string
-  'login': string
-  'logo_dev': string
-  'logout': string
-  'looks': string
-  'looks_3': string
-  'looks_4': string
-  'looks_5': string
-  'looks_6': string
-  'looks_one': string
-  'looks_two': string
-  'loop': string
-  'loupe': string
-  'low_priority': string
-  'loyalty': string
-  'lte_mobiledata': string
-  'lte_plus_mobiledata': string
-  'luggage': string
-  'lunch_dining': string
-  'lyrics': string
-  'macro_off': string
-  'mail': string
-  'mail_lock': string
-  'mail_outline': string
-  'male': string
-  'man': string
-  'man_2': string
-  'man_3': string
-  'man_4': string
-  'manage_accounts': string
-  'manage_history': string
-  'manage_search': string
-  'map': string
-  'maps_home_work': string
-  'maps_ugc': string
-  'margin': string
-  'mark_as_unread': string
-  'mark_chat_read': string
-  'mark_chat_unread': string
-  'mark_email_read': string
-  'mark_email_unread': string
-  'mark_unread_chat_alt': string
-  'markunread': string
-  'markunread_mailbox': string
-  'masks': string
-  'maximize': string
-  'media_bluetooth_off': string
-  'media_bluetooth_on': string
-  'mediation': string
-  'medical_information': string
-  'medical_services': string
-  'medication': string
-  'medication_liquid': string
-  'meeting_room': string
-  'memory': string
-  'menu': string
-  'menu_book': string
-  'menu_open': string
-  'merge': string
-  'merge_type': string
-  'message': string
-  'mic': string
-  'mic_external_off': string
-  'mic_external_on': string
-  'mic_none': string
-  'mic_off': string
-  'microwave': string
-  'military_tech': string
-  'minimize': string
-  'minor_crash': string
-  'miscellaneous_services': string
-  'missed_video_call': string
-  'mms': string
-  'mobile_friendly': string
-  'mobile_off': string
-  'mobile_screen_share': string
-  'mobiledata_off': string
-  'mode': string
-  'mode_comment': string
-  'mode_edit': string
-  'mode_edit_outline': string
-  'mode_fan_off': string
-  'mode_night': string
-  'mode_of_travel': string
-  'mode_standby': string
-  'model_training': string
-  'monetization_on': string
-  'money': string
-  'money_off': string
-  'money_off_csred': string
-  'monitor': string
-  'monitor_heart': string
-  'monitor_weight': string
-  'monochrome_photos': string
-  'mood': string
-  'mood_bad': string
-  'moped': string
-  'more': string
-  'more_horiz': string
-  'more_time': string
-  'more_vert': string
-  'mosque': string
-  'motion_photos_auto': string
-  'motion_photos_off': string
-  'motion_photos_on': string
-  'motion_photos_pause': string
-  'motion_photos_paused': string
-  'mouse': string
-  'move_down': string
-  'move_to_inbox': string
-  'move_up': string
-  'movie': string
-  'movie_creation': string
-  'movie_filter': string
-  'moving': string
-  'mp': string
-  'multiline_chart': string
-  'multiple_stop': string
-  'museum': string
-  'music_note': string
-  'music_off': string
-  'music_video': string
-  'my_location': string
-  'nat': string
-  'nature': string
-  'nature_people': string
-  'navigate_before': string
-  'navigate_next': string
-  'navigation': string
-  'near_me': string
-  'near_me_disabled': string
-  'nearby_error': string
-  'nearby_off': string
-  'nest_cam_wired_stand': string
-  'network_cell': string
-  'network_check': string
-  'network_locked': string
-  'network_ping': string
-  'network_wifi': string
-  'network_wifi_1_bar': string
-  'network_wifi_2_bar': string
-  'network_wifi_3_bar': string
-  'new_label': string
-  'new_releases': string
-  'newspaper': string
-  'next_plan': string
-  'next_week': string
-  'nfc': string
-  'night_shelter': string
-  'nightlife': string
-  'nightlight': string
-  'nightlight_round': string
-  'nights_stay': string
-  'no_accounts': string
-  'no_adult_content': string
-  'no_backpack': string
-  'no_cell': string
-  'no_crash': string
-  'no_drinks': string
-  'no_encryption': string
-  'no_encryption_gmailerrorred': string
-  'no_flash': string
-  'no_food': string
-  'no_luggage': string
-  'no_meals': string
-  'no_meeting_room': string
-  'no_photography': string
-  'no_sim': string
-  'no_stroller': string
-  'no_transfer': string
-  'noise_aware': string
-  'noise_control_off': string
-  'nordic_walking': string
-  'north': string
-  'north_east': string
-  'north_west': string
-  'not_accessible': string
-  'not_interested': string
-  'not_listed_location': string
-  'not_started': string
-  'note': string
-  'note_add': string
-  'note_alt': string
-  'notes': string
-  'notification_add': string
-  'notification_important': string
-  'notifications': string
-  'notifications_active': string
-  'notifications_none': string
-  'notifications_off': string
-  'notifications_paused': string
-  'numbers': string
-  'offline_bolt': string
-  'offline_pin': string
-  'offline_share': string
-  'oil_barrel': string
-  'on_device_training': string
-  'ondemand_video': string
-  'online_prediction': string
-  'opacity': string
-  'open_in_browser': string
-  'open_in_full': string
-  'open_in_new': string
-  'open_in_new_off': string
-  'open_with': string
-  'other_houses': string
-  'outbound': string
-  'outbox': string
-  'outdoor_grill': string
-  'outlet': string
-  'outlined_flag': string
-  'output': string
-  'padding': string
-  'pages': string
-  'pageview': string
-  'paid': string
-  'palette': string
-  'pan_tool': string
-  'pan_tool_alt': string
-  'panorama': string
-  'panorama_fish_eye': string
-  'panorama_horizontal': string
-  'panorama_horizontal_select': string
-  'panorama_photosphere': string
-  'panorama_photosphere_select': string
-  'panorama_vertical': string
-  'panorama_vertical_select': string
-  'panorama_wide_angle': string
-  'panorama_wide_angle_select': string
-  'paragliding': string
-  'park': string
-  'party_mode': string
-  'password': string
-  'pattern': string
-  'pause': string
-  'pause_circle': string
-  'pause_circle_filled': string
-  'pause_circle_outline': string
-  'pause_presentation': string
-  'payment': string
-  'payments': string
-  'pedal_bike': string
-  'pending': string
-  'pending_actions': string
-  'pentagon': string
-  'people': string
-  'people_alt': string
-  'people_outline': string
-  'percent': string
-  'perm_camera_mic': string
-  'perm_contact_calendar': string
-  'perm_data_setting': string
-  'perm_device_information': string
-  'perm_identity': string
-  'perm_media': string
-  'perm_phone_msg': string
-  'perm_scan_wifi': string
-  'person': string
-  'person_2': string
-  'person_3': string
-  'person_4': string
-  'person_add': string
-  'person_add_alt': string
-  'person_add_alt_1': string
-  'person_add_disabled': string
-  'person_off': string
-  'person_outline': string
-  'person_pin': string
-  'person_pin_circle': string
-  'person_remove': string
-  'person_remove_alt_1': string
-  'person_search': string
-  'personal_injury': string
-  'personal_video': string
-  'pest_control': string
-  'pest_control_rodent': string
-  'pets': string
-  'phishing': string
-  'phone': string
-  'phone_android': string
-  'phone_bluetooth_speaker': string
-  'phone_callback': string
-  'phone_disabled': string
-  'phone_enabled': string
-  'phone_forwarded': string
-  'phone_iphone': string
-  'phone_locked': string
-  'phone_missed': string
-  'phone_paused': string
-  'phonelink': string
-  'phonelink_erase': string
-  'phonelink_lock': string
-  'phonelink_off': string
-  'phonelink_ring': string
-  'phonelink_setup': string
-  'photo': string
-  'photo_album': string
-  'photo_camera': string
-  'photo_camera_back': string
-  'photo_camera_front': string
-  'photo_filter': string
-  'photo_library': string
-  'photo_size_select_actual': string
-  'photo_size_select_large': string
-  'photo_size_select_small': string
-  'php': string
-  'piano': string
-  'piano_off': string
-  'picture_as_pdf': string
-  'picture_in_picture': string
-  'picture_in_picture_alt': string
-  'pie_chart': string
-  'pie_chart_outline': string
-  'pin': string
-  'pin_drop': string
-  'pin_end': string
-  'pin_invoke': string
-  'pinch': string
-  'pivot_table_chart': string
-  'pix': string
-  'place': string
-  'plagiarism': string
-  'play_arrow': string
-  'play_circle': string
-  'play_circle_filled': string
-  'play_circle_outline': string
-  'play_disabled': string
-  'play_for_work': string
-  'play_lesson': string
-  'playlist_add': string
-  'playlist_add_check': string
-  'playlist_add_check_circle': string
-  'playlist_add_circle': string
-  'playlist_play': string
-  'playlist_remove': string
-  'plumbing': string
-  'plus_one': string
-  'podcasts': string
-  'point_of_sale': string
-  'policy': string
-  'poll': string
-  'polyline': string
-  'polymer': string
-  'pool': string
-  'portable_wifi_off': string
-  'portrait': string
-  'post_add': string
-  'power': string
-  'power_input': string
-  'power_off': string
-  'power_settings_new': string
-  'precision_manufacturing': string
-  'pregnant_woman': string
-  'present_to_all': string
-  'preview': string
-  'price_change': string
-  'price_check': string
-  'print': string
-  'print_disabled': string
-  'priority_high': string
-  'privacy_tip': string
-  'private_connectivity': string
-  'production_quantity_limits': string
-  'propane': string
-  'propane_tank': string
-  'psychology': string
-  'psychology_alt': string
-  'public': string
-  'public_off': string
-  'publish': string
-  'published_with_changes': string
-  'punch_clock': string
-  'push_pin': string
-  'qr_code': string
-  'qr_code_2': string
-  'qr_code_scanner': string
-  'query_builder': string
-  'query_stats': string
-  'question_answer': string
-  'question_mark': string
-  'queue': string
-  'queue_music': string
-  'queue_play_next': string
-  'quickreply': string
-  'quiz': string
-  'r_mobiledata': string
-  'radar': string
-  'radio': string
-  'radio_button_checked': string
-  'radio_button_unchecked': string
-  'railway_alert': string
-  'ramen_dining': string
-  'ramp_left': string
-  'ramp_right': string
-  'rate_review': string
-  'raw_off': string
-  'raw_on': string
-  'read_more': string
-  'real_estate_agent': string
-  'receipt': string
-  'receipt_long': string
-  'recent_actors': string
-  'recommend': string
-  'record_voice_over': string
-  'rectangle': string
-  'recycling': string
-  'redeem': string
-  'redo': string
-  'reduce_capacity': string
-  'refresh': string
-  'remember_me': string
-  'remove': string
-  'remove_circle': string
-  'remove_circle_outline': string
-  'remove_done': string
-  'remove_from_queue': string
-  'remove_moderator': string
-  'remove_red_eye': string
-  'remove_road': string
-  'remove_shopping_cart': string
-  'reorder': string
-  'repartition': string
-  'repeat': string
-  'repeat_on': string
-  'repeat_one': string
-  'repeat_one_on': string
-  'replay': string
-  'replay_10': string
-  'replay_30': string
-  'replay_5': string
-  'replay_circle_filled': string
-  'reply': string
-  'reply_all': string
-  'report': string
-  'report_gmailerrorred': string
-  'report_off': string
-  'report_problem': string
-  'request_page': string
-  'request_quote': string
-  'reset_tv': string
-  'restart_alt': string
-  'restaurant': string
-  'restaurant_menu': string
-  'restore': string
-  'restore_from_trash': string
-  'restore_page': string
-  'reviews': string
-  'rice_bowl': string
-  'ring_volume': string
-  'rocket': string
-  'rocket_launch': string
-  'roller_shades': string
-  'roller_shades_closed': string
-  'roller_skating': string
-  'roofing': string
-  'room': string
-  'room_preferences': string
-  'room_service': string
-  'rotate_90_degrees_ccw': string
-  'rotate_90_degrees_cw': string
-  'rotate_left': string
-  'rotate_right': string
-  'roundabout_left': string
-  'roundabout_right': string
-  'rounded_corner': string
-  'route': string
-  'router': string
-  'rowing': string
-  'rss_feed': string
-  'rsvp': string
-  'rtt': string
-  'rule': string
-  'rule_folder': string
-  'run_circle': string
-  'running_with_errors': string
-  'rv_hookup': string
-  'safety_check': string
-  'safety_divider': string
-  'sailing': string
-  'sanitizer': string
-  'satellite': string
-  'satellite_alt': string
-  'save': string
-  'save_alt': string
-  'save_as': string
-  'saved_search': string
-  'savings': string
-  'scale': string
-  'scanner': string
-  'scatter_plot': string
-  'schedule': string
-  'schedule_send': string
-  'schema': string
-  'school': string
-  'science': string
-  'score': string
-  'scoreboard': string
-  'screen_lock_landscape': string
-  'screen_lock_portrait': string
-  'screen_lock_rotation': string
-  'screen_rotation': string
-  'screen_rotation_alt': string
-  'screen_search_desktop': string
-  'screen_share': string
-  'screenshot': string
-  'screenshot_monitor': string
-  'scuba_diving': string
-  'sd': string
-  'sd_card': string
-  'sd_card_alert': string
-  'sd_storage': string
-  'search': string
-  'search_off': string
-  'security': string
-  'security_update': string
-  'security_update_good': string
-  'security_update_warning': string
-  'segment': string
-  'select_all': string
-  'self_improvement': string
-  'sell': string
-  'send': string
-  'send_and_archive': string
-  'send_time_extension': string
-  'send_to_mobile': string
-  'sensor_door': string
-  'sensor_occupied': string
-  'sensor_window': string
-  'sensors': string
-  'sensors_off': string
-  'sentiment_dissatisfied': string
-  'sentiment_neutral': string
-  'sentiment_satisfied': string
-  'sentiment_satisfied_alt': string
-  'sentiment_very_dissatisfied': string
-  'sentiment_very_satisfied': string
-  'set_meal': string
-  'settings': string
-  'settings_accessibility': string
-  'settings_applications': string
-  'settings_backup_restore': string
-  'settings_bluetooth': string
-  'settings_brightness': string
-  'settings_cell': string
-  'settings_ethernet': string
-  'settings_input_antenna': string
-  'settings_input_component': string
-  'settings_input_composite': string
-  'settings_input_hdmi': string
-  'settings_input_svideo': string
-  'settings_overscan': string
-  'settings_phone': string
-  'settings_power': string
-  'settings_remote': string
-  'settings_suggest': string
-  'settings_system_daydream': string
-  'settings_voice': string
-  'severe_cold': string
-  'shape_line': string
-  'share': string
-  'share_location': string
-  'shield': string
-  'shield_moon': string
-  'shop': string
-  'shop_2': string
-  'shop_two': string
-  'shopping_bag': string
-  'shopping_basket': string
-  'shopping_cart': string
-  'shopping_cart_checkout': string
-  'short_text': string
-  'shortcut': string
-  'show_chart': string
-  'shower': string
-  'shuffle': string
-  'shuffle_on': string
-  'shutter_speed': string
-  'sick': string
-  'sign_language': string
-  'signal_cellular_0_bar': string
-  'signal_cellular_4_bar': string
-  'signal_cellular_alt': string
-  'signal_cellular_alt_1_bar': string
-  'signal_cellular_alt_2_bar': string
-  'signal_cellular_connected_no_internet_0_bar': string
-  'signal_cellular_connected_no_internet_4_bar': string
-  'signal_cellular_no_sim': string
-  'signal_cellular_nodata': string
-  'signal_cellular_null': string
-  'signal_cellular_off': string
-  'signal_wifi_0_bar': string
-  'signal_wifi_4_bar': string
-  'signal_wifi_4_bar_lock': string
-  'signal_wifi_bad': string
-  'signal_wifi_connected_no_internet_4': string
-  'signal_wifi_off': string
-  'signal_wifi_statusbar_4_bar': string
-  'signal_wifi_statusbar_connected_no_internet_4': string
-  'signal_wifi_statusbar_null': string
-  'signpost': string
-  'sim_card': string
-  'sim_card_alert': string
-  'sim_card_download': string
-  'single_bed': string
-  'sip': string
-  'skateboarding': string
-  'skip_next': string
-  'skip_previous': string
-  'sledding': string
-  'slideshow': string
-  'slow_motion_video': string
-  'smart_button': string
-  'smart_display': string
-  'smart_screen': string
-  'smart_toy': string
-  'smartphone': string
-  'smoke_free': string
-  'smoking_rooms': string
-  'sms': string
-  'sms_failed': string
-  'snippet_folder': string
-  'snooze': string
-  'snowboarding': string
-  'snowmobile': string
-  'snowshoeing': string
-  'soap': string
-  'social_distance': string
-  'solar_power': string
-  'sort': string
-  'sort_by_alpha': string
-  'sos': string
-  'soup_kitchen': string
-  'source': string
-  'south': string
-  'south_america': string
-  'south_east': string
-  'south_west': string
-  'spa': string
-  'space_bar': string
-  'space_dashboard': string
-  'spatial_audio': string
-  'spatial_audio_off': string
-  'spatial_tracking': string
-  'speaker': string
-  'speaker_group': string
-  'speaker_notes': string
-  'speaker_notes_off': string
-  'speaker_phone': string
-  'speed': string
-  'spellcheck': string
-  'splitscreen': string
-  'spoke': string
-  'sports': string
-  'sports_bar': string
-  'sports_baseball': string
-  'sports_basketball': string
-  'sports_cricket': string
-  'sports_esports': string
-  'sports_football': string
-  'sports_golf': string
-  'sports_gymnastics': string
-  'sports_handball': string
-  'sports_hockey': string
-  'sports_kabaddi': string
-  'sports_martial_arts': string
-  'sports_mma': string
-  'sports_motorsports': string
-  'sports_rugby': string
-  'sports_score': string
-  'sports_soccer': string
-  'sports_tennis': string
-  'sports_volleyball': string
-  'square': string
-  'square_foot': string
-  'ssid_chart': string
-  'stacked_bar_chart': string
-  'stacked_line_chart': string
-  'stadium': string
-  'stairs': string
-  'star': string
-  'star_border': string
-  'star_border_purple500': string
-  'star_half': string
-  'star_outline': string
-  'star_purple500': string
-  'star_rate': string
-  'stars': string
-  'start': string
-  'stay_current_landscape': string
-  'stay_current_portrait': string
-  'stay_primary_landscape': string
-  'stay_primary_portrait': string
-  'sticky_note_2': string
-  'stop': string
-  'stop_circle': string
-  'stop_screen_share': string
-  'storage': string
-  'store': string
-  'store_mall_directory': string
-  'storefront': string
-  'storm': string
-  'straight': string
-  'straighten': string
-  'stream': string
-  'streetview': string
-  'strikethrough_s': string
-  'stroller': string
-  'style': string
-  'subdirectory_arrow_left': string
-  'subdirectory_arrow_right': string
-  'subject': string
-  'subscript': string
-  'subscriptions': string
-  'subtitles': string
-  'subtitles_off': string
-  'subway': string
-  'summarize': string
-  'superscript': string
-  'supervised_user_circle': string
-  'supervisor_account': string
-  'support': string
-  'support_agent': string
-  'surfing': string
-  'surround_sound': string
-  'swap_calls': string
-  'swap_horiz': string
-  'swap_horizontal_circle': string
-  'swap_vert': string
-  'swap_vertical_circle': string
-  'swipe': string
-  'swipe_down': string
-  'swipe_down_alt': string
-  'swipe_left': string
-  'swipe_left_alt': string
-  'swipe_right': string
-  'swipe_right_alt': string
-  'swipe_up': string
-  'swipe_up_alt': string
-  'swipe_vertical': string
-  'switch_access_shortcut': string
-  'switch_access_shortcut_add': string
-  'switch_account': string
-  'switch_camera': string
-  'switch_left': string
-  'switch_right': string
-  'switch_video': string
-  'synagogue': string
-  'sync': string
-  'sync_alt': string
-  'sync_disabled': string
-  'sync_lock': string
-  'sync_problem': string
-  'system_security_update': string
-  'system_security_update_good': string
-  'system_security_update_warning': string
-  'system_update': string
-  'system_update_alt': string
-  'tab': string
-  'tab_unselected': string
-  'table_bar': string
-  'table_chart': string
-  'table_restaurant': string
-  'table_rows': string
-  'table_view': string
-  'tablet': string
-  'tablet_android': string
-  'tablet_mac': string
-  'tag': string
-  'tag_faces': string
-  'takeout_dining': string
-  'tap_and_play': string
-  'tapas': string
-  'task': string
-  'task_alt': string
-  'taxi_alert': string
-  'temple_buddhist': string
-  'temple_hindu': string
-  'terminal': string
-  'terrain': string
-  'text_decrease': string
-  'text_fields': string
-  'text_format': string
-  'text_increase': string
-  'text_rotate_up': string
-  'text_rotate_vertical': string
-  'text_rotation_angledown': string
-  'text_rotation_angleup': string
-  'text_rotation_down': string
-  'text_rotation_none': string
-  'text_snippet': string
-  'textsms': string
-  'texture': string
-  'theater_comedy': string
-  'theaters': string
-  'thermostat': string
-  'thermostat_auto': string
-  'thumb_down': string
-  'thumb_down_alt': string
-  'thumb_down_off_alt': string
-  'thumb_up': string
-  'thumb_up_alt': string
-  'thumb_up_off_alt': string
-  'thumbs_up_down': string
-  'thunderstorm': string
-  'time_to_leave': string
-  'timelapse': string
-  'timeline': string
-  'timer': string
-  'timer_10': string
-  'timer_10_select': string
-  'timer_3': string
-  'timer_3_select': string
-  'timer_off': string
-  'tips_and_updates': string
-  'tire_repair': string
-  'title': string
-  'toc': string
-  'today': string
-  'toggle_off': string
-  'toggle_on': string
-  'token': string
-  'toll': string
-  'tonality': string
-  'topic': string
-  'tornado': string
-  'touch_app': string
-  'tour': string
-  'toys': string
-  'track_changes': string
-  'traffic': string
-  'train': string
-  'tram': string
-  'transcribe': string
-  'transfer_within_a_station': string
-  'transform': string
-  'transgender': string
-  'transit_enterexit': string
-  'translate': string
-  'travel_explore': string
-  'trending_down': string
-  'trending_flat': string
-  'trending_up': string
-  'trip_origin': string
-  'troubleshoot': string
-  'try': string
-  'tsunami': string
-  'tty': string
-  'tune': string
-  'tungsten': string
-  'turn_left': string
-  'turn_right': string
-  'turn_sharp_left': string
-  'turn_sharp_right': string
-  'turn_slight_left': string
-  'turn_slight_right': string
-  'turned_in': string
-  'turned_in_not': string
-  'tv': string
-  'tv_off': string
-  'two_wheeler': string
-  'type_specimen': string
-  'u_turn_left': string
-  'u_turn_right': string
-  'umbrella': string
-  'unarchive': string
-  'undo': string
-  'unfold_less': string
-  'unfold_less_double': string
-  'unfold_more': string
-  'unfold_more_double': string
-  'unpublished': string
-  'unsubscribe': string
-  'upcoming': string
-  'update': string
-  'update_disabled': string
-  'upgrade': string
-  'upload': string
-  'upload_file': string
-  'usb': string
-  'usb_off': string
-  'vaccines': string
-  'vape_free': string
-  'vaping_rooms': string
-  'verified': string
-  'verified_user': string
-  'vertical_align_bottom': string
-  'vertical_align_center': string
-  'vertical_align_top': string
-  'vertical_distribute': string
-  'vertical_shades': string
-  'vertical_shades_closed': string
-  'vertical_split': string
-  'vibration': string
-  'video_call': string
-  'video_camera_back': string
-  'video_camera_front': string
-  'video_chat': string
-  'video_file': string
-  'video_label': string
-  'video_library': string
-  'video_settings': string
-  'video_stable': string
-  'videocam': string
-  'videocam_off': string
-  'videogame_asset': string
-  'videogame_asset_off': string
-  'view_agenda': string
-  'view_array': string
-  'view_carousel': string
-  'view_column': string
-  'view_comfy': string
-  'view_comfy_alt': string
-  'view_compact': string
-  'view_compact_alt': string
-  'view_cozy': string
-  'view_day': string
-  'view_headline': string
-  'view_in_ar': string
-  'view_kanban': string
-  'view_list': string
-  'view_module': string
-  'view_quilt': string
-  'view_sidebar': string
-  'view_stream': string
-  'view_timeline': string
-  'view_week': string
-  'vignette': string
-  'villa': string
-  'visibility': string
-  'visibility_off': string
-  'voice_chat': string
-  'voice_over_off': string
-  'voicemail': string
-  'volcano': string
-  'volume_down': string
-  'volume_mute': string
-  'volume_off': string
-  'volume_up': string
-  'volunteer_activism': string
-  'vpn_key': string
-  'vpn_key_off': string
-  'vpn_lock': string
-  'vrpano': string
-  'wallet': string
-  'wallpaper': string
-  'warehouse': string
-  'warning': string
-  'warning_amber': string
-  'wash': string
-  'watch': string
-  'watch_later': string
-  'watch_off': string
-  'water': string
-  'water_damage': string
-  'water_drop': string
-  'waterfall_chart': string
-  'waves': string
-  'waving_hand': string
-  'wb_auto': string
-  'wb_cloudy': string
-  'wb_incandescent': string
-  'wb_iridescent': string
-  'wb_shade': string
-  'wb_sunny': string
-  'wb_twilight': string
-  'wc': string
-  'web': string
-  'web_asset': string
-  'web_asset_off': string
-  'web_stories': string
-  'webhook': string
-  'weekend': string
-  'west': string
-  'whatshot': string
-  'wheelchair_pickup': string
-  'where_to_vote': string
-  'widgets': string
-  'width_full': string
-  'width_normal': string
-  'width_wide': string
-  'wifi': string
-  'wifi_1_bar': string
-  'wifi_2_bar': string
-  'wifi_calling': string
-  'wifi_calling_3': string
-  'wifi_channel': string
-  'wifi_find': string
-  'wifi_lock': string
-  'wifi_off': string
-  'wifi_password': string
-  'wifi_protected_setup': string
-  'wifi_tethering': string
-  'wifi_tethering_error': string
-  'wifi_tethering_off': string
-  'wind_power': string
-  'window': string
-  'wine_bar': string
-  'woman': string
-  'woman_2': string
-  'work': string
-  'work_history': string
-  'work_off': string
-  'work_outline': string
-  'workspace_premium': string
-  'workspaces': string
-  'wrap_text': string
-  'wrong_location': string
-  'wysiwyg': string
-  'yard': string
-  'youtube_searched_for': string
-  'zoom_in': string
-  'zoom_in_map': string
-  'zoom_out': string
-  'zoom_out_map': string
+  '10k': '10k'
+  '10mp': '10mp'
+  '11mp': '11mp'
+  '123': '123'
+  '12mp': '12mp'
+  '13mp': '13mp'
+  '14mp': '14mp'
+  '15mp': '15mp'
+  '16mp': '16mp'
+  '17mp': '17mp'
+  '18_up_rating': '18_up_rating'
+  '18mp': '18mp'
+  '19mp': '19mp'
+  '1k': '1k'
+  '1k_plus': '1k_plus'
+  '1x_mobiledata': '1x_mobiledata'
+  '1x_mobiledata_badge': '1x_mobiledata_badge'
+  '20mp': '20mp'
+  '21mp': '21mp'
+  '22mp': '22mp'
+  '23mp': '23mp'
+  '24mp': '24mp'
+  '2d': '2d'
+  '2k': '2k'
+  '2k_plus': '2k_plus'
+  '2mp': '2mp'
+  '30fps': '30fps'
+  '30fps_select': '30fps_select'
+  '360': '360'
+  '3d_rotation': '3d_rotation'
+  '3g_mobiledata': '3g_mobiledata'
+  '3g_mobiledata_badge': '3g_mobiledata_badge'
+  '3k': '3k'
+  '3k_plus': '3k_plus'
+  '3mp': '3mp'
+  '3p': '3p'
+  '4g_mobiledata': '4g_mobiledata'
+  '4g_mobiledata_badge': '4g_mobiledata_badge'
+  '4g_plus_mobiledata': '4g_plus_mobiledata'
+  '4k': '4k'
+  '4k_plus': '4k_plus'
+  '4mp': '4mp'
+  '50mp': '50mp'
+  '5g': '5g'
+  '5g_mobiledata_badge': '5g_mobiledata_badge'
+  '5k': '5k'
+  '5k_plus': '5k_plus'
+  '5mp': '5mp'
+  '60fps': '60fps'
+  '60fps_select': '60fps_select'
+  '6_ft_apart': '6_ft_apart'
+  '6k': '6k'
+  '6k_plus': '6k_plus'
+  '6mp': '6mp'
+  '7k': '7k'
+  '7k_plus': '7k_plus'
+  '7mp': '7mp'
+  '8k': '8k'
+  '8k_plus': '8k_plus'
+  '8mp': '8mp'
+  '9k': '9k'
+  '9k_plus': '9k_plus'
+  '9mp': '9mp'
+  'abc': 'abc'
+  'ac_unit': 'ac_unit'
+  'access_alarm': 'access_alarm'
+  'access_alarms': 'access_alarms'
+  'access_time': 'access_time'
+  'access_time_filled': 'access_time_filled'
+  'accessibility': 'accessibility'
+  'accessibility_new': 'accessibility_new'
+  'accessible': 'accessible'
+  'accessible_forward': 'accessible_forward'
+  'account_balance': 'account_balance'
+  'account_balance_wallet': 'account_balance_wallet'
+  'account_box': 'account_box'
+  'account_child': 'account_child'
+  'account_child_invert': 'account_child_invert'
+  'account_circle': 'account_circle'
+  'account_circle_off': 'account_circle_off'
+  'account_tree': 'account_tree'
+  'action_key': 'action_key'
+  'activity_zone': 'activity_zone'
+  'acute': 'acute'
+  'ad': 'ad'
+  'ad_group': 'ad_group'
+  'ad_group_off': 'ad_group_off'
+  'ad_off': 'ad_off'
+  'ad_units': 'ad_units'
+  'adb': 'adb'
+  'add': 'add'
+  'add_a_photo': 'add_a_photo'
+  'add_ad': 'add_ad'
+  'add_alarm': 'add_alarm'
+  'add_alert': 'add_alert'
+  'add_box': 'add_box'
+  'add_business': 'add_business'
+  'add_call': 'add_call'
+  'add_card': 'add_card'
+  'add_chart': 'add_chart'
+  'add_circle': 'add_circle'
+  'add_circle_outline': 'add_circle_outline'
+  'add_comment': 'add_comment'
+  'add_home': 'add_home'
+  'add_home_work': 'add_home_work'
+  'add_ic_call': 'add_ic_call'
+  'add_link': 'add_link'
+  'add_location': 'add_location'
+  'add_location_alt': 'add_location_alt'
+  'add_moderator': 'add_moderator'
+  'add_notes': 'add_notes'
+  'add_photo_alternate': 'add_photo_alternate'
+  'add_reaction': 'add_reaction'
+  'add_road': 'add_road'
+  'add_shopping_cart': 'add_shopping_cart'
+  'add_task': 'add_task'
+  'add_to_drive': 'add_to_drive'
+  'add_to_home_screen': 'add_to_home_screen'
+  'add_to_photos': 'add_to_photos'
+  'add_to_queue': 'add_to_queue'
+  'addchart': 'addchart'
+  'adf_scanner': 'adf_scanner'
+  'adjust': 'adjust'
+  'admin_meds': 'admin_meds'
+  'admin_panel_settings': 'admin_panel_settings'
+  'ads_click': 'ads_click'
+  'agender': 'agender'
+  'agriculture': 'agriculture'
+  'air': 'air'
+  'air_freshener': 'air_freshener'
+  'air_purifier': 'air_purifier'
+  'air_purifier_gen': 'air_purifier_gen'
+  'airline_seat_flat': 'airline_seat_flat'
+  'airline_seat_flat_angled': 'airline_seat_flat_angled'
+  'airline_seat_individual_suite': 'airline_seat_individual_suite'
+  'airline_seat_legroom_extra': 'airline_seat_legroom_extra'
+  'airline_seat_legroom_normal': 'airline_seat_legroom_normal'
+  'airline_seat_legroom_reduced': 'airline_seat_legroom_reduced'
+  'airline_seat_recline_extra': 'airline_seat_recline_extra'
+  'airline_seat_recline_normal': 'airline_seat_recline_normal'
+  'airline_stops': 'airline_stops'
+  'airlines': 'airlines'
+  'airplane_ticket': 'airplane_ticket'
+  'airplanemode_active': 'airplanemode_active'
+  'airplanemode_inactive': 'airplanemode_inactive'
+  'airplay': 'airplay'
+  'airport_shuttle': 'airport_shuttle'
+  'airware': 'airware'
+  'airwave': 'airwave'
+  'alarm': 'alarm'
+  'alarm_add': 'alarm_add'
+  'alarm_off': 'alarm_off'
+  'alarm_on': 'alarm_on'
+  'alarm_smart_wake': 'alarm_smart_wake'
+  'album': 'album'
+  'align_center': 'align_center'
+  'align_end': 'align_end'
+  'align_flex_center': 'align_flex_center'
+  'align_flex_end': 'align_flex_end'
+  'align_flex_start': 'align_flex_start'
+  'align_horizontal_center': 'align_horizontal_center'
+  'align_horizontal_left': 'align_horizontal_left'
+  'align_horizontal_right': 'align_horizontal_right'
+  'align_items_stretch': 'align_items_stretch'
+  'align_justify_center': 'align_justify_center'
+  'align_justify_flex_end': 'align_justify_flex_end'
+  'align_justify_flex_start': 'align_justify_flex_start'
+  'align_justify_space_around': 'align_justify_space_around'
+  'align_justify_space_between': 'align_justify_space_between'
+  'align_justify_space_even': 'align_justify_space_even'
+  'align_justify_stretch': 'align_justify_stretch'
+  'align_self_stretch': 'align_self_stretch'
+  'align_space_around': 'align_space_around'
+  'align_space_between': 'align_space_between'
+  'align_space_even': 'align_space_even'
+  'align_start': 'align_start'
+  'align_stretch': 'align_stretch'
+  'align_vertical_bottom': 'align_vertical_bottom'
+  'align_vertical_center': 'align_vertical_center'
+  'align_vertical_top': 'align_vertical_top'
+  'all_inbox': 'all_inbox'
+  'all_inclusive': 'all_inclusive'
+  'all_match': 'all_match'
+  'all_out': 'all_out'
+  'allergies': 'allergies'
+  'allergy': 'allergy'
+  'alt_route': 'alt_route'
+  'alternate_email': 'alternate_email'
+  'altitude': 'altitude'
+  'ambulance': 'ambulance'
+  'amend': 'amend'
+  'amp_stories': 'amp_stories'
+  'analytics': 'analytics'
+  'anchor': 'anchor'
+  'android': 'android'
+  'animation': 'animation'
+  'announcement': 'announcement'
+  'aod': 'aod'
+  'aod_tablet': 'aod_tablet'
+  'aod_watch': 'aod_watch'
+  'apartment': 'apartment'
+  'api': 'api'
+  'apk_document': 'apk_document'
+  'apk_install': 'apk_install'
+  'app_badging': 'app_badging'
+  'app_blocking': 'app_blocking'
+  'app_promo': 'app_promo'
+  'app_registration': 'app_registration'
+  'app_settings_alt': 'app_settings_alt'
+  'app_shortcut': 'app_shortcut'
+  'apparel': 'apparel'
+  'approval': 'approval'
+  'approval_delegation': 'approval_delegation'
+  'apps': 'apps'
+  'apps_outage': 'apps_outage'
+  'aq': 'aq'
+  'aq_indoor': 'aq_indoor'
+  'ar_on_you': 'ar_on_you'
+  'ar_stickers': 'ar_stickers'
+  'architecture': 'architecture'
+  'archive': 'archive'
+  'area_chart': 'area_chart'
+  'arming_countdown': 'arming_countdown'
+  'arrow_and_edge': 'arrow_and_edge'
+  'arrow_back': 'arrow_back'
+  'arrow_back_ios': 'arrow_back_ios'
+  'arrow_back_ios_new': 'arrow_back_ios_new'
+  'arrow_circle_down': 'arrow_circle_down'
+  'arrow_circle_left': 'arrow_circle_left'
+  'arrow_circle_right': 'arrow_circle_right'
+  'arrow_circle_up': 'arrow_circle_up'
+  'arrow_downward': 'arrow_downward'
+  'arrow_downward_alt': 'arrow_downward_alt'
+  'arrow_drop_down': 'arrow_drop_down'
+  'arrow_drop_down_circle': 'arrow_drop_down_circle'
+  'arrow_drop_up': 'arrow_drop_up'
+  'arrow_forward': 'arrow_forward'
+  'arrow_forward_ios': 'arrow_forward_ios'
+  'arrow_insert': 'arrow_insert'
+  'arrow_left': 'arrow_left'
+  'arrow_left_alt': 'arrow_left_alt'
+  'arrow_or_edge': 'arrow_or_edge'
+  'arrow_outward': 'arrow_outward'
+  'arrow_range': 'arrow_range'
+  'arrow_right': 'arrow_right'
+  'arrow_right_alt': 'arrow_right_alt'
+  'arrow_selector_tool': 'arrow_selector_tool'
+  'arrow_split': 'arrow_split'
+  'arrow_top_left': 'arrow_top_left'
+  'arrow_top_right': 'arrow_top_right'
+  'arrow_upward': 'arrow_upward'
+  'arrow_upward_alt': 'arrow_upward_alt'
+  'arrows_more_down': 'arrows_more_down'
+  'arrows_more_up': 'arrows_more_up'
+  'arrows_outward': 'arrows_outward'
+  'art_track': 'art_track'
+  'article': 'article'
+  'article_shortcut': 'article_shortcut'
+  'artist': 'artist'
+  'aspect_ratio': 'aspect_ratio'
+  'assessment': 'assessment'
+  'assignment': 'assignment'
+  'assignment_add': 'assignment_add'
+  'assignment_ind': 'assignment_ind'
+  'assignment_late': 'assignment_late'
+  'assignment_return': 'assignment_return'
+  'assignment_returned': 'assignment_returned'
+  'assignment_turned_in': 'assignment_turned_in'
+  'assist_walker': 'assist_walker'
+  'assistant': 'assistant'
+  'assistant_device': 'assistant_device'
+  'assistant_direction': 'assistant_direction'
+  'assistant_navigation': 'assistant_navigation'
+  'assistant_on_hub': 'assistant_on_hub'
+  'assistant_photo': 'assistant_photo'
+  'assured_workload': 'assured_workload'
+  'asterisk': 'asterisk'
+  'atm': 'atm'
+  'atr': 'atr'
+  'attach_email': 'attach_email'
+  'attach_file': 'attach_file'
+  'attach_file_add': 'attach_file_add'
+  'attach_money': 'attach_money'
+  'attachment': 'attachment'
+  'attractions': 'attractions'
+  'attribution': 'attribution'
+  'audio_description': 'audio_description'
+  'audio_file': 'audio_file'
+  'audio_video_receiver': 'audio_video_receiver'
+  'audiotrack': 'audiotrack'
+  'auto_awesome': 'auto_awesome'
+  'auto_awesome_mosaic': 'auto_awesome_mosaic'
+  'auto_awesome_motion': 'auto_awesome_motion'
+  'auto_delete': 'auto_delete'
+  'auto_fix_high': 'auto_fix_high'
+  'auto_fix_normal': 'auto_fix_normal'
+  'auto_fix_off': 'auto_fix_off'
+  'auto_graph': 'auto_graph'
+  'auto_mode': 'auto_mode'
+  'auto_read_pause': 'auto_read_pause'
+  'auto_read_play': 'auto_read_play'
+  'auto_stories': 'auto_stories'
+  'auto_towing': 'auto_towing'
+  'auto_transmission': 'auto_transmission'
+  'autofps_select': 'autofps_select'
+  'autopause': 'autopause'
+  'autoplay': 'autoplay'
+  'autorenew': 'autorenew'
+  'autostop': 'autostop'
+  'av_timer': 'av_timer'
+  'avg_pace': 'avg_pace'
+  'avg_time': 'avg_time'
+  'award_star': 'award_star'
+  'azm': 'azm'
+  'baby_changing_station': 'baby_changing_station'
+  'back_hand': 'back_hand'
+  'back_to_tab': 'back_to_tab'
+  'background_dot_large': 'background_dot_large'
+  'background_dot_small': 'background_dot_small'
+  'background_grid_small': 'background_grid_small'
+  'background_replace': 'background_replace'
+  'backlight_high': 'backlight_high'
+  'backlight_low': 'backlight_low'
+  'backpack': 'backpack'
+  'backspace': 'backspace'
+  'backup': 'backup'
+  'backup_table': 'backup_table'
+  'badge': 'badge'
+  'badge_critical_battery': 'badge_critical_battery'
+  'bakery_dining': 'bakery_dining'
+  'balance': 'balance'
+  'balcony': 'balcony'
+  'ballot': 'ballot'
+  'bar_chart': 'bar_chart'
+  'bar_chart_4_bars': 'bar_chart_4_bars'
+  'barcode': 'barcode'
+  'barcode_reader': 'barcode_reader'
+  'barcode_scanner': 'barcode_scanner'
+  'barefoot': 'barefoot'
+  'batch_prediction': 'batch_prediction'
+  'bath_outdoor': 'bath_outdoor'
+  'bath_private': 'bath_private'
+  'bath_public_large': 'bath_public_large'
+  'bathroom': 'bathroom'
+  'bathtub': 'bathtub'
+  'battery_0_bar': 'battery_0_bar'
+  'battery_1_bar': 'battery_1_bar'
+  'battery_20': 'battery_20'
+  'battery_2_bar': 'battery_2_bar'
+  'battery_30': 'battery_30'
+  'battery_3_bar': 'battery_3_bar'
+  'battery_4_bar': 'battery_4_bar'
+  'battery_50': 'battery_50'
+  'battery_5_bar': 'battery_5_bar'
+  'battery_60': 'battery_60'
+  'battery_6_bar': 'battery_6_bar'
+  'battery_80': 'battery_80'
+  'battery_90': 'battery_90'
+  'battery_alert': 'battery_alert'
+  'battery_change': 'battery_change'
+  'battery_charging_20': 'battery_charging_20'
+  'battery_charging_30': 'battery_charging_30'
+  'battery_charging_50': 'battery_charging_50'
+  'battery_charging_60': 'battery_charging_60'
+  'battery_charging_80': 'battery_charging_80'
+  'battery_charging_90': 'battery_charging_90'
+  'battery_charging_full': 'battery_charging_full'
+  'battery_error': 'battery_error'
+  'battery_full': 'battery_full'
+  'battery_full_alt': 'battery_full_alt'
+  'battery_horiz_000': 'battery_horiz_000'
+  'battery_horiz_050': 'battery_horiz_050'
+  'battery_horiz_075': 'battery_horiz_075'
+  'battery_low': 'battery_low'
+  'battery_plus': 'battery_plus'
+  'battery_profile': 'battery_profile'
+  'battery_saver': 'battery_saver'
+  'battery_share': 'battery_share'
+  'battery_status_good': 'battery_status_good'
+  'battery_std': 'battery_std'
+  'battery_unknown': 'battery_unknown'
+  'battery_very_low': 'battery_very_low'
+  'beach_access': 'beach_access'
+  'bed': 'bed'
+  'bedroom_baby': 'bedroom_baby'
+  'bedroom_child': 'bedroom_child'
+  'bedroom_parent': 'bedroom_parent'
+  'bedtime': 'bedtime'
+  'bedtime_off': 'bedtime_off'
+  'beenhere': 'beenhere'
+  'bento': 'bento'
+  'bia': 'bia'
+  'bid_landscape': 'bid_landscape'
+  'bid_landscape_disabled': 'bid_landscape_disabled'
+  'bigtop_updates': 'bigtop_updates'
+  'bike_scooter': 'bike_scooter'
+  'biotech': 'biotech'
+  'blanket': 'blanket'
+  'blender': 'blender'
+  'blind': 'blind'
+  'blinds': 'blinds'
+  'blinds_closed': 'blinds_closed'
+  'block': 'block'
+  'block_flipped': 'block_flipped'
+  'blood_pressure': 'blood_pressure'
+  'bloodtype': 'bloodtype'
+  'bluetooth': 'bluetooth'
+  'bluetooth_audio': 'bluetooth_audio'
+  'bluetooth_connected': 'bluetooth_connected'
+  'bluetooth_disabled': 'bluetooth_disabled'
+  'bluetooth_drive': 'bluetooth_drive'
+  'bluetooth_searching': 'bluetooth_searching'
+  'blur_circular': 'blur_circular'
+  'blur_linear': 'blur_linear'
+  'blur_medium': 'blur_medium'
+  'blur_off': 'blur_off'
+  'blur_on': 'blur_on'
+  'blur_short': 'blur_short'
+  'body_fat': 'body_fat'
+  'body_system': 'body_system'
+  'bolt': 'bolt'
+  'bomb': 'bomb'
+  'book': 'book'
+  'book_2': 'book_2'
+  'book_3': 'book_3'
+  'book_4': 'book_4'
+  'book_5': 'book_5'
+  'book_online': 'book_online'
+  'bookmark': 'bookmark'
+  'bookmark_add': 'bookmark_add'
+  'bookmark_added': 'bookmark_added'
+  'bookmark_border': 'bookmark_border'
+  'bookmark_manager': 'bookmark_manager'
+  'bookmark_remove': 'bookmark_remove'
+  'bookmarks': 'bookmarks'
+  'border_all': 'border_all'
+  'border_bottom': 'border_bottom'
+  'border_clear': 'border_clear'
+  'border_color': 'border_color'
+  'border_horizontal': 'border_horizontal'
+  'border_inner': 'border_inner'
+  'border_left': 'border_left'
+  'border_outer': 'border_outer'
+  'border_right': 'border_right'
+  'border_style': 'border_style'
+  'border_top': 'border_top'
+  'border_vertical': 'border_vertical'
+  'bottom_app_bar': 'bottom_app_bar'
+  'bottom_drawer': 'bottom_drawer'
+  'bottom_navigation': 'bottom_navigation'
+  'bottom_panel_close': 'bottom_panel_close'
+  'bottom_panel_open': 'bottom_panel_open'
+  'bottom_right_click': 'bottom_right_click'
+  'bottom_sheets': 'bottom_sheets'
+  'box': 'box'
+  'box_add': 'box_add'
+  'box_edit': 'box_edit'
+  'boy': 'boy'
+  'brand_awareness': 'brand_awareness'
+  'branding_watermark': 'branding_watermark'
+  'breakfast_dining': 'breakfast_dining'
+  'breaking_news': 'breaking_news'
+  'breaking_news_alt_1': 'breaking_news_alt_1'
+  'breastfeeding': 'breastfeeding'
+  'brightness_1': 'brightness_1'
+  'brightness_2': 'brightness_2'
+  'brightness_3': 'brightness_3'
+  'brightness_4': 'brightness_4'
+  'brightness_5': 'brightness_5'
+  'brightness_6': 'brightness_6'
+  'brightness_7': 'brightness_7'
+  'brightness_alert': 'brightness_alert'
+  'brightness_auto': 'brightness_auto'
+  'brightness_empty': 'brightness_empty'
+  'brightness_high': 'brightness_high'
+  'brightness_low': 'brightness_low'
+  'brightness_medium': 'brightness_medium'
+  'bring_your_own_ip': 'bring_your_own_ip'
+  'broadcast_on_home': 'broadcast_on_home'
+  'broadcast_on_personal': 'broadcast_on_personal'
+  'broken_image': 'broken_image'
+  'browse': 'browse'
+  'browse_activity': 'browse_activity'
+  'browse_gallery': 'browse_gallery'
+  'browser_not_supported': 'browser_not_supported'
+  'browser_updated': 'browser_updated'
+  'brunch_dining': 'brunch_dining'
+  'brush': 'brush'
+  'bubble': 'bubble'
+  'bubble_chart': 'bubble_chart'
+  'bubbles': 'bubbles'
+  'bug_report': 'bug_report'
+  'build': 'build'
+  'build_circle': 'build_circle'
+  'bungalow': 'bungalow'
+  'burst_mode': 'burst_mode'
+  'bus_alert': 'bus_alert'
+  'business': 'business'
+  'business_center': 'business_center'
+  'business_chip': 'business_chip'
+  'business_messages': 'business_messages'
+  'buttons_alt': 'buttons_alt'
+  'cabin': 'cabin'
+  'cable': 'cable'
+  'cached': 'cached'
+  'cake': 'cake'
+  'cake_add': 'cake_add'
+  'calculate': 'calculate'
+  'calendar_add_on': 'calendar_add_on'
+  'calendar_apps_script': 'calendar_apps_script'
+  'calendar_clock': 'calendar_clock'
+  'calendar_month': 'calendar_month'
+  'calendar_today': 'calendar_today'
+  'calendar_view_day': 'calendar_view_day'
+  'calendar_view_month': 'calendar_view_month'
+  'calendar_view_week': 'calendar_view_week'
+  'call': 'call'
+  'call_end': 'call_end'
+  'call_log': 'call_log'
+  'call_made': 'call_made'
+  'call_merge': 'call_merge'
+  'call_missed': 'call_missed'
+  'call_missed_outgoing': 'call_missed_outgoing'
+  'call_quality': 'call_quality'
+  'call_received': 'call_received'
+  'call_split': 'call_split'
+  'call_to_action': 'call_to_action'
+  'camera': 'camera'
+  'camera_alt': 'camera_alt'
+  'camera_enhance': 'camera_enhance'
+  'camera_front': 'camera_front'
+  'camera_indoor': 'camera_indoor'
+  'camera_outdoor': 'camera_outdoor'
+  'camera_rear': 'camera_rear'
+  'camera_roll': 'camera_roll'
+  'camera_video': 'camera_video'
+  'cameraswitch': 'cameraswitch'
+  'campaign': 'campaign'
+  'camping': 'camping'
+  'cancel': 'cancel'
+  'cancel_presentation': 'cancel_presentation'
+  'cancel_schedule_send': 'cancel_schedule_send'
+  'candle': 'candle'
+  'candlestick_chart': 'candlestick_chart'
+  'captive_portal': 'captive_portal'
+  'capture': 'capture'
+  'car_crash': 'car_crash'
+  'car_rental': 'car_rental'
+  'car_repair': 'car_repair'
+  'card_giftcard': 'card_giftcard'
+  'card_membership': 'card_membership'
+  'card_travel': 'card_travel'
+  'cardiology': 'cardiology'
+  'cards': 'cards'
+  'carpenter': 'carpenter'
+  'carry_on_bag': 'carry_on_bag'
+  'carry_on_bag_checked': 'carry_on_bag_checked'
+  'carry_on_bag_inactive': 'carry_on_bag_inactive'
+  'carry_on_bag_question': 'carry_on_bag_question'
+  'cases': 'cases'
+  'casino': 'casino'
+  'cast': 'cast'
+  'cast_connected': 'cast_connected'
+  'cast_for_education': 'cast_for_education'
+  'cast_pause': 'cast_pause'
+  'cast_warning': 'cast_warning'
+  'castle': 'castle'
+  'catching_pokemon': 'catching_pokemon'
+  'category': 'category'
+  'celebration': 'celebration'
+  'cell_merge': 'cell_merge'
+  'cell_tower': 'cell_tower'
+  'cell_wifi': 'cell_wifi'
+  'center_focus_strong': 'center_focus_strong'
+  'center_focus_weak': 'center_focus_weak'
+  'chair': 'chair'
+  'chair_alt': 'chair_alt'
+  'chalet': 'chalet'
+  'change_circle': 'change_circle'
+  'change_history': 'change_history'
+  'charger': 'charger'
+  'charging_station': 'charging_station'
+  'chart_data': 'chart_data'
+  'chat': 'chat'
+  'chat_add_on': 'chat_add_on'
+  'chat_apps_script': 'chat_apps_script'
+  'chat_bubble': 'chat_bubble'
+  'chat_bubble_outline': 'chat_bubble_outline'
+  'chat_error': 'chat_error'
+  'chat_info': 'chat_info'
+  'chat_paste_go': 'chat_paste_go'
+  'check': 'check'
+  'check_box': 'check_box'
+  'check_box_outline_blank': 'check_box_outline_blank'
+  'check_circle': 'check_circle'
+  'check_circle_outline': 'check_circle_outline'
+  'check_in_out': 'check_in_out'
+  'check_indeterminate_small': 'check_indeterminate_small'
+  'check_small': 'check_small'
+  'checkbook': 'checkbook'
+  'checked_bag': 'checked_bag'
+  'checked_bag_question': 'checked_bag_question'
+  'checklist': 'checklist'
+  'checklist_rtl': 'checklist_rtl'
+  'checkroom': 'checkroom'
+  'cheer': 'cheer'
+  'chess': 'chess'
+  'chevron_left': 'chevron_left'
+  'chevron_right': 'chevron_right'
+  'child_care': 'child_care'
+  'child_friendly': 'child_friendly'
+  'chip_extraction': 'chip_extraction'
+  'chips': 'chips'
+  'chrome_reader_mode': 'chrome_reader_mode'
+  'chromecast_2': 'chromecast_2'
+  'chromecast_device': 'chromecast_device'
+  'chronic': 'chronic'
+  'church': 'church'
+  'cinematic_blur': 'cinematic_blur'
+  'circle': 'circle'
+  'circle_notifications': 'circle_notifications'
+  'circles': 'circles'
+  'circles_ext': 'circles_ext'
+  'clarify': 'clarify'
+  'class': 'class'
+  'clean_hands': 'clean_hands'
+  'cleaning': 'cleaning'
+  'cleaning_bucket': 'cleaning_bucket'
+  'cleaning_services': 'cleaning_services'
+  'clear': 'clear'
+  'clear_all': 'clear_all'
+  'clear_day': 'clear_day'
+  'clear_night': 'clear_night'
+  'climate_mini_split': 'climate_mini_split'
+  'clinical_notes': 'clinical_notes'
+  'clock_loader_10': 'clock_loader_10'
+  'clock_loader_20': 'clock_loader_20'
+  'clock_loader_40': 'clock_loader_40'
+  'clock_loader_60': 'clock_loader_60'
+  'clock_loader_80': 'clock_loader_80'
+  'clock_loader_90': 'clock_loader_90'
+  'close': 'close'
+  'close_fullscreen': 'close_fullscreen'
+  'close_small': 'close_small'
+  'closed_caption': 'closed_caption'
+  'closed_caption_disabled': 'closed_caption_disabled'
+  'closed_caption_off': 'closed_caption_off'
+  'cloud': 'cloud'
+  'cloud_circle': 'cloud_circle'
+  'cloud_done': 'cloud_done'
+  'cloud_download': 'cloud_download'
+  'cloud_off': 'cloud_off'
+  'cloud_queue': 'cloud_queue'
+  'cloud_sync': 'cloud_sync'
+  'cloud_upload': 'cloud_upload'
+  'cloudy_snowing': 'cloudy_snowing'
+  'co2': 'co2'
+  'co_present': 'co_present'
+  'code': 'code'
+  'code_blocks': 'code_blocks'
+  'code_off': 'code_off'
+  'coffee': 'coffee'
+  'coffee_maker': 'coffee_maker'
+  'cognition': 'cognition'
+  'collapse_all': 'collapse_all'
+  'collapse_content': 'collapse_content'
+  'collections': 'collections'
+  'collections_bookmark': 'collections_bookmark'
+  'color_lens': 'color_lens'
+  'colorize': 'colorize'
+  'colors': 'colors'
+  'comic_bubble': 'comic_bubble'
+  'comment': 'comment'
+  'comment_bank': 'comment_bank'
+  'comments_disabled': 'comments_disabled'
+  'commit': 'commit'
+  'communication': 'communication'
+  'communities': 'communities'
+  'commute': 'commute'
+  'compare': 'compare'
+  'compare_arrows': 'compare_arrows'
+  'compass_calibration': 'compass_calibration'
+  'component_exchange': 'component_exchange'
+  'compost': 'compost'
+  'compress': 'compress'
+  'computer': 'computer'
+  'concierge': 'concierge'
+  'conditions': 'conditions'
+  'confirmation_number': 'confirmation_number'
+  'congenital': 'congenital'
+  'connect_without_contact': 'connect_without_contact'
+  'connected_tv': 'connected_tv'
+  'connecting_airports': 'connecting_airports'
+  'construction': 'construction'
+  'contact_emergency': 'contact_emergency'
+  'contact_mail': 'contact_mail'
+  'contact_page': 'contact_page'
+  'contact_phone': 'contact_phone'
+  'contact_support': 'contact_support'
+  'contactless': 'contactless'
+  'contactless_off': 'contactless_off'
+  'contacts': 'contacts'
+  'contacts_product': 'contacts_product'
+  'content_copy': 'content_copy'
+  'content_cut': 'content_cut'
+  'content_paste': 'content_paste'
+  'content_paste_go': 'content_paste_go'
+  'content_paste_off': 'content_paste_off'
+  'content_paste_search': 'content_paste_search'
+  'contract': 'contract'
+  'contract_delete': 'contract_delete'
+  'contract_edit': 'contract_edit'
+  'contrast': 'contrast'
+  'contrast_rtl_off': 'contrast_rtl_off'
+  'control_camera': 'control_camera'
+  'control_point': 'control_point'
+  'control_point_duplicate': 'control_point_duplicate'
+  'controller_gen': 'controller_gen'
+  'conversion_path': 'conversion_path'
+  'conversion_path_off': 'conversion_path_off'
+  'conveyor_belt': 'conveyor_belt'
+  'cookie': 'cookie'
+  'cookie_off': 'cookie_off'
+  'cooking': 'cooking'
+  'cool_to_dry': 'cool_to_dry'
+  'copy_all': 'copy_all'
+  'copyright': 'copyright'
+  'coronavirus': 'coronavirus'
+  'corporate_fare': 'corporate_fare'
+  'cottage': 'cottage'
+  'counter_0': 'counter_0'
+  'counter_1': 'counter_1'
+  'counter_2': 'counter_2'
+  'counter_3': 'counter_3'
+  'counter_4': 'counter_4'
+  'counter_5': 'counter_5'
+  'counter_6': 'counter_6'
+  'counter_7': 'counter_7'
+  'counter_8': 'counter_8'
+  'counter_9': 'counter_9'
+  'countertops': 'countertops'
+  'create': 'create'
+  'create_new_folder': 'create_new_folder'
+  'credit_card': 'credit_card'
+  'credit_card_gear': 'credit_card_gear'
+  'credit_card_heart': 'credit_card_heart'
+  'credit_card_off': 'credit_card_off'
+  'credit_score': 'credit_score'
+  'crib': 'crib'
+  'crisis_alert': 'crisis_alert'
+  'crop': 'crop'
+  'crop_16_9': 'crop_16_9'
+  'crop_3_2': 'crop_3_2'
+  'crop_5_4': 'crop_5_4'
+  'crop_7_5': 'crop_7_5'
+  'crop_9_16': 'crop_9_16'
+  'crop_din': 'crop_din'
+  'crop_free': 'crop_free'
+  'crop_landscape': 'crop_landscape'
+  'crop_original': 'crop_original'
+  'crop_portrait': 'crop_portrait'
+  'crop_rotate': 'crop_rotate'
+  'crop_square': 'crop_square'
+  'crossword': 'crossword'
+  'crowdsource': 'crowdsource'
+  'cruelty_free': 'cruelty_free'
+  'css': 'css'
+  'csv': 'csv'
+  'currency_bitcoin': 'currency_bitcoin'
+  'currency_exchange': 'currency_exchange'
+  'currency_franc': 'currency_franc'
+  'currency_lira': 'currency_lira'
+  'currency_pound': 'currency_pound'
+  'currency_ruble': 'currency_ruble'
+  'currency_rupee': 'currency_rupee'
+  'currency_yen': 'currency_yen'
+  'currency_yuan': 'currency_yuan'
+  'curtains': 'curtains'
+  'curtains_closed': 'curtains_closed'
+  'custom_typography': 'custom_typography'
+  'cut': 'cut'
+  'cycle': 'cycle'
+  'cyclone': 'cyclone'
+  'dangerous': 'dangerous'
+  'dark_mode': 'dark_mode'
+  'dashboard': 'dashboard'
+  'dashboard_customize': 'dashboard_customize'
+  'data_alert': 'data_alert'
+  'data_array': 'data_array'
+  'data_check': 'data_check'
+  'data_exploration': 'data_exploration'
+  'data_info_alert': 'data_info_alert'
+  'data_loss_prevention': 'data_loss_prevention'
+  'data_object': 'data_object'
+  'data_saver_off': 'data_saver_off'
+  'data_saver_on': 'data_saver_on'
+  'data_table': 'data_table'
+  'data_thresholding': 'data_thresholding'
+  'data_usage': 'data_usage'
+  'database': 'database'
+  'dataset': 'dataset'
+  'dataset_linked': 'dataset_linked'
+  'date_range': 'date_range'
+  'deblur': 'deblur'
+  'deceased': 'deceased'
+  'decimal_decrease': 'decimal_decrease'
+  'decimal_increase': 'decimal_increase'
+  'deck': 'deck'
+  'dehaze': 'dehaze'
+  'delete': 'delete'
+  'delete_forever': 'delete_forever'
+  'delete_history': 'delete_history'
+  'delete_outline': 'delete_outline'
+  'delete_sweep': 'delete_sweep'
+  'delivery_dining': 'delivery_dining'
+  'demography': 'demography'
+  'density_large': 'density_large'
+  'density_medium': 'density_medium'
+  'density_small': 'density_small'
+  'dentistry': 'dentistry'
+  'departure_board': 'departure_board'
+  'deployed_code': 'deployed_code'
+  'deployed_code_account': 'deployed_code_account'
+  'deployed_code_alert': 'deployed_code_alert'
+  'deployed_code_history': 'deployed_code_history'
+  'deployed_code_update': 'deployed_code_update'
+  'dermatology': 'dermatology'
+  'description': 'description'
+  'deselect': 'deselect'
+  'design_services': 'design_services'
+  'desk': 'desk'
+  'deskphone': 'deskphone'
+  'desktop_access_disabled': 'desktop_access_disabled'
+  'desktop_mac': 'desktop_mac'
+  'desktop_windows': 'desktop_windows'
+  'destruction': 'destruction'
+  'details': 'details'
+  'detection_and_zone': 'detection_and_zone'
+  'detector': 'detector'
+  'detector_alarm': 'detector_alarm'
+  'detector_battery': 'detector_battery'
+  'detector_co': 'detector_co'
+  'detector_offline': 'detector_offline'
+  'detector_smoke': 'detector_smoke'
+  'detector_status': 'detector_status'
+  'developer_board': 'developer_board'
+  'developer_board_off': 'developer_board_off'
+  'developer_guide': 'developer_guide'
+  'developer_mode': 'developer_mode'
+  'developer_mode_tv': 'developer_mode_tv'
+  'device_hub': 'device_hub'
+  'device_reset': 'device_reset'
+  'device_thermostat': 'device_thermostat'
+  'device_unknown': 'device_unknown'
+  'devices': 'devices'
+  'devices_fold': 'devices_fold'
+  'devices_off': 'devices_off'
+  'devices_other': 'devices_other'
+  'devices_wearables': 'devices_wearables'
+  'dew_point': 'dew_point'
+  'diagnosis': 'diagnosis'
+  'dialer_sip': 'dialer_sip'
+  'dialogs': 'dialogs'
+  'dialpad': 'dialpad'
+  'diamond': 'diamond'
+  'dictionary': 'dictionary'
+  'difference': 'difference'
+  'digital_out_of_home': 'digital_out_of_home'
+  'digital_wellbeing': 'digital_wellbeing'
+  'dining': 'dining'
+  'dinner_dining': 'dinner_dining'
+  'directions': 'directions'
+  'directions_alt': 'directions_alt'
+  'directions_alt_off': 'directions_alt_off'
+  'directions_bike': 'directions_bike'
+  'directions_boat': 'directions_boat'
+  'directions_boat_filled': 'directions_boat_filled'
+  'directions_bus': 'directions_bus'
+  'directions_bus_filled': 'directions_bus_filled'
+  'directions_car': 'directions_car'
+  'directions_car_filled': 'directions_car_filled'
+  'directions_off': 'directions_off'
+  'directions_railway': 'directions_railway'
+  'directions_railway_filled': 'directions_railway_filled'
+  'directions_run': 'directions_run'
+  'directions_subway': 'directions_subway'
+  'directions_subway_filled': 'directions_subway_filled'
+  'directions_transit': 'directions_transit'
+  'directions_transit_filled': 'directions_transit_filled'
+  'directions_walk': 'directions_walk'
+  'directory_sync': 'directory_sync'
+  'dirty_lens': 'dirty_lens'
+  'disabled_by_default': 'disabled_by_default'
+  'disabled_visible': 'disabled_visible'
+  'disc_full': 'disc_full'
+  'discount': 'discount'
+  'discover_tune': 'discover_tune'
+  'dishwasher': 'dishwasher'
+  'dishwasher_gen': 'dishwasher_gen'
+  'display_external_input': 'display_external_input'
+  'display_settings': 'display_settings'
+  'distance': 'distance'
+  'diversity_1': 'diversity_1'
+  'diversity_2': 'diversity_2'
+  'diversity_3': 'diversity_3'
+  'diversity_4': 'diversity_4'
+  'dns': 'dns'
+  'do_disturb': 'do_disturb'
+  'do_disturb_alt': 'do_disturb_alt'
+  'do_disturb_off': 'do_disturb_off'
+  'do_disturb_on': 'do_disturb_on'
+  'do_not_disturb': 'do_not_disturb'
+  'do_not_disturb_alt': 'do_not_disturb_alt'
+  'do_not_disturb_off': 'do_not_disturb_off'
+  'do_not_disturb_on': 'do_not_disturb_on'
+  'do_not_disturb_on_total_silence': 'do_not_disturb_on_total_silence'
+  'do_not_step': 'do_not_step'
+  'do_not_touch': 'do_not_touch'
+  'dock': 'dock'
+  'dock_to_bottom': 'dock_to_bottom'
+  'dock_to_left': 'dock_to_left'
+  'dock_to_right': 'dock_to_right'
+  'docs_add_on': 'docs_add_on'
+  'docs_apps_script': 'docs_apps_script'
+  'document_scanner': 'document_scanner'
+  'domain': 'domain'
+  'domain_add': 'domain_add'
+  'domain_disabled': 'domain_disabled'
+  'domain_verification': 'domain_verification'
+  'domain_verification_off': 'domain_verification_off'
+  'domino_mask': 'domino_mask'
+  'done': 'done'
+  'done_all': 'done_all'
+  'done_outline': 'done_outline'
+  'donut_large': 'donut_large'
+  'donut_small': 'donut_small'
+  'door_back': 'door_back'
+  'door_front': 'door_front'
+  'door_open': 'door_open'
+  'door_sensor': 'door_sensor'
+  'door_sliding': 'door_sliding'
+  'doorbell': 'doorbell'
+  'doorbell_3p': 'doorbell_3p'
+  'doorbell_chime': 'doorbell_chime'
+  'double_arrow': 'double_arrow'
+  'downhill_skiing': 'downhill_skiing'
+  'download': 'download'
+  'download_2': 'download_2'
+  'download_done': 'download_done'
+  'download_for_offline': 'download_for_offline'
+  'downloading': 'downloading'
+  'draft': 'draft'
+  'draft_orders': 'draft_orders'
+  'drafts': 'drafts'
+  'drag_click': 'drag_click'
+  'drag_handle': 'drag_handle'
+  'drag_indicator': 'drag_indicator'
+  'drag_pan': 'drag_pan'
+  'draw': 'draw'
+  'draw_abstract': 'draw_abstract'
+  'draw_collage': 'draw_collage'
+  'dresser': 'dresser'
+  'drive_eta': 'drive_eta'
+  'drive_file_move': 'drive_file_move'
+  'drive_file_move_outline': 'drive_file_move_outline'
+  'drive_file_move_rtl': 'drive_file_move_rtl'
+  'drive_file_rename_outline': 'drive_file_rename_outline'
+  'drive_folder_upload': 'drive_folder_upload'
+  'dropdown': 'dropdown'
+  'dry': 'dry'
+  'dry_cleaning': 'dry_cleaning'
+  'dual_screen': 'dual_screen'
+  'duo': 'duo'
+  'dvr': 'dvr'
+  'dynamic_feed': 'dynamic_feed'
+  'dynamic_form': 'dynamic_form'
+  'e911_avatar': 'e911_avatar'
+  'e911_emergency': 'e911_emergency'
+  'e_mobiledata': 'e_mobiledata'
+  'e_mobiledata_badge': 'e_mobiledata_badge'
+  'earbuds': 'earbuds'
+  'earbuds_battery': 'earbuds_battery'
+  'early_on': 'early_on'
+  'earthquake': 'earthquake'
+  'east': 'east'
+  'ecg': 'ecg'
+  'ecg_heart': 'ecg_heart'
+  'eco': 'eco'
+  'eda': 'eda'
+  'edgesensor_high': 'edgesensor_high'
+  'edgesensor_low': 'edgesensor_low'
+  'edit': 'edit'
+  'edit_attributes': 'edit_attributes'
+  'edit_calendar': 'edit_calendar'
+  'edit_document': 'edit_document'
+  'edit_location': 'edit_location'
+  'edit_location_alt': 'edit_location_alt'
+  'edit_note': 'edit_note'
+  'edit_notifications': 'edit_notifications'
+  'edit_off': 'edit_off'
+  'edit_road': 'edit_road'
+  'edit_square': 'edit_square'
+  'editor_choice': 'editor_choice'
+  'egg': 'egg'
+  'egg_alt': 'egg_alt'
+  'eject': 'eject'
+  'elderly': 'elderly'
+  'elderly_woman': 'elderly_woman'
+  'electric_bike': 'electric_bike'
+  'electric_bolt': 'electric_bolt'
+  'electric_car': 'electric_car'
+  'electric_meter': 'electric_meter'
+  'electric_moped': 'electric_moped'
+  'electric_rickshaw': 'electric_rickshaw'
+  'electric_scooter': 'electric_scooter'
+  'electrical_services': 'electrical_services'
+  'elevation': 'elevation'
+  'elevator': 'elevator'
+  'email': 'email'
+  'emergency': 'emergency'
+  'emergency_heat': 'emergency_heat'
+  'emergency_home': 'emergency_home'
+  'emergency_recording': 'emergency_recording'
+  'emergency_share': 'emergency_share'
+  'emergency_share_off': 'emergency_share_off'
+  'emoji_emotions': 'emoji_emotions'
+  'emoji_events': 'emoji_events'
+  'emoji_flags': 'emoji_flags'
+  'emoji_food_beverage': 'emoji_food_beverage'
+  'emoji_nature': 'emoji_nature'
+  'emoji_objects': 'emoji_objects'
+  'emoji_people': 'emoji_people'
+  'emoji_symbols': 'emoji_symbols'
+  'emoji_transportation': 'emoji_transportation'
+  'emoticon': 'emoticon'
+  'empty_dashboard': 'empty_dashboard'
+  'enable': 'enable'
+  'encrypted': 'encrypted'
+  'endocrinology': 'endocrinology'
+  'energy': 'energy'
+  'energy_program_saving': 'energy_program_saving'
+  'energy_program_time_used': 'energy_program_time_used'
+  'energy_savings_leaf': 'energy_savings_leaf'
+  'engineering': 'engineering'
+  'enhanced_encryption': 'enhanced_encryption'
+  'ent': 'ent'
+  'enterprise': 'enterprise'
+  'enterprise_off': 'enterprise_off'
+  'equal': 'equal'
+  'equalizer': 'equalizer'
+  'error': 'error'
+  'error_med': 'error_med'
+  'error_outline': 'error_outline'
+  'escalator': 'escalator'
+  'escalator_warning': 'escalator_warning'
+  'euro': 'euro'
+  'euro_symbol': 'euro_symbol'
+  'ev_charger': 'ev_charger'
+  'ev_mobiledata_badge': 'ev_mobiledata_badge'
+  'ev_shadow': 'ev_shadow'
+  'ev_shadow_add': 'ev_shadow_add'
+  'ev_shadow_minus': 'ev_shadow_minus'
+  'ev_station': 'ev_station'
+  'event': 'event'
+  'event_available': 'event_available'
+  'event_busy': 'event_busy'
+  'event_list': 'event_list'
+  'event_note': 'event_note'
+  'event_repeat': 'event_repeat'
+  'event_seat': 'event_seat'
+  'event_upcoming': 'event_upcoming'
+  'exclamation': 'exclamation'
+  'exercise': 'exercise'
+  'exit_to_app': 'exit_to_app'
+  'expand': 'expand'
+  'expand_all': 'expand_all'
+  'expand_circle_down': 'expand_circle_down'
+  'expand_circle_right': 'expand_circle_right'
+  'expand_circle_up': 'expand_circle_up'
+  'expand_content': 'expand_content'
+  'expand_less': 'expand_less'
+  'expand_more': 'expand_more'
+  'experiment': 'experiment'
+  'explicit': 'explicit'
+  'explore': 'explore'
+  'explore_nearby': 'explore_nearby'
+  'explore_off': 'explore_off'
+  'explosion': 'explosion'
+  'export_notes': 'export_notes'
+  'exposure': 'exposure'
+  'exposure_neg_1': 'exposure_neg_1'
+  'exposure_neg_2': 'exposure_neg_2'
+  'exposure_plus_1': 'exposure_plus_1'
+  'exposure_plus_2': 'exposure_plus_2'
+  'exposure_zero': 'exposure_zero'
+  'extension': 'extension'
+  'extension_off': 'extension_off'
+  'eyeglasses': 'eyeglasses'
+  'face': 'face'
+  'face_2': 'face_2'
+  'face_3': 'face_3'
+  'face_4': 'face_4'
+  'face_5': 'face_5'
+  'face_6': 'face_6'
+  'face_retouching_natural': 'face_retouching_natural'
+  'face_retouching_off': 'face_retouching_off'
+  'face_unlock': 'face_unlock'
+  'fact_check': 'fact_check'
+  'factory': 'factory'
+  'falling': 'falling'
+  'familiar_face_and_zone': 'familiar_face_and_zone'
+  'family_history': 'family_history'
+  'family_home': 'family_home'
+  'family_link': 'family_link'
+  'family_restroom': 'family_restroom'
+  'family_star': 'family_star'
+  'farsight_digital': 'farsight_digital'
+  'fast_forward': 'fast_forward'
+  'fast_rewind': 'fast_rewind'
+  'fastfood': 'fastfood'
+  'faucet': 'faucet'
+  'favorite': 'favorite'
+  'favorite_border': 'favorite_border'
+  'fax': 'fax'
+  'feature_search': 'feature_search'
+  'featured_play_list': 'featured_play_list'
+  'featured_seasonal_and_gifts': 'featured_seasonal_and_gifts'
+  'featured_video': 'featured_video'
+  'feed': 'feed'
+  'feedback': 'feedback'
+  'female': 'female'
+  'femur': 'femur'
+  'femur_alt': 'femur_alt'
+  'fence': 'fence'
+  'fertile': 'fertile'
+  'festival': 'festival'
+  'fiber_dvr': 'fiber_dvr'
+  'fiber_manual_record': 'fiber_manual_record'
+  'fiber_new': 'fiber_new'
+  'fiber_pin': 'fiber_pin'
+  'fiber_smart_record': 'fiber_smart_record'
+  'file_copy': 'file_copy'
+  'file_download': 'file_download'
+  'file_download_done': 'file_download_done'
+  'file_download_off': 'file_download_off'
+  'file_map': 'file_map'
+  'file_open': 'file_open'
+  'file_present': 'file_present'
+  'file_save': 'file_save'
+  'file_save_off': 'file_save_off'
+  'file_upload': 'file_upload'
+  'file_upload_off': 'file_upload_off'
+  'filter': 'filter'
+  'filter_1': 'filter_1'
+  'filter_2': 'filter_2'
+  'filter_3': 'filter_3'
+  'filter_4': 'filter_4'
+  'filter_5': 'filter_5'
+  'filter_6': 'filter_6'
+  'filter_7': 'filter_7'
+  'filter_8': 'filter_8'
+  'filter_9': 'filter_9'
+  'filter_9_plus': 'filter_9_plus'
+  'filter_alt': 'filter_alt'
+  'filter_alt_off': 'filter_alt_off'
+  'filter_b_and_w': 'filter_b_and_w'
+  'filter_center_focus': 'filter_center_focus'
+  'filter_drama': 'filter_drama'
+  'filter_frames': 'filter_frames'
+  'filter_hdr': 'filter_hdr'
+  'filter_list': 'filter_list'
+  'filter_list_alt': 'filter_list_alt'
+  'filter_list_off': 'filter_list_off'
+  'filter_none': 'filter_none'
+  'filter_retrolux': 'filter_retrolux'
+  'filter_tilt_shift': 'filter_tilt_shift'
+  'filter_vintage': 'filter_vintage'
+  'finance': 'finance'
+  'finance_chip': 'finance_chip'
+  'finance_mode': 'finance_mode'
+  'find_in_page': 'find_in_page'
+  'find_replace': 'find_replace'
+  'fingerprint': 'fingerprint'
+  'fire_extinguisher': 'fire_extinguisher'
+  'fire_hydrant': 'fire_hydrant'
+  'fire_hydrant_alt': 'fire_hydrant_alt'
+  'fire_truck': 'fire_truck'
+  'fireplace': 'fireplace'
+  'first_page': 'first_page'
+  'fit_page': 'fit_page'
+  'fit_screen': 'fit_screen'
+  'fit_width': 'fit_width'
+  'fitbit': 'fitbit'
+  'fitness_center': 'fitness_center'
+  'flag': 'flag'
+  'flag_circle': 'flag_circle'
+  'flaky': 'flaky'
+  'flare': 'flare'
+  'flash_auto': 'flash_auto'
+  'flash_off': 'flash_off'
+  'flash_on': 'flash_on'
+  'flashlight_off': 'flashlight_off'
+  'flashlight_on': 'flashlight_on'
+  'flatware': 'flatware'
+  'flex_direction': 'flex_direction'
+  'flex_no_wrap': 'flex_no_wrap'
+  'flex_wrap': 'flex_wrap'
+  'flight': 'flight'
+  'flight_class': 'flight_class'
+  'flight_land': 'flight_land'
+  'flight_takeoff': 'flight_takeoff'
+  'flights_and_hotels': 'flights_and_hotels'
+  'flightsmode': 'flightsmode'
+  'flip': 'flip'
+  'flip_camera_android': 'flip_camera_android'
+  'flip_camera_ios': 'flip_camera_ios'
+  'flip_to_back': 'flip_to_back'
+  'flip_to_front': 'flip_to_front'
+  'flood': 'flood'
+  'floor': 'floor'
+  'floor_lamp': 'floor_lamp'
+  'flowsheet': 'flowsheet'
+  'fluid': 'fluid'
+  'fluid_balance': 'fluid_balance'
+  'fluid_med': 'fluid_med'
+  'fluorescent': 'fluorescent'
+  'flutter': 'flutter'
+  'flutter_dash': 'flutter_dash'
+  'fmd_bad': 'fmd_bad'
+  'fmd_good': 'fmd_good'
+  'foggy': 'foggy'
+  'folded_hands': 'folded_hands'
+  'folder': 'folder'
+  'folder_copy': 'folder_copy'
+  'folder_data': 'folder_data'
+  'folder_delete': 'folder_delete'
+  'folder_managed': 'folder_managed'
+  'folder_off': 'folder_off'
+  'folder_open': 'folder_open'
+  'folder_shared': 'folder_shared'
+  'folder_special': 'folder_special'
+  'folder_supervised': 'folder_supervised'
+  'folder_zip': 'folder_zip'
+  'follow_the_signs': 'follow_the_signs'
+  'font_download': 'font_download'
+  'font_download_off': 'font_download_off'
+  'food_bank': 'food_bank'
+  'foot_bones': 'foot_bones'
+  'footprint': 'footprint'
+  'for_you': 'for_you'
+  'forest': 'forest'
+  'fork_left': 'fork_left'
+  'fork_right': 'fork_right'
+  'forklift': 'forklift'
+  'format_align_center': 'format_align_center'
+  'format_align_justify': 'format_align_justify'
+  'format_align_left': 'format_align_left'
+  'format_align_right': 'format_align_right'
+  'format_bold': 'format_bold'
+  'format_clear': 'format_clear'
+  'format_color_fill': 'format_color_fill'
+  'format_color_reset': 'format_color_reset'
+  'format_color_text': 'format_color_text'
+  'format_h1': 'format_h1'
+  'format_h2': 'format_h2'
+  'format_h3': 'format_h3'
+  'format_h4': 'format_h4'
+  'format_h5': 'format_h5'
+  'format_h6': 'format_h6'
+  'format_image_left': 'format_image_left'
+  'format_image_right': 'format_image_right'
+  'format_indent_decrease': 'format_indent_decrease'
+  'format_indent_increase': 'format_indent_increase'
+  'format_ink_highlighter': 'format_ink_highlighter'
+  'format_italic': 'format_italic'
+  'format_letter_spacing': 'format_letter_spacing'
+  'format_letter_spacing_2': 'format_letter_spacing_2'
+  'format_letter_spacing_standard': 'format_letter_spacing_standard'
+  'format_letter_spacing_wide': 'format_letter_spacing_wide'
+  'format_letter_spacing_wider': 'format_letter_spacing_wider'
+  'format_line_spacing': 'format_line_spacing'
+  'format_list_bulleted': 'format_list_bulleted'
+  'format_list_bulleted_add': 'format_list_bulleted_add'
+  'format_list_numbered': 'format_list_numbered'
+  'format_list_numbered_rtl': 'format_list_numbered_rtl'
+  'format_overline': 'format_overline'
+  'format_paint': 'format_paint'
+  'format_paragraph': 'format_paragraph'
+  'format_quote': 'format_quote'
+  'format_shapes': 'format_shapes'
+  'format_size': 'format_size'
+  'format_strikethrough': 'format_strikethrough'
+  'format_text_clip': 'format_text_clip'
+  'format_text_overflow': 'format_text_overflow'
+  'format_text_wrap': 'format_text_wrap'
+  'format_textdirection_l_to_r': 'format_textdirection_l_to_r'
+  'format_textdirection_r_to_l': 'format_textdirection_r_to_l'
+  'format_underlined': 'format_underlined'
+  'format_underlined_squiggle': 'format_underlined_squiggle'
+  'forms_add_on': 'forms_add_on'
+  'forms_apps_script': 'forms_apps_script'
+  'fort': 'fort'
+  'forum': 'forum'
+  'forward': 'forward'
+  'forward_10': 'forward_10'
+  'forward_30': 'forward_30'
+  'forward_5': 'forward_5'
+  'forward_circle': 'forward_circle'
+  'forward_media': 'forward_media'
+  'forward_to_inbox': 'forward_to_inbox'
+  'foundation': 'foundation'
+  'frame_inspect': 'frame_inspect'
+  'frame_person': 'frame_person'
+  'frame_person_off': 'frame_person_off'
+  'frame_reload': 'frame_reload'
+  'frame_source': 'frame_source'
+  'free_breakfast': 'free_breakfast'
+  'free_cancellation': 'free_cancellation'
+  'front_hand': 'front_hand'
+  'front_loader': 'front_loader'
+  'full_coverage': 'full_coverage'
+  'full_hd': 'full_hd'
+  'full_stacked_bar_chart': 'full_stacked_bar_chart'
+  'fullscreen': 'fullscreen'
+  'fullscreen_exit': 'fullscreen_exit'
+  'function': 'function'
+  'functions': 'functions'
+  'g_mobiledata': 'g_mobiledata'
+  'g_mobiledata_badge': 'g_mobiledata_badge'
+  'g_translate': 'g_translate'
+  'gallery_thumbnail': 'gallery_thumbnail'
+  'gamepad': 'gamepad'
+  'games': 'games'
+  'garage': 'garage'
+  'garage_door': 'garage_door'
+  'garage_home': 'garage_home'
+  'garden_cart': 'garden_cart'
+  'gas_meter': 'gas_meter'
+  'gastroenterology': 'gastroenterology'
+  'gate': 'gate'
+  'gavel': 'gavel'
+  'general_device': 'general_device'
+  'generating_tokens': 'generating_tokens'
+  'genetics': 'genetics'
+  'genres': 'genres'
+  'gesture': 'gesture'
+  'gesture_select': 'gesture_select'
+  'get_app': 'get_app'
+  'gif': 'gif'
+  'gif_box': 'gif_box'
+  'girl': 'girl'
+  'gite': 'gite'
+  'glass_cup': 'glass_cup'
+  'globe': 'globe'
+  'globe_asia': 'globe_asia'
+  'globe_uk': 'globe_uk'
+  'glucose': 'glucose'
+  'glyphs': 'glyphs'
+  'go_to_line': 'go_to_line'
+  'golf_course': 'golf_course'
+  'google_home_devices': 'google_home_devices'
+  'google_tv_remote': 'google_tv_remote'
+  'google_wifi': 'google_wifi'
+  'gpp_bad': 'gpp_bad'
+  'gpp_good': 'gpp_good'
+  'gpp_maybe': 'gpp_maybe'
+  'gps_fixed': 'gps_fixed'
+  'gps_not_fixed': 'gps_not_fixed'
+  'gps_off': 'gps_off'
+  'grade': 'grade'
+  'gradient': 'gradient'
+  'grading': 'grading'
+  'grain': 'grain'
+  'graphic_eq': 'graphic_eq'
+  'grass': 'grass'
+  'grid_3x3': 'grid_3x3'
+  'grid_3x3_off': 'grid_3x3_off'
+  'grid_4x4': 'grid_4x4'
+  'grid_goldenratio': 'grid_goldenratio'
+  'grid_guides': 'grid_guides'
+  'grid_off': 'grid_off'
+  'grid_on': 'grid_on'
+  'grid_view': 'grid_view'
+  'grocery': 'grocery'
+  'group': 'group'
+  'group_add': 'group_add'
+  'group_off': 'group_off'
+  'group_remove': 'group_remove'
+  'group_work': 'group_work'
+  'grouped_bar_chart': 'grouped_bar_chart'
+  'groups': 'groups'
+  'groups_2': 'groups_2'
+  'groups_3': 'groups_3'
+  'gynecology': 'gynecology'
+  'h_mobiledata': 'h_mobiledata'
+  'h_mobiledata_badge': 'h_mobiledata_badge'
+  'h_plus_mobiledata': 'h_plus_mobiledata'
+  'h_plus_mobiledata_badge': 'h_plus_mobiledata_badge'
+  'hail': 'hail'
+  'hallway': 'hallway'
+  'hand_bones': 'hand_bones'
+  'hand_gesture': 'hand_gesture'
+  'handshake': 'handshake'
+  'handyman': 'handyman'
+  'hangout_video': 'hangout_video'
+  'hangout_video_off': 'hangout_video_off'
+  'hard_drive': 'hard_drive'
+  'hard_drive_2': 'hard_drive_2'
+  'hardware': 'hardware'
+  'hd': 'hd'
+  'hdr_auto': 'hdr_auto'
+  'hdr_auto_select': 'hdr_auto_select'
+  'hdr_enhanced_select': 'hdr_enhanced_select'
+  'hdr_off': 'hdr_off'
+  'hdr_off_select': 'hdr_off_select'
+  'hdr_on': 'hdr_on'
+  'hdr_on_select': 'hdr_on_select'
+  'hdr_plus': 'hdr_plus'
+  'hdr_plus_off': 'hdr_plus_off'
+  'hdr_strong': 'hdr_strong'
+  'hdr_weak': 'hdr_weak'
+  'headphones': 'headphones'
+  'headphones_battery': 'headphones_battery'
+  'headset': 'headset'
+  'headset_mic': 'headset_mic'
+  'headset_off': 'headset_off'
+  'healing': 'healing'
+  'health_and_beauty': 'health_and_beauty'
+  'health_and_safety': 'health_and_safety'
+  'health_metrics': 'health_metrics'
+  'heap_snapshot_large': 'heap_snapshot_large'
+  'heap_snapshot_multiple': 'heap_snapshot_multiple'
+  'heap_snapshot_thumbnail': 'heap_snapshot_thumbnail'
+  'hearing': 'hearing'
+  'hearing_disabled': 'hearing_disabled'
+  'heart_broken': 'heart_broken'
+  'heart_check': 'heart_check'
+  'heart_minus': 'heart_minus'
+  'heart_plus': 'heart_plus'
+  'heat': 'heat'
+  'heat_pump': 'heat_pump'
+  'heat_pump_balance': 'heat_pump_balance'
+  'height': 'height'
+  'helicopter': 'helicopter'
+  'help': 'help'
+  'help_center': 'help_center'
+  'help_clinic': 'help_clinic'
+  'help_outline': 'help_outline'
+  'hematology': 'hematology'
+  'hevc': 'hevc'
+  'hexagon': 'hexagon'
+  'hide': 'hide'
+  'hide_image': 'hide_image'
+  'hide_source': 'hide_source'
+  'high_density': 'high_density'
+  'high_quality': 'high_quality'
+  'high_res': 'high_res'
+  'highlight': 'highlight'
+  'highlight_alt': 'highlight_alt'
+  'highlight_keyboard_focus': 'highlight_keyboard_focus'
+  'highlight_mouse_cursor': 'highlight_mouse_cursor'
+  'highlight_off': 'highlight_off'
+  'highlight_text_cursor': 'highlight_text_cursor'
+  'highlighter_size_1': 'highlighter_size_1'
+  'highlighter_size_2': 'highlighter_size_2'
+  'highlighter_size_3': 'highlighter_size_3'
+  'highlighter_size_4': 'highlighter_size_4'
+  'highlighter_size_5': 'highlighter_size_5'
+  'hiking': 'hiking'
+  'history': 'history'
+  'history_edu': 'history_edu'
+  'history_toggle_off': 'history_toggle_off'
+  'hive': 'hive'
+  'hls': 'hls'
+  'hls_off': 'hls_off'
+  'holiday_village': 'holiday_village'
+  'home': 'home'
+  'home_and_garden': 'home_and_garden'
+  'home_app_logo': 'home_app_logo'
+  'home_filled': 'home_filled'
+  'home_health': 'home_health'
+  'home_improvement_and_tools': 'home_improvement_and_tools'
+  'home_iot_device': 'home_iot_device'
+  'home_max': 'home_max'
+  'home_max_dots': 'home_max_dots'
+  'home_mini': 'home_mini'
+  'home_pin': 'home_pin'
+  'home_repair_service': 'home_repair_service'
+  'home_speaker': 'home_speaker'
+  'home_storage': 'home_storage'
+  'home_work': 'home_work'
+  'horizontal_distribute': 'horizontal_distribute'
+  'horizontal_rule': 'horizontal_rule'
+  'horizontal_split': 'horizontal_split'
+  'hot_tub': 'hot_tub'
+  'hotel': 'hotel'
+  'hotel_class': 'hotel_class'
+  'hourglass': 'hourglass'
+  'hourglass_bottom': 'hourglass_bottom'
+  'hourglass_disabled': 'hourglass_disabled'
+  'hourglass_empty': 'hourglass_empty'
+  'hourglass_full': 'hourglass_full'
+  'hourglass_top': 'hourglass_top'
+  'house': 'house'
+  'house_siding': 'house_siding'
+  'house_with_shield': 'house_with_shield'
+  'houseboat': 'houseboat'
+  'household_supplies': 'household_supplies'
+  'how_to_reg': 'how_to_reg'
+  'how_to_vote': 'how_to_vote'
+  'hr_resting': 'hr_resting'
+  'html': 'html'
+  'http': 'http'
+  'https': 'https'
+  'hub': 'hub'
+  'humerus': 'humerus'
+  'humerus_alt': 'humerus_alt'
+  'humidity_high': 'humidity_high'
+  'humidity_indoor': 'humidity_indoor'
+  'humidity_low': 'humidity_low'
+  'humidity_mid': 'humidity_mid'
+  'humidity_percentage': 'humidity_percentage'
+  'hvac': 'hvac'
+  'ice_skating': 'ice_skating'
+  'icecream': 'icecream'
+  'ifl': 'ifl'
+  'iframe': 'iframe'
+  'iframe_off': 'iframe_off'
+  'image': 'image'
+  'image_aspect_ratio': 'image_aspect_ratio'
+  'image_not_supported': 'image_not_supported'
+  'image_search': 'image_search'
+  'imagesearch_roller': 'imagesearch_roller'
+  'imagesmode': 'imagesmode'
+  'immunology': 'immunology'
+  'import_contacts': 'import_contacts'
+  'import_export': 'import_export'
+  'important_devices': 'important_devices'
+  'in_home_mode': 'in_home_mode'
+  'inactive_order': 'inactive_order'
+  'inbox': 'inbox'
+  'inbox_customize': 'inbox_customize'
+  'incomplete_circle': 'incomplete_circle'
+  'indeterminate_check_box': 'indeterminate_check_box'
+  'indeterminate_question_box': 'indeterminate_question_box'
+  'info': 'info'
+  'info_i': 'info_i'
+  'info_outline': 'info_outline'
+  'infrared': 'infrared'
+  'ink_eraser': 'ink_eraser'
+  'ink_eraser_off': 'ink_eraser_off'
+  'ink_highlighter': 'ink_highlighter'
+  'ink_highlighter_move': 'ink_highlighter_move'
+  'ink_marker': 'ink_marker'
+  'ink_pen': 'ink_pen'
+  'inpatient': 'inpatient'
+  'input': 'input'
+  'input_circle': 'input_circle'
+  'insert_chart': 'insert_chart'
+  'insert_chart_outlined': 'insert_chart_outlined'
+  'insert_comment': 'insert_comment'
+  'insert_drive_file': 'insert_drive_file'
+  'insert_emoticon': 'insert_emoticon'
+  'insert_invitation': 'insert_invitation'
+  'insert_link': 'insert_link'
+  'insert_page_break': 'insert_page_break'
+  'insert_photo': 'insert_photo'
+  'insert_text': 'insert_text'
+  'insights': 'insights'
+  'install_desktop': 'install_desktop'
+  'install_mobile': 'install_mobile'
+  'instant_mix': 'instant_mix'
+  'integration_instructions': 'integration_instructions'
+  'interactive_space': 'interactive_space'
+  'interests': 'interests'
+  'interpreter_mode': 'interpreter_mode'
+  'inventory': 'inventory'
+  'inventory_2': 'inventory_2'
+  'invert_colors': 'invert_colors'
+  'invert_colors_off': 'invert_colors_off'
+  'ios': 'ios'
+  'ios_share': 'ios_share'
+  'iron': 'iron'
+  'iso': 'iso'
+  'jamboard_kiosk': 'jamboard_kiosk'
+  'javascript': 'javascript'
+  'join': 'join'
+  'join_full': 'join_full'
+  'join_inner': 'join_inner'
+  'join_left': 'join_left'
+  'join_right': 'join_right'
+  'joystick': 'joystick'
+  'jump_to_element': 'jump_to_element'
+  'kayaking': 'kayaking'
+  'kebab_dining': 'kebab_dining'
+  'kettle': 'kettle'
+  'key': 'key'
+  'key_off': 'key_off'
+  'key_vertical': 'key_vertical'
+  'key_visualizer': 'key_visualizer'
+  'keyboard': 'keyboard'
+  'keyboard_alt': 'keyboard_alt'
+  'keyboard_arrow_down': 'keyboard_arrow_down'
+  'keyboard_arrow_left': 'keyboard_arrow_left'
+  'keyboard_arrow_right': 'keyboard_arrow_right'
+  'keyboard_arrow_up': 'keyboard_arrow_up'
+  'keyboard_backspace': 'keyboard_backspace'
+  'keyboard_capslock': 'keyboard_capslock'
+  'keyboard_capslock_badge': 'keyboard_capslock_badge'
+  'keyboard_command_key': 'keyboard_command_key'
+  'keyboard_control_key': 'keyboard_control_key'
+  'keyboard_double_arrow_down': 'keyboard_double_arrow_down'
+  'keyboard_double_arrow_left': 'keyboard_double_arrow_left'
+  'keyboard_double_arrow_right': 'keyboard_double_arrow_right'
+  'keyboard_double_arrow_up': 'keyboard_double_arrow_up'
+  'keyboard_external_input': 'keyboard_external_input'
+  'keyboard_full': 'keyboard_full'
+  'keyboard_hide': 'keyboard_hide'
+  'keyboard_keys': 'keyboard_keys'
+  'keyboard_off': 'keyboard_off'
+  'keyboard_onscreen': 'keyboard_onscreen'
+  'keyboard_option_key': 'keyboard_option_key'
+  'keyboard_previous_language': 'keyboard_previous_language'
+  'keyboard_return': 'keyboard_return'
+  'keyboard_tab': 'keyboard_tab'
+  'keyboard_tab_rtl': 'keyboard_tab_rtl'
+  'keyboard_voice': 'keyboard_voice'
+  'kid_star': 'kid_star'
+  'king_bed': 'king_bed'
+  'kitchen': 'kitchen'
+  'kitesurfing': 'kitesurfing'
+  'lab_panel': 'lab_panel'
+  'lab_profile': 'lab_profile'
+  'lab_research': 'lab_research'
+  'label': 'label'
+  'label_important': 'label_important'
+  'label_important_outline': 'label_important_outline'
+  'label_off': 'label_off'
+  'labs': 'labs'
+  'lan': 'lan'
+  'landscape': 'landscape'
+  'landslide': 'landslide'
+  'language': 'language'
+  'language_chinese_array': 'language_chinese_array'
+  'language_chinese_cangjie': 'language_chinese_cangjie'
+  'language_chinese_dayi': 'language_chinese_dayi'
+  'language_chinese_pinyin': 'language_chinese_pinyin'
+  'language_chinese_quick': 'language_chinese_quick'
+  'language_chinese_wubi': 'language_chinese_wubi'
+  'language_french': 'language_french'
+  'language_gb_english': 'language_gb_english'
+  'language_international': 'language_international'
+  'language_japanese_kana': 'language_japanese_kana'
+  'language_korean_latin': 'language_korean_latin'
+  'language_pinyin': 'language_pinyin'
+  'language_spanish': 'language_spanish'
+  'language_us': 'language_us'
+  'language_us_colemak': 'language_us_colemak'
+  'language_us_dvorak': 'language_us_dvorak'
+  'laps': 'laps'
+  'laptop': 'laptop'
+  'laptop_chromebook': 'laptop_chromebook'
+  'laptop_mac': 'laptop_mac'
+  'laptop_windows': 'laptop_windows'
+  'lasso_select': 'lasso_select'
+  'last_page': 'last_page'
+  'launch': 'launch'
+  'laundry': 'laundry'
+  'layers': 'layers'
+  'layers_clear': 'layers_clear'
+  'lda': 'lda'
+  'leaderboard': 'leaderboard'
+  'leak_add': 'leak_add'
+  'leak_remove': 'leak_remove'
+  'left_click': 'left_click'
+  'left_panel_close': 'left_panel_close'
+  'left_panel_open': 'left_panel_open'
+  'legend_toggle': 'legend_toggle'
+  'lens': 'lens'
+  'lens_blur': 'lens_blur'
+  'letter_switch': 'letter_switch'
+  'library_add': 'library_add'
+  'library_add_check': 'library_add_check'
+  'library_books': 'library_books'
+  'library_music': 'library_music'
+  'license': 'license'
+  'lift_to_talk': 'lift_to_talk'
+  'light': 'light'
+  'light_group': 'light_group'
+  'light_mode': 'light_mode'
+  'light_off': 'light_off'
+  'lightbulb': 'lightbulb'
+  'lightbulb_circle': 'lightbulb_circle'
+  'lightbulb_outline': 'lightbulb_outline'
+  'lightning_stand': 'lightning_stand'
+  'line_axis': 'line_axis'
+  'line_curve': 'line_curve'
+  'line_end': 'line_end'
+  'line_end_arrow': 'line_end_arrow'
+  'line_end_arrow_notch': 'line_end_arrow_notch'
+  'line_end_circle': 'line_end_circle'
+  'line_end_diamond': 'line_end_diamond'
+  'line_end_square': 'line_end_square'
+  'line_start': 'line_start'
+  'line_start_arrow': 'line_start_arrow'
+  'line_start_arrow_notch': 'line_start_arrow_notch'
+  'line_start_circle': 'line_start_circle'
+  'line_start_diamond': 'line_start_diamond'
+  'line_start_square': 'line_start_square'
+  'line_style': 'line_style'
+  'line_weight': 'line_weight'
+  'linear_scale': 'linear_scale'
+  'link': 'link'
+  'link_off': 'link_off'
+  'linked_camera': 'linked_camera'
+  'linked_services': 'linked_services'
+  'liquor': 'liquor'
+  'list': 'list'
+  'list_alt': 'list_alt'
+  'list_alt_add': 'list_alt_add'
+  'lists': 'lists'
+  'live_help': 'live_help'
+  'live_tv': 'live_tv'
+  'living': 'living'
+  'local_activity': 'local_activity'
+  'local_airport': 'local_airport'
+  'local_atm': 'local_atm'
+  'local_bar': 'local_bar'
+  'local_cafe': 'local_cafe'
+  'local_car_wash': 'local_car_wash'
+  'local_convenience_store': 'local_convenience_store'
+  'local_dining': 'local_dining'
+  'local_drink': 'local_drink'
+  'local_fire_department': 'local_fire_department'
+  'local_florist': 'local_florist'
+  'local_gas_station': 'local_gas_station'
+  'local_grocery_store': 'local_grocery_store'
+  'local_hospital': 'local_hospital'
+  'local_hotel': 'local_hotel'
+  'local_laundry_service': 'local_laundry_service'
+  'local_library': 'local_library'
+  'local_mall': 'local_mall'
+  'local_movies': 'local_movies'
+  'local_offer': 'local_offer'
+  'local_parking': 'local_parking'
+  'local_pharmacy': 'local_pharmacy'
+  'local_phone': 'local_phone'
+  'local_pizza': 'local_pizza'
+  'local_play': 'local_play'
+  'local_police': 'local_police'
+  'local_post_office': 'local_post_office'
+  'local_printshop': 'local_printshop'
+  'local_see': 'local_see'
+  'local_shipping': 'local_shipping'
+  'local_taxi': 'local_taxi'
+  'location_away': 'location_away'
+  'location_chip': 'location_chip'
+  'location_city': 'location_city'
+  'location_disabled': 'location_disabled'
+  'location_home': 'location_home'
+  'location_off': 'location_off'
+  'location_on': 'location_on'
+  'location_pin': 'location_pin'
+  'location_searching': 'location_searching'
+  'lock': 'lock'
+  'lock_clock': 'lock_clock'
+  'lock_open': 'lock_open'
+  'lock_open_right': 'lock_open_right'
+  'lock_outline': 'lock_outline'
+  'lock_person': 'lock_person'
+  'lock_reset': 'lock_reset'
+  'login': 'login'
+  'logo_dev': 'logo_dev'
+  'logout': 'logout'
+  'looks': 'looks'
+  'looks_3': 'looks_3'
+  'looks_4': 'looks_4'
+  'looks_5': 'looks_5'
+  'looks_6': 'looks_6'
+  'looks_one': 'looks_one'
+  'looks_two': 'looks_two'
+  'loop': 'loop'
+  'loupe': 'loupe'
+  'low_density': 'low_density'
+  'low_priority': 'low_priority'
+  'loyalty': 'loyalty'
+  'lte_mobiledata': 'lte_mobiledata'
+  'lte_mobiledata_badge': 'lte_mobiledata_badge'
+  'lte_plus_mobiledata': 'lte_plus_mobiledata'
+  'lte_plus_mobiledata_badge': 'lte_plus_mobiledata_badge'
+  'luggage': 'luggage'
+  'lunch_dining': 'lunch_dining'
+  'lyrics': 'lyrics'
+  'macro_auto': 'macro_auto'
+  'macro_off': 'macro_off'
+  'magnification_large': 'magnification_large'
+  'magnification_small': 'magnification_small'
+  'magnify_docked': 'magnify_docked'
+  'magnify_fullscreen': 'magnify_fullscreen'
+  'mail': 'mail'
+  'mail_lock': 'mail_lock'
+  'mail_outline': 'mail_outline'
+  'male': 'male'
+  'man': 'man'
+  'man_2': 'man_2'
+  'man_3': 'man_3'
+  'man_4': 'man_4'
+  'manage_accounts': 'manage_accounts'
+  'manage_history': 'manage_history'
+  'manage_search': 'manage_search'
+  'manga': 'manga'
+  'manufacturing': 'manufacturing'
+  'map': 'map'
+  'maps_home_work': 'maps_home_work'
+  'maps_ugc': 'maps_ugc'
+  'margin': 'margin'
+  'mark_as_unread': 'mark_as_unread'
+  'mark_chat_read': 'mark_chat_read'
+  'mark_chat_unread': 'mark_chat_unread'
+  'mark_email_read': 'mark_email_read'
+  'mark_email_unread': 'mark_email_unread'
+  'mark_unread_chat_alt': 'mark_unread_chat_alt'
+  'markdown': 'markdown'
+  'markdown_copy': 'markdown_copy'
+  'markdown_paste': 'markdown_paste'
+  'markunread': 'markunread'
+  'markunread_mailbox': 'markunread_mailbox'
+  'masked_transitions': 'masked_transitions'
+  'masks': 'masks'
+  'match_case': 'match_case'
+  'match_word': 'match_word'
+  'matter': 'matter'
+  'maximize': 'maximize'
+  'measuring_tape': 'measuring_tape'
+  'media_bluetooth_off': 'media_bluetooth_off'
+  'media_bluetooth_on': 'media_bluetooth_on'
+  'media_link': 'media_link'
+  'mediation': 'mediation'
+  'medical_information': 'medical_information'
+  'medical_mask': 'medical_mask'
+  'medical_services': 'medical_services'
+  'medication': 'medication'
+  'medication_liquid': 'medication_liquid'
+  'meeting_room': 'meeting_room'
+  'memory': 'memory'
+  'memory_alt': 'memory_alt'
+  'menstrual_health': 'menstrual_health'
+  'menu': 'menu'
+  'menu_book': 'menu_book'
+  'menu_open': 'menu_open'
+  'merge': 'merge'
+  'merge_type': 'merge_type'
+  'message': 'message'
+  'metabolism': 'metabolism'
+  'mfg_nest_yale_lock': 'mfg_nest_yale_lock'
+  'mic': 'mic'
+  'mic_double': 'mic_double'
+  'mic_external_off': 'mic_external_off'
+  'mic_external_on': 'mic_external_on'
+  'mic_none': 'mic_none'
+  'mic_off': 'mic_off'
+  'microbiology': 'microbiology'
+  'microwave': 'microwave'
+  'microwave_gen': 'microwave_gen'
+  'military_tech': 'military_tech'
+  'mimo': 'mimo'
+  'mimo_disconnect': 'mimo_disconnect'
+  'mindfulness': 'mindfulness'
+  'minimize': 'minimize'
+  'minor_crash': 'minor_crash'
+  'mintmark': 'mintmark'
+  'miscellaneous_services': 'miscellaneous_services'
+  'missed_video_call': 'missed_video_call'
+  'missing_controller': 'missing_controller'
+  'mist': 'mist'
+  'mitre': 'mitre'
+  'mixture_med': 'mixture_med'
+  'mms': 'mms'
+  'mobile_friendly': 'mobile_friendly'
+  'mobile_off': 'mobile_off'
+  'mobile_screen_share': 'mobile_screen_share'
+  'mobiledata_off': 'mobiledata_off'
+  'mode': 'mode'
+  'mode_comment': 'mode_comment'
+  'mode_cool': 'mode_cool'
+  'mode_cool_off': 'mode_cool_off'
+  'mode_dual': 'mode_dual'
+  'mode_edit': 'mode_edit'
+  'mode_edit_outline': 'mode_edit_outline'
+  'mode_fan': 'mode_fan'
+  'mode_fan_off': 'mode_fan_off'
+  'mode_heat': 'mode_heat'
+  'mode_heat_cool': 'mode_heat_cool'
+  'mode_heat_off': 'mode_heat_off'
+  'mode_night': 'mode_night'
+  'mode_of_travel': 'mode_of_travel'
+  'mode_off_on': 'mode_off_on'
+  'mode_standby': 'mode_standby'
+  'model_training': 'model_training'
+  'monetization_on': 'monetization_on'
+  'money': 'money'
+  'money_off': 'money_off'
+  'money_off_csred': 'money_off_csred'
+  'monitor': 'monitor'
+  'monitor_heart': 'monitor_heart'
+  'monitor_weight': 'monitor_weight'
+  'monitor_weight_gain': 'monitor_weight_gain'
+  'monitor_weight_loss': 'monitor_weight_loss'
+  'monitoring': 'monitoring'
+  'monochrome_photos': 'monochrome_photos'
+  'mood': 'mood'
+  'mood_bad': 'mood_bad'
+  'mop': 'mop'
+  'moped': 'moped'
+  'more': 'more'
+  'more_down': 'more_down'
+  'more_horiz': 'more_horiz'
+  'more_time': 'more_time'
+  'more_up': 'more_up'
+  'more_vert': 'more_vert'
+  'mosque': 'mosque'
+  'motion_blur': 'motion_blur'
+  'motion_mode': 'motion_mode'
+  'motion_photos_auto': 'motion_photos_auto'
+  'motion_photos_off': 'motion_photos_off'
+  'motion_photos_on': 'motion_photos_on'
+  'motion_photos_pause': 'motion_photos_pause'
+  'motion_photos_paused': 'motion_photos_paused'
+  'motion_sensor_active': 'motion_sensor_active'
+  'motion_sensor_alert': 'motion_sensor_alert'
+  'motion_sensor_idle': 'motion_sensor_idle'
+  'motion_sensor_urgent': 'motion_sensor_urgent'
+  'motorcycle': 'motorcycle'
+  'mountain_flag': 'mountain_flag'
+  'mouse': 'mouse'
+  'move': 'move'
+  'move_down': 'move_down'
+  'move_group': 'move_group'
+  'move_item': 'move_item'
+  'move_location': 'move_location'
+  'move_selection_down': 'move_selection_down'
+  'move_selection_left': 'move_selection_left'
+  'move_selection_right': 'move_selection_right'
+  'move_selection_up': 'move_selection_up'
+  'move_to_inbox': 'move_to_inbox'
+  'move_up': 'move_up'
+  'moved_location': 'moved_location'
+  'movie': 'movie'
+  'movie_creation': 'movie_creation'
+  'movie_edit': 'movie_edit'
+  'movie_filter': 'movie_filter'
+  'movie_info': 'movie_info'
+  'moving': 'moving'
+  'moving_beds': 'moving_beds'
+  'moving_ministry': 'moving_ministry'
+  'mp': 'mp'
+  'multicooker': 'multicooker'
+  'multiline_chart': 'multiline_chart'
+  'multiple_stop': 'multiple_stop'
+  'museum': 'museum'
+  'music_cast': 'music_cast'
+  'music_note': 'music_note'
+  'music_off': 'music_off'
+  'music_video': 'music_video'
+  'my_location': 'my_location'
+  'mystery': 'mystery'
+  'nat': 'nat'
+  'nature': 'nature'
+  'nature_people': 'nature_people'
+  'navigate_before': 'navigate_before'
+  'navigate_next': 'navigate_next'
+  'navigation': 'navigation'
+  'near_me': 'near_me'
+  'near_me_disabled': 'near_me_disabled'
+  'nearby': 'nearby'
+  'nearby_error': 'nearby_error'
+  'nearby_off': 'nearby_off'
+  'nephrology': 'nephrology'
+  'nest_audio': 'nest_audio'
+  'nest_cam_floodlight': 'nest_cam_floodlight'
+  'nest_cam_indoor': 'nest_cam_indoor'
+  'nest_cam_iq': 'nest_cam_iq'
+  'nest_cam_iq_outdoor': 'nest_cam_iq_outdoor'
+  'nest_cam_magnet_mount': 'nest_cam_magnet_mount'
+  'nest_cam_outdoor': 'nest_cam_outdoor'
+  'nest_cam_stand': 'nest_cam_stand'
+  'nest_cam_wall_mount': 'nest_cam_wall_mount'
+  'nest_cam_wired_stand': 'nest_cam_wired_stand'
+  'nest_clock_farsight_analog': 'nest_clock_farsight_analog'
+  'nest_clock_farsight_digital': 'nest_clock_farsight_digital'
+  'nest_connect': 'nest_connect'
+  'nest_detect': 'nest_detect'
+  'nest_display': 'nest_display'
+  'nest_display_max': 'nest_display_max'
+  'nest_doorbell_visitor': 'nest_doorbell_visitor'
+  'nest_eco_leaf': 'nest_eco_leaf'
+  'nest_farsight_weather': 'nest_farsight_weather'
+  'nest_found_savings': 'nest_found_savings'
+  'nest_gale_wifi': 'nest_gale_wifi'
+  'nest_heat_link_e': 'nest_heat_link_e'
+  'nest_heat_link_gen_3': 'nest_heat_link_gen_3'
+  'nest_hello_doorbell': 'nest_hello_doorbell'
+  'nest_mini': 'nest_mini'
+  'nest_multi_room': 'nest_multi_room'
+  'nest_protect': 'nest_protect'
+  'nest_remote': 'nest_remote'
+  'nest_remote_comfort_sensor': 'nest_remote_comfort_sensor'
+  'nest_secure_alarm': 'nest_secure_alarm'
+  'nest_sunblock': 'nest_sunblock'
+  'nest_tag': 'nest_tag'
+  'nest_thermostat': 'nest_thermostat'
+  'nest_thermostat_e_eu': 'nest_thermostat_e_eu'
+  'nest_thermostat_gen_3': 'nest_thermostat_gen_3'
+  'nest_thermostat_sensor': 'nest_thermostat_sensor'
+  'nest_thermostat_sensor_eu': 'nest_thermostat_sensor_eu'
+  'nest_thermostat_zirconium_eu': 'nest_thermostat_zirconium_eu'
+  'nest_true_radiant': 'nest_true_radiant'
+  'nest_wake_on_approach': 'nest_wake_on_approach'
+  'nest_wake_on_press': 'nest_wake_on_press'
+  'nest_wifi_point': 'nest_wifi_point'
+  'nest_wifi_pro': 'nest_wifi_pro'
+  'nest_wifi_pro_2': 'nest_wifi_pro_2'
+  'nest_wifi_router': 'nest_wifi_router'
+  'network_cell': 'network_cell'
+  'network_check': 'network_check'
+  'network_intelligence_history': 'network_intelligence_history'
+  'network_intelligence_update': 'network_intelligence_update'
+  'network_locked': 'network_locked'
+  'network_manage': 'network_manage'
+  'network_node': 'network_node'
+  'network_ping': 'network_ping'
+  'network_wifi': 'network_wifi'
+  'network_wifi_1_bar': 'network_wifi_1_bar'
+  'network_wifi_1_bar_locked': 'network_wifi_1_bar_locked'
+  'network_wifi_2_bar': 'network_wifi_2_bar'
+  'network_wifi_2_bar_locked': 'network_wifi_2_bar_locked'
+  'network_wifi_3_bar': 'network_wifi_3_bar'
+  'network_wifi_3_bar_locked': 'network_wifi_3_bar_locked'
+  'network_wifi_locked': 'network_wifi_locked'
+  'neurology': 'neurology'
+  'new_label': 'new_label'
+  'new_releases': 'new_releases'
+  'new_window': 'new_window'
+  'news': 'news'
+  'newsmode': 'newsmode'
+  'newspaper': 'newspaper'
+  'newsstand': 'newsstand'
+  'next_plan': 'next_plan'
+  'next_week': 'next_week'
+  'nfc': 'nfc'
+  'night_shelter': 'night_shelter'
+  'night_sight_auto': 'night_sight_auto'
+  'night_sight_auto_off': 'night_sight_auto_off'
+  'night_sight_max': 'night_sight_max'
+  'nightlife': 'nightlife'
+  'nightlight': 'nightlight'
+  'nightlight_round': 'nightlight_round'
+  'nights_stay': 'nights_stay'
+  'no_accounts': 'no_accounts'
+  'no_adult_content': 'no_adult_content'
+  'no_backpack': 'no_backpack'
+  'no_cell': 'no_cell'
+  'no_crash': 'no_crash'
+  'no_drinks': 'no_drinks'
+  'no_encryption': 'no_encryption'
+  'no_encryption_gmailerrorred': 'no_encryption_gmailerrorred'
+  'no_flash': 'no_flash'
+  'no_food': 'no_food'
+  'no_luggage': 'no_luggage'
+  'no_meals': 'no_meals'
+  'no_meals_ouline': 'no_meals_ouline'
+  'no_meeting_room': 'no_meeting_room'
+  'no_photography': 'no_photography'
+  'no_sim': 'no_sim'
+  'no_sound': 'no_sound'
+  'no_stroller': 'no_stroller'
+  'no_transfer': 'no_transfer'
+  'noise_aware': 'noise_aware'
+  'noise_control_off': 'noise_control_off'
+  'noise_control_on': 'noise_control_on'
+  'nordic_walking': 'nordic_walking'
+  'north': 'north'
+  'north_east': 'north_east'
+  'north_west': 'north_west'
+  'not_accessible': 'not_accessible'
+  'not_accessible_forward': 'not_accessible_forward'
+  'not_interested': 'not_interested'
+  'not_listed_location': 'not_listed_location'
+  'not_started': 'not_started'
+  'note': 'note'
+  'note_add': 'note_add'
+  'note_alt': 'note_alt'
+  'note_stack': 'note_stack'
+  'note_stack_add': 'note_stack_add'
+  'notes': 'notes'
+  'notification_add': 'notification_add'
+  'notification_important': 'notification_important'
+  'notification_multiple': 'notification_multiple'
+  'notifications': 'notifications'
+  'notifications_active': 'notifications_active'
+  'notifications_none': 'notifications_none'
+  'notifications_off': 'notifications_off'
+  'notifications_paused': 'notifications_paused'
+  'notifications_unread': 'notifications_unread'
+  'numbers': 'numbers'
+  'nutrition': 'nutrition'
+  'ods': 'ods'
+  'odt': 'odt'
+  'offline_bolt': 'offline_bolt'
+  'offline_pin': 'offline_pin'
+  'offline_share': 'offline_share'
+  'oil_barrel': 'oil_barrel'
+  'on_device_training': 'on_device_training'
+  'on_hub_device': 'on_hub_device'
+  'oncology': 'oncology'
+  'ondemand_video': 'ondemand_video'
+  'online_prediction': 'online_prediction'
+  'onsen': 'onsen'
+  'opacity': 'opacity'
+  'open_in_browser': 'open_in_browser'
+  'open_in_full': 'open_in_full'
+  'open_in_new': 'open_in_new'
+  'open_in_new_down': 'open_in_new_down'
+  'open_in_new_off': 'open_in_new_off'
+  'open_in_phone': 'open_in_phone'
+  'open_jam': 'open_jam'
+  'open_with': 'open_with'
+  'ophthalmology': 'ophthalmology'
+  'oral_disease': 'oral_disease'
+  'order_approve': 'order_approve'
+  'order_play': 'order_play'
+  'orders': 'orders'
+  'orthopedics': 'orthopedics'
+  'other_admission': 'other_admission'
+  'other_houses': 'other_houses'
+  'outbound': 'outbound'
+  'outbox': 'outbox'
+  'outbox_alt': 'outbox_alt'
+  'outdoor_garden': 'outdoor_garden'
+  'outdoor_grill': 'outdoor_grill'
+  'outgoing_mail': 'outgoing_mail'
+  'outlet': 'outlet'
+  'outlined_flag': 'outlined_flag'
+  'outpatient': 'outpatient'
+  'outpatient_med': 'outpatient_med'
+  'output': 'output'
+  'output_circle': 'output_circle'
+  'oven': 'oven'
+  'oven_gen': 'oven_gen'
+  'overview': 'overview'
+  'overview_key': 'overview_key'
+  'oxygen_saturation': 'oxygen_saturation'
+  'p2p': 'p2p'
+  'pace': 'pace'
+  'pacemaker': 'pacemaker'
+  'package': 'package'
+  'package_2': 'package_2'
+  'padding': 'padding'
+  'page_control': 'page_control'
+  'page_info': 'page_info'
+  'pageless': 'pageless'
+  'pages': 'pages'
+  'pageview': 'pageview'
+  'paid': 'paid'
+  'palette': 'palette'
+  'pallet': 'pallet'
+  'pan_tool': 'pan_tool'
+  'pan_tool_alt': 'pan_tool_alt'
+  'pan_zoom': 'pan_zoom'
+  'panorama': 'panorama'
+  'panorama_fish_eye': 'panorama_fish_eye'
+  'panorama_horizontal': 'panorama_horizontal'
+  'panorama_horizontal_select': 'panorama_horizontal_select'
+  'panorama_photosphere': 'panorama_photosphere'
+  'panorama_photosphere_select': 'panorama_photosphere_select'
+  'panorama_vertical': 'panorama_vertical'
+  'panorama_vertical_select': 'panorama_vertical_select'
+  'panorama_wide_angle': 'panorama_wide_angle'
+  'panorama_wide_angle_select': 'panorama_wide_angle_select'
+  'paragliding': 'paragliding'
+  'park': 'park'
+  'partly_cloudy_day': 'partly_cloudy_day'
+  'partly_cloudy_night': 'partly_cloudy_night'
+  'partner_exchange': 'partner_exchange'
+  'partner_reports': 'partner_reports'
+  'party_mode': 'party_mode'
+  'passkey': 'passkey'
+  'password': 'password'
+  'patient_list': 'patient_list'
+  'pattern': 'pattern'
+  'pause': 'pause'
+  'pause_circle': 'pause_circle'
+  'pause_circle_filled': 'pause_circle_filled'
+  'pause_circle_outline': 'pause_circle_outline'
+  'pause_presentation': 'pause_presentation'
+  'payment': 'payment'
+  'payments': 'payments'
+  'pedal_bike': 'pedal_bike'
+  'pediatrics': 'pediatrics'
+  'pen_size_1': 'pen_size_1'
+  'pen_size_2': 'pen_size_2'
+  'pen_size_3': 'pen_size_3'
+  'pen_size_4': 'pen_size_4'
+  'pen_size_5': 'pen_size_5'
+  'pending': 'pending'
+  'pending_actions': 'pending_actions'
+  'pentagon': 'pentagon'
+  'people': 'people'
+  'people_alt': 'people_alt'
+  'people_outline': 'people_outline'
+  'percent': 'percent'
+  'pergola': 'pergola'
+  'perm_camera_mic': 'perm_camera_mic'
+  'perm_contact_calendar': 'perm_contact_calendar'
+  'perm_data_setting': 'perm_data_setting'
+  'perm_device_information': 'perm_device_information'
+  'perm_identity': 'perm_identity'
+  'perm_media': 'perm_media'
+  'perm_phone_msg': 'perm_phone_msg'
+  'perm_scan_wifi': 'perm_scan_wifi'
+  'person': 'person'
+  'person_2': 'person_2'
+  'person_3': 'person_3'
+  'person_4': 'person_4'
+  'person_add': 'person_add'
+  'person_add_alt': 'person_add_alt'
+  'person_add_alt_1': 'person_add_alt_1'
+  'person_add_disabled': 'person_add_disabled'
+  'person_alert': 'person_alert'
+  'person_apron': 'person_apron'
+  'person_book': 'person_book'
+  'person_cancel': 'person_cancel'
+  'person_celebrate': 'person_celebrate'
+  'person_check': 'person_check'
+  'person_off': 'person_off'
+  'person_outline': 'person_outline'
+  'person_pin': 'person_pin'
+  'person_pin_circle': 'person_pin_circle'
+  'person_play': 'person_play'
+  'person_raised_hand': 'person_raised_hand'
+  'person_remove': 'person_remove'
+  'person_remove_alt_1': 'person_remove_alt_1'
+  'person_search': 'person_search'
+  'personal_bag': 'personal_bag'
+  'personal_bag_off': 'personal_bag_off'
+  'personal_bag_question': 'personal_bag_question'
+  'personal_injury': 'personal_injury'
+  'personal_places': 'personal_places'
+  'personal_video': 'personal_video'
+  'pest_control': 'pest_control'
+  'pest_control_rodent': 'pest_control_rodent'
+  'pet_supplies': 'pet_supplies'
+  'pets': 'pets'
+  'phishing': 'phishing'
+  'phone': 'phone'
+  'phone_android': 'phone_android'
+  'phone_bluetooth_speaker': 'phone_bluetooth_speaker'
+  'phone_callback': 'phone_callback'
+  'phone_disabled': 'phone_disabled'
+  'phone_enabled': 'phone_enabled'
+  'phone_forwarded': 'phone_forwarded'
+  'phone_in_talk': 'phone_in_talk'
+  'phone_iphone': 'phone_iphone'
+  'phone_locked': 'phone_locked'
+  'phone_missed': 'phone_missed'
+  'phone_paused': 'phone_paused'
+  'phonelink': 'phonelink'
+  'phonelink_erase': 'phonelink_erase'
+  'phonelink_lock': 'phonelink_lock'
+  'phonelink_off': 'phonelink_off'
+  'phonelink_ring': 'phonelink_ring'
+  'phonelink_ring_off': 'phonelink_ring_off'
+  'phonelink_setup': 'phonelink_setup'
+  'photo': 'photo'
+  'photo_album': 'photo_album'
+  'photo_auto_merge': 'photo_auto_merge'
+  'photo_camera': 'photo_camera'
+  'photo_camera_back': 'photo_camera_back'
+  'photo_camera_front': 'photo_camera_front'
+  'photo_filter': 'photo_filter'
+  'photo_frame': 'photo_frame'
+  'photo_library': 'photo_library'
+  'photo_prints': 'photo_prints'
+  'photo_size_select_actual': 'photo_size_select_actual'
+  'photo_size_select_large': 'photo_size_select_large'
+  'photo_size_select_small': 'photo_size_select_small'
+  'php': 'php'
+  'physical_therapy': 'physical_therapy'
+  'piano': 'piano'
+  'piano_off': 'piano_off'
+  'picture_as_pdf': 'picture_as_pdf'
+  'picture_in_picture': 'picture_in_picture'
+  'picture_in_picture_alt': 'picture_in_picture_alt'
+  'picture_in_picture_center': 'picture_in_picture_center'
+  'picture_in_picture_large': 'picture_in_picture_large'
+  'picture_in_picture_medium': 'picture_in_picture_medium'
+  'picture_in_picture_mobile': 'picture_in_picture_mobile'
+  'picture_in_picture_off': 'picture_in_picture_off'
+  'picture_in_picture_small': 'picture_in_picture_small'
+  'pie_chart': 'pie_chart'
+  'pie_chart_outline': 'pie_chart_outline'
+  'pie_chart_outlined': 'pie_chart_outlined'
+  'pill': 'pill'
+  'pill_off': 'pill_off'
+  'pin': 'pin'
+  'pin_drop': 'pin_drop'
+  'pin_end': 'pin_end'
+  'pin_invoke': 'pin_invoke'
+  'pinch': 'pinch'
+  'pinch_zoom_in': 'pinch_zoom_in'
+  'pinch_zoom_out': 'pinch_zoom_out'
+  'pip': 'pip'
+  'pip_exit': 'pip_exit'
+  'pivot_table_chart': 'pivot_table_chart'
+  'pix': 'pix'
+  'place': 'place'
+  'place_item': 'place_item'
+  'plagiarism': 'plagiarism'
+  'planner_banner_ad_pt': 'planner_banner_ad_pt'
+  'planner_review': 'planner_review'
+  'play_arrow': 'play_arrow'
+  'play_circle': 'play_circle'
+  'play_circle_filled': 'play_circle_filled'
+  'play_circle_outline': 'play_circle_outline'
+  'play_disabled': 'play_disabled'
+  'play_for_work': 'play_for_work'
+  'play_lesson': 'play_lesson'
+  'play_pause': 'play_pause'
+  'play_shapes': 'play_shapes'
+  'playing_cards': 'playing_cards'
+  'playlist_add': 'playlist_add'
+  'playlist_add_check': 'playlist_add_check'
+  'playlist_add_check_circle': 'playlist_add_check_circle'
+  'playlist_add_circle': 'playlist_add_circle'
+  'playlist_play': 'playlist_play'
+  'playlist_remove': 'playlist_remove'
+  'plumbing': 'plumbing'
+  'plus_one': 'plus_one'
+  'podcasts': 'podcasts'
+  'podiatry': 'podiatry'
+  'podium': 'podium'
+  'point_of_sale': 'point_of_sale'
+  'point_scan': 'point_scan'
+  'policy': 'policy'
+  'poll': 'poll'
+  'polyline': 'polyline'
+  'polymer': 'polymer'
+  'pool': 'pool'
+  'portable_wifi_off': 'portable_wifi_off'
+  'portrait': 'portrait'
+  'position_bottom_left': 'position_bottom_left'
+  'position_bottom_right': 'position_bottom_right'
+  'position_top_right': 'position_top_right'
+  'post': 'post'
+  'post_add': 'post_add'
+  'potted_plant': 'potted_plant'
+  'power': 'power'
+  'power_input': 'power_input'
+  'power_off': 'power_off'
+  'power_settings_new': 'power_settings_new'
+  'prayer_times': 'prayer_times'
+  'precision_manufacturing': 'precision_manufacturing'
+  'pregnancy': 'pregnancy'
+  'pregnant_woman': 'pregnant_woman'
+  'preliminary': 'preliminary'
+  'prescriptions': 'prescriptions'
+  'present_to_all': 'present_to_all'
+  'preview': 'preview'
+  'preview_off': 'preview_off'
+  'price_change': 'price_change'
+  'price_check': 'price_check'
+  'print': 'print'
+  'print_add': 'print_add'
+  'print_connect': 'print_connect'
+  'print_disabled': 'print_disabled'
+  'print_error': 'print_error'
+  'print_lock': 'print_lock'
+  'priority': 'priority'
+  'priority_high': 'priority_high'
+  'privacy': 'privacy'
+  'privacy_tip': 'privacy_tip'
+  'private_connectivity': 'private_connectivity'
+  'problem': 'problem'
+  'procedure': 'procedure'
+  'process_chart': 'process_chart'
+  'production_quantity_limits': 'production_quantity_limits'
+  'productivity': 'productivity'
+  'progress_activity': 'progress_activity'
+  'propane': 'propane'
+  'propane_tank': 'propane_tank'
+  'psychiatry': 'psychiatry'
+  'psychology': 'psychology'
+  'psychology_alt': 'psychology_alt'
+  'public': 'public'
+  'public_off': 'public_off'
+  'publish': 'publish'
+  'published_with_changes': 'published_with_changes'
+  'pulmonology': 'pulmonology'
+  'pulse_alert': 'pulse_alert'
+  'punch_clock': 'punch_clock'
+  'push_pin': 'push_pin'
+  'qr_code': 'qr_code'
+  'qr_code_2': 'qr_code_2'
+  'qr_code_2_add': 'qr_code_2_add'
+  'qr_code_scanner': 'qr_code_scanner'
+  'query_builder': 'query_builder'
+  'query_stats': 'query_stats'
+  'question_answer': 'question_answer'
+  'question_exchange': 'question_exchange'
+  'question_mark': 'question_mark'
+  'queue': 'queue'
+  'queue_music': 'queue_music'
+  'queue_play_next': 'queue_play_next'
+  'quick_phrases': 'quick_phrases'
+  'quick_reference': 'quick_reference'
+  'quick_reference_all': 'quick_reference_all'
+  'quick_reorder': 'quick_reorder'
+  'quickreply': 'quickreply'
+  'quiet_time': 'quiet_time'
+  'quiet_time_active': 'quiet_time_active'
+  'quiz': 'quiz'
+  'r_mobiledata': 'r_mobiledata'
+  'radar': 'radar'
+  'radio': 'radio'
+  'radio_button_checked': 'radio_button_checked'
+  'radio_button_partial': 'radio_button_partial'
+  'radio_button_unchecked': 'radio_button_unchecked'
+  'radiology': 'radiology'
+  'railway_alert': 'railway_alert'
+  'rainy': 'rainy'
+  'rainy_heavy': 'rainy_heavy'
+  'rainy_light': 'rainy_light'
+  'rainy_snow': 'rainy_snow'
+  'ramen_dining': 'ramen_dining'
+  'ramp_left': 'ramp_left'
+  'ramp_right': 'ramp_right'
+  'range_hood': 'range_hood'
+  'rate_review': 'rate_review'
+  'raven': 'raven'
+  'raw_off': 'raw_off'
+  'raw_on': 'raw_on'
+  'read_more': 'read_more'
+  'readiness_score': 'readiness_score'
+  'real_estate_agent': 'real_estate_agent'
+  'rear_camera': 'rear_camera'
+  'rebase': 'rebase'
+  'rebase_edit': 'rebase_edit'
+  'receipt': 'receipt'
+  'receipt_long': 'receipt_long'
+  'recent_actors': 'recent_actors'
+  'recent_patient': 'recent_patient'
+  'recommend': 'recommend'
+  'record_voice_over': 'record_voice_over'
+  'rectangle': 'rectangle'
+  'recycling': 'recycling'
+  'redeem': 'redeem'
+  'redo': 'redo'
+  'reduce_capacity': 'reduce_capacity'
+  'refresh': 'refresh'
+  'regular_expression': 'regular_expression'
+  'relax': 'relax'
+  'release_alert': 'release_alert'
+  'remember_me': 'remember_me'
+  'reminder': 'reminder'
+  'remote_gen': 'remote_gen'
+  'remove': 'remove'
+  'remove_circle': 'remove_circle'
+  'remove_circle_outline': 'remove_circle_outline'
+  'remove_done': 'remove_done'
+  'remove_from_queue': 'remove_from_queue'
+  'remove_moderator': 'remove_moderator'
+  'remove_red_eye': 'remove_red_eye'
+  'remove_road': 'remove_road'
+  'remove_selection': 'remove_selection'
+  'remove_shopping_cart': 'remove_shopping_cart'
+  'reopen_window': 'reopen_window'
+  'reorder': 'reorder'
+  'repartition': 'repartition'
+  'repeat': 'repeat'
+  'repeat_on': 'repeat_on'
+  'repeat_one': 'repeat_one'
+  'repeat_one_on': 'repeat_one_on'
+  'replay': 'replay'
+  'replay_10': 'replay_10'
+  'replay_30': 'replay_30'
+  'replay_5': 'replay_5'
+  'replay_circle_filled': 'replay_circle_filled'
+  'reply': 'reply'
+  'reply_all': 'reply_all'
+  'report': 'report'
+  'report_gmailerrorred': 'report_gmailerrorred'
+  'report_off': 'report_off'
+  'report_problem': 'report_problem'
+  'request_page': 'request_page'
+  'request_quote': 'request_quote'
+  'reset_image': 'reset_image'
+  'reset_tv': 'reset_tv'
+  'reset_wrench': 'reset_wrench'
+  'resize': 'resize'
+  'respiratory_rate': 'respiratory_rate'
+  'responsive_layout': 'responsive_layout'
+  'restart_alt': 'restart_alt'
+  'restaurant': 'restaurant'
+  'restaurant_menu': 'restaurant_menu'
+  'restore': 'restore'
+  'restore_from_trash': 'restore_from_trash'
+  'restore_page': 'restore_page'
+  'resume': 'resume'
+  'reviews': 'reviews'
+  'rewarded_ads': 'rewarded_ads'
+  'rheumatology': 'rheumatology'
+  'rib_cage': 'rib_cage'
+  'rice_bowl': 'rice_bowl'
+  'right_click': 'right_click'
+  'right_panel_close': 'right_panel_close'
+  'right_panel_open': 'right_panel_open'
+  'ring_volume': 'ring_volume'
+  'ripples': 'ripples'
+  'robot': 'robot'
+  'robot_2': 'robot_2'
+  'rocket': 'rocket'
+  'rocket_launch': 'rocket_launch'
+  'roller_shades': 'roller_shades'
+  'roller_shades_closed': 'roller_shades_closed'
+  'roller_skating': 'roller_skating'
+  'roofing': 'roofing'
+  'room': 'room'
+  'room_preferences': 'room_preferences'
+  'room_service': 'room_service'
+  'rotate_90_degrees_ccw': 'rotate_90_degrees_ccw'
+  'rotate_90_degrees_cw': 'rotate_90_degrees_cw'
+  'rotate_left': 'rotate_left'
+  'rotate_right': 'rotate_right'
+  'roundabout_left': 'roundabout_left'
+  'roundabout_right': 'roundabout_right'
+  'rounded_corner': 'rounded_corner'
+  'route': 'route'
+  'router': 'router'
+  'routine': 'routine'
+  'rowing': 'rowing'
+  'rss_feed': 'rss_feed'
+  'rsvp': 'rsvp'
+  'rtt': 'rtt'
+  'rubric': 'rubric'
+  'rule': 'rule'
+  'rule_folder': 'rule_folder'
+  'rule_settings': 'rule_settings'
+  'run_circle': 'run_circle'
+  'running_with_errors': 'running_with_errors'
+  'rv_hookup': 'rv_hookup'
+  'safety_check': 'safety_check'
+  'safety_check_off': 'safety_check_off'
+  'safety_divider': 'safety_divider'
+  'sailing': 'sailing'
+  'salinity': 'salinity'
+  'sanitizer': 'sanitizer'
+  'satellite': 'satellite'
+  'satellite_alt': 'satellite_alt'
+  'sauna': 'sauna'
+  'save': 'save'
+  'save_alt': 'save_alt'
+  'save_as': 'save_as'
+  'saved_search': 'saved_search'
+  'savings': 'savings'
+  'scale': 'scale'
+  'scan': 'scan'
+  'scan_delete': 'scan_delete'
+  'scanner': 'scanner'
+  'scatter_plot': 'scatter_plot'
+  'scene': 'scene'
+  'schedule': 'schedule'
+  'schedule_send': 'schedule_send'
+  'schema': 'schema'
+  'school': 'school'
+  'science': 'science'
+  'science_off': 'science_off'
+  'score': 'score'
+  'scoreboard': 'scoreboard'
+  'screen_lock_landscape': 'screen_lock_landscape'
+  'screen_lock_portrait': 'screen_lock_portrait'
+  'screen_lock_rotation': 'screen_lock_rotation'
+  'screen_record': 'screen_record'
+  'screen_rotation': 'screen_rotation'
+  'screen_rotation_alt': 'screen_rotation_alt'
+  'screen_rotation_up': 'screen_rotation_up'
+  'screen_search_desktop': 'screen_search_desktop'
+  'screen_share': 'screen_share'
+  'screenshot': 'screenshot'
+  'screenshot_frame': 'screenshot_frame'
+  'screenshot_keyboard': 'screenshot_keyboard'
+  'screenshot_monitor': 'screenshot_monitor'
+  'screenshot_region': 'screenshot_region'
+  'screenshot_tablet': 'screenshot_tablet'
+  'scrollable_header': 'scrollable_header'
+  'scuba_diving': 'scuba_diving'
+  'sd': 'sd'
+  'sd_card': 'sd_card'
+  'sd_card_alert': 'sd_card_alert'
+  'sd_storage': 'sd_storage'
+  'sdk': 'sdk'
+  'search': 'search'
+  'search_check': 'search_check'
+  'search_hands_free': 'search_hands_free'
+  'search_off': 'search_off'
+  'security': 'security'
+  'security_key': 'security_key'
+  'security_update': 'security_update'
+  'security_update_good': 'security_update_good'
+  'security_update_warning': 'security_update_warning'
+  'segment': 'segment'
+  'select': 'select'
+  'select_all': 'select_all'
+  'select_check_box': 'select_check_box'
+  'select_to_speak': 'select_to_speak'
+  'select_window': 'select_window'
+  'select_window_off': 'select_window_off'
+  'self_care': 'self_care'
+  'self_improvement': 'self_improvement'
+  'sell': 'sell'
+  'send': 'send'
+  'send_and_archive': 'send_and_archive'
+  'send_money': 'send_money'
+  'send_time_extension': 'send_time_extension'
+  'send_to_mobile': 'send_to_mobile'
+  'sensor_door': 'sensor_door'
+  'sensor_occupied': 'sensor_occupied'
+  'sensor_window': 'sensor_window'
+  'sensors': 'sensors'
+  'sensors_krx': 'sensors_krx'
+  'sensors_krx_off': 'sensors_krx_off'
+  'sensors_off': 'sensors_off'
+  'sentiment_calm': 'sentiment_calm'
+  'sentiment_content': 'sentiment_content'
+  'sentiment_dissatisfied': 'sentiment_dissatisfied'
+  'sentiment_excited': 'sentiment_excited'
+  'sentiment_extremely_dissatisfied': 'sentiment_extremely_dissatisfied'
+  'sentiment_frustrated': 'sentiment_frustrated'
+  'sentiment_neutral': 'sentiment_neutral'
+  'sentiment_sad': 'sentiment_sad'
+  'sentiment_satisfied': 'sentiment_satisfied'
+  'sentiment_satisfied_alt': 'sentiment_satisfied_alt'
+  'sentiment_stressed': 'sentiment_stressed'
+  'sentiment_very_dissatisfied': 'sentiment_very_dissatisfied'
+  'sentiment_very_satisfied': 'sentiment_very_satisfied'
+  'sentiment_worried': 'sentiment_worried'
+  'service_toolbox': 'service_toolbox'
+  'set_meal': 'set_meal'
+  'settings': 'settings'
+  'settings_accessibility': 'settings_accessibility'
+  'settings_account_box': 'settings_account_box'
+  'settings_alert': 'settings_alert'
+  'settings_applications': 'settings_applications'
+  'settings_b_roll': 'settings_b_roll'
+  'settings_backup_restore': 'settings_backup_restore'
+  'settings_bluetooth': 'settings_bluetooth'
+  'settings_brightness': 'settings_brightness'
+  'settings_cell': 'settings_cell'
+  'settings_cinematic_blur': 'settings_cinematic_blur'
+  'settings_ethernet': 'settings_ethernet'
+  'settings_heart': 'settings_heart'
+  'settings_input_antenna': 'settings_input_antenna'
+  'settings_input_component': 'settings_input_component'
+  'settings_input_composite': 'settings_input_composite'
+  'settings_input_hdmi': 'settings_input_hdmi'
+  'settings_input_svideo': 'settings_input_svideo'
+  'settings_motion_mode': 'settings_motion_mode'
+  'settings_night_sight': 'settings_night_sight'
+  'settings_overscan': 'settings_overscan'
+  'settings_panorama': 'settings_panorama'
+  'settings_phone': 'settings_phone'
+  'settings_photo_camera': 'settings_photo_camera'
+  'settings_power': 'settings_power'
+  'settings_remote': 'settings_remote'
+  'settings_slow_motion': 'settings_slow_motion'
+  'settings_suggest': 'settings_suggest'
+  'settings_system_daydream': 'settings_system_daydream'
+  'settings_timelapse': 'settings_timelapse'
+  'settings_video_camera': 'settings_video_camera'
+  'settings_voice': 'settings_voice'
+  'settop_component': 'settop_component'
+  'severe_cold': 'severe_cold'
+  'shadow': 'shadow'
+  'shadow_add': 'shadow_add'
+  'shadow_minus': 'shadow_minus'
+  'shape_line': 'shape_line'
+  'shapes': 'shapes'
+  'share': 'share'
+  'share_location': 'share_location'
+  'share_off': 'share_off'
+  'share_reviews': 'share_reviews'
+  'share_windows': 'share_windows'
+  'sheets_rtl': 'sheets_rtl'
+  'shelf_auto_hide': 'shelf_auto_hide'
+  'shelf_position': 'shelf_position'
+  'shelves': 'shelves'
+  'shield': 'shield'
+  'shield_lock': 'shield_lock'
+  'shield_locked': 'shield_locked'
+  'shield_moon': 'shield_moon'
+  'shield_person': 'shield_person'
+  'shield_question': 'shield_question'
+  'shield_with_heart': 'shield_with_heart'
+  'shield_with_house': 'shield_with_house'
+  'shift': 'shift'
+  'shift_lock': 'shift_lock'
+  'shop': 'shop'
+  'shop_2': 'shop_2'
+  'shop_two': 'shop_two'
+  'shopping_bag': 'shopping_bag'
+  'shopping_basket': 'shopping_basket'
+  'shopping_cart': 'shopping_cart'
+  'shopping_cart_checkout': 'shopping_cart_checkout'
+  'shoppingmode': 'shoppingmode'
+  'short_stay': 'short_stay'
+  'short_text': 'short_text'
+  'shortcut': 'shortcut'
+  'show_chart': 'show_chart'
+  'shower': 'shower'
+  'shuffle': 'shuffle'
+  'shuffle_on': 'shuffle_on'
+  'shutter_speed': 'shutter_speed'
+  'shutter_speed_add': 'shutter_speed_add'
+  'shutter_speed_minus': 'shutter_speed_minus'
+  'sick': 'sick'
+  'side_navigation': 'side_navigation'
+  'sign_language': 'sign_language'
+  'signal_cellular_0_bar': 'signal_cellular_0_bar'
+  'signal_cellular_1_bar': 'signal_cellular_1_bar'
+  'signal_cellular_2_bar': 'signal_cellular_2_bar'
+  'signal_cellular_3_bar': 'signal_cellular_3_bar'
+  'signal_cellular_4_bar': 'signal_cellular_4_bar'
+  'signal_cellular_add': 'signal_cellular_add'
+  'signal_cellular_alt': 'signal_cellular_alt'
+  'signal_cellular_alt_1_bar': 'signal_cellular_alt_1_bar'
+  'signal_cellular_alt_2_bar': 'signal_cellular_alt_2_bar'
+  'signal_cellular_connected_no_internet_0_bar': 'signal_cellular_connected_no_internet_0_bar'
+  'signal_cellular_connected_no_internet_1_bar': 'signal_cellular_connected_no_internet_1_bar'
+  'signal_cellular_connected_no_internet_2_bar': 'signal_cellular_connected_no_internet_2_bar'
+  'signal_cellular_connected_no_internet_3_bar': 'signal_cellular_connected_no_internet_3_bar'
+  'signal_cellular_connected_no_internet_4_bar': 'signal_cellular_connected_no_internet_4_bar'
+  'signal_cellular_no_sim': 'signal_cellular_no_sim'
+  'signal_cellular_nodata': 'signal_cellular_nodata'
+  'signal_cellular_null': 'signal_cellular_null'
+  'signal_cellular_off': 'signal_cellular_off'
+  'signal_cellular_pause': 'signal_cellular_pause'
+  'signal_disconnected': 'signal_disconnected'
+  'signal_wifi_0_bar': 'signal_wifi_0_bar'
+  'signal_wifi_1_bar': 'signal_wifi_1_bar'
+  'signal_wifi_1_bar_lock': 'signal_wifi_1_bar_lock'
+  'signal_wifi_2_bar': 'signal_wifi_2_bar'
+  'signal_wifi_2_bar_lock': 'signal_wifi_2_bar_lock'
+  'signal_wifi_3_bar': 'signal_wifi_3_bar'
+  'signal_wifi_3_bar_lock': 'signal_wifi_3_bar_lock'
+  'signal_wifi_4_bar': 'signal_wifi_4_bar'
+  'signal_wifi_4_bar_lock': 'signal_wifi_4_bar_lock'
+  'signal_wifi_bad': 'signal_wifi_bad'
+  'signal_wifi_connected_no_internet_0': 'signal_wifi_connected_no_internet_0'
+  'signal_wifi_connected_no_internet_1': 'signal_wifi_connected_no_internet_1'
+  'signal_wifi_connected_no_internet_2': 'signal_wifi_connected_no_internet_2'
+  'signal_wifi_connected_no_internet_3': 'signal_wifi_connected_no_internet_3'
+  'signal_wifi_connected_no_internet_4': 'signal_wifi_connected_no_internet_4'
+  'signal_wifi_off': 'signal_wifi_off'
+  'signal_wifi_statusbar_1_bar': 'signal_wifi_statusbar_1_bar'
+  'signal_wifi_statusbar_2_bar': 'signal_wifi_statusbar_2_bar'
+  'signal_wifi_statusbar_3_bar': 'signal_wifi_statusbar_3_bar'
+  'signal_wifi_statusbar_4_bar': 'signal_wifi_statusbar_4_bar'
+  'signal_wifi_statusbar_connected_no_internet': 'signal_wifi_statusbar_connected_no_internet'
+  'signal_wifi_statusbar_connected_no_internet_1': 'signal_wifi_statusbar_connected_no_internet_1'
+  'signal_wifi_statusbar_connected_no_internet_2': 'signal_wifi_statusbar_connected_no_internet_2'
+  'signal_wifi_statusbar_connected_no_internet_3': 'signal_wifi_statusbar_connected_no_internet_3'
+  'signal_wifi_statusbar_connected_no_internet_4': 'signal_wifi_statusbar_connected_no_internet_4'
+  'signal_wifi_statusbar_not_connected': 'signal_wifi_statusbar_not_connected'
+  'signal_wifi_statusbar_null': 'signal_wifi_statusbar_null'
+  'signature': 'signature'
+  'signpost': 'signpost'
+  'sim_card': 'sim_card'
+  'sim_card_alert': 'sim_card_alert'
+  'sim_card_download': 'sim_card_download'
+  'single_bed': 'single_bed'
+  'sip': 'sip'
+  'skateboarding': 'skateboarding'
+  'skeleton': 'skeleton'
+  'skillet': 'skillet'
+  'skillet_cooktop': 'skillet_cooktop'
+  'skip_next': 'skip_next'
+  'skip_previous': 'skip_previous'
+  'skull': 'skull'
+  'sledding': 'sledding'
+  'sleep_score': 'sleep_score'
+  'slide_library': 'slide_library'
+  'sliders': 'sliders'
+  'slideshow': 'slideshow'
+  'slow_motion_video': 'slow_motion_video'
+  'smart_button': 'smart_button'
+  'smart_display': 'smart_display'
+  'smart_outlet': 'smart_outlet'
+  'smart_screen': 'smart_screen'
+  'smart_toy': 'smart_toy'
+  'smartphone': 'smartphone'
+  'smb_share': 'smb_share'
+  'smoke_free': 'smoke_free'
+  'smoking_rooms': 'smoking_rooms'
+  'sms': 'sms'
+  'sms_failed': 'sms_failed'
+  'snippet_folder': 'snippet_folder'
+  'snooze': 'snooze'
+  'snowboarding': 'snowboarding'
+  'snowing': 'snowing'
+  'snowing_heavy': 'snowing_heavy'
+  'snowmobile': 'snowmobile'
+  'snowshoeing': 'snowshoeing'
+  'soap': 'soap'
+  'social_distance': 'social_distance'
+  'social_leaderboard': 'social_leaderboard'
+  'solar_power': 'solar_power'
+  'sort': 'sort'
+  'sort_by_alpha': 'sort_by_alpha'
+  'sos': 'sos'
+  'sound_detection_dog_barking': 'sound_detection_dog_barking'
+  'sound_detection_glass_break': 'sound_detection_glass_break'
+  'sound_detection_loud_sound': 'sound_detection_loud_sound'
+  'sound_sampler': 'sound_sampler'
+  'soup_kitchen': 'soup_kitchen'
+  'source': 'source'
+  'source_environment': 'source_environment'
+  'source_notes': 'source_notes'
+  'south': 'south'
+  'south_america': 'south_america'
+  'south_east': 'south_east'
+  'south_west': 'south_west'
+  'spa': 'spa'
+  'space_bar': 'space_bar'
+  'space_dashboard': 'space_dashboard'
+  'spatial_audio': 'spatial_audio'
+  'spatial_audio_off': 'spatial_audio_off'
+  'spatial_tracking': 'spatial_tracking'
+  'speaker': 'speaker'
+  'speaker_group': 'speaker_group'
+  'speaker_notes': 'speaker_notes'
+  'speaker_notes_off': 'speaker_notes_off'
+  'speaker_phone': 'speaker_phone'
+  'special_character': 'special_character'
+  'specific_gravity': 'specific_gravity'
+  'speech_to_text': 'speech_to_text'
+  'speed': 'speed'
+  'spellcheck': 'spellcheck'
+  'splitscreen': 'splitscreen'
+  'splitscreen_bottom': 'splitscreen_bottom'
+  'splitscreen_left': 'splitscreen_left'
+  'splitscreen_right': 'splitscreen_right'
+  'splitscreen_top': 'splitscreen_top'
+  'spo2': 'spo2'
+  'spoke': 'spoke'
+  'sports': 'sports'
+  'sports_and_outdoors': 'sports_and_outdoors'
+  'sports_bar': 'sports_bar'
+  'sports_baseball': 'sports_baseball'
+  'sports_basketball': 'sports_basketball'
+  'sports_cricket': 'sports_cricket'
+  'sports_esports': 'sports_esports'
+  'sports_football': 'sports_football'
+  'sports_golf': 'sports_golf'
+  'sports_gymnastics': 'sports_gymnastics'
+  'sports_handball': 'sports_handball'
+  'sports_hockey': 'sports_hockey'
+  'sports_kabaddi': 'sports_kabaddi'
+  'sports_martial_arts': 'sports_martial_arts'
+  'sports_mma': 'sports_mma'
+  'sports_motorsports': 'sports_motorsports'
+  'sports_rugby': 'sports_rugby'
+  'sports_score': 'sports_score'
+  'sports_soccer': 'sports_soccer'
+  'sports_tennis': 'sports_tennis'
+  'sports_volleyball': 'sports_volleyball'
+  'sprinkler': 'sprinkler'
+  'sprint': 'sprint'
+  'square': 'square'
+  'square_foot': 'square_foot'
+  'ssid_chart': 'ssid_chart'
+  'stack': 'stack'
+  'stack_off': 'stack_off'
+  'stack_star': 'stack_star'
+  'stacked_bar_chart': 'stacked_bar_chart'
+  'stacked_email': 'stacked_email'
+  'stacked_inbox': 'stacked_inbox'
+  'stacked_line_chart': 'stacked_line_chart'
+  'stacks': 'stacks'
+  'stadia_controller': 'stadia_controller'
+  'stadium': 'stadium'
+  'stairs': 'stairs'
+  'star': 'star'
+  'star_border': 'star_border'
+  'star_border_purple500': 'star_border_purple500'
+  'star_half': 'star_half'
+  'star_outline': 'star_outline'
+  'star_purple500': 'star_purple500'
+  'star_rate': 'star_rate'
+  'star_rate_half': 'star_rate_half'
+  'stars': 'stars'
+  'start': 'start'
+  'stat_0': 'stat_0'
+  'stat_1': 'stat_1'
+  'stat_2': 'stat_2'
+  'stat_3': 'stat_3'
+  'stat_minus_1': 'stat_minus_1'
+  'stat_minus_2': 'stat_minus_2'
+  'stat_minus_3': 'stat_minus_3'
+  'stay_current_landscape': 'stay_current_landscape'
+  'stay_current_portrait': 'stay_current_portrait'
+  'stay_primary_landscape': 'stay_primary_landscape'
+  'stay_primary_portrait': 'stay_primary_portrait'
+  'step': 'step'
+  'step_into': 'step_into'
+  'step_out': 'step_out'
+  'step_over': 'step_over'
+  'steppers': 'steppers'
+  'steps': 'steps'
+  'stethoscope': 'stethoscope'
+  'stethoscope_arrow': 'stethoscope_arrow'
+  'stethoscope_check': 'stethoscope_check'
+  'sticky_note': 'sticky_note'
+  'sticky_note_2': 'sticky_note_2'
+  'stock_media': 'stock_media'
+  'stockpot': 'stockpot'
+  'stop': 'stop'
+  'stop_circle': 'stop_circle'
+  'stop_screen_share': 'stop_screen_share'
+  'storage': 'storage'
+  'store': 'store'
+  'store_mall_directory': 'store_mall_directory'
+  'storefront': 'storefront'
+  'storm': 'storm'
+  'straight': 'straight'
+  'straighten': 'straighten'
+  'strategy': 'strategy'
+  'stream': 'stream'
+  'stream_apps': 'stream_apps'
+  'streetview': 'streetview'
+  'stress_management': 'stress_management'
+  'strikethrough_s': 'strikethrough_s'
+  'stroke_full': 'stroke_full'
+  'stroke_partial': 'stroke_partial'
+  'stroller': 'stroller'
+  'style': 'style'
+  'styler': 'styler'
+  'stylus': 'stylus'
+  'stylus_laser_pointer': 'stylus_laser_pointer'
+  'stylus_note': 'stylus_note'
+  'subdirectory_arrow_left': 'subdirectory_arrow_left'
+  'subdirectory_arrow_right': 'subdirectory_arrow_right'
+  'subheader': 'subheader'
+  'subject': 'subject'
+  'subscript': 'subscript'
+  'subscriptions': 'subscriptions'
+  'subtitles': 'subtitles'
+  'subtitles_off': 'subtitles_off'
+  'subway': 'subway'
+  'summarize': 'summarize'
+  'sunny': 'sunny'
+  'sunny_snowing': 'sunny_snowing'
+  'superscript': 'superscript'
+  'supervised_user_circle': 'supervised_user_circle'
+  'supervised_user_circle_off': 'supervised_user_circle_off'
+  'supervisor_account': 'supervisor_account'
+  'support': 'support'
+  'support_agent': 'support_agent'
+  'surfing': 'surfing'
+  'surgical': 'surgical'
+  'surround_sound': 'surround_sound'
+  'swap_calls': 'swap_calls'
+  'swap_driving_apps': 'swap_driving_apps'
+  'swap_driving_apps_wheel': 'swap_driving_apps_wheel'
+  'swap_horiz': 'swap_horiz'
+  'swap_horizontal_circle': 'swap_horizontal_circle'
+  'swap_vert': 'swap_vert'
+  'swap_vertical_circle': 'swap_vertical_circle'
+  'sweep': 'sweep'
+  'swipe': 'swipe'
+  'swipe_down': 'swipe_down'
+  'swipe_down_alt': 'swipe_down_alt'
+  'swipe_left': 'swipe_left'
+  'swipe_left_alt': 'swipe_left_alt'
+  'swipe_right': 'swipe_right'
+  'swipe_right_alt': 'swipe_right_alt'
+  'swipe_up': 'swipe_up'
+  'swipe_up_alt': 'swipe_up_alt'
+  'swipe_vertical': 'swipe_vertical'
+  'switch': 'switch'
+  'switch_access': 'switch_access'
+  'switch_access_2': 'switch_access_2'
+  'switch_access_shortcut': 'switch_access_shortcut'
+  'switch_access_shortcut_add': 'switch_access_shortcut_add'
+  'switch_account': 'switch_account'
+  'switch_camera': 'switch_camera'
+  'switch_left': 'switch_left'
+  'switch_right': 'switch_right'
+  'switch_video': 'switch_video'
+  'switches': 'switches'
+  'sword_rose': 'sword_rose'
+  'swords': 'swords'
+  'symptoms': 'symptoms'
+  'synagogue': 'synagogue'
+  'sync': 'sync'
+  'sync_alt': 'sync_alt'
+  'sync_disabled': 'sync_disabled'
+  'sync_lock': 'sync_lock'
+  'sync_problem': 'sync_problem'
+  'sync_saved_locally': 'sync_saved_locally'
+  'syringe': 'syringe'
+  'system_security_update': 'system_security_update'
+  'system_security_update_good': 'system_security_update_good'
+  'system_security_update_warning': 'system_security_update_warning'
+  'system_update': 'system_update'
+  'system_update_alt': 'system_update_alt'
+  'tab': 'tab'
+  'tab_close': 'tab_close'
+  'tab_close_right': 'tab_close_right'
+  'tab_duplicate': 'tab_duplicate'
+  'tab_group': 'tab_group'
+  'tab_move': 'tab_move'
+  'tab_new_right': 'tab_new_right'
+  'tab_recent': 'tab_recent'
+  'tab_unselected': 'tab_unselected'
+  'table': 'table'
+  'table_bar': 'table_bar'
+  'table_chart': 'table_chart'
+  'table_chart_view': 'table_chart_view'
+  'table_lamp': 'table_lamp'
+  'table_restaurant': 'table_restaurant'
+  'table_rows': 'table_rows'
+  'table_rows_narrow': 'table_rows_narrow'
+  'table_view': 'table_view'
+  'tablet': 'tablet'
+  'tablet_android': 'tablet_android'
+  'tablet_mac': 'tablet_mac'
+  'tabs': 'tabs'
+  'tactic': 'tactic'
+  'tag': 'tag'
+  'tag_faces': 'tag_faces'
+  'takeout_dining': 'takeout_dining'
+  'tamper_detection_off': 'tamper_detection_off'
+  'tamper_detection_on': 'tamper_detection_on'
+  'tap_and_play': 'tap_and_play'
+  'tapas': 'tapas'
+  'target': 'target'
+  'task': 'task'
+  'task_alt': 'task_alt'
+  'taunt': 'taunt'
+  'taxi_alert': 'taxi_alert'
+  'team_dashboard': 'team_dashboard'
+  'temp_preferences_eco': 'temp_preferences_eco'
+  'temple_buddhist': 'temple_buddhist'
+  'temple_hindu': 'temple_hindu'
+  'tenancy': 'tenancy'
+  'terminal': 'terminal'
+  'terrain': 'terrain'
+  'text_ad': 'text_ad'
+  'text_decrease': 'text_decrease'
+  'text_fields': 'text_fields'
+  'text_fields_alt': 'text_fields_alt'
+  'text_format': 'text_format'
+  'text_increase': 'text_increase'
+  'text_rotate_up': 'text_rotate_up'
+  'text_rotate_vertical': 'text_rotate_vertical'
+  'text_rotation_angledown': 'text_rotation_angledown'
+  'text_rotation_angleup': 'text_rotation_angleup'
+  'text_rotation_down': 'text_rotation_down'
+  'text_rotation_none': 'text_rotation_none'
+  'text_select_end': 'text_select_end'
+  'text_select_jump_to_beginning': 'text_select_jump_to_beginning'
+  'text_select_jump_to_end': 'text_select_jump_to_end'
+  'text_select_move_back_character': 'text_select_move_back_character'
+  'text_select_move_back_word': 'text_select_move_back_word'
+  'text_select_move_down': 'text_select_move_down'
+  'text_select_move_forward_character': 'text_select_move_forward_character'
+  'text_select_move_forward_word': 'text_select_move_forward_word'
+  'text_select_move_up': 'text_select_move_up'
+  'text_select_start': 'text_select_start'
+  'text_snippet': 'text_snippet'
+  'text_to_speech': 'text_to_speech'
+  'textsms': 'textsms'
+  'texture': 'texture'
+  'texture_add': 'texture_add'
+  'texture_minus': 'texture_minus'
+  'theater_comedy': 'theater_comedy'
+  'theaters': 'theaters'
+  'thermometer': 'thermometer'
+  'thermometer_add': 'thermometer_add'
+  'thermometer_gain': 'thermometer_gain'
+  'thermometer_loss': 'thermometer_loss'
+  'thermometer_minus': 'thermometer_minus'
+  'thermostat': 'thermostat'
+  'thermostat_auto': 'thermostat_auto'
+  'thermostat_carbon': 'thermostat_carbon'
+  'things_to_do': 'things_to_do'
+  'thumb_down': 'thumb_down'
+  'thumb_down_alt': 'thumb_down_alt'
+  'thumb_down_off_alt': 'thumb_down_off_alt'
+  'thumb_up': 'thumb_up'
+  'thumb_up_alt': 'thumb_up_alt'
+  'thumb_up_off_alt': 'thumb_up_off_alt'
+  'thumbnail_bar': 'thumbnail_bar'
+  'thumbs_up_down': 'thumbs_up_down'
+  'thunderstorm': 'thunderstorm'
+  'tibia': 'tibia'
+  'tibia_alt': 'tibia_alt'
+  'time_auto': 'time_auto'
+  'time_to_leave': 'time_to_leave'
+  'timelapse': 'timelapse'
+  'timeline': 'timeline'
+  'timer': 'timer'
+  'timer_10': 'timer_10'
+  'timer_10_alt_1': 'timer_10_alt_1'
+  'timer_10_select': 'timer_10_select'
+  'timer_3': 'timer_3'
+  'timer_3_alt_1': 'timer_3_alt_1'
+  'timer_3_select': 'timer_3_select'
+  'timer_off': 'timer_off'
+  'tips_and_updates': 'tips_and_updates'
+  'tire_repair': 'tire_repair'
+  'title': 'title'
+  'toast': 'toast'
+  'toc': 'toc'
+  'today': 'today'
+  'toggle_off': 'toggle_off'
+  'toggle_on': 'toggle_on'
+  'token': 'token'
+  'toll': 'toll'
+  'tonality': 'tonality'
+  'toolbar': 'toolbar'
+  'tools_flat_head': 'tools_flat_head'
+  'tools_installation_kit': 'tools_installation_kit'
+  'tools_ladder': 'tools_ladder'
+  'tools_level': 'tools_level'
+  'tools_phillips': 'tools_phillips'
+  'tools_pliers_wire_stripper': 'tools_pliers_wire_stripper'
+  'tools_power_drill': 'tools_power_drill'
+  'tooltip': 'tooltip'
+  'top_panel_close': 'top_panel_close'
+  'top_panel_open': 'top_panel_open'
+  'topic': 'topic'
+  'tornado': 'tornado'
+  'total_dissolved_solids': 'total_dissolved_solids'
+  'touch_app': 'touch_app'
+  'touchpad_mouse': 'touchpad_mouse'
+  'tour': 'tour'
+  'toys': 'toys'
+  'toys_and_games': 'toys_and_games'
+  'toys_fan': 'toys_fan'
+  'track_changes': 'track_changes'
+  'traffic': 'traffic'
+  'trail_length': 'trail_length'
+  'trail_length_medium': 'trail_length_medium'
+  'trail_length_short': 'trail_length_short'
+  'train': 'train'
+  'tram': 'tram'
+  'transcribe': 'transcribe'
+  'transfer_within_a_station': 'transfer_within_a_station'
+  'transform': 'transform'
+  'transgender': 'transgender'
+  'transit_enterexit': 'transit_enterexit'
+  'transition_chop': 'transition_chop'
+  'transition_dissolve': 'transition_dissolve'
+  'transition_fade': 'transition_fade'
+  'transition_push': 'transition_push'
+  'transition_slide': 'transition_slide'
+  'translate': 'translate'
+  'transportation': 'transportation'
+  'travel': 'travel'
+  'travel_explore': 'travel_explore'
+  'travel_luggage_and_bags': 'travel_luggage_and_bags'
+  'trending_down': 'trending_down'
+  'trending_flat': 'trending_flat'
+  'trending_up': 'trending_up'
+  'trip': 'trip'
+  'trip_origin': 'trip_origin'
+  'trolley': 'trolley'
+  'trophy': 'trophy'
+  'troubleshoot': 'troubleshoot'
+  'try': 'try'
+  'tsunami': 'tsunami'
+  'tsv': 'tsv'
+  'tty': 'tty'
+  'tune': 'tune'
+  'tungsten': 'tungsten'
+  'turn_left': 'turn_left'
+  'turn_right': 'turn_right'
+  'turn_sharp_left': 'turn_sharp_left'
+  'turn_sharp_right': 'turn_sharp_right'
+  'turn_slight_left': 'turn_slight_left'
+  'turn_slight_right': 'turn_slight_right'
+  'turned_in': 'turned_in'
+  'turned_in_not': 'turned_in_not'
+  'tv': 'tv'
+  'tv_gen': 'tv_gen'
+  'tv_guide': 'tv_guide'
+  'tv_off': 'tv_off'
+  'tv_options_edit_channels': 'tv_options_edit_channels'
+  'tv_options_input_settings': 'tv_options_input_settings'
+  'tv_remote': 'tv_remote'
+  'tv_signin': 'tv_signin'
+  'tv_with_assistant': 'tv_with_assistant'
+  'two_pager': 'two_pager'
+  'two_wheeler': 'two_wheeler'
+  'type_specimen': 'type_specimen'
+  'u_turn_left': 'u_turn_left'
+  'u_turn_right': 'u_turn_right'
+  'ulna_radius': 'ulna_radius'
+  'ulna_radius_alt': 'ulna_radius_alt'
+  'umbrella': 'umbrella'
+  'unarchive': 'unarchive'
+  'undo': 'undo'
+  'unfold_less': 'unfold_less'
+  'unfold_less_double': 'unfold_less_double'
+  'unfold_more': 'unfold_more'
+  'unfold_more_double': 'unfold_more_double'
+  'ungroup': 'ungroup'
+  'universal_currency': 'universal_currency'
+  'universal_currency_alt': 'universal_currency_alt'
+  'universal_local': 'universal_local'
+  'unknown_2': 'unknown_2'
+  'unknown_5': 'unknown_5'
+  'unknown_document': 'unknown_document'
+  'unknown_med': 'unknown_med'
+  'unlicense': 'unlicense'
+  'unpublished': 'unpublished'
+  'unsubscribe': 'unsubscribe'
+  'upcoming': 'upcoming'
+  'update': 'update'
+  'update_disabled': 'update_disabled'
+  'upgrade': 'upgrade'
+  'upload': 'upload'
+  'upload_2': 'upload_2'
+  'upload_file': 'upload_file'
+  'urology': 'urology'
+  'usb': 'usb'
+  'usb_off': 'usb_off'
+  'user_attributes': 'user_attributes'
+  'vaccines': 'vaccines'
+  'vacuum': 'vacuum'
+  'valve': 'valve'
+  'vape_free': 'vape_free'
+  'vaping_rooms': 'vaping_rooms'
+  'variable_add': 'variable_add'
+  'variable_insert': 'variable_insert'
+  'variable_remove': 'variable_remove'
+  'variables': 'variables'
+  'ventilator': 'ventilator'
+  'verified': 'verified'
+  'verified_user': 'verified_user'
+  'vertical_align_bottom': 'vertical_align_bottom'
+  'vertical_align_center': 'vertical_align_center'
+  'vertical_align_top': 'vertical_align_top'
+  'vertical_distribute': 'vertical_distribute'
+  'vertical_shades': 'vertical_shades'
+  'vertical_shades_closed': 'vertical_shades_closed'
+  'vertical_split': 'vertical_split'
+  'vibration': 'vibration'
+  'video_call': 'video_call'
+  'video_camera_back': 'video_camera_back'
+  'video_camera_front': 'video_camera_front'
+  'video_camera_front_off': 'video_camera_front_off'
+  'video_chat': 'video_chat'
+  'video_file': 'video_file'
+  'video_label': 'video_label'
+  'video_library': 'video_library'
+  'video_search': 'video_search'
+  'video_settings': 'video_settings'
+  'video_stable': 'video_stable'
+  'videocam': 'videocam'
+  'videocam_off': 'videocam_off'
+  'videogame_asset': 'videogame_asset'
+  'videogame_asset_off': 'videogame_asset_off'
+  'view_agenda': 'view_agenda'
+  'view_array': 'view_array'
+  'view_carousel': 'view_carousel'
+  'view_column': 'view_column'
+  'view_column_2': 'view_column_2'
+  'view_comfy': 'view_comfy'
+  'view_comfy_alt': 'view_comfy_alt'
+  'view_compact': 'view_compact'
+  'view_compact_alt': 'view_compact_alt'
+  'view_cozy': 'view_cozy'
+  'view_day': 'view_day'
+  'view_headline': 'view_headline'
+  'view_in_ar': 'view_in_ar'
+  'view_in_ar_off': 'view_in_ar_off'
+  'view_kanban': 'view_kanban'
+  'view_list': 'view_list'
+  'view_module': 'view_module'
+  'view_quilt': 'view_quilt'
+  'view_sidebar': 'view_sidebar'
+  'view_stream': 'view_stream'
+  'view_timeline': 'view_timeline'
+  'view_week': 'view_week'
+  'vignette': 'vignette'
+  'villa': 'villa'
+  'visibility': 'visibility'
+  'visibility_lock': 'visibility_lock'
+  'visibility_off': 'visibility_off'
+  'vital_signs': 'vital_signs'
+  'voice_chat': 'voice_chat'
+  'voice_over_off': 'voice_over_off'
+  'voice_selection': 'voice_selection'
+  'voicemail': 'voicemail'
+  'volcano': 'volcano'
+  'volume_down': 'volume_down'
+  'volume_down_alt': 'volume_down_alt'
+  'volume_mute': 'volume_mute'
+  'volume_off': 'volume_off'
+  'volume_up': 'volume_up'
+  'volunteer_activism': 'volunteer_activism'
+  'voting_chip': 'voting_chip'
+  'vpn_key': 'vpn_key'
+  'vpn_key_alert': 'vpn_key_alert'
+  'vpn_key_off': 'vpn_key_off'
+  'vpn_lock': 'vpn_lock'
+  'vr180_create2d': 'vr180_create2d'
+  'vr180_create2d_off': 'vr180_create2d_off'
+  'vrpano': 'vrpano'
+  'wall_art': 'wall_art'
+  'wall_lamp': 'wall_lamp'
+  'wallet': 'wallet'
+  'wallpaper': 'wallpaper'
+  'wallpaper_slideshow': 'wallpaper_slideshow'
+  'ward': 'ward'
+  'warehouse': 'warehouse'
+  'warning': 'warning'
+  'warning_amber': 'warning_amber'
+  'warning_off': 'warning_off'
+  'wash': 'wash'
+  'watch': 'watch'
+  'watch_button_press': 'watch_button_press'
+  'watch_later': 'watch_later'
+  'watch_off': 'watch_off'
+  'watch_screentime': 'watch_screentime'
+  'watch_wake': 'watch_wake'
+  'water': 'water'
+  'water_bottle': 'water_bottle'
+  'water_bottle_large': 'water_bottle_large'
+  'water_damage': 'water_damage'
+  'water_do': 'water_do'
+  'water_drop': 'water_drop'
+  'water_ec': 'water_ec'
+  'water_full': 'water_full'
+  'water_heater': 'water_heater'
+  'water_lock': 'water_lock'
+  'water_loss': 'water_loss'
+  'water_lux': 'water_lux'
+  'water_medium': 'water_medium'
+  'water_orp': 'water_orp'
+  'water_ph': 'water_ph'
+  'water_pump': 'water_pump'
+  'water_voc': 'water_voc'
+  'waterfall_chart': 'waterfall_chart'
+  'waves': 'waves'
+  'waving_hand': 'waving_hand'
+  'wb_auto': 'wb_auto'
+  'wb_cloudy': 'wb_cloudy'
+  'wb_incandescent': 'wb_incandescent'
+  'wb_iridescent': 'wb_iridescent'
+  'wb_shade': 'wb_shade'
+  'wb_sunny': 'wb_sunny'
+  'wb_twighlight': 'wb_twighlight'
+  'wb_twilight': 'wb_twilight'
+  'wc': 'wc'
+  'weather_hail': 'weather_hail'
+  'weather_mix': 'weather_mix'
+  'weather_snowy': 'weather_snowy'
+  'web': 'web'
+  'web_asset': 'web_asset'
+  'web_asset_off': 'web_asset_off'
+  'web_stories': 'web_stories'
+  'web_traffic': 'web_traffic'
+  'webhook': 'webhook'
+  'weekend': 'weekend'
+  'weight': 'weight'
+  'west': 'west'
+  'whatshot': 'whatshot'
+  'wheelchair_pickup': 'wheelchair_pickup'
+  'where_to_vote': 'where_to_vote'
+  'widgets': 'widgets'
+  'width': 'width'
+  'width_full': 'width_full'
+  'width_normal': 'width_normal'
+  'width_wide': 'width_wide'
+  'wifi': 'wifi'
+  'wifi_1_bar': 'wifi_1_bar'
+  'wifi_2_bar': 'wifi_2_bar'
+  'wifi_add': 'wifi_add'
+  'wifi_calling': 'wifi_calling'
+  'wifi_calling_1': 'wifi_calling_1'
+  'wifi_calling_2': 'wifi_calling_2'
+  'wifi_calling_3': 'wifi_calling_3'
+  'wifi_channel': 'wifi_channel'
+  'wifi_find': 'wifi_find'
+  'wifi_home': 'wifi_home'
+  'wifi_lock': 'wifi_lock'
+  'wifi_notification': 'wifi_notification'
+  'wifi_off': 'wifi_off'
+  'wifi_password': 'wifi_password'
+  'wifi_protected_setup': 'wifi_protected_setup'
+  'wifi_proxy': 'wifi_proxy'
+  'wifi_tethering': 'wifi_tethering'
+  'wifi_tethering_error': 'wifi_tethering_error'
+  'wifi_tethering_off': 'wifi_tethering_off'
+  'wind_power': 'wind_power'
+  'window': 'window'
+  'window_closed': 'window_closed'
+  'window_open': 'window_open'
+  'window_sensor': 'window_sensor'
+  'wine_bar': 'wine_bar'
+  'woman': 'woman'
+  'woman_2': 'woman_2'
+  'work': 'work'
+  'work_alert': 'work_alert'
+  'work_history': 'work_history'
+  'work_off': 'work_off'
+  'work_outline': 'work_outline'
+  'work_update': 'work_update'
+  'workspace_premium': 'workspace_premium'
+  'workspaces': 'workspaces'
+  'workspaces_filled': 'workspaces_filled'
+  'workspaces_outline': 'workspaces_outline'
+  'wounds_injuries': 'wounds_injuries'
+  'wrap_text': 'wrap_text'
+  'wrist': 'wrist'
+  'wrong_location': 'wrong_location'
+  'wysiwyg': 'wysiwyg'
+  'yard': 'yard'
+  'your_trips': 'your_trips'
+  'youtube_activity': 'youtube_activity'
+  'youtube_searched_for': 'youtube_searched_for'
+  'zone_person_alert': 'zone_person_alert'
+  'zone_person_idle': 'zone_person_idle'
+  'zone_person_urgent': 'zone_person_urgent'
+  'zoom_in': 'zoom_in'
+  'zoom_in_map': 'zoom_in_map'
+  'zoom_out': 'zoom_out'
+  'zoom_out_map': 'zoom_out_map'
 };
 
 export const icons: Icons = {
@@ -2140,11 +3458,13 @@ export const icons: Icons = {
   '1k': '1k',
   '1k_plus': '1k_plus',
   '1x_mobiledata': '1x_mobiledata',
+  '1x_mobiledata_badge': '1x_mobiledata_badge',
   '20mp': '20mp',
   '21mp': '21mp',
   '22mp': '22mp',
   '23mp': '23mp',
   '24mp': '24mp',
+  '2d': '2d',
   '2k': '2k',
   '2k_plus': '2k_plus',
   '2mp': '2mp',
@@ -2153,16 +3473,20 @@ export const icons: Icons = {
   '360': '360',
   '3d_rotation': '3d_rotation',
   '3g_mobiledata': '3g_mobiledata',
+  '3g_mobiledata_badge': '3g_mobiledata_badge',
   '3k': '3k',
   '3k_plus': '3k_plus',
   '3mp': '3mp',
   '3p': '3p',
   '4g_mobiledata': '4g_mobiledata',
+  '4g_mobiledata_badge': '4g_mobiledata_badge',
   '4g_plus_mobiledata': '4g_plus_mobiledata',
   '4k': '4k',
   '4k_plus': '4k_plus',
   '4mp': '4mp',
+  '50mp': '50mp',
   '5g': '5g',
+  '5g_mobiledata_badge': '5g_mobiledata_badge',
   '5k': '5k',
   '5k_plus': '5k_plus',
   '5mp': '5mp',
@@ -2194,16 +3518,28 @@ export const icons: Icons = {
   'account_balance': 'account_balance',
   'account_balance_wallet': 'account_balance_wallet',
   'account_box': 'account_box',
+  'account_child': 'account_child',
+  'account_child_invert': 'account_child_invert',
   'account_circle': 'account_circle',
+  'account_circle_off': 'account_circle_off',
   'account_tree': 'account_tree',
+  'action_key': 'action_key',
+  'activity_zone': 'activity_zone',
+  'acute': 'acute',
+  'ad': 'ad',
+  'ad_group': 'ad_group',
+  'ad_group_off': 'ad_group_off',
+  'ad_off': 'ad_off',
   'ad_units': 'ad_units',
   'adb': 'adb',
   'add': 'add',
   'add_a_photo': 'add_a_photo',
+  'add_ad': 'add_ad',
   'add_alarm': 'add_alarm',
   'add_alert': 'add_alert',
   'add_box': 'add_box',
   'add_business': 'add_business',
+  'add_call': 'add_call',
   'add_card': 'add_card',
   'add_chart': 'add_chart',
   'add_circle': 'add_circle',
@@ -2216,6 +3552,7 @@ export const icons: Icons = {
   'add_location': 'add_location',
   'add_location_alt': 'add_location_alt',
   'add_moderator': 'add_moderator',
+  'add_notes': 'add_notes',
   'add_photo_alternate': 'add_photo_alternate',
   'add_reaction': 'add_reaction',
   'add_road': 'add_road',
@@ -2228,10 +3565,15 @@ export const icons: Icons = {
   'addchart': 'addchart',
   'adf_scanner': 'adf_scanner',
   'adjust': 'adjust',
+  'admin_meds': 'admin_meds',
   'admin_panel_settings': 'admin_panel_settings',
   'ads_click': 'ads_click',
+  'agender': 'agender',
   'agriculture': 'agriculture',
   'air': 'air',
+  'air_freshener': 'air_freshener',
+  'air_purifier': 'air_purifier',
+  'air_purifier_gen': 'air_purifier_gen',
   'airline_seat_flat': 'airline_seat_flat',
   'airline_seat_flat_angled': 'airline_seat_flat_angled',
   'airline_seat_individual_suite': 'airline_seat_individual_suite',
@@ -2247,40 +3589,83 @@ export const icons: Icons = {
   'airplanemode_inactive': 'airplanemode_inactive',
   'airplay': 'airplay',
   'airport_shuttle': 'airport_shuttle',
+  'airware': 'airware',
+  'airwave': 'airwave',
   'alarm': 'alarm',
   'alarm_add': 'alarm_add',
   'alarm_off': 'alarm_off',
   'alarm_on': 'alarm_on',
+  'alarm_smart_wake': 'alarm_smart_wake',
   'album': 'album',
+  'align_center': 'align_center',
+  'align_end': 'align_end',
+  'align_flex_center': 'align_flex_center',
+  'align_flex_end': 'align_flex_end',
+  'align_flex_start': 'align_flex_start',
   'align_horizontal_center': 'align_horizontal_center',
   'align_horizontal_left': 'align_horizontal_left',
   'align_horizontal_right': 'align_horizontal_right',
+  'align_items_stretch': 'align_items_stretch',
+  'align_justify_center': 'align_justify_center',
+  'align_justify_flex_end': 'align_justify_flex_end',
+  'align_justify_flex_start': 'align_justify_flex_start',
+  'align_justify_space_around': 'align_justify_space_around',
+  'align_justify_space_between': 'align_justify_space_between',
+  'align_justify_space_even': 'align_justify_space_even',
+  'align_justify_stretch': 'align_justify_stretch',
+  'align_self_stretch': 'align_self_stretch',
+  'align_space_around': 'align_space_around',
+  'align_space_between': 'align_space_between',
+  'align_space_even': 'align_space_even',
+  'align_start': 'align_start',
+  'align_stretch': 'align_stretch',
   'align_vertical_bottom': 'align_vertical_bottom',
   'align_vertical_center': 'align_vertical_center',
   'align_vertical_top': 'align_vertical_top',
   'all_inbox': 'all_inbox',
   'all_inclusive': 'all_inclusive',
+  'all_match': 'all_match',
   'all_out': 'all_out',
+  'allergies': 'allergies',
+  'allergy': 'allergy',
   'alt_route': 'alt_route',
   'alternate_email': 'alternate_email',
+  'altitude': 'altitude',
+  'ambulance': 'ambulance',
+  'amend': 'amend',
+  'amp_stories': 'amp_stories',
   'analytics': 'analytics',
   'anchor': 'anchor',
   'android': 'android',
   'animation': 'animation',
   'announcement': 'announcement',
   'aod': 'aod',
+  'aod_tablet': 'aod_tablet',
+  'aod_watch': 'aod_watch',
   'apartment': 'apartment',
   'api': 'api',
+  'apk_document': 'apk_document',
+  'apk_install': 'apk_install',
+  'app_badging': 'app_badging',
   'app_blocking': 'app_blocking',
+  'app_promo': 'app_promo',
   'app_registration': 'app_registration',
   'app_settings_alt': 'app_settings_alt',
   'app_shortcut': 'app_shortcut',
+  'apparel': 'apparel',
   'approval': 'approval',
+  'approval_delegation': 'approval_delegation',
   'apps': 'apps',
   'apps_outage': 'apps_outage',
+  'aq': 'aq',
+  'aq_indoor': 'aq_indoor',
+  'ar_on_you': 'ar_on_you',
+  'ar_stickers': 'ar_stickers',
   'architecture': 'architecture',
   'archive': 'archive',
   'area_chart': 'area_chart',
+  'arming_countdown': 'arming_countdown',
+  'arrow_and_edge': 'arrow_and_edge',
   'arrow_back': 'arrow_back',
   'arrow_back_ios': 'arrow_back_ios',
   'arrow_back_ios_new': 'arrow_back_ios_new',
@@ -2289,21 +3674,37 @@ export const icons: Icons = {
   'arrow_circle_right': 'arrow_circle_right',
   'arrow_circle_up': 'arrow_circle_up',
   'arrow_downward': 'arrow_downward',
+  'arrow_downward_alt': 'arrow_downward_alt',
   'arrow_drop_down': 'arrow_drop_down',
   'arrow_drop_down_circle': 'arrow_drop_down_circle',
   'arrow_drop_up': 'arrow_drop_up',
   'arrow_forward': 'arrow_forward',
   'arrow_forward_ios': 'arrow_forward_ios',
+  'arrow_insert': 'arrow_insert',
   'arrow_left': 'arrow_left',
+  'arrow_left_alt': 'arrow_left_alt',
+  'arrow_or_edge': 'arrow_or_edge',
   'arrow_outward': 'arrow_outward',
+  'arrow_range': 'arrow_range',
   'arrow_right': 'arrow_right',
   'arrow_right_alt': 'arrow_right_alt',
+  'arrow_selector_tool': 'arrow_selector_tool',
+  'arrow_split': 'arrow_split',
+  'arrow_top_left': 'arrow_top_left',
+  'arrow_top_right': 'arrow_top_right',
   'arrow_upward': 'arrow_upward',
+  'arrow_upward_alt': 'arrow_upward_alt',
+  'arrows_more_down': 'arrows_more_down',
+  'arrows_more_up': 'arrows_more_up',
+  'arrows_outward': 'arrows_outward',
   'art_track': 'art_track',
   'article': 'article',
+  'article_shortcut': 'article_shortcut',
+  'artist': 'artist',
   'aspect_ratio': 'aspect_ratio',
   'assessment': 'assessment',
   'assignment': 'assignment',
+  'assignment_add': 'assignment_add',
   'assignment_ind': 'assignment_ind',
   'assignment_late': 'assignment_late',
   'assignment_return': 'assignment_return',
@@ -2311,17 +3712,25 @@ export const icons: Icons = {
   'assignment_turned_in': 'assignment_turned_in',
   'assist_walker': 'assist_walker',
   'assistant': 'assistant',
+  'assistant_device': 'assistant_device',
   'assistant_direction': 'assistant_direction',
+  'assistant_navigation': 'assistant_navigation',
+  'assistant_on_hub': 'assistant_on_hub',
   'assistant_photo': 'assistant_photo',
   'assured_workload': 'assured_workload',
+  'asterisk': 'asterisk',
   'atm': 'atm',
+  'atr': 'atr',
   'attach_email': 'attach_email',
   'attach_file': 'attach_file',
+  'attach_file_add': 'attach_file_add',
   'attach_money': 'attach_money',
   'attachment': 'attachment',
   'attractions': 'attractions',
   'attribution': 'attribution',
+  'audio_description': 'audio_description',
   'audio_file': 'audio_file',
+  'audio_video_receiver': 'audio_video_receiver',
   'audiotrack': 'audiotrack',
   'auto_awesome': 'auto_awesome',
   'auto_awesome_mosaic': 'auto_awesome_mosaic',
@@ -2332,38 +3741,89 @@ export const icons: Icons = {
   'auto_fix_off': 'auto_fix_off',
   'auto_graph': 'auto_graph',
   'auto_mode': 'auto_mode',
+  'auto_read_pause': 'auto_read_pause',
+  'auto_read_play': 'auto_read_play',
   'auto_stories': 'auto_stories',
+  'auto_towing': 'auto_towing',
+  'auto_transmission': 'auto_transmission',
   'autofps_select': 'autofps_select',
+  'autopause': 'autopause',
+  'autoplay': 'autoplay',
   'autorenew': 'autorenew',
+  'autostop': 'autostop',
   'av_timer': 'av_timer',
+  'avg_pace': 'avg_pace',
+  'avg_time': 'avg_time',
+  'award_star': 'award_star',
+  'azm': 'azm',
   'baby_changing_station': 'baby_changing_station',
   'back_hand': 'back_hand',
+  'back_to_tab': 'back_to_tab',
+  'background_dot_large': 'background_dot_large',
+  'background_dot_small': 'background_dot_small',
+  'background_grid_small': 'background_grid_small',
+  'background_replace': 'background_replace',
+  'backlight_high': 'backlight_high',
+  'backlight_low': 'backlight_low',
   'backpack': 'backpack',
   'backspace': 'backspace',
   'backup': 'backup',
   'backup_table': 'backup_table',
   'badge': 'badge',
+  'badge_critical_battery': 'badge_critical_battery',
   'bakery_dining': 'bakery_dining',
   'balance': 'balance',
   'balcony': 'balcony',
   'ballot': 'ballot',
   'bar_chart': 'bar_chart',
+  'bar_chart_4_bars': 'bar_chart_4_bars',
+  'barcode': 'barcode',
+  'barcode_reader': 'barcode_reader',
+  'barcode_scanner': 'barcode_scanner',
+  'barefoot': 'barefoot',
   'batch_prediction': 'batch_prediction',
+  'bath_outdoor': 'bath_outdoor',
+  'bath_private': 'bath_private',
+  'bath_public_large': 'bath_public_large',
   'bathroom': 'bathroom',
   'bathtub': 'bathtub',
   'battery_0_bar': 'battery_0_bar',
   'battery_1_bar': 'battery_1_bar',
+  'battery_20': 'battery_20',
   'battery_2_bar': 'battery_2_bar',
+  'battery_30': 'battery_30',
   'battery_3_bar': 'battery_3_bar',
   'battery_4_bar': 'battery_4_bar',
+  'battery_50': 'battery_50',
   'battery_5_bar': 'battery_5_bar',
+  'battery_60': 'battery_60',
   'battery_6_bar': 'battery_6_bar',
+  'battery_80': 'battery_80',
+  'battery_90': 'battery_90',
   'battery_alert': 'battery_alert',
+  'battery_change': 'battery_change',
+  'battery_charging_20': 'battery_charging_20',
+  'battery_charging_30': 'battery_charging_30',
+  'battery_charging_50': 'battery_charging_50',
+  'battery_charging_60': 'battery_charging_60',
+  'battery_charging_80': 'battery_charging_80',
+  'battery_charging_90': 'battery_charging_90',
   'battery_charging_full': 'battery_charging_full',
+  'battery_error': 'battery_error',
   'battery_full': 'battery_full',
+  'battery_full_alt': 'battery_full_alt',
+  'battery_horiz_000': 'battery_horiz_000',
+  'battery_horiz_050': 'battery_horiz_050',
+  'battery_horiz_075': 'battery_horiz_075',
+  'battery_low': 'battery_low',
+  'battery_plus': 'battery_plus',
+  'battery_profile': 'battery_profile',
   'battery_saver': 'battery_saver',
+  'battery_share': 'battery_share',
+  'battery_status_good': 'battery_status_good',
   'battery_std': 'battery_std',
   'battery_unknown': 'battery_unknown',
+  'battery_very_low': 'battery_very_low',
   'beach_access': 'beach_access',
   'bed': 'bed',
   'bedroom_baby': 'bedroom_baby',
@@ -2373,13 +3833,20 @@ export const icons: Icons = {
   'bedtime_off': 'bedtime_off',
   'beenhere': 'beenhere',
   'bento': 'bento',
+  'bia': 'bia',
+  'bid_landscape': 'bid_landscape',
+  'bid_landscape_disabled': 'bid_landscape_disabled',
+  'bigtop_updates': 'bigtop_updates',
   'bike_scooter': 'bike_scooter',
   'biotech': 'biotech',
+  'blanket': 'blanket',
   'blender': 'blender',
   'blind': 'blind',
   'blinds': 'blinds',
   'blinds_closed': 'blinds_closed',
   'block': 'block',
+  'block_flipped': 'block_flipped',
+  'blood_pressure': 'blood_pressure',
   'bloodtype': 'bloodtype',
   'bluetooth': 'bluetooth',
   'bluetooth_audio': 'bluetooth_audio',
@@ -2389,15 +3856,25 @@ export const icons: Icons = {
   'bluetooth_searching': 'bluetooth_searching',
   'blur_circular': 'blur_circular',
   'blur_linear': 'blur_linear',
+  'blur_medium': 'blur_medium',
   'blur_off': 'blur_off',
   'blur_on': 'blur_on',
+  'blur_short': 'blur_short',
+  'body_fat': 'body_fat',
+  'body_system': 'body_system',
   'bolt': 'bolt',
+  'bomb': 'bomb',
   'book': 'book',
+  'book_2': 'book_2',
+  'book_3': 'book_3',
+  'book_4': 'book_4',
+  'book_5': 'book_5',
   'book_online': 'book_online',
   'bookmark': 'bookmark',
   'bookmark_add': 'bookmark_add',
   'bookmark_added': 'bookmark_added',
   'bookmark_border': 'bookmark_border',
+  'bookmark_manager': 'bookmark_manager',
   'bookmark_remove': 'bookmark_remove',
   'bookmarks': 'bookmarks',
   'border_all': 'border_all',
@@ -2412,9 +3889,23 @@ export const icons: Icons = {
   'border_style': 'border_style',
   'border_top': 'border_top',
   'border_vertical': 'border_vertical',
+  'bottom_app_bar': 'bottom_app_bar',
+  'bottom_drawer': 'bottom_drawer',
+  'bottom_navigation': 'bottom_navigation',
+  'bottom_panel_close': 'bottom_panel_close',
+  'bottom_panel_open': 'bottom_panel_open',
+  'bottom_right_click': 'bottom_right_click',
+  'bottom_sheets': 'bottom_sheets',
+  'box': 'box',
+  'box_add': 'box_add',
+  'box_edit': 'box_edit',
   'boy': 'boy',
+  'brand_awareness': 'brand_awareness',
   'branding_watermark': 'branding_watermark',
   'breakfast_dining': 'breakfast_dining',
+  'breaking_news': 'breaking_news',
+  'breaking_news_alt_1': 'breaking_news_alt_1',
+  'breastfeeding': 'breastfeeding',
   'brightness_1': 'brightness_1',
   'brightness_2': 'brightness_2',
   'brightness_3': 'brightness_3',
@@ -2422,19 +3913,26 @@ export const icons: Icons = {
   'brightness_5': 'brightness_5',
   'brightness_6': 'brightness_6',
   'brightness_7': 'brightness_7',
+  'brightness_alert': 'brightness_alert',
   'brightness_auto': 'brightness_auto',
+  'brightness_empty': 'brightness_empty',
   'brightness_high': 'brightness_high',
   'brightness_low': 'brightness_low',
   'brightness_medium': 'brightness_medium',
+  'bring_your_own_ip': 'bring_your_own_ip',
   'broadcast_on_home': 'broadcast_on_home',
   'broadcast_on_personal': 'broadcast_on_personal',
   'broken_image': 'broken_image',
+  'browse': 'browse',
+  'browse_activity': 'browse_activity',
   'browse_gallery': 'browse_gallery',
   'browser_not_supported': 'browser_not_supported',
   'browser_updated': 'browser_updated',
   'brunch_dining': 'brunch_dining',
   'brush': 'brush',
+  'bubble': 'bubble',
   'bubble_chart': 'bubble_chart',
+  'bubbles': 'bubbles',
   'bug_report': 'bug_report',
   'build': 'build',
   'build_circle': 'build_circle',
@@ -2443,11 +3941,18 @@ export const icons: Icons = {
   'bus_alert': 'bus_alert',
   'business': 'business',
   'business_center': 'business_center',
+  'business_chip': 'business_chip',
+  'business_messages': 'business_messages',
+  'buttons_alt': 'buttons_alt',
   'cabin': 'cabin',
   'cable': 'cable',
   'cached': 'cached',
   'cake': 'cake',
+  'cake_add': 'cake_add',
   'calculate': 'calculate',
+  'calendar_add_on': 'calendar_add_on',
+  'calendar_apps_script': 'calendar_apps_script',
+  'calendar_clock': 'calendar_clock',
   'calendar_month': 'calendar_month',
   'calendar_today': 'calendar_today',
   'calendar_view_day': 'calendar_view_day',
@@ -2455,10 +3960,12 @@ export const icons: Icons = {
   'calendar_view_week': 'calendar_view_week',
   'call': 'call',
   'call_end': 'call_end',
+  'call_log': 'call_log',
   'call_made': 'call_made',
   'call_merge': 'call_merge',
   'call_missed': 'call_missed',
   'call_missed_outgoing': 'call_missed_outgoing',
+  'call_quality': 'call_quality',
   'call_received': 'call_received',
   'call_split': 'call_split',
   'call_to_action': 'call_to_action',
@@ -2470,28 +3977,42 @@ export const icons: Icons = {
   'camera_outdoor': 'camera_outdoor',
   'camera_rear': 'camera_rear',
   'camera_roll': 'camera_roll',
+  'camera_video': 'camera_video',
   'cameraswitch': 'cameraswitch',
   'campaign': 'campaign',
+  'camping': 'camping',
   'cancel': 'cancel',
   'cancel_presentation': 'cancel_presentation',
   'cancel_schedule_send': 'cancel_schedule_send',
+  'candle': 'candle',
   'candlestick_chart': 'candlestick_chart',
+  'captive_portal': 'captive_portal',
+  'capture': 'capture',
   'car_crash': 'car_crash',
   'car_rental': 'car_rental',
   'car_repair': 'car_repair',
   'card_giftcard': 'card_giftcard',
   'card_membership': 'card_membership',
   'card_travel': 'card_travel',
+  'cardiology': 'cardiology',
+  'cards': 'cards',
   'carpenter': 'carpenter',
+  'carry_on_bag': 'carry_on_bag',
+  'carry_on_bag_checked': 'carry_on_bag_checked',
+  'carry_on_bag_inactive': 'carry_on_bag_inactive',
+  'carry_on_bag_question': 'carry_on_bag_question',
   'cases': 'cases',
   'casino': 'casino',
   'cast': 'cast',
   'cast_connected': 'cast_connected',
   'cast_for_education': 'cast_for_education',
+  'cast_pause': 'cast_pause',
+  'cast_warning': 'cast_warning',
   'castle': 'castle',
   'catching_pokemon': 'catching_pokemon',
   'category': 'category',
   'celebration': 'celebration',
+  'cell_merge': 'cell_merge',
   'cell_tower': 'cell_tower',
   'cell_wifi': 'cell_wifi',
   'center_focus_strong': 'center_focus_strong',
@@ -2501,33 +4022,70 @@ export const icons: Icons = {
   'chalet': 'chalet',
   'change_circle': 'change_circle',
   'change_history': 'change_history',
+  'charger': 'charger',
   'charging_station': 'charging_station',
+  'chart_data': 'chart_data',
   'chat': 'chat',
+  'chat_add_on': 'chat_add_on',
+  'chat_apps_script': 'chat_apps_script',
   'chat_bubble': 'chat_bubble',
   'chat_bubble_outline': 'chat_bubble_outline',
+  'chat_error': 'chat_error',
+  'chat_info': 'chat_info',
+  'chat_paste_go': 'chat_paste_go',
   'check': 'check',
   'check_box': 'check_box',
   'check_box_outline_blank': 'check_box_outline_blank',
   'check_circle': 'check_circle',
   'check_circle_outline': 'check_circle_outline',
+  'check_in_out': 'check_in_out',
+  'check_indeterminate_small': 'check_indeterminate_small',
+  'check_small': 'check_small',
+  'checkbook': 'checkbook',
+  'checked_bag': 'checked_bag',
+  'checked_bag_question': 'checked_bag_question',
   'checklist': 'checklist',
   'checklist_rtl': 'checklist_rtl',
   'checkroom': 'checkroom',
+  'cheer': 'cheer',
+  'chess': 'chess',
   'chevron_left': 'chevron_left',
   'chevron_right': 'chevron_right',
   'child_care': 'child_care',
   'child_friendly': 'child_friendly',
+  'chip_extraction': 'chip_extraction',
+  'chips': 'chips',
   'chrome_reader_mode': 'chrome_reader_mode',
+  'chromecast_2': 'chromecast_2',
+  'chromecast_device': 'chromecast_device',
+  'chronic': 'chronic',
   'church': 'church',
+  'cinematic_blur': 'cinematic_blur',
   'circle': 'circle',
   'circle_notifications': 'circle_notifications',
+  'circles': 'circles',
+  'circles_ext': 'circles_ext',
+  'clarify': 'clarify',
   'class': 'class',
   'clean_hands': 'clean_hands',
+  'cleaning': 'cleaning',
+  'cleaning_bucket': 'cleaning_bucket',
   'cleaning_services': 'cleaning_services',
   'clear': 'clear',
   'clear_all': 'clear_all',
+  'clear_day': 'clear_day',
+  'clear_night': 'clear_night',
+  'climate_mini_split': 'climate_mini_split',
+  'clinical_notes': 'clinical_notes',
+  'clock_loader_10': 'clock_loader_10',
+  'clock_loader_20': 'clock_loader_20',
+  'clock_loader_40': 'clock_loader_40',
+  'clock_loader_60': 'clock_loader_60',
+  'clock_loader_80': 'clock_loader_80',
+  'clock_loader_90': 'clock_loader_90',
   'close': 'close',
   'close_fullscreen': 'close_fullscreen',
+  'close_small': 'close_small',
   'closed_caption': 'closed_caption',
   'closed_caption_disabled': 'closed_caption_disabled',
   'closed_caption_off': 'closed_caption_off',
@@ -2539,28 +4097,41 @@ export const icons: Icons = {
   'cloud_queue': 'cloud_queue',
   'cloud_sync': 'cloud_sync',
   'cloud_upload': 'cloud_upload',
+  'cloudy_snowing': 'cloudy_snowing',
   'co2': 'co2',
   'co_present': 'co_present',
   'code': 'code',
+  'code_blocks': 'code_blocks',
   'code_off': 'code_off',
   'coffee': 'coffee',
   'coffee_maker': 'coffee_maker',
+  'cognition': 'cognition',
+  'collapse_all': 'collapse_all',
+  'collapse_content': 'collapse_content',
   'collections': 'collections',
   'collections_bookmark': 'collections_bookmark',
   'color_lens': 'color_lens',
   'colorize': 'colorize',
+  'colors': 'colors',
+  'comic_bubble': 'comic_bubble',
   'comment': 'comment',
   'comment_bank': 'comment_bank',
   'comments_disabled': 'comments_disabled',
   'commit': 'commit',
+  'communication': 'communication',
+  'communities': 'communities',
   'commute': 'commute',
   'compare': 'compare',
   'compare_arrows': 'compare_arrows',
   'compass_calibration': 'compass_calibration',
+  'component_exchange': 'component_exchange',
   'compost': 'compost',
   'compress': 'compress',
   'computer': 'computer',
+  'concierge': 'concierge',
+  'conditions': 'conditions',
   'confirmation_number': 'confirmation_number',
+  'congenital': 'congenital',
   'connect_without_contact': 'connect_without_contact',
   'connected_tv': 'connected_tv',
   'connecting_airports': 'connecting_airports',
@@ -2571,27 +4142,52 @@ export const icons: Icons = {
   'contact_phone': 'contact_phone',
   'contact_support': 'contact_support',
   'contactless': 'contactless',
+  'contactless_off': 'contactless_off',
   'contacts': 'contacts',
+  'contacts_product': 'contacts_product',
   'content_copy': 'content_copy',
   'content_cut': 'content_cut',
   'content_paste': 'content_paste',
   'content_paste_go': 'content_paste_go',
   'content_paste_off': 'content_paste_off',
   'content_paste_search': 'content_paste_search',
+  'contract': 'contract',
+  'contract_delete': 'contract_delete',
+  'contract_edit': 'contract_edit',
   'contrast': 'contrast',
+  'contrast_rtl_off': 'contrast_rtl_off',
   'control_camera': 'control_camera',
   'control_point': 'control_point',
   'control_point_duplicate': 'control_point_duplicate',
+  'controller_gen': 'controller_gen',
+  'conversion_path': 'conversion_path',
+  'conversion_path_off': 'conversion_path_off',
+  'conveyor_belt': 'conveyor_belt',
   'cookie': 'cookie',
+  'cookie_off': 'cookie_off',
+  'cooking': 'cooking',
+  'cool_to_dry': 'cool_to_dry',
   'copy_all': 'copy_all',
   'copyright': 'copyright',
   'coronavirus': 'coronavirus',
   'corporate_fare': 'corporate_fare',
   'cottage': 'cottage',
+  'counter_0': 'counter_0',
+  'counter_1': 'counter_1',
+  'counter_2': 'counter_2',
+  'counter_3': 'counter_3',
+  'counter_4': 'counter_4',
+  'counter_5': 'counter_5',
+  'counter_6': 'counter_6',
+  'counter_7': 'counter_7',
+  'counter_8': 'counter_8',
+  'counter_9': 'counter_9',
   'countertops': 'countertops',
   'create': 'create',
   'create_new_folder': 'create_new_folder',
   'credit_card': 'credit_card',
+  'credit_card_gear': 'credit_card_gear',
+  'credit_card_heart': 'credit_card_heart',
   'credit_card_off': 'credit_card_off',
   'credit_score': 'credit_score',
   'crib': 'crib',
@@ -2601,6 +4197,7 @@ export const icons: Icons = {
   'crop_3_2': 'crop_3_2',
   'crop_5_4': 'crop_5_4',
   'crop_7_5': 'crop_7_5',
+  'crop_9_16': 'crop_9_16',
   'crop_din': 'crop_din',
   'crop_free': 'crop_free',
   'crop_landscape': 'crop_landscape',
@@ -2608,8 +4205,11 @@ export const icons: Icons = {
   'crop_portrait': 'crop_portrait',
   'crop_rotate': 'crop_rotate',
   'crop_square': 'crop_square',
+  'crossword': 'crossword',
+  'crowdsource': 'crowdsource',
   'cruelty_free': 'cruelty_free',
   'css': 'css',
+  'csv': 'csv',
   'currency_bitcoin': 'currency_bitcoin',
   'currency_exchange': 'currency_exchange',
   'currency_franc': 'currency_franc',
@@ -2621,57 +4221,101 @@ export const icons: Icons = {
   'currency_yuan': 'currency_yuan',
   'curtains': 'curtains',
   'curtains_closed': 'curtains_closed',
+  'custom_typography': 'custom_typography',
+  'cut': 'cut',
+  'cycle': 'cycle',
   'cyclone': 'cyclone',
   'dangerous': 'dangerous',
   'dark_mode': 'dark_mode',
   'dashboard': 'dashboard',
   'dashboard_customize': 'dashboard_customize',
+  'data_alert': 'data_alert',
   'data_array': 'data_array',
+  'data_check': 'data_check',
   'data_exploration': 'data_exploration',
+  'data_info_alert': 'data_info_alert',
+  'data_loss_prevention': 'data_loss_prevention',
   'data_object': 'data_object',
   'data_saver_off': 'data_saver_off',
   'data_saver_on': 'data_saver_on',
+  'data_table': 'data_table',
   'data_thresholding': 'data_thresholding',
   'data_usage': 'data_usage',
+  'database': 'database',
   'dataset': 'dataset',
   'dataset_linked': 'dataset_linked',
   'date_range': 'date_range',
   'deblur': 'deblur',
+  'deceased': 'deceased',
+  'decimal_decrease': 'decimal_decrease',
+  'decimal_increase': 'decimal_increase',
   'deck': 'deck',
   'dehaze': 'dehaze',
   'delete': 'delete',
   'delete_forever': 'delete_forever',
+  'delete_history': 'delete_history',
   'delete_outline': 'delete_outline',
   'delete_sweep': 'delete_sweep',
   'delivery_dining': 'delivery_dining',
+  'demography': 'demography',
   'density_large': 'density_large',
   'density_medium': 'density_medium',
   'density_small': 'density_small',
+  'dentistry': 'dentistry',
   'departure_board': 'departure_board',
+  'deployed_code': 'deployed_code',
+  'deployed_code_account': 'deployed_code_account',
+  'deployed_code_alert': 'deployed_code_alert',
+  'deployed_code_history': 'deployed_code_history',
+  'deployed_code_update': 'deployed_code_update',
+  'dermatology': 'dermatology',
   'description': 'description',
   'deselect': 'deselect',
   'design_services': 'design_services',
   'desk': 'desk',
+  'deskphone': 'deskphone',
   'desktop_access_disabled': 'desktop_access_disabled',
   'desktop_mac': 'desktop_mac',
   'desktop_windows': 'desktop_windows',
+  'destruction': 'destruction',
   'details': 'details',
+  'detection_and_zone': 'detection_and_zone',
+  'detector': 'detector',
+  'detector_alarm': 'detector_alarm',
+  'detector_battery': 'detector_battery',
+  'detector_co': 'detector_co',
+  'detector_offline': 'detector_offline',
+  'detector_smoke': 'detector_smoke',
+  'detector_status': 'detector_status',
   'developer_board': 'developer_board',
   'developer_board_off': 'developer_board_off',
+  'developer_guide': 'developer_guide',
   'developer_mode': 'developer_mode',
+  'developer_mode_tv': 'developer_mode_tv',
   'device_hub': 'device_hub',
+  'device_reset': 'device_reset',
   'device_thermostat': 'device_thermostat',
   'device_unknown': 'device_unknown',
   'devices': 'devices',
   'devices_fold': 'devices_fold',
+  'devices_off': 'devices_off',
   'devices_other': 'devices_other',
+  'devices_wearables': 'devices_wearables',
+  'dew_point': 'dew_point',
+  'diagnosis': 'diagnosis',
   'dialer_sip': 'dialer_sip',
+  'dialogs': 'dialogs',
   'dialpad': 'dialpad',
   'diamond': 'diamond',
+  'dictionary': 'dictionary',
   'difference': 'difference',
+  'digital_out_of_home': 'digital_out_of_home',
+  'digital_wellbeing': 'digital_wellbeing',
   'dining': 'dining',
   'dinner_dining': 'dinner_dining',
   'directions': 'directions',
+  'directions_alt': 'directions_alt',
+  'directions_alt_off': 'directions_alt_off',
   'directions_bike': 'directions_bike',
   'directions_boat': 'directions_boat',
   'directions_boat_filled': 'directions_boat_filled',
@@ -2688,15 +4332,22 @@ export const icons: Icons = {
   'directions_transit': 'directions_transit',
   'directions_transit_filled': 'directions_transit_filled',
   'directions_walk': 'directions_walk',
+  'directory_sync': 'directory_sync',
   'dirty_lens': 'dirty_lens',
   'disabled_by_default': 'disabled_by_default',
   'disabled_visible': 'disabled_visible',
   'disc_full': 'disc_full',
   'discount': 'discount',
+  'discover_tune': 'discover_tune',
+  'dishwasher': 'dishwasher',
+  'dishwasher_gen': 'dishwasher_gen',
+  'display_external_input': 'display_external_input',
   'display_settings': 'display_settings',
+  'distance': 'distance',
   'diversity_1': 'diversity_1',
   'diversity_2': 'diversity_2',
   'diversity_3': 'diversity_3',
+  'diversity_4': 'diversity_4',
   'dns': 'dns',
   'do_disturb': 'do_disturb',
   'do_disturb_alt': 'do_disturb_alt',
@@ -2710,11 +4361,18 @@ export const icons: Icons = {
   'do_not_step': 'do_not_step',
   'do_not_touch': 'do_not_touch',
   'dock': 'dock',
+  'dock_to_bottom': 'dock_to_bottom',
+  'dock_to_left': 'dock_to_left',
+  'dock_to_right': 'dock_to_right',
+  'docs_add_on': 'docs_add_on',
+  'docs_apps_script': 'docs_apps_script',
   'document_scanner': 'document_scanner',
   'domain': 'domain',
   'domain_add': 'domain_add',
   'domain_disabled': 'domain_disabled',
   'domain_verification': 'domain_verification',
+  'domain_verification_off': 'domain_verification_off',
+  'domino_mask': 'domino_mask',
   'done': 'done',
   'done_all': 'done_all',
   'done_outline': 'done_outline',
@@ -2722,44 +4380,71 @@ export const icons: Icons = {
   'donut_small': 'donut_small',
   'door_back': 'door_back',
   'door_front': 'door_front',
+  'door_open': 'door_open',
+  'door_sensor': 'door_sensor',
   'door_sliding': 'door_sliding',
   'doorbell': 'doorbell',
+  'doorbell_3p': 'doorbell_3p',
+  'doorbell_chime': 'doorbell_chime',
   'double_arrow': 'double_arrow',
   'downhill_skiing': 'downhill_skiing',
   'download': 'download',
+  'download_2': 'download_2',
   'download_done': 'download_done',
   'download_for_offline': 'download_for_offline',
   'downloading': 'downloading',
+  'draft': 'draft',
+  'draft_orders': 'draft_orders',
   'drafts': 'drafts',
+  'drag_click': 'drag_click',
   'drag_handle': 'drag_handle',
   'drag_indicator': 'drag_indicator',
+  'drag_pan': 'drag_pan',
   'draw': 'draw',
+  'draw_abstract': 'draw_abstract',
+  'draw_collage': 'draw_collage',
+  'dresser': 'dresser',
   'drive_eta': 'drive_eta',
   'drive_file_move': 'drive_file_move',
+  'drive_file_move_outline': 'drive_file_move_outline',
   'drive_file_move_rtl': 'drive_file_move_rtl',
   'drive_file_rename_outline': 'drive_file_rename_outline',
   'drive_folder_upload': 'drive_folder_upload',
+  'dropdown': 'dropdown',
   'dry': 'dry',
   'dry_cleaning': 'dry_cleaning',
+  'dual_screen': 'dual_screen',
   'duo': 'duo',
   'dvr': 'dvr',
   'dynamic_feed': 'dynamic_feed',
   'dynamic_form': 'dynamic_form',
+  'e911_avatar': 'e911_avatar',
+  'e911_emergency': 'e911_emergency',
   'e_mobiledata': 'e_mobiledata',
+  'e_mobiledata_badge': 'e_mobiledata_badge',
   'earbuds': 'earbuds',
   'earbuds_battery': 'earbuds_battery',
+  'early_on': 'early_on',
+  'earthquake': 'earthquake',
   'east': 'east',
+  'ecg': 'ecg',
+  'ecg_heart': 'ecg_heart',
+  'eco': 'eco',
+  'eda': 'eda',
   'edgesensor_high': 'edgesensor_high',
   'edgesensor_low': 'edgesensor_low',
   'edit': 'edit',
   'edit_attributes': 'edit_attributes',
   'edit_calendar': 'edit_calendar',
+  'edit_document': 'edit_document',
   'edit_location': 'edit_location',
   'edit_location_alt': 'edit_location_alt',
   'edit_note': 'edit_note',
   'edit_notifications': 'edit_notifications',
   'edit_off': 'edit_off',
   'edit_road': 'edit_road',
+  'edit_square': 'edit_square',
+  'editor_choice': 'editor_choice',
   'egg': 'egg',
   'egg_alt': 'egg_alt',
   'eject': 'eject',
@@ -2773,44 +4458,79 @@ export const icons: Icons = {
   'electric_rickshaw': 'electric_rickshaw',
   'electric_scooter': 'electric_scooter',
   'electrical_services': 'electrical_services',
+  'elevation': 'elevation',
   'elevator': 'elevator',
   'email': 'email',
   'emergency': 'emergency',
+  'emergency_heat': 'emergency_heat',
+  'emergency_home': 'emergency_home',
   'emergency_recording': 'emergency_recording',
   'emergency_share': 'emergency_share',
+  'emergency_share_off': 'emergency_share_off',
   'emoji_emotions': 'emoji_emotions',
   'emoji_events': 'emoji_events',
+  'emoji_flags': 'emoji_flags',
   'emoji_food_beverage': 'emoji_food_beverage',
   'emoji_nature': 'emoji_nature',
   'emoji_objects': 'emoji_objects',
   'emoji_people': 'emoji_people',
   'emoji_symbols': 'emoji_symbols',
   'emoji_transportation': 'emoji_transportation',
+  'emoticon': 'emoticon',
+  'empty_dashboard': 'empty_dashboard',
+  'enable': 'enable',
+  'encrypted': 'encrypted',
+  'endocrinology': 'endocrinology',
+  'energy': 'energy',
+  'energy_program_saving': 'energy_program_saving',
+  'energy_program_time_used': 'energy_program_time_used',
   'energy_savings_leaf': 'energy_savings_leaf',
   'engineering': 'engineering',
   'enhanced_encryption': 'enhanced_encryption',
+  'ent': 'ent',
+  'enterprise': 'enterprise',
+  'enterprise_off': 'enterprise_off',
+  'equal': 'equal',
   'equalizer': 'equalizer',
   'error': 'error',
+  'error_med': 'error_med',
   'error_outline': 'error_outline',
   'escalator': 'escalator',
   'escalator_warning': 'escalator_warning',
   'euro': 'euro',
   'euro_symbol': 'euro_symbol',
+  'ev_charger': 'ev_charger',
+  'ev_mobiledata_badge': 'ev_mobiledata_badge',
+  'ev_shadow': 'ev_shadow',
+  'ev_shadow_add': 'ev_shadow_add',
+  'ev_shadow_minus': 'ev_shadow_minus',
   'ev_station': 'ev_station',
   'event': 'event',
   'event_available': 'event_available',
   'event_busy': 'event_busy',
+  'event_list': 'event_list',
   'event_note': 'event_note',
   'event_repeat': 'event_repeat',
   'event_seat': 'event_seat',
+  'event_upcoming': 'event_upcoming',
+  'exclamation': 'exclamation',
+  'exercise': 'exercise',
   'exit_to_app': 'exit_to_app',
   'expand': 'expand',
+  'expand_all': 'expand_all',
   'expand_circle_down': 'expand_circle_down',
+  'expand_circle_right': 'expand_circle_right',
+  'expand_circle_up': 'expand_circle_up',
+  'expand_content': 'expand_content',
   'expand_less': 'expand_less',
   'expand_more': 'expand_more',
+  'experiment': 'experiment',
   'explicit': 'explicit',
   'explore': 'explore',
+  'explore_nearby': 'explore_nearby',
   'explore_off': 'explore_off',
+  'explosion': 'explosion',
+  'export_notes': 'export_notes',
   'exposure': 'exposure',
   'exposure_neg_1': 'exposure_neg_1',
   'exposure_neg_2': 'exposure_neg_2',
@@ -2819,6 +4539,7 @@ export const icons: Icons = {
   'exposure_zero': 'exposure_zero',
   'extension': 'extension',
   'extension_off': 'extension_off',
+  'eyeglasses': 'eyeglasses',
   'face': 'face',
   'face_2': 'face_2',
   'face_3': 'face_3',
@@ -2827,21 +4548,35 @@ export const icons: Icons = {
   'face_6': 'face_6',
   'face_retouching_natural': 'face_retouching_natural',
   'face_retouching_off': 'face_retouching_off',
+  'face_unlock': 'face_unlock',
   'fact_check': 'fact_check',
   'factory': 'factory',
+  'falling': 'falling',
+  'familiar_face_and_zone': 'familiar_face_and_zone',
+  'family_history': 'family_history',
+  'family_home': 'family_home',
+  'family_link': 'family_link',
   'family_restroom': 'family_restroom',
+  'family_star': 'family_star',
+  'farsight_digital': 'farsight_digital',
   'fast_forward': 'fast_forward',
   'fast_rewind': 'fast_rewind',
   'fastfood': 'fastfood',
+  'faucet': 'faucet',
   'favorite': 'favorite',
   'favorite_border': 'favorite_border',
   'fax': 'fax',
+  'feature_search': 'feature_search',
   'featured_play_list': 'featured_play_list',
+  'featured_seasonal_and_gifts': 'featured_seasonal_and_gifts',
   'featured_video': 'featured_video',
   'feed': 'feed',
   'feedback': 'feedback',
   'female': 'female',
+  'femur': 'femur',
+  'femur_alt': 'femur_alt',
   'fence': 'fence',
+  'fertile': 'fertile',
   'festival': 'festival',
   'fiber_dvr': 'fiber_dvr',
   'fiber_manual_record': 'fiber_manual_record',
@@ -2852,9 +4587,13 @@ export const icons: Icons = {
   'file_download': 'file_download',
   'file_download_done': 'file_download_done',
   'file_download_off': 'file_download_off',
+  'file_map': 'file_map',
   'file_open': 'file_open',
   'file_present': 'file_present',
+  'file_save': 'file_save',
+  'file_save_off': 'file_save_off',
   'file_upload': 'file_upload',
+  'file_upload_off': 'file_upload_off',
   'filter': 'filter',
   'filter_1': 'filter_1',
   'filter_2': 'filter_2',
@@ -2874,19 +4613,27 @@ export const icons: Icons = {
   'filter_frames': 'filter_frames',
   'filter_hdr': 'filter_hdr',
   'filter_list': 'filter_list',
+  'filter_list_alt': 'filter_list_alt',
   'filter_list_off': 'filter_list_off',
   'filter_none': 'filter_none',
+  'filter_retrolux': 'filter_retrolux',
   'filter_tilt_shift': 'filter_tilt_shift',
   'filter_vintage': 'filter_vintage',
+  'finance': 'finance',
+  'finance_chip': 'finance_chip',
+  'finance_mode': 'finance_mode',
   'find_in_page': 'find_in_page',
   'find_replace': 'find_replace',
   'fingerprint': 'fingerprint',
   'fire_extinguisher': 'fire_extinguisher',
+  'fire_hydrant': 'fire_hydrant',
   'fire_hydrant_alt': 'fire_hydrant_alt',
   'fire_truck': 'fire_truck',
   'fireplace': 'fireplace',
   'first_page': 'first_page',
+  'fit_page': 'fit_page',
   'fit_screen': 'fit_screen',
+  'fit_width': 'fit_width',
   'fitbit': 'fitbit',
   'fitness_center': 'fitness_center',
   'flag': 'flag',
@@ -2899,35 +4646,56 @@ export const icons: Icons = {
   'flashlight_off': 'flashlight_off',
   'flashlight_on': 'flashlight_on',
   'flatware': 'flatware',
+  'flex_direction': 'flex_direction',
+  'flex_no_wrap': 'flex_no_wrap',
+  'flex_wrap': 'flex_wrap',
   'flight': 'flight',
   'flight_class': 'flight_class',
   'flight_land': 'flight_land',
   'flight_takeoff': 'flight_takeoff',
+  'flights_and_hotels': 'flights_and_hotels',
+  'flightsmode': 'flightsmode',
   'flip': 'flip',
   'flip_camera_android': 'flip_camera_android',
   'flip_camera_ios': 'flip_camera_ios',
   'flip_to_back': 'flip_to_back',
   'flip_to_front': 'flip_to_front',
   'flood': 'flood',
+  'floor': 'floor',
+  'floor_lamp': 'floor_lamp',
+  'flowsheet': 'flowsheet',
+  'fluid': 'fluid',
+  'fluid_balance': 'fluid_balance',
+  'fluid_med': 'fluid_med',
   'fluorescent': 'fluorescent',
+  'flutter': 'flutter',
   'flutter_dash': 'flutter_dash',
   'fmd_bad': 'fmd_bad',
   'fmd_good': 'fmd_good',
+  'foggy': 'foggy',
+  'folded_hands': 'folded_hands',
   'folder': 'folder',
   'folder_copy': 'folder_copy',
+  'folder_data': 'folder_data',
   'folder_delete': 'folder_delete',
+  'folder_managed': 'folder_managed',
   'folder_off': 'folder_off',
   'folder_open': 'folder_open',
   'folder_shared': 'folder_shared',
   'folder_special': 'folder_special',
+  'folder_supervised': 'folder_supervised',
   'folder_zip': 'folder_zip',
   'follow_the_signs': 'follow_the_signs',
   'font_download': 'font_download',
   'font_download_off': 'font_download_off',
   'food_bank': 'food_bank',
+  'foot_bones': 'foot_bones',
+  'footprint': 'footprint',
+  'for_you': 'for_you',
   'forest': 'forest',
   'fork_left': 'fork_left',
   'fork_right': 'fork_right',
+  'forklift': 'forklift',
   'format_align_center': 'format_align_center',
   'format_align_justify': 'format_align_justify',
   'format_align_left': 'format_align_left',
@@ -2937,51 +4705,106 @@ export const icons: Icons = {
   'format_color_fill': 'format_color_fill',
   'format_color_reset': 'format_color_reset',
   'format_color_text': 'format_color_text',
+  'format_h1': 'format_h1',
+  'format_h2': 'format_h2',
+  'format_h3': 'format_h3',
+  'format_h4': 'format_h4',
+  'format_h5': 'format_h5',
+  'format_h6': 'format_h6',
+  'format_image_left': 'format_image_left',
+  'format_image_right': 'format_image_right',
   'format_indent_decrease': 'format_indent_decrease',
   'format_indent_increase': 'format_indent_increase',
+  'format_ink_highlighter': 'format_ink_highlighter',
   'format_italic': 'format_italic',
+  'format_letter_spacing': 'format_letter_spacing',
+  'format_letter_spacing_2': 'format_letter_spacing_2',
+  'format_letter_spacing_standard': 'format_letter_spacing_standard',
+  'format_letter_spacing_wide': 'format_letter_spacing_wide',
+  'format_letter_spacing_wider': 'format_letter_spacing_wider',
   'format_line_spacing': 'format_line_spacing',
   'format_list_bulleted': 'format_list_bulleted',
+  'format_list_bulleted_add': 'format_list_bulleted_add',
   'format_list_numbered': 'format_list_numbered',
   'format_list_numbered_rtl': 'format_list_numbered_rtl',
   'format_overline': 'format_overline',
   'format_paint': 'format_paint',
+  'format_paragraph': 'format_paragraph',
   'format_quote': 'format_quote',
   'format_shapes': 'format_shapes',
   'format_size': 'format_size',
   'format_strikethrough': 'format_strikethrough',
+  'format_text_clip': 'format_text_clip',
+  'format_text_overflow': 'format_text_overflow',
+  'format_text_wrap': 'format_text_wrap',
   'format_textdirection_l_to_r': 'format_textdirection_l_to_r',
   'format_textdirection_r_to_l': 'format_textdirection_r_to_l',
   'format_underlined': 'format_underlined',
+  'format_underlined_squiggle': 'format_underlined_squiggle',
+  'forms_add_on': 'forms_add_on',
+  'forms_apps_script': 'forms_apps_script',
   'fort': 'fort',
   'forum': 'forum',
   'forward': 'forward',
   'forward_10': 'forward_10',
   'forward_30': 'forward_30',
   'forward_5': 'forward_5',
+  'forward_circle': 'forward_circle',
+  'forward_media': 'forward_media',
   'forward_to_inbox': 'forward_to_inbox',
   'foundation': 'foundation',
+  'frame_inspect': 'frame_inspect',
+  'frame_person': 'frame_person',
+  'frame_person_off': 'frame_person_off',
+  'frame_reload': 'frame_reload',
+  'frame_source': 'frame_source',
   'free_breakfast': 'free_breakfast',
   'free_cancellation': 'free_cancellation',
   'front_hand': 'front_hand',
+  'front_loader': 'front_loader',
+  'full_coverage': 'full_coverage',
+  'full_hd': 'full_hd',
+  'full_stacked_bar_chart': 'full_stacked_bar_chart',
   'fullscreen': 'fullscreen',
   'fullscreen_exit': 'fullscreen_exit',
+  'function': 'function',
   'functions': 'functions',
   'g_mobiledata': 'g_mobiledata',
+  'g_mobiledata_badge': 'g_mobiledata_badge',
   'g_translate': 'g_translate',
+  'gallery_thumbnail': 'gallery_thumbnail',
   'gamepad': 'gamepad',
   'games': 'games',
   'garage': 'garage',
+  'garage_door': 'garage_door',
+  'garage_home': 'garage_home',
+  'garden_cart': 'garden_cart',
   'gas_meter': 'gas_meter',
+  'gastroenterology': 'gastroenterology',
+  'gate': 'gate',
   'gavel': 'gavel',
+  'general_device': 'general_device',
   'generating_tokens': 'generating_tokens',
+  'genetics': 'genetics',
+  'genres': 'genres',
   'gesture': 'gesture',
+  'gesture_select': 'gesture_select',
   'get_app': 'get_app',
   'gif': 'gif',
   'gif_box': 'gif_box',
   'girl': 'girl',
   'gite': 'gite',
+  'glass_cup': 'glass_cup',
+  'globe': 'globe',
+  'globe_asia': 'globe_asia',
+  'globe_uk': 'globe_uk',
+  'glucose': 'glucose',
+  'glyphs': 'glyphs',
+  'go_to_line': 'go_to_line',
   'golf_course': 'golf_course',
+  'google_home_devices': 'google_home_devices',
+  'google_tv_remote': 'google_tv_remote',
+  'google_wifi': 'google_wifi',
   'gpp_bad': 'gpp_bad',
   'gpp_good': 'gpp_good',
   'gpp_maybe': 'gpp_maybe',
@@ -2995,24 +4818,38 @@ export const icons: Icons = {
   'graphic_eq': 'graphic_eq',
   'grass': 'grass',
   'grid_3x3': 'grid_3x3',
+  'grid_3x3_off': 'grid_3x3_off',
   'grid_4x4': 'grid_4x4',
   'grid_goldenratio': 'grid_goldenratio',
+  'grid_guides': 'grid_guides',
   'grid_off': 'grid_off',
   'grid_on': 'grid_on',
   'grid_view': 'grid_view',
+  'grocery': 'grocery',
   'group': 'group',
   'group_add': 'group_add',
   'group_off': 'group_off',
   'group_remove': 'group_remove',
   'group_work': 'group_work',
+  'grouped_bar_chart': 'grouped_bar_chart',
   'groups': 'groups',
   'groups_2': 'groups_2',
   'groups_3': 'groups_3',
+  'gynecology': 'gynecology',
   'h_mobiledata': 'h_mobiledata',
+  'h_mobiledata_badge': 'h_mobiledata_badge',
   'h_plus_mobiledata': 'h_plus_mobiledata',
+  'h_plus_mobiledata_badge': 'h_plus_mobiledata_badge',
   'hail': 'hail',
+  'hallway': 'hallway',
+  'hand_bones': 'hand_bones',
+  'hand_gesture': 'hand_gesture',
   'handshake': 'handshake',
   'handyman': 'handyman',
+  'hangout_video': 'hangout_video',
+  'hangout_video_off': 'hangout_video_off',
+  'hard_drive': 'hard_drive',
+  'hard_drive_2': 'hard_drive_2',
   'hardware': 'hardware',
   'hd': 'hd',
   'hdr_auto': 'hdr_auto',
@@ -3023,6 +4860,7 @@ export const icons: Icons = {
   'hdr_on': 'hdr_on',
   'hdr_on_select': 'hdr_on_select',
   'hdr_plus': 'hdr_plus',
+  'hdr_plus_off': 'hdr_plus_off',
   'hdr_strong': 'hdr_strong',
   'hdr_weak': 'hdr_weak',
   'headphones': 'headphones',
@@ -3031,23 +4869,47 @@ export const icons: Icons = {
   'headset_mic': 'headset_mic',
   'headset_off': 'headset_off',
   'healing': 'healing',
+  'health_and_beauty': 'health_and_beauty',
   'health_and_safety': 'health_and_safety',
+  'health_metrics': 'health_metrics',
+  'heap_snapshot_large': 'heap_snapshot_large',
+  'heap_snapshot_multiple': 'heap_snapshot_multiple',
+  'heap_snapshot_thumbnail': 'heap_snapshot_thumbnail',
   'hearing': 'hearing',
   'hearing_disabled': 'hearing_disabled',
   'heart_broken': 'heart_broken',
+  'heart_check': 'heart_check',
+  'heart_minus': 'heart_minus',
+  'heart_plus': 'heart_plus',
+  'heat': 'heat',
   'heat_pump': 'heat_pump',
+  'heat_pump_balance': 'heat_pump_balance',
   'height': 'height',
+  'helicopter': 'helicopter',
   'help': 'help',
   'help_center': 'help_center',
+  'help_clinic': 'help_clinic',
   'help_outline': 'help_outline',
+  'hematology': 'hematology',
   'hevc': 'hevc',
   'hexagon': 'hexagon',
+  'hide': 'hide',
   'hide_image': 'hide_image',
   'hide_source': 'hide_source',
+  'high_density': 'high_density',
   'high_quality': 'high_quality',
+  'high_res': 'high_res',
   'highlight': 'highlight',
   'highlight_alt': 'highlight_alt',
+  'highlight_keyboard_focus': 'highlight_keyboard_focus',
+  'highlight_mouse_cursor': 'highlight_mouse_cursor',
   'highlight_off': 'highlight_off',
+  'highlight_text_cursor': 'highlight_text_cursor',
+  'highlighter_size_1': 'highlighter_size_1',
+  'highlighter_size_2': 'highlighter_size_2',
+  'highlighter_size_3': 'highlighter_size_3',
+  'highlighter_size_4': 'highlighter_size_4',
+  'highlighter_size_5': 'highlighter_size_5',
   'hiking': 'hiking',
   'history': 'history',
   'history_edu': 'history_edu',
@@ -3057,9 +4919,19 @@ export const icons: Icons = {
   'hls_off': 'hls_off',
   'holiday_village': 'holiday_village',
   'home': 'home',
+  'home_and_garden': 'home_and_garden',
+  'home_app_logo': 'home_app_logo',
+  'home_filled': 'home_filled',
+  'home_health': 'home_health',
+  'home_improvement_and_tools': 'home_improvement_and_tools',
+  'home_iot_device': 'home_iot_device',
   'home_max': 'home_max',
+  'home_max_dots': 'home_max_dots',
   'home_mini': 'home_mini',
+  'home_pin': 'home_pin',
   'home_repair_service': 'home_repair_service',
+  'home_speaker': 'home_speaker',
+  'home_storage': 'home_storage',
   'home_work': 'home_work',
   'horizontal_distribute': 'horizontal_distribute',
   'horizontal_rule': 'horizontal_rule',
@@ -3067,6 +4939,7 @@ export const icons: Icons = {
   'hot_tub': 'hot_tub',
   'hotel': 'hotel',
   'hotel_class': 'hotel_class',
+  'hourglass': 'hourglass',
   'hourglass_bottom': 'hourglass_bottom',
   'hourglass_disabled': 'hourglass_disabled',
   'hourglass_empty': 'hourglass_empty',
@@ -3074,29 +4947,59 @@ export const icons: Icons = {
   'hourglass_top': 'hourglass_top',
   'house': 'house',
   'house_siding': 'house_siding',
+  'house_with_shield': 'house_with_shield',
   'houseboat': 'houseboat',
+  'household_supplies': 'household_supplies',
   'how_to_reg': 'how_to_reg',
   'how_to_vote': 'how_to_vote',
+  'hr_resting': 'hr_resting',
   'html': 'html',
   'http': 'http',
   'https': 'https',
   'hub': 'hub',
+  'humerus': 'humerus',
+  'humerus_alt': 'humerus_alt',
+  'humidity_high': 'humidity_high',
+  'humidity_indoor': 'humidity_indoor',
+  'humidity_low': 'humidity_low',
+  'humidity_mid': 'humidity_mid',
+  'humidity_percentage': 'humidity_percentage',
   'hvac': 'hvac',
   'ice_skating': 'ice_skating',
   'icecream': 'icecream',
+  'ifl': 'ifl',
+  'iframe': 'iframe',
+  'iframe_off': 'iframe_off',
   'image': 'image',
   'image_aspect_ratio': 'image_aspect_ratio',
   'image_not_supported': 'image_not_supported',
   'image_search': 'image_search',
   'imagesearch_roller': 'imagesearch_roller',
+  'imagesmode': 'imagesmode',
+  'immunology': 'immunology',
   'import_contacts': 'import_contacts',
   'import_export': 'import_export',
   'important_devices': 'important_devices',
+  'in_home_mode': 'in_home_mode',
+  'inactive_order': 'inactive_order',
   'inbox': 'inbox',
+  'inbox_customize': 'inbox_customize',
   'incomplete_circle': 'incomplete_circle',
   'indeterminate_check_box': 'indeterminate_check_box',
+  'indeterminate_question_box': 'indeterminate_question_box',
   'info': 'info',
+  'info_i': 'info_i',
+  'info_outline': 'info_outline',
+  'infrared': 'infrared',
+  'ink_eraser': 'ink_eraser',
+  'ink_eraser_off': 'ink_eraser_off',
+  'ink_highlighter': 'ink_highlighter',
+  'ink_highlighter_move': 'ink_highlighter_move',
+  'ink_marker': 'ink_marker',
+  'ink_pen': 'ink_pen',
+  'inpatient': 'inpatient',
   'input': 'input',
+  'input_circle': 'input_circle',
   'insert_chart': 'insert_chart',
   'insert_chart_outlined': 'insert_chart_outlined',
   'insert_comment': 'insert_comment',
@@ -3106,28 +5009,39 @@ export const icons: Icons = {
   'insert_link': 'insert_link',
   'insert_page_break': 'insert_page_break',
   'insert_photo': 'insert_photo',
+  'insert_text': 'insert_text',
   'insights': 'insights',
   'install_desktop': 'install_desktop',
   'install_mobile': 'install_mobile',
+  'instant_mix': 'instant_mix',
   'integration_instructions': 'integration_instructions',
+  'interactive_space': 'interactive_space',
   'interests': 'interests',
   'interpreter_mode': 'interpreter_mode',
   'inventory': 'inventory',
   'inventory_2': 'inventory_2',
   'invert_colors': 'invert_colors',
   'invert_colors_off': 'invert_colors_off',
+  'ios': 'ios',
   'ios_share': 'ios_share',
   'iron': 'iron',
   'iso': 'iso',
+  'jamboard_kiosk': 'jamboard_kiosk',
   'javascript': 'javascript',
+  'join': 'join',
   'join_full': 'join_full',
   'join_inner': 'join_inner',
   'join_left': 'join_left',
   'join_right': 'join_right',
+  'joystick': 'joystick',
+  'jump_to_element': 'jump_to_element',
   'kayaking': 'kayaking',
   'kebab_dining': 'kebab_dining',
+  'kettle': 'kettle',
   'key': 'key',
   'key_off': 'key_off',
+  'key_vertical': 'key_vertical',
+  'key_visualizer': 'key_visualizer',
   'keyboard': 'keyboard',
   'keyboard_alt': 'keyboard_alt',
   'keyboard_arrow_down': 'keyboard_arrow_down',
@@ -3136,59 +5050,119 @@ export const icons: Icons = {
   'keyboard_arrow_up': 'keyboard_arrow_up',
   'keyboard_backspace': 'keyboard_backspace',
   'keyboard_capslock': 'keyboard_capslock',
+  'keyboard_capslock_badge': 'keyboard_capslock_badge',
   'keyboard_command_key': 'keyboard_command_key',
   'keyboard_control_key': 'keyboard_control_key',
   'keyboard_double_arrow_down': 'keyboard_double_arrow_down',
   'keyboard_double_arrow_left': 'keyboard_double_arrow_left',
   'keyboard_double_arrow_right': 'keyboard_double_arrow_right',
   'keyboard_double_arrow_up': 'keyboard_double_arrow_up',
+  'keyboard_external_input': 'keyboard_external_input',
+  'keyboard_full': 'keyboard_full',
   'keyboard_hide': 'keyboard_hide',
+  'keyboard_keys': 'keyboard_keys',
+  'keyboard_off': 'keyboard_off',
+  'keyboard_onscreen': 'keyboard_onscreen',
   'keyboard_option_key': 'keyboard_option_key',
+  'keyboard_previous_language': 'keyboard_previous_language',
   'keyboard_return': 'keyboard_return',
   'keyboard_tab': 'keyboard_tab',
+  'keyboard_tab_rtl': 'keyboard_tab_rtl',
   'keyboard_voice': 'keyboard_voice',
+  'kid_star': 'kid_star',
   'king_bed': 'king_bed',
   'kitchen': 'kitchen',
   'kitesurfing': 'kitesurfing',
+  'lab_panel': 'lab_panel',
+  'lab_profile': 'lab_profile',
+  'lab_research': 'lab_research',
   'label': 'label',
   'label_important': 'label_important',
+  'label_important_outline': 'label_important_outline',
   'label_off': 'label_off',
+  'labs': 'labs',
   'lan': 'lan',
   'landscape': 'landscape',
   'landslide': 'landslide',
   'language': 'language',
+  'language_chinese_array': 'language_chinese_array',
+  'language_chinese_cangjie': 'language_chinese_cangjie',
+  'language_chinese_dayi': 'language_chinese_dayi',
+  'language_chinese_pinyin': 'language_chinese_pinyin',
+  'language_chinese_quick': 'language_chinese_quick',
+  'language_chinese_wubi': 'language_chinese_wubi',
+  'language_french': 'language_french',
+  'language_gb_english': 'language_gb_english',
+  'language_international': 'language_international',
+  'language_japanese_kana': 'language_japanese_kana',
+  'language_korean_latin': 'language_korean_latin',
+  'language_pinyin': 'language_pinyin',
+  'language_spanish': 'language_spanish',
+  'language_us': 'language_us',
+  'language_us_colemak': 'language_us_colemak',
+  'language_us_dvorak': 'language_us_dvorak',
+  'laps': 'laps',
   'laptop': 'laptop',
   'laptop_chromebook': 'laptop_chromebook',
   'laptop_mac': 'laptop_mac',
   'laptop_windows': 'laptop_windows',
+  'lasso_select': 'lasso_select',
   'last_page': 'last_page',
   'launch': 'launch',
+  'laundry': 'laundry',
   'layers': 'layers',
   'layers_clear': 'layers_clear',
+  'lda': 'lda',
   'leaderboard': 'leaderboard',
   'leak_add': 'leak_add',
   'leak_remove': 'leak_remove',
+  'left_click': 'left_click',
+  'left_panel_close': 'left_panel_close',
+  'left_panel_open': 'left_panel_open',
   'legend_toggle': 'legend_toggle',
   'lens': 'lens',
   'lens_blur': 'lens_blur',
+  'letter_switch': 'letter_switch',
   'library_add': 'library_add',
   'library_add_check': 'library_add_check',
   'library_books': 'library_books',
   'library_music': 'library_music',
+  'license': 'license',
+  'lift_to_talk': 'lift_to_talk',
   'light': 'light',
+  'light_group': 'light_group',
   'light_mode': 'light_mode',
+  'light_off': 'light_off',
   'lightbulb': 'lightbulb',
   'lightbulb_circle': 'lightbulb_circle',
+  'lightbulb_outline': 'lightbulb_outline',
+  'lightning_stand': 'lightning_stand',
   'line_axis': 'line_axis',
+  'line_curve': 'line_curve',
+  'line_end': 'line_end',
+  'line_end_arrow': 'line_end_arrow',
+  'line_end_arrow_notch': 'line_end_arrow_notch',
+  'line_end_circle': 'line_end_circle',
+  'line_end_diamond': 'line_end_diamond',
+  'line_end_square': 'line_end_square',
+  'line_start': 'line_start',
+  'line_start_arrow': 'line_start_arrow',
+  'line_start_arrow_notch': 'line_start_arrow_notch',
+  'line_start_circle': 'line_start_circle',
+  'line_start_diamond': 'line_start_diamond',
+  'line_start_square': 'line_start_square',
   'line_style': 'line_style',
   'line_weight': 'line_weight',
   'linear_scale': 'linear_scale',
   'link': 'link',
   'link_off': 'link_off',
   'linked_camera': 'linked_camera',
+  'linked_services': 'linked_services',
   'liquor': 'liquor',
   'list': 'list',
   'list_alt': 'list_alt',
+  'list_alt_add': 'list_alt_add',
+  'lists': 'lists',
   'live_help': 'live_help',
   'live_tv': 'live_tv',
   'living': 'living',
@@ -3223,14 +5197,20 @@ export const icons: Icons = {
   'local_see': 'local_see',
   'local_shipping': 'local_shipping',
   'local_taxi': 'local_taxi',
+  'location_away': 'location_away',
+  'location_chip': 'location_chip',
   'location_city': 'location_city',
   'location_disabled': 'location_disabled',
+  'location_home': 'location_home',
   'location_off': 'location_off',
   'location_on': 'location_on',
+  'location_pin': 'location_pin',
   'location_searching': 'location_searching',
   'lock': 'lock',
   'lock_clock': 'lock_clock',
   'lock_open': 'lock_open',
+  'lock_open_right': 'lock_open_right',
+  'lock_outline': 'lock_outline',
   'lock_person': 'lock_person',
   'lock_reset': 'lock_reset',
   'login': 'login',
@@ -3245,14 +5225,22 @@ export const icons: Icons = {
   'looks_two': 'looks_two',
   'loop': 'loop',
   'loupe': 'loupe',
+  'low_density': 'low_density',
   'low_priority': 'low_priority',
   'loyalty': 'loyalty',
   'lte_mobiledata': 'lte_mobiledata',
+  'lte_mobiledata_badge': 'lte_mobiledata_badge',
   'lte_plus_mobiledata': 'lte_plus_mobiledata',
+  'lte_plus_mobiledata_badge': 'lte_plus_mobiledata_badge',
   'luggage': 'luggage',
   'lunch_dining': 'lunch_dining',
   'lyrics': 'lyrics',
+  'macro_auto': 'macro_auto',
   'macro_off': 'macro_off',
+  'magnification_large': 'magnification_large',
+  'magnification_small': 'magnification_small',
+  'magnify_docked': 'magnify_docked',
+  'magnify_fullscreen': 'magnify_fullscreen',
   'mail': 'mail',
   'mail_lock': 'mail_lock',
   'mail_outline': 'mail_outline',
@@ -3264,6 +5252,8 @@ export const icons: Icons = {
   'manage_accounts': 'manage_accounts',
   'manage_history': 'manage_history',
   'manage_search': 'manage_search',
+  'manga': 'manga',
+  'manufacturing': 'manufacturing',
   'map': 'map',
   'maps_home_work': 'maps_home_work',
   'maps_ugc': 'maps_ugc',
@@ -3274,36 +5264,61 @@ export const icons: Icons = {
   'mark_email_read': 'mark_email_read',
   'mark_email_unread': 'mark_email_unread',
   'mark_unread_chat_alt': 'mark_unread_chat_alt',
+  'markdown': 'markdown',
+  'markdown_copy': 'markdown_copy',
+  'markdown_paste': 'markdown_paste',
   'markunread': 'markunread',
   'markunread_mailbox': 'markunread_mailbox',
+  'masked_transitions': 'masked_transitions',
   'masks': 'masks',
+  'match_case': 'match_case',
+  'match_word': 'match_word',
+  'matter': 'matter',
   'maximize': 'maximize',
+  'measuring_tape': 'measuring_tape',
   'media_bluetooth_off': 'media_bluetooth_off',
   'media_bluetooth_on': 'media_bluetooth_on',
+  'media_link': 'media_link',
   'mediation': 'mediation',
   'medical_information': 'medical_information',
+  'medical_mask': 'medical_mask',
   'medical_services': 'medical_services',
   'medication': 'medication',
   'medication_liquid': 'medication_liquid',
   'meeting_room': 'meeting_room',
   'memory': 'memory',
+  'memory_alt': 'memory_alt',
+  'menstrual_health': 'menstrual_health',
   'menu': 'menu',
   'menu_book': 'menu_book',
   'menu_open': 'menu_open',
   'merge': 'merge',
   'merge_type': 'merge_type',
   'message': 'message',
+  'metabolism': 'metabolism',
+  'mfg_nest_yale_lock': 'mfg_nest_yale_lock',
   'mic': 'mic',
+  'mic_double': 'mic_double',
   'mic_external_off': 'mic_external_off',
   'mic_external_on': 'mic_external_on',
   'mic_none': 'mic_none',
   'mic_off': 'mic_off',
+  'microbiology': 'microbiology',
   'microwave': 'microwave',
+  'microwave_gen': 'microwave_gen',
   'military_tech': 'military_tech',
+  'mimo': 'mimo',
+  'mimo_disconnect': 'mimo_disconnect',
+  'mindfulness': 'mindfulness',
   'minimize': 'minimize',
   'minor_crash': 'minor_crash',
+  'mintmark': 'mintmark',
   'miscellaneous_services': 'miscellaneous_services',
   'missed_video_call': 'missed_video_call',
+  'missing_controller': 'missing_controller',
+  'mist': 'mist',
+  'mitre': 'mitre',
+  'mixture_med': 'mixture_med',
   'mms': 'mms',
   'mobile_friendly': 'mobile_friendly',
   'mobile_off': 'mobile_off',
@@ -3311,11 +5326,19 @@ export const icons: Icons = {
   'mobiledata_off': 'mobiledata_off',
   'mode': 'mode',
   'mode_comment': 'mode_comment',
+  'mode_cool': 'mode_cool',
+  'mode_cool_off': 'mode_cool_off',
+  'mode_dual': 'mode_dual',
   'mode_edit': 'mode_edit',
   'mode_edit_outline': 'mode_edit_outline',
+  'mode_fan': 'mode_fan',
   'mode_fan_off': 'mode_fan_off',
+  'mode_heat': 'mode_heat',
+  'mode_heat_cool': 'mode_heat_cool',
+  'mode_heat_off': 'mode_heat_off',
   'mode_night': 'mode_night',
   'mode_of_travel': 'mode_of_travel',
+  'mode_off_on': 'mode_off_on',
   'mode_standby': 'mode_standby',
   'model_training': 'model_training',
   'monetization_on': 'monetization_on',
@@ -3325,36 +5348,66 @@ export const icons: Icons = {
   'monitor': 'monitor',
   'monitor_heart': 'monitor_heart',
   'monitor_weight': 'monitor_weight',
+  'monitor_weight_gain': 'monitor_weight_gain',
+  'monitor_weight_loss': 'monitor_weight_loss',
+  'monitoring': 'monitoring',
   'monochrome_photos': 'monochrome_photos',
   'mood': 'mood',
   'mood_bad': 'mood_bad',
+  'mop': 'mop',
   'moped': 'moped',
   'more': 'more',
+  'more_down': 'more_down',
   'more_horiz': 'more_horiz',
   'more_time': 'more_time',
+  'more_up': 'more_up',
   'more_vert': 'more_vert',
   'mosque': 'mosque',
+  'motion_blur': 'motion_blur',
+  'motion_mode': 'motion_mode',
   'motion_photos_auto': 'motion_photos_auto',
   'motion_photos_off': 'motion_photos_off',
   'motion_photos_on': 'motion_photos_on',
   'motion_photos_pause': 'motion_photos_pause',
   'motion_photos_paused': 'motion_photos_paused',
+  'motion_sensor_active': 'motion_sensor_active',
+  'motion_sensor_alert': 'motion_sensor_alert',
+  'motion_sensor_idle': 'motion_sensor_idle',
+  'motion_sensor_urgent': 'motion_sensor_urgent',
+  'motorcycle': 'motorcycle',
+  'mountain_flag': 'mountain_flag',
   'mouse': 'mouse',
+  'move': 'move',
   'move_down': 'move_down',
+  'move_group': 'move_group',
+  'move_item': 'move_item',
+  'move_location': 'move_location',
+  'move_selection_down': 'move_selection_down',
+  'move_selection_left': 'move_selection_left',
+  'move_selection_right': 'move_selection_right',
+  'move_selection_up': 'move_selection_up',
   'move_to_inbox': 'move_to_inbox',
   'move_up': 'move_up',
+  'moved_location': 'moved_location',
   'movie': 'movie',
   'movie_creation': 'movie_creation',
+  'movie_edit': 'movie_edit',
   'movie_filter': 'movie_filter',
+  'movie_info': 'movie_info',
   'moving': 'moving',
+  'moving_beds': 'moving_beds',
+  'moving_ministry': 'moving_ministry',
   'mp': 'mp',
+  'multicooker': 'multicooker',
   'multiline_chart': 'multiline_chart',
   'multiple_stop': 'multiple_stop',
   'museum': 'museum',
+  'music_cast': 'music_cast',
   'music_note': 'music_note',
   'music_off': 'music_off',
   'music_video': 'music_video',
   'my_location': 'my_location',
+  'mystery': 'mystery',
   'nat': 'nat',
   'nature': 'nature',
   'nature_people': 'nature_people',
@@ -3363,24 +5416,86 @@ export const icons: Icons = {
   'navigation': 'navigation',
   'near_me': 'near_me',
   'near_me_disabled': 'near_me_disabled',
+  'nearby': 'nearby',
   'nearby_error': 'nearby_error',
   'nearby_off': 'nearby_off',
+  'nephrology': 'nephrology',
+  'nest_audio': 'nest_audio',
+  'nest_cam_floodlight': 'nest_cam_floodlight',
+  'nest_cam_indoor': 'nest_cam_indoor',
+  'nest_cam_iq': 'nest_cam_iq',
+  'nest_cam_iq_outdoor': 'nest_cam_iq_outdoor',
+  'nest_cam_magnet_mount': 'nest_cam_magnet_mount',
+  'nest_cam_outdoor': 'nest_cam_outdoor',
+  'nest_cam_stand': 'nest_cam_stand',
+  'nest_cam_wall_mount': 'nest_cam_wall_mount',
   'nest_cam_wired_stand': 'nest_cam_wired_stand',
+  'nest_clock_farsight_analog': 'nest_clock_farsight_analog',
+  'nest_clock_farsight_digital': 'nest_clock_farsight_digital',
+  'nest_connect': 'nest_connect',
+  'nest_detect': 'nest_detect',
+  'nest_display': 'nest_display',
+  'nest_display_max': 'nest_display_max',
+  'nest_doorbell_visitor': 'nest_doorbell_visitor',
+  'nest_eco_leaf': 'nest_eco_leaf',
+  'nest_farsight_weather': 'nest_farsight_weather',
+  'nest_found_savings': 'nest_found_savings',
+  'nest_gale_wifi': 'nest_gale_wifi',
+  'nest_heat_link_e': 'nest_heat_link_e',
+  'nest_heat_link_gen_3': 'nest_heat_link_gen_3',
+  'nest_hello_doorbell': 'nest_hello_doorbell',
+  'nest_mini': 'nest_mini',
+  'nest_multi_room': 'nest_multi_room',
+  'nest_protect': 'nest_protect',
+  'nest_remote': 'nest_remote',
+  'nest_remote_comfort_sensor': 'nest_remote_comfort_sensor',
+  'nest_secure_alarm': 'nest_secure_alarm',
+  'nest_sunblock': 'nest_sunblock',
+  'nest_tag': 'nest_tag',
+  'nest_thermostat': 'nest_thermostat',
+  'nest_thermostat_e_eu': 'nest_thermostat_e_eu',
+  'nest_thermostat_gen_3': 'nest_thermostat_gen_3',
+  'nest_thermostat_sensor': 'nest_thermostat_sensor',
+  'nest_thermostat_sensor_eu': 'nest_thermostat_sensor_eu',
+  'nest_thermostat_zirconium_eu': 'nest_thermostat_zirconium_eu',
+  'nest_true_radiant': 'nest_true_radiant',
+  'nest_wake_on_approach': 'nest_wake_on_approach',
+  'nest_wake_on_press': 'nest_wake_on_press',
+  'nest_wifi_point': 'nest_wifi_point',
+  'nest_wifi_pro': 'nest_wifi_pro',
+  'nest_wifi_pro_2': 'nest_wifi_pro_2',
+  'nest_wifi_router': 'nest_wifi_router',
   'network_cell': 'network_cell',
   'network_check': 'network_check',
+  'network_intelligence_history': 'network_intelligence_history',
+  'network_intelligence_update': 'network_intelligence_update',
   'network_locked': 'network_locked',
+  'network_manage': 'network_manage',
+  'network_node': 'network_node',
   'network_ping': 'network_ping',
   'network_wifi': 'network_wifi',
   'network_wifi_1_bar': 'network_wifi_1_bar',
+  'network_wifi_1_bar_locked': 'network_wifi_1_bar_locked',
   'network_wifi_2_bar': 'network_wifi_2_bar',
+  'network_wifi_2_bar_locked': 'network_wifi_2_bar_locked',
   'network_wifi_3_bar': 'network_wifi_3_bar',
+  'network_wifi_3_bar_locked': 'network_wifi_3_bar_locked',
+  'network_wifi_locked': 'network_wifi_locked',
+  'neurology': 'neurology',
   'new_label': 'new_label',
   'new_releases': 'new_releases',
+  'new_window': 'new_window',
+  'news': 'news',
+  'newsmode': 'newsmode',
   'newspaper': 'newspaper',
+  'newsstand': 'newsstand',
   'next_plan': 'next_plan',
   'next_week': 'next_week',
   'nfc': 'nfc',
   'night_shelter': 'night_shelter',
+  'night_sight_auto': 'night_sight_auto',
+  'night_sight_auto_off': 'night_sight_auto_off',
+  'night_sight_max': 'night_sight_max',
   'nightlife': 'nightlife',
   'nightlight': 'nightlight',
   'nightlight_round': 'nightlight_round',
@@ -3397,60 +5512,105 @@ export const icons: Icons = {
   'no_food': 'no_food',
   'no_luggage': 'no_luggage',
   'no_meals': 'no_meals',
+  'no_meals_ouline': 'no_meals_ouline',
   'no_meeting_room': 'no_meeting_room',
   'no_photography': 'no_photography',
   'no_sim': 'no_sim',
+  'no_sound': 'no_sound',
   'no_stroller': 'no_stroller',
   'no_transfer': 'no_transfer',
   'noise_aware': 'noise_aware',
   'noise_control_off': 'noise_control_off',
+  'noise_control_on': 'noise_control_on',
   'nordic_walking': 'nordic_walking',
   'north': 'north',
   'north_east': 'north_east',
   'north_west': 'north_west',
   'not_accessible': 'not_accessible',
+  'not_accessible_forward': 'not_accessible_forward',
   'not_interested': 'not_interested',
   'not_listed_location': 'not_listed_location',
   'not_started': 'not_started',
   'note': 'note',
   'note_add': 'note_add',
   'note_alt': 'note_alt',
+  'note_stack': 'note_stack',
+  'note_stack_add': 'note_stack_add',
   'notes': 'notes',
   'notification_add': 'notification_add',
   'notification_important': 'notification_important',
+  'notification_multiple': 'notification_multiple',
   'notifications': 'notifications',
   'notifications_active': 'notifications_active',
   'notifications_none': 'notifications_none',
   'notifications_off': 'notifications_off',
   'notifications_paused': 'notifications_paused',
+  'notifications_unread': 'notifications_unread',
   'numbers': 'numbers',
+  'nutrition': 'nutrition',
+  'ods': 'ods',
+  'odt': 'odt',
   'offline_bolt': 'offline_bolt',
   'offline_pin': 'offline_pin',
   'offline_share': 'offline_share',
   'oil_barrel': 'oil_barrel',
   'on_device_training': 'on_device_training',
+  'on_hub_device': 'on_hub_device',
+  'oncology': 'oncology',
   'ondemand_video': 'ondemand_video',
   'online_prediction': 'online_prediction',
+  'onsen': 'onsen',
   'opacity': 'opacity',
   'open_in_browser': 'open_in_browser',
   'open_in_full': 'open_in_full',
   'open_in_new': 'open_in_new',
+  'open_in_new_down': 'open_in_new_down',
   'open_in_new_off': 'open_in_new_off',
+  'open_in_phone': 'open_in_phone',
+  'open_jam': 'open_jam',
   'open_with': 'open_with',
+  'ophthalmology': 'ophthalmology',
+  'oral_disease': 'oral_disease',
+  'order_approve': 'order_approve',
+  'order_play': 'order_play',
+  'orders': 'orders',
+  'orthopedics': 'orthopedics',
+  'other_admission': 'other_admission',
   'other_houses': 'other_houses',
   'outbound': 'outbound',
   'outbox': 'outbox',
+  'outbox_alt': 'outbox_alt',
+  'outdoor_garden': 'outdoor_garden',
   'outdoor_grill': 'outdoor_grill',
+  'outgoing_mail': 'outgoing_mail',
   'outlet': 'outlet',
   'outlined_flag': 'outlined_flag',
+  'outpatient': 'outpatient',
+  'outpatient_med': 'outpatient_med',
   'output': 'output',
+  'output_circle': 'output_circle',
+  'oven': 'oven',
+  'oven_gen': 'oven_gen',
+  'overview': 'overview',
+  'overview_key': 'overview_key',
+  'oxygen_saturation': 'oxygen_saturation',
+  'p2p': 'p2p',
+  'pace': 'pace',
+  'pacemaker': 'pacemaker',
+  'package': 'package',
+  'package_2': 'package_2',
   'padding': 'padding',
+  'page_control': 'page_control',
+  'page_info': 'page_info',
+  'pageless': 'pageless',
   'pages': 'pages',
   'pageview': 'pageview',
   'paid': 'paid',
   'palette': 'palette',
+  'pallet': 'pallet',
   'pan_tool': 'pan_tool',
   'pan_tool_alt': 'pan_tool_alt',
+  'pan_zoom': 'pan_zoom',
   'panorama': 'panorama',
   'panorama_fish_eye': 'panorama_fish_eye',
   'panorama_horizontal': 'panorama_horizontal',
@@ -3463,8 +5623,14 @@ export const icons: Icons = {
   'panorama_wide_angle_select': 'panorama_wide_angle_select',
   'paragliding': 'paragliding',
   'park': 'park',
+  'partly_cloudy_day': 'partly_cloudy_day',
+  'partly_cloudy_night': 'partly_cloudy_night',
+  'partner_exchange': 'partner_exchange',
+  'partner_reports': 'partner_reports',
   'party_mode': 'party_mode',
+  'passkey': 'passkey',
   'password': 'password',
+  'patient_list': 'patient_list',
   'pattern': 'pattern',
   'pause': 'pause',
   'pause_circle': 'pause_circle',
@@ -3474,6 +5640,12 @@ export const icons: Icons = {
   'payment': 'payment',
   'payments': 'payments',
   'pedal_bike': 'pedal_bike',
+  'pediatrics': 'pediatrics',
+  'pen_size_1': 'pen_size_1',
+  'pen_size_2': 'pen_size_2',
+  'pen_size_3': 'pen_size_3',
+  'pen_size_4': 'pen_size_4',
+  'pen_size_5': 'pen_size_5',
   'pending': 'pending',
   'pending_actions': 'pending_actions',
   'pentagon': 'pentagon',
@@ -3481,6 +5653,7 @@ export const icons: Icons = {
   'people_alt': 'people_alt',
   'people_outline': 'people_outline',
   'percent': 'percent',
+  'pergola': 'pergola',
   'perm_camera_mic': 'perm_camera_mic',
   'perm_contact_calendar': 'perm_contact_calendar',
   'perm_data_setting': 'perm_data_setting',
@@ -3497,17 +5670,30 @@ export const icons: Icons = {
   'person_add_alt': 'person_add_alt',
   'person_add_alt_1': 'person_add_alt_1',
   'person_add_disabled': 'person_add_disabled',
+  'person_alert': 'person_alert',
+  'person_apron': 'person_apron',
+  'person_book': 'person_book',
+  'person_cancel': 'person_cancel',
+  'person_celebrate': 'person_celebrate',
+  'person_check': 'person_check',
   'person_off': 'person_off',
   'person_outline': 'person_outline',
   'person_pin': 'person_pin',
   'person_pin_circle': 'person_pin_circle',
+  'person_play': 'person_play',
+  'person_raised_hand': 'person_raised_hand',
   'person_remove': 'person_remove',
   'person_remove_alt_1': 'person_remove_alt_1',
   'person_search': 'person_search',
+  'personal_bag': 'personal_bag',
+  'personal_bag_off': 'personal_bag_off',
+  'personal_bag_question': 'personal_bag_question',
   'personal_injury': 'personal_injury',
+  'personal_places': 'personal_places',
   'personal_video': 'personal_video',
   'pest_control': 'pest_control',
   'pest_control_rodent': 'pest_control_rodent',
+  'pet_supplies': 'pet_supplies',
   'pets': 'pets',
   'phishing': 'phishing',
   'phone': 'phone',
@@ -3517,6 +5703,7 @@ export const icons: Icons = {
   'phone_disabled': 'phone_disabled',
   'phone_enabled': 'phone_enabled',
   'phone_forwarded': 'phone_forwarded',
+  'phone_in_talk': 'phone_in_talk',
   'phone_iphone': 'phone_iphone',
   'phone_locked': 'phone_locked',
   'phone_missed': 'phone_missed',
@@ -3526,34 +5713,55 @@ export const icons: Icons = {
   'phonelink_lock': 'phonelink_lock',
   'phonelink_off': 'phonelink_off',
   'phonelink_ring': 'phonelink_ring',
+  'phonelink_ring_off': 'phonelink_ring_off',
   'phonelink_setup': 'phonelink_setup',
   'photo': 'photo',
   'photo_album': 'photo_album',
+  'photo_auto_merge': 'photo_auto_merge',
   'photo_camera': 'photo_camera',
   'photo_camera_back': 'photo_camera_back',
   'photo_camera_front': 'photo_camera_front',
   'photo_filter': 'photo_filter',
+  'photo_frame': 'photo_frame',
   'photo_library': 'photo_library',
+  'photo_prints': 'photo_prints',
   'photo_size_select_actual': 'photo_size_select_actual',
   'photo_size_select_large': 'photo_size_select_large',
   'photo_size_select_small': 'photo_size_select_small',
   'php': 'php',
+  'physical_therapy': 'physical_therapy',
   'piano': 'piano',
   'piano_off': 'piano_off',
   'picture_as_pdf': 'picture_as_pdf',
   'picture_in_picture': 'picture_in_picture',
   'picture_in_picture_alt': 'picture_in_picture_alt',
+  'picture_in_picture_center': 'picture_in_picture_center',
+  'picture_in_picture_large': 'picture_in_picture_large',
+  'picture_in_picture_medium': 'picture_in_picture_medium',
+  'picture_in_picture_mobile': 'picture_in_picture_mobile',
+  'picture_in_picture_off': 'picture_in_picture_off',
+  'picture_in_picture_small': 'picture_in_picture_small',
   'pie_chart': 'pie_chart',
   'pie_chart_outline': 'pie_chart_outline',
+  'pie_chart_outlined': 'pie_chart_outlined',
+  'pill': 'pill',
+  'pill_off': 'pill_off',
   'pin': 'pin',
   'pin_drop': 'pin_drop',
   'pin_end': 'pin_end',
   'pin_invoke': 'pin_invoke',
   'pinch': 'pinch',
+  'pinch_zoom_in': 'pinch_zoom_in',
+  'pinch_zoom_out': 'pinch_zoom_out',
+  'pip': 'pip',
+  'pip_exit': 'pip_exit',
   'pivot_table_chart': 'pivot_table_chart',
   'pix': 'pix',
   'place': 'place',
+  'place_item': 'place_item',
   'plagiarism': 'plagiarism',
+  'planner_banner_ad_pt': 'planner_banner_ad_pt',
+  'planner_review': 'planner_review',
   'play_arrow': 'play_arrow',
   'play_circle': 'play_circle',
   'play_circle_filled': 'play_circle_filled',
@@ -3561,6 +5769,9 @@ export const icons: Icons = {
   'play_disabled': 'play_disabled',
   'play_for_work': 'play_for_work',
   'play_lesson': 'play_lesson',
+  'play_pause': 'play_pause',
+  'play_shapes': 'play_shapes',
+  'playing_cards': 'playing_cards',
   'playlist_add': 'playlist_add',
   'playlist_add_check': 'playlist_add_check',
   'playlist_add_check_circle': 'playlist_add_check_circle',
@@ -3570,7 +5781,10 @@ export const icons: Icons = {
   'plumbing': 'plumbing',
   'plus_one': 'plus_one',
   'podcasts': 'podcasts',
+  'podiatry': 'podiatry',
+  'podium': 'podium',
   'point_of_sale': 'point_of_sale',
+  'point_scan': 'point_scan',
   'policy': 'policy',
   'poll': 'poll',
   'polyline': 'polyline',
@@ -3578,62 +5792,107 @@ export const icons: Icons = {
   'pool': 'pool',
   'portable_wifi_off': 'portable_wifi_off',
   'portrait': 'portrait',
+  'position_bottom_left': 'position_bottom_left',
+  'position_bottom_right': 'position_bottom_right',
+  'position_top_right': 'position_top_right',
+  'post': 'post',
   'post_add': 'post_add',
+  'potted_plant': 'potted_plant',
   'power': 'power',
   'power_input': 'power_input',
   'power_off': 'power_off',
   'power_settings_new': 'power_settings_new',
+  'prayer_times': 'prayer_times',
   'precision_manufacturing': 'precision_manufacturing',
+  'pregnancy': 'pregnancy',
   'pregnant_woman': 'pregnant_woman',
+  'preliminary': 'preliminary',
+  'prescriptions': 'prescriptions',
   'present_to_all': 'present_to_all',
   'preview': 'preview',
+  'preview_off': 'preview_off',
   'price_change': 'price_change',
   'price_check': 'price_check',
   'print': 'print',
+  'print_add': 'print_add',
+  'print_connect': 'print_connect',
   'print_disabled': 'print_disabled',
+  'print_error': 'print_error',
+  'print_lock': 'print_lock',
+  'priority': 'priority',
   'priority_high': 'priority_high',
+  'privacy': 'privacy',
   'privacy_tip': 'privacy_tip',
   'private_connectivity': 'private_connectivity',
+  'problem': 'problem',
+  'procedure': 'procedure',
+  'process_chart': 'process_chart',
   'production_quantity_limits': 'production_quantity_limits',
+  'productivity': 'productivity',
+  'progress_activity': 'progress_activity',
   'propane': 'propane',
   'propane_tank': 'propane_tank',
+  'psychiatry': 'psychiatry',
   'psychology': 'psychology',
   'psychology_alt': 'psychology_alt',
   'public': 'public',
   'public_off': 'public_off',
   'publish': 'publish',
   'published_with_changes': 'published_with_changes',
+  'pulmonology': 'pulmonology',
+  'pulse_alert': 'pulse_alert',
   'punch_clock': 'punch_clock',
   'push_pin': 'push_pin',
   'qr_code': 'qr_code',
   'qr_code_2': 'qr_code_2',
+  'qr_code_2_add': 'qr_code_2_add',
   'qr_code_scanner': 'qr_code_scanner',
   'query_builder': 'query_builder',
   'query_stats': 'query_stats',
   'question_answer': 'question_answer',
+  'question_exchange': 'question_exchange',
   'question_mark': 'question_mark',
   'queue': 'queue',
   'queue_music': 'queue_music',
   'queue_play_next': 'queue_play_next',
+  'quick_phrases': 'quick_phrases',
+  'quick_reference': 'quick_reference',
+  'quick_reference_all': 'quick_reference_all',
+  'quick_reorder': 'quick_reorder',
   'quickreply': 'quickreply',
+  'quiet_time': 'quiet_time',
+  'quiet_time_active': 'quiet_time_active',
   'quiz': 'quiz',
   'r_mobiledata': 'r_mobiledata',
   'radar': 'radar',
   'radio': 'radio',
   'radio_button_checked': 'radio_button_checked',
+  'radio_button_partial': 'radio_button_partial',
   'radio_button_unchecked': 'radio_button_unchecked',
+  'radiology': 'radiology',
   'railway_alert': 'railway_alert',
+  'rainy': 'rainy',
+  'rainy_heavy': 'rainy_heavy',
+  'rainy_light': 'rainy_light',
+  'rainy_snow': 'rainy_snow',
   'ramen_dining': 'ramen_dining',
   'ramp_left': 'ramp_left',
   'ramp_right': 'ramp_right',
+  'range_hood': 'range_hood',
   'rate_review': 'rate_review',
+  'raven': 'raven',
   'raw_off': 'raw_off',
   'raw_on': 'raw_on',
   'read_more': 'read_more',
+  'readiness_score': 'readiness_score',
   'real_estate_agent': 'real_estate_agent',
+  'rear_camera': 'rear_camera',
+  'rebase': 'rebase',
+  'rebase_edit': 'rebase_edit',
   'receipt': 'receipt',
   'receipt_long': 'receipt_long',
   'recent_actors': 'recent_actors',
+  'recent_patient': 'recent_patient',
   'recommend': 'recommend',
   'record_voice_over': 'record_voice_over',
   'rectangle': 'rectangle',
@@ -3642,7 +5901,12 @@ export const icons: Icons = {
   'redo': 'redo',
   'reduce_capacity': 'reduce_capacity',
   'refresh': 'refresh',
+  'regular_expression': 'regular_expression',
+  'relax': 'relax',
+  'release_alert': 'release_alert',
   'remember_me': 'remember_me',
+  'reminder': 'reminder',
+  'remote_gen': 'remote_gen',
   'remove': 'remove',
   'remove_circle': 'remove_circle',
   'remove_circle_outline': 'remove_circle_outline',
@@ -3651,7 +5915,9 @@ export const icons: Icons = {
   'remove_moderator': 'remove_moderator',
   'remove_red_eye': 'remove_red_eye',
   'remove_road': 'remove_road',
+  'remove_selection': 'remove_selection',
   'remove_shopping_cart': 'remove_shopping_cart',
+  'reopen_window': 'reopen_window',
   'reorder': 'reorder',
   'repartition': 'repartition',
   'repeat': 'repeat',
@@ -3671,16 +5937,31 @@ export const icons: Icons = {
   'report_problem': 'report_problem',
   'request_page': 'request_page',
   'request_quote': 'request_quote',
+  'reset_image': 'reset_image',
   'reset_tv': 'reset_tv',
+  'reset_wrench': 'reset_wrench',
+  'resize': 'resize',
+  'respiratory_rate': 'respiratory_rate',
+  'responsive_layout': 'responsive_layout',
   'restart_alt': 'restart_alt',
   'restaurant': 'restaurant',
   'restaurant_menu': 'restaurant_menu',
   'restore': 'restore',
   'restore_from_trash': 'restore_from_trash',
   'restore_page': 'restore_page',
+  'resume': 'resume',
   'reviews': 'reviews',
+  'rewarded_ads': 'rewarded_ads',
+  'rheumatology': 'rheumatology',
+  'rib_cage': 'rib_cage',
   'rice_bowl': 'rice_bowl',
+  'right_click': 'right_click',
+  'right_panel_close': 'right_panel_close',
+  'right_panel_open': 'right_panel_open',
   'ring_volume': 'ring_volume',
+  'ripples': 'ripples',
+  'robot': 'robot',
+  'robot_2': 'robot_2',
   'rocket': 'rocket',
   'rocket_launch': 'rocket_launch',
   'roller_shades': 'roller_shades',
@@ -3699,102 +5980,173 @@ export const icons: Icons = {
   'rounded_corner': 'rounded_corner',
   'route': 'route',
   'router': 'router',
+  'routine': 'routine',
   'rowing': 'rowing',
   'rss_feed': 'rss_feed',
   'rsvp': 'rsvp',
   'rtt': 'rtt',
+  'rubric': 'rubric',
   'rule': 'rule',
   'rule_folder': 'rule_folder',
+  'rule_settings': 'rule_settings',
   'run_circle': 'run_circle',
   'running_with_errors': 'running_with_errors',
   'rv_hookup': 'rv_hookup',
   'safety_check': 'safety_check',
+  'safety_check_off': 'safety_check_off',
   'safety_divider': 'safety_divider',
   'sailing': 'sailing',
+  'salinity': 'salinity',
   'sanitizer': 'sanitizer',
   'satellite': 'satellite',
   'satellite_alt': 'satellite_alt',
+  'sauna': 'sauna',
   'save': 'save',
   'save_alt': 'save_alt',
   'save_as': 'save_as',
   'saved_search': 'saved_search',
   'savings': 'savings',
   'scale': 'scale',
+  'scan': 'scan',
+  'scan_delete': 'scan_delete',
   'scanner': 'scanner',
   'scatter_plot': 'scatter_plot',
+  'scene': 'scene',
   'schedule': 'schedule',
   'schedule_send': 'schedule_send',
   'schema': 'schema',
   'school': 'school',
   'science': 'science',
+  'science_off': 'science_off',
   'score': 'score',
   'scoreboard': 'scoreboard',
   'screen_lock_landscape': 'screen_lock_landscape',
   'screen_lock_portrait': 'screen_lock_portrait',
   'screen_lock_rotation': 'screen_lock_rotation',
+  'screen_record': 'screen_record',
   'screen_rotation': 'screen_rotation',
   'screen_rotation_alt': 'screen_rotation_alt',
+  'screen_rotation_up': 'screen_rotation_up',
   'screen_search_desktop': 'screen_search_desktop',
   'screen_share': 'screen_share',
   'screenshot': 'screenshot',
+  'screenshot_frame': 'screenshot_frame',
+  'screenshot_keyboard': 'screenshot_keyboard',
   'screenshot_monitor': 'screenshot_monitor',
+  'screenshot_region': 'screenshot_region',
+  'screenshot_tablet': 'screenshot_tablet',
+  'scrollable_header': 'scrollable_header',
   'scuba_diving': 'scuba_diving',
   'sd': 'sd',
   'sd_card': 'sd_card',
   'sd_card_alert': 'sd_card_alert',
   'sd_storage': 'sd_storage',
+  'sdk': 'sdk',
   'search': 'search',
+  'search_check': 'search_check',
+  'search_hands_free': 'search_hands_free',
   'search_off': 'search_off',
   'security': 'security',
+  'security_key': 'security_key',
   'security_update': 'security_update',
   'security_update_good': 'security_update_good',
   'security_update_warning': 'security_update_warning',
   'segment': 'segment',
+  'select': 'select',
   'select_all': 'select_all',
+  'select_check_box': 'select_check_box',
+  'select_to_speak': 'select_to_speak',
+  'select_window': 'select_window',
+  'select_window_off': 'select_window_off',
+  'self_care': 'self_care',
   'self_improvement': 'self_improvement',
   'sell': 'sell',
   'send': 'send',
   'send_and_archive': 'send_and_archive',
+  'send_money': 'send_money',
   'send_time_extension': 'send_time_extension',
   'send_to_mobile': 'send_to_mobile',
   'sensor_door': 'sensor_door',
   'sensor_occupied': 'sensor_occupied',
   'sensor_window': 'sensor_window',
   'sensors': 'sensors',
+  'sensors_krx': 'sensors_krx',
+  'sensors_krx_off': 'sensors_krx_off',
   'sensors_off': 'sensors_off',
+  'sentiment_calm': 'sentiment_calm',
+  'sentiment_content': 'sentiment_content',
   'sentiment_dissatisfied': 'sentiment_dissatisfied',
+  'sentiment_excited': 'sentiment_excited',
+  'sentiment_extremely_dissatisfied': 'sentiment_extremely_dissatisfied',
+  'sentiment_frustrated': 'sentiment_frustrated',
   'sentiment_neutral': 'sentiment_neutral',
+  'sentiment_sad': 'sentiment_sad',
   'sentiment_satisfied': 'sentiment_satisfied',
   'sentiment_satisfied_alt': 'sentiment_satisfied_alt',
+  'sentiment_stressed': 'sentiment_stressed',
   'sentiment_very_dissatisfied': 'sentiment_very_dissatisfied',
   'sentiment_very_satisfied': 'sentiment_very_satisfied',
+  'sentiment_worried': 'sentiment_worried',
+  'service_toolbox': 'service_toolbox',
   'set_meal': 'set_meal',
   'settings': 'settings',
   'settings_accessibility': 'settings_accessibility',
+  'settings_account_box': 'settings_account_box',
+  'settings_alert': 'settings_alert',
   'settings_applications': 'settings_applications',
+  'settings_b_roll': 'settings_b_roll',
   'settings_backup_restore': 'settings_backup_restore',
   'settings_bluetooth': 'settings_bluetooth',
   'settings_brightness': 'settings_brightness',
   'settings_cell': 'settings_cell',
+  'settings_cinematic_blur': 'settings_cinematic_blur',
   'settings_ethernet': 'settings_ethernet',
+  'settings_heart': 'settings_heart',
   'settings_input_antenna': 'settings_input_antenna',
   'settings_input_component': 'settings_input_component',
   'settings_input_composite': 'settings_input_composite',
   'settings_input_hdmi': 'settings_input_hdmi',
   'settings_input_svideo': 'settings_input_svideo',
+  'settings_motion_mode': 'settings_motion_mode',
+  'settings_night_sight': 'settings_night_sight',
   'settings_overscan': 'settings_overscan',
+  'settings_panorama': 'settings_panorama',
   'settings_phone': 'settings_phone',
+  'settings_photo_camera': 'settings_photo_camera',
   'settings_power': 'settings_power',
   'settings_remote': 'settings_remote',
+  'settings_slow_motion': 'settings_slow_motion',
   'settings_suggest': 'settings_suggest',
   'settings_system_daydream': 'settings_system_daydream',
+  'settings_timelapse': 'settings_timelapse',
+  'settings_video_camera': 'settings_video_camera',
   'settings_voice': 'settings_voice',
+  'settop_component': 'settop_component',
   'severe_cold': 'severe_cold',
+  'shadow': 'shadow',
+  'shadow_add': 'shadow_add',
+  'shadow_minus': 'shadow_minus',
   'shape_line': 'shape_line',
+  'shapes': 'shapes',
   'share': 'share',
   'share_location': 'share_location',
+  'share_off': 'share_off',
+  'share_reviews': 'share_reviews',
+  'share_windows': 'share_windows',
+  'sheets_rtl': 'sheets_rtl',
+  'shelf_auto_hide': 'shelf_auto_hide',
+  'shelf_position': 'shelf_position',
+  'shelves': 'shelves',
   'shield': 'shield',
+  'shield_lock': 'shield_lock',
+  'shield_locked': 'shield_locked',
   'shield_moon': 'shield_moon',
+  'shield_person': 'shield_person',
+  'shield_question': 'shield_question',
+  'shield_with_heart': 'shield_with_heart',
+  'shield_with_house': 'shield_with_house',
+  'shift': 'shift',
+  'shift_lock': 'shift_lock',
   'shop': 'shop',
   'shop_2': 'shop_2',
   'shop_two': 'shop_two',
@@ -3802,6 +6154,8 @@ export const icons: Icons = {
   'shopping_basket': 'shopping_basket',
   'shopping_cart': 'shopping_cart',
   'shopping_cart_checkout': 'shopping_cart_checkout',
+  'shoppingmode': 'shoppingmode',
+  'short_stay': 'short_stay',
   'short_text': 'short_text',
   'shortcut': 'shortcut',
   'show_chart': 'show_chart',
@@ -3809,28 +6163,59 @@ export const icons: Icons = {
   'shuffle': 'shuffle',
   'shuffle_on': 'shuffle_on',
   'shutter_speed': 'shutter_speed',
+  'shutter_speed_add': 'shutter_speed_add',
+  'shutter_speed_minus': 'shutter_speed_minus',
   'sick': 'sick',
+  'side_navigation': 'side_navigation',
   'sign_language': 'sign_language',
   'signal_cellular_0_bar': 'signal_cellular_0_bar',
+  'signal_cellular_1_bar': 'signal_cellular_1_bar',
+  'signal_cellular_2_bar': 'signal_cellular_2_bar',
+  'signal_cellular_3_bar': 'signal_cellular_3_bar',
   'signal_cellular_4_bar': 'signal_cellular_4_bar',
+  'signal_cellular_add': 'signal_cellular_add',
   'signal_cellular_alt': 'signal_cellular_alt',
   'signal_cellular_alt_1_bar': 'signal_cellular_alt_1_bar',
   'signal_cellular_alt_2_bar': 'signal_cellular_alt_2_bar',
   'signal_cellular_connected_no_internet_0_bar': 'signal_cellular_connected_no_internet_0_bar',
+  'signal_cellular_connected_no_internet_1_bar': 'signal_cellular_connected_no_internet_1_bar',
+  'signal_cellular_connected_no_internet_2_bar': 'signal_cellular_connected_no_internet_2_bar',
+  'signal_cellular_connected_no_internet_3_bar': 'signal_cellular_connected_no_internet_3_bar',
   'signal_cellular_connected_no_internet_4_bar': 'signal_cellular_connected_no_internet_4_bar',
   'signal_cellular_no_sim': 'signal_cellular_no_sim',
   'signal_cellular_nodata': 'signal_cellular_nodata',
   'signal_cellular_null': 'signal_cellular_null',
   'signal_cellular_off': 'signal_cellular_off',
+  'signal_cellular_pause': 'signal_cellular_pause',
+  'signal_disconnected': 'signal_disconnected',
   'signal_wifi_0_bar': 'signal_wifi_0_bar',
+  'signal_wifi_1_bar': 'signal_wifi_1_bar',
+  'signal_wifi_1_bar_lock': 'signal_wifi_1_bar_lock',
+  'signal_wifi_2_bar': 'signal_wifi_2_bar',
+  'signal_wifi_2_bar_lock': 'signal_wifi_2_bar_lock',
+  'signal_wifi_3_bar': 'signal_wifi_3_bar',
+  'signal_wifi_3_bar_lock': 'signal_wifi_3_bar_lock',
   'signal_wifi_4_bar': 'signal_wifi_4_bar',
   'signal_wifi_4_bar_lock': 'signal_wifi_4_bar_lock',
   'signal_wifi_bad': 'signal_wifi_bad',
+  'signal_wifi_connected_no_internet_0': 'signal_wifi_connected_no_internet_0',
+  'signal_wifi_connected_no_internet_1': 'signal_wifi_connected_no_internet_1',
+  'signal_wifi_connected_no_internet_2': 'signal_wifi_connected_no_internet_2',
+  'signal_wifi_connected_no_internet_3': 'signal_wifi_connected_no_internet_3',
   'signal_wifi_connected_no_internet_4': 'signal_wifi_connected_no_internet_4',
   'signal_wifi_off': 'signal_wifi_off',
+  'signal_wifi_statusbar_1_bar': 'signal_wifi_statusbar_1_bar',
+  'signal_wifi_statusbar_2_bar': 'signal_wifi_statusbar_2_bar',
+  'signal_wifi_statusbar_3_bar': 'signal_wifi_statusbar_3_bar',
   'signal_wifi_statusbar_4_bar': 'signal_wifi_statusbar_4_bar',
+  'signal_wifi_statusbar_connected_no_internet': 'signal_wifi_statusbar_connected_no_internet',
+  'signal_wifi_statusbar_connected_no_internet_1': 'signal_wifi_statusbar_connected_no_internet_1',
+  'signal_wifi_statusbar_connected_no_internet_2': 'signal_wifi_statusbar_connected_no_internet_2',
+  'signal_wifi_statusbar_connected_no_internet_3': 'signal_wifi_statusbar_connected_no_internet_3',
   'signal_wifi_statusbar_connected_no_internet_4': 'signal_wifi_statusbar_connected_no_internet_4',
+  'signal_wifi_statusbar_not_connected': 'signal_wifi_statusbar_not_connected',
   'signal_wifi_statusbar_null': 'signal_wifi_statusbar_null',
+  'signature': 'signature',
   'signpost': 'signpost',
   'sim_card': 'sim_card',
   'sim_card_alert': 'sim_card_alert',
@@ -3838,16 +6223,25 @@ export const icons: Icons = {
   'single_bed': 'single_bed',
   'sip': 'sip',
   'skateboarding': 'skateboarding',
+  'skeleton': 'skeleton',
+  'skillet': 'skillet',
+  'skillet_cooktop': 'skillet_cooktop',
   'skip_next': 'skip_next',
   'skip_previous': 'skip_previous',
+  'skull': 'skull',
   'sledding': 'sledding',
+  'sleep_score': 'sleep_score',
+  'slide_library': 'slide_library',
+  'sliders': 'sliders',
   'slideshow': 'slideshow',
   'slow_motion_video': 'slow_motion_video',
   'smart_button': 'smart_button',
   'smart_display': 'smart_display',
+  'smart_outlet': 'smart_outlet',
   'smart_screen': 'smart_screen',
   'smart_toy': 'smart_toy',
   'smartphone': 'smartphone',
+  'smb_share': 'smb_share',
   'smoke_free': 'smoke_free',
   'smoking_rooms': 'smoking_rooms',
   'sms': 'sms',
@@ -3855,16 +6249,25 @@ export const icons: Icons = {
   'snippet_folder': 'snippet_folder',
   'snooze': 'snooze',
   'snowboarding': 'snowboarding',
+  'snowing': 'snowing',
+  'snowing_heavy': 'snowing_heavy',
   'snowmobile': 'snowmobile',
   'snowshoeing': 'snowshoeing',
   'soap': 'soap',
   'social_distance': 'social_distance',
+  'social_leaderboard': 'social_leaderboard',
   'solar_power': 'solar_power',
   'sort': 'sort',
   'sort_by_alpha': 'sort_by_alpha',
   'sos': 'sos',
+  'sound_detection_dog_barking': 'sound_detection_dog_barking',
+  'sound_detection_glass_break': 'sound_detection_glass_break',
+  'sound_detection_loud_sound': 'sound_detection_loud_sound',
+  'sound_sampler': 'sound_sampler',
   'soup_kitchen': 'soup_kitchen',
   'source': 'source',
+  'source_environment': 'source_environment',
+  'source_notes': 'source_notes',
   'south': 'south',
   'south_america': 'south_america',
   'south_east': 'south_east',
@@ -3880,11 +6283,20 @@ export const icons: Icons = {
   'speaker_notes': 'speaker_notes',
   'speaker_notes_off': 'speaker_notes_off',
   'speaker_phone': 'speaker_phone',
+  'special_character': 'special_character',
+  'specific_gravity': 'specific_gravity',
+  'speech_to_text': 'speech_to_text',
   'speed': 'speed',
   'spellcheck': 'spellcheck',
   'splitscreen': 'splitscreen',
+  'splitscreen_bottom': 'splitscreen_bottom',
+  'splitscreen_left': 'splitscreen_left',
+  'splitscreen_right': 'splitscreen_right',
+  'splitscreen_top': 'splitscreen_top',
+  'spo2': 'spo2',
   'spoke': 'spoke',
   'sports': 'sports',
+  'sports_and_outdoors': 'sports_and_outdoors',
   'sports_bar': 'sports_bar',
   'sports_baseball': 'sports_baseball',
   'sports_basketball': 'sports_basketball',
@@ -3904,11 +6316,20 @@ export const icons: Icons = {
   'sports_soccer': 'sports_soccer',
   'sports_tennis': 'sports_tennis',
   'sports_volleyball': 'sports_volleyball',
+  'sprinkler': 'sprinkler',
+  'sprint': 'sprint',
   'square': 'square',
   'square_foot': 'square_foot',
   'ssid_chart': 'ssid_chart',
+  'stack': 'stack',
+  'stack_off': 'stack_off',
+  'stack_star': 'stack_star',
   'stacked_bar_chart': 'stacked_bar_chart',
+  'stacked_email': 'stacked_email',
+  'stacked_inbox': 'stacked_inbox',
   'stacked_line_chart': 'stacked_line_chart',
+  'stacks': 'stacks',
+  'stadia_controller': 'stadia_controller',
   'stadium': 'stadium',
   'stairs': 'stairs',
   'star': 'star',
@@ -3918,13 +6339,33 @@ export const icons: Icons = {
   'star_outline': 'star_outline',
   'star_purple500': 'star_purple500',
   'star_rate': 'star_rate',
+  'star_rate_half': 'star_rate_half',
   'stars': 'stars',
   'start': 'start',
+  'stat_0': 'stat_0',
+  'stat_1': 'stat_1',
+  'stat_2': 'stat_2',
+  'stat_3': 'stat_3',
+  'stat_minus_1': 'stat_minus_1',
+  'stat_minus_2': 'stat_minus_2',
+  'stat_minus_3': 'stat_minus_3',
   'stay_current_landscape': 'stay_current_landscape',
   'stay_current_portrait': 'stay_current_portrait',
   'stay_primary_landscape': 'stay_primary_landscape',
   'stay_primary_portrait': 'stay_primary_portrait',
+  'step': 'step',
+  'step_into': 'step_into',
+  'step_out': 'step_out',
+  'step_over': 'step_over',
+  'steppers': 'steppers',
+  'steps': 'steps',
+  'stethoscope': 'stethoscope',
+  'stethoscope_arrow': 'stethoscope_arrow',
+  'stethoscope_check': 'stethoscope_check',
+  'sticky_note': 'sticky_note',
   'sticky_note_2': 'sticky_note_2',
+  'stock_media': 'stock_media',
+  'stockpot': 'stockpot',
   'stop': 'stop',
   'stop_circle': 'stop_circle',
   'stop_screen_share': 'stop_screen_share',
@@ -3935,13 +6376,23 @@ export const icons: Icons = {
   'storm': 'storm',
   'straight': 'straight',
   'straighten': 'straighten',
+  'strategy': 'strategy',
   'stream': 'stream',
+  'stream_apps': 'stream_apps',
   'streetview': 'streetview',
+  'stress_management': 'stress_management',
   'strikethrough_s': 'strikethrough_s',
+  'stroke_full': 'stroke_full',
+  'stroke_partial': 'stroke_partial',
   'stroller': 'stroller',
   'style': 'style',
+  'styler': 'styler',
+  'stylus': 'stylus',
+  'stylus_laser_pointer': 'stylus_laser_pointer',
+  'stylus_note': 'stylus_note',
   'subdirectory_arrow_left': 'subdirectory_arrow_left',
   'subdirectory_arrow_right': 'subdirectory_arrow_right',
+  'subheader': 'subheader',
   'subject': 'subject',
   'subscript': 'subscript',
   'subscriptions': 'subscriptions',
@@ -3949,18 +6400,25 @@ export const icons: Icons = {
   'subtitles_off': 'subtitles_off',
   'subway': 'subway',
   'summarize': 'summarize',
+  'sunny': 'sunny',
+  'sunny_snowing': 'sunny_snowing',
   'superscript': 'superscript',
   'supervised_user_circle': 'supervised_user_circle',
+  'supervised_user_circle_off': 'supervised_user_circle_off',
   'supervisor_account': 'supervisor_account',
   'support': 'support',
   'support_agent': 'support_agent',
   'surfing': 'surfing',
+  'surgical': 'surgical',
   'surround_sound': 'surround_sound',
   'swap_calls': 'swap_calls',
+  'swap_driving_apps': 'swap_driving_apps',
+  'swap_driving_apps_wheel': 'swap_driving_apps_wheel',
   'swap_horiz': 'swap_horiz',
   'swap_horizontal_circle': 'swap_horizontal_circle',
   'swap_vert': 'swap_vert',
   'swap_vertical_circle': 'swap_vertical_circle',
+  'sweep': 'sweep',
   'swipe': 'swipe',
   'swipe_down': 'swipe_down',
   'swipe_down_alt': 'swipe_down_alt',
@@ -3971,6 +6429,9 @@ export const icons: Icons = {
   'swipe_up': 'swipe_up',
   'swipe_up_alt': 'swipe_up_alt',
   'swipe_vertical': 'swipe_vertical',
+  'switch': 'switch',
+  'switch_access': 'switch_access',
+  'switch_access_2': 'switch_access_2',
   'switch_access_shortcut': 'switch_access_shortcut',
   'switch_access_shortcut_add': 'switch_access_shortcut_add',
   'switch_account': 'switch_account',
@@ -3978,41 +6439,69 @@ export const icons: Icons = {
   'switch_left': 'switch_left',
   'switch_right': 'switch_right',
   'switch_video': 'switch_video',
+  'switches': 'switches',
+  'sword_rose': 'sword_rose',
+  'swords': 'swords',
+  'symptoms': 'symptoms',
   'synagogue': 'synagogue',
   'sync': 'sync',
   'sync_alt': 'sync_alt',
   'sync_disabled': 'sync_disabled',
   'sync_lock': 'sync_lock',
   'sync_problem': 'sync_problem',
+  'sync_saved_locally': 'sync_saved_locally',
+  'syringe': 'syringe',
   'system_security_update': 'system_security_update',
   'system_security_update_good': 'system_security_update_good',
   'system_security_update_warning': 'system_security_update_warning',
   'system_update': 'system_update',
   'system_update_alt': 'system_update_alt',
   'tab': 'tab',
+  'tab_close': 'tab_close',
+  'tab_close_right': 'tab_close_right',
+  'tab_duplicate': 'tab_duplicate',
+  'tab_group': 'tab_group',
+  'tab_move': 'tab_move',
+  'tab_new_right': 'tab_new_right',
+  'tab_recent': 'tab_recent',
   'tab_unselected': 'tab_unselected',
+  'table': 'table',
   'table_bar': 'table_bar',
   'table_chart': 'table_chart',
+  'table_chart_view': 'table_chart_view',
+  'table_lamp': 'table_lamp',
   'table_restaurant': 'table_restaurant',
   'table_rows': 'table_rows',
+  'table_rows_narrow': 'table_rows_narrow',
   'table_view': 'table_view',
   'tablet': 'tablet',
   'tablet_android': 'tablet_android',
   'tablet_mac': 'tablet_mac',
+  'tabs': 'tabs',
+  'tactic': 'tactic',
   'tag': 'tag',
   'tag_faces': 'tag_faces',
   'takeout_dining': 'takeout_dining',
+  'tamper_detection_off': 'tamper_detection_off',
+  'tamper_detection_on': 'tamper_detection_on',
   'tap_and_play': 'tap_and_play',
   'tapas': 'tapas',
+  'target': 'target',
   'task': 'task',
   'task_alt': 'task_alt',
+  'taunt': 'taunt',
   'taxi_alert': 'taxi_alert',
+  'team_dashboard': 'team_dashboard',
+  'temp_preferences_eco': 'temp_preferences_eco',
   'temple_buddhist': 'temple_buddhist',
   'temple_hindu': 'temple_hindu',
+  'tenancy': 'tenancy',
   'terminal': 'terminal',
   'terrain': 'terrain',
+  'text_ad': 'text_ad',
   'text_decrease': 'text_decrease',
   'text_fields': 'text_fields',
+  'text_fields_alt': 'text_fields_alt',
   'text_format': 'text_format',
   'text_increase': 'text_increase',
   'text_rotate_up': 'text_rotate_up',
@@ -4021,33 +6510,60 @@ export const icons: Icons = {
   'text_rotation_angleup': 'text_rotation_angleup',
   'text_rotation_down': 'text_rotation_down',
   'text_rotation_none': 'text_rotation_none',
+  'text_select_end': 'text_select_end',
+  'text_select_jump_to_beginning': 'text_select_jump_to_beginning',
+  'text_select_jump_to_end': 'text_select_jump_to_end',
+  'text_select_move_back_character': 'text_select_move_back_character',
+  'text_select_move_back_word': 'text_select_move_back_word',
+  'text_select_move_down': 'text_select_move_down',
+  'text_select_move_forward_character': 'text_select_move_forward_character',
+  'text_select_move_forward_word': 'text_select_move_forward_word',
+  'text_select_move_up': 'text_select_move_up',
+  'text_select_start': 'text_select_start',
   'text_snippet': 'text_snippet',
+  'text_to_speech': 'text_to_speech',
   'textsms': 'textsms',
   'texture': 'texture',
+  'texture_add': 'texture_add',
+  'texture_minus': 'texture_minus',
   'theater_comedy': 'theater_comedy',
   'theaters': 'theaters',
+  'thermometer': 'thermometer',
+  'thermometer_add': 'thermometer_add',
+  'thermometer_gain': 'thermometer_gain',
+  'thermometer_loss': 'thermometer_loss',
+  'thermometer_minus': 'thermometer_minus',
   'thermostat': 'thermostat',
   'thermostat_auto': 'thermostat_auto',
+  'thermostat_carbon': 'thermostat_carbon',
+  'things_to_do': 'things_to_do',
   'thumb_down': 'thumb_down',
   'thumb_down_alt': 'thumb_down_alt',
   'thumb_down_off_alt': 'thumb_down_off_alt',
   'thumb_up': 'thumb_up',
   'thumb_up_alt': 'thumb_up_alt',
   'thumb_up_off_alt': 'thumb_up_off_alt',
+  'thumbnail_bar': 'thumbnail_bar',
   'thumbs_up_down': 'thumbs_up_down',
   'thunderstorm': 'thunderstorm',
+  'tibia': 'tibia',
+  'tibia_alt': 'tibia_alt',
+  'time_auto': 'time_auto',
   'time_to_leave': 'time_to_leave',
   'timelapse': 'timelapse',
   'timeline': 'timeline',
   'timer': 'timer',
   'timer_10': 'timer_10',
+  'timer_10_alt_1': 'timer_10_alt_1',
   'timer_10_select': 'timer_10_select',
   'timer_3': 'timer_3',
+  'timer_3_alt_1': 'timer_3_alt_1',
   'timer_3_select': 'timer_3_select',
   'timer_off': 'timer_off',
   'tips_and_updates': 'tips_and_updates',
   'tire_repair': 'tire_repair',
   'title': 'title',
+  'toast': 'toast',
   'toc': 'toc',
   'today': 'today',
   'toggle_off': 'toggle_off',
@@ -4055,13 +6571,31 @@ export const icons: Icons = {
   'token': 'token',
   'toll': 'toll',
   'tonality': 'tonality',
+  'toolbar': 'toolbar',
+  'tools_flat_head': 'tools_flat_head',
+  'tools_installation_kit': 'tools_installation_kit',
+  'tools_ladder': 'tools_ladder',
+  'tools_level': 'tools_level',
+  'tools_phillips': 'tools_phillips',
+  'tools_pliers_wire_stripper': 'tools_pliers_wire_stripper',
+  'tools_power_drill': 'tools_power_drill',
+  'tooltip': 'tooltip',
+  'top_panel_close': 'top_panel_close',
+  'top_panel_open': 'top_panel_open',
   'topic': 'topic',
   'tornado': 'tornado',
+  'total_dissolved_solids': 'total_dissolved_solids',
   'touch_app': 'touch_app',
+  'touchpad_mouse': 'touchpad_mouse',
   'tour': 'tour',
   'toys': 'toys',
+  'toys_and_games': 'toys_and_games',
+  'toys_fan': 'toys_fan',
   'track_changes': 'track_changes',
   'traffic': 'traffic',
+  'trail_length': 'trail_length',
+  'trail_length_medium': 'trail_length_medium',
+  'trail_length_short': 'trail_length_short',
   'train': 'train',
   'tram': 'tram',
   'transcribe': 'transcribe',
@@ -4069,15 +6603,27 @@ export const icons: Icons = {
   'transform': 'transform',
   'transgender': 'transgender',
   'transit_enterexit': 'transit_enterexit',
+  'transition_chop': 'transition_chop',
+  'transition_dissolve': 'transition_dissolve',
+  'transition_fade': 'transition_fade',
+  'transition_push': 'transition_push',
+  'transition_slide': 'transition_slide',
   'translate': 'translate',
+  'transportation': 'transportation',
+  'travel': 'travel',
   'travel_explore': 'travel_explore',
+  'travel_luggage_and_bags': 'travel_luggage_and_bags',
   'trending_down': 'trending_down',
   'trending_flat': 'trending_flat',
   'trending_up': 'trending_up',
+  'trip': 'trip',
   'trip_origin': 'trip_origin',
+  'trolley': 'trolley',
+  'trophy': 'trophy',
   'troubleshoot': 'troubleshoot',
   'try': 'try',
   'tsunami': 'tsunami',
+  'tsv': 'tsv',
   'tty': 'tty',
   'tune': 'tune',
   'tungsten': 'tungsten',
@@ -4090,11 +6636,21 @@ export const icons: Icons = {
   'turned_in': 'turned_in',
   'turned_in_not': 'turned_in_not',
   'tv': 'tv',
+  'tv_gen': 'tv_gen',
+  'tv_guide': 'tv_guide',
   'tv_off': 'tv_off',
+  'tv_options_edit_channels': 'tv_options_edit_channels',
+  'tv_options_input_settings': 'tv_options_input_settings',
+  'tv_remote': 'tv_remote',
+  'tv_signin': 'tv_signin',
+  'tv_with_assistant': 'tv_with_assistant',
+  'two_pager': 'two_pager',
   'two_wheeler': 'two_wheeler',
   'type_specimen': 'type_specimen',
   'u_turn_left': 'u_turn_left',
   'u_turn_right': 'u_turn_right',
+  'ulna_radius': 'ulna_radius',
+  'ulna_radius_alt': 'ulna_radius_alt',
   'umbrella': 'umbrella',
   'unarchive': 'unarchive',
   'undo': 'undo',
@@ -4102,6 +6658,15 @@ export const icons: Icons = {
   'unfold_less_double': 'unfold_less_double',
   'unfold_more': 'unfold_more',
   'unfold_more_double': 'unfold_more_double',
+  'ungroup': 'ungroup',
+  'universal_currency': 'universal_currency',
+  'universal_currency_alt': 'universal_currency_alt',
+  'universal_local': 'universal_local',
+  'unknown_2': 'unknown_2',
+  'unknown_5': 'unknown_5',
+  'unknown_document': 'unknown_document',
+  'unknown_med': 'unknown_med',
+  'unlicense': 'unlicense',
   'unpublished': 'unpublished',
   'unsubscribe': 'unsubscribe',
   'upcoming': 'upcoming',
@@ -4109,12 +6674,22 @@ export const icons: Icons = {
   'update_disabled': 'update_disabled',
   'upgrade': 'upgrade',
   'upload': 'upload',
+  'upload_2': 'upload_2',
   'upload_file': 'upload_file',
+  'urology': 'urology',
   'usb': 'usb',
   'usb_off': 'usb_off',
+  'user_attributes': 'user_attributes',
   'vaccines': 'vaccines',
+  'vacuum': 'vacuum',
+  'valve': 'valve',
   'vape_free': 'vape_free',
   'vaping_rooms': 'vaping_rooms',
+  'variable_add': 'variable_add',
+  'variable_insert': 'variable_insert',
+  'variable_remove': 'variable_remove',
+  'variables': 'variables',
+  'ventilator': 'ventilator',
   'verified': 'verified',
   'verified_user': 'verified_user',
   'vertical_align_bottom': 'vertical_align_bottom',
@@ -4128,10 +6703,12 @@ export const icons: Icons = {
   'video_call': 'video_call',
   'video_camera_back': 'video_camera_back',
   'video_camera_front': 'video_camera_front',
+  'video_camera_front_off': 'video_camera_front_off',
   'video_chat': 'video_chat',
   'video_file': 'video_file',
   'video_label': 'video_label',
   'video_library': 'video_library',
+  'video_search': 'video_search',
   'video_settings': 'video_settings',
   'video_stable': 'video_stable',
   'videocam': 'videocam',
@@ -4142,6 +6719,7 @@ export const icons: Icons = {
   'view_array': 'view_array',
   'view_carousel': 'view_carousel',
   'view_column': 'view_column',
+  'view_column_2': 'view_column_2',
   'view_comfy': 'view_comfy',
   'view_comfy_alt': 'view_comfy_alt',
   'view_compact': 'view_compact',
@@ -4150,6 +6728,7 @@ export const icons: Icons = {
   'view_day': 'view_day',
   'view_headline': 'view_headline',
   'view_in_ar': 'view_in_ar',
+  'view_in_ar_off': 'view_in_ar_off',
   'view_kanban': 'view_kanban',
   'view_list': 'view_list',
   'view_module': 'view_module',
@@ -4161,32 +6740,62 @@ export const icons: Icons = {
   'vignette': 'vignette',
   'villa': 'villa',
   'visibility': 'visibility',
+  'visibility_lock': 'visibility_lock',
   'visibility_off': 'visibility_off',
+  'vital_signs': 'vital_signs',
   'voice_chat': 'voice_chat',
   'voice_over_off': 'voice_over_off',
+  'voice_selection': 'voice_selection',
   'voicemail': 'voicemail',
   'volcano': 'volcano',
   'volume_down': 'volume_down',
+  'volume_down_alt': 'volume_down_alt',
   'volume_mute': 'volume_mute',
   'volume_off': 'volume_off',
   'volume_up': 'volume_up',
   'volunteer_activism': 'volunteer_activism',
+  'voting_chip': 'voting_chip',
   'vpn_key': 'vpn_key',
+  'vpn_key_alert': 'vpn_key_alert',
   'vpn_key_off': 'vpn_key_off',
   'vpn_lock': 'vpn_lock',
+  'vr180_create2d': 'vr180_create2d',
+  'vr180_create2d_off': 'vr180_create2d_off',
   'vrpano': 'vrpano',
+  'wall_art': 'wall_art',
+  'wall_lamp': 'wall_lamp',
   'wallet': 'wallet',
   'wallpaper': 'wallpaper',
+  'wallpaper_slideshow': 'wallpaper_slideshow',
+  'ward': 'ward',
   'warehouse': 'warehouse',
   'warning': 'warning',
   'warning_amber': 'warning_amber',
+  'warning_off': 'warning_off',
   'wash': 'wash',
   'watch': 'watch',
+  'watch_button_press': 'watch_button_press',
   'watch_later': 'watch_later',
   'watch_off': 'watch_off',
+  'watch_screentime': 'watch_screentime',
+  'watch_wake': 'watch_wake',
   'water': 'water',
+  'water_bottle': 'water_bottle',
+  'water_bottle_large': 'water_bottle_large',
   'water_damage': 'water_damage',
+  'water_do': 'water_do',
   'water_drop': 'water_drop',
+  'water_ec': 'water_ec',
+  'water_full': 'water_full',
+  'water_heater': 'water_heater',
+  'water_lock': 'water_lock',
+  'water_loss': 'water_loss',
+  'water_lux': 'water_lux',
+  'water_medium': 'water_medium',
+  'water_orp': 'water_orp',
+  'water_ph': 'water_ph',
+  'water_pump': 'water_pump',
+  'water_voc': 'water_voc',
   'waterfall_chart': 'waterfall_chart',
   'waves': 'waves',
   'waving_hand': 'waving_hand',
@@ -4196,56 +6805,83 @@ export const icons: Icons = {
   'wb_iridescent': 'wb_iridescent',
   'wb_shade': 'wb_shade',
   'wb_sunny': 'wb_sunny',
+  'wb_twighlight': 'wb_twighlight',
   'wb_twilight': 'wb_twilight',
   'wc': 'wc',
+  'weather_hail': 'weather_hail',
+  'weather_mix': 'weather_mix',
+  'weather_snowy': 'weather_snowy',
   'web': 'web',
   'web_asset': 'web_asset',
   'web_asset_off': 'web_asset_off',
   'web_stories': 'web_stories',
+  'web_traffic': 'web_traffic',
   'webhook': 'webhook',
   'weekend': 'weekend',
+  'weight': 'weight',
   'west': 'west',
   'whatshot': 'whatshot',
   'wheelchair_pickup': 'wheelchair_pickup',
   'where_to_vote': 'where_to_vote',
   'widgets': 'widgets',
+  'width': 'width',
   'width_full': 'width_full',
   'width_normal': 'width_normal',
   'width_wide': 'width_wide',
   'wifi': 'wifi',
   'wifi_1_bar': 'wifi_1_bar',
   'wifi_2_bar': 'wifi_2_bar',
+  'wifi_add': 'wifi_add',
   'wifi_calling': 'wifi_calling',
+  'wifi_calling_1': 'wifi_calling_1',
+  'wifi_calling_2': 'wifi_calling_2',
   'wifi_calling_3': 'wifi_calling_3',
   'wifi_channel': 'wifi_channel',
   'wifi_find': 'wifi_find',
+  'wifi_home': 'wifi_home',
   'wifi_lock': 'wifi_lock',
+  'wifi_notification': 'wifi_notification',
   'wifi_off': 'wifi_off',
   'wifi_password': 'wifi_password',
   'wifi_protected_setup': 'wifi_protected_setup',
+  'wifi_proxy': 'wifi_proxy',
   'wifi_tethering': 'wifi_tethering',
   'wifi_tethering_error': 'wifi_tethering_error',
   'wifi_tethering_off': 'wifi_tethering_off',
   'wind_power': 'wind_power',
   'window': 'window',
+  'window_closed': 'window_closed',
+  'window_open': 'window_open',
+  'window_sensor': 'window_sensor',
   'wine_bar': 'wine_bar',
   'woman': 'woman',
   'woman_2': 'woman_2',
   'work': 'work',
+  'work_alert': 'work_alert',
   'work_history': 'work_history',
   'work_off': 'work_off',
   'work_outline': 'work_outline',
+  'work_update': 'work_update',
   'workspace_premium': 'workspace_premium',
   'workspaces': 'workspaces',
+  'workspaces_filled': 'workspaces_filled',
+  'workspaces_outline': 'workspaces_outline',
+  'wounds_injuries': 'wounds_injuries',
   'wrap_text': 'wrap_text',
+  'wrist': 'wrist',
   'wrong_location': 'wrong_location',
   'wysiwyg': 'wysiwyg',
   'yard': 'yard',
+  'your_trips': 'your_trips',
+  'youtube_activity': 'youtube_activity',
   'youtube_searched_for': 'youtube_searched_for',
+  'zone_person_alert': 'zone_person_alert',
+  'zone_person_idle': 'zone_person_idle',
+  'zone_person_urgent': 'zone_person_urgent',
   'zoom_in': 'zoom_in',
   'zoom_in_map': 'zoom_in_map',
   'zoom_out': 'zoom_out',
   'zoom_out_map': 'zoom_out_map',
 }
 
-export declare type IconsProp = '10k'|'10mp'|'11mp'|'123'|'12mp'|'13mp'|'14mp'|'15mp'|'16mp'|'17mp'|'18_up_rating'|'18mp'|'19mp'|'1k'|'1k_plus'|'1x_mobiledata'|'20mp'|'21mp'|'22mp'|'23mp'|'24mp'|'2k'|'2k_plus'|'2mp'|'30fps'|'30fps_select'|'360'|'3d_rotation'|'3g_mobiledata'|'3k'|'3k_plus'|'3mp'|'3p'|'4g_mobiledata'|'4g_plus_mobiledata'|'4k'|'4k_plus'|'4mp'|'5g'|'5k'|'5k_plus'|'5mp'|'60fps'|'60fps_select'|'6_ft_apart'|'6k'|'6k_plus'|'6mp'|'7k'|'7k_plus'|'7mp'|'8k'|'8k_plus'|'8mp'|'9k'|'9k_plus'|'9mp'|'abc'|'ac_unit'|'access_alarm'|'access_alarms'|'access_time'|'access_time_filled'|'accessibility'|'accessibility_new'|'accessible'|'accessible_forward'|'account_balance'|'account_balance_wallet'|'account_box'|'account_circle'|'account_tree'|'ad_units'|'adb'|'add'|'add_a_photo'|'add_alarm'|'add_alert'|'add_box'|'add_business'|'add_card'|'add_chart'|'add_circle'|'add_circle_outline'|'add_comment'|'add_home'|'add_home_work'|'add_ic_call'|'add_link'|'add_location'|'add_location_alt'|'add_moderator'|'add_photo_alternate'|'add_reaction'|'add_road'|'add_shopping_cart'|'add_task'|'add_to_drive'|'add_to_home_screen'|'add_to_photos'|'add_to_queue'|'addchart'|'adf_scanner'|'adjust'|'admin_panel_settings'|'ads_click'|'agriculture'|'air'|'airline_seat_flat'|'airline_seat_flat_angled'|'airline_seat_individual_suite'|'airline_seat_legroom_extra'|'airline_seat_legroom_normal'|'airline_seat_legroom_reduced'|'airline_seat_recline_extra'|'airline_seat_recline_normal'|'airline_stops'|'airlines'|'airplane_ticket'|'airplanemode_active'|'airplanemode_inactive'|'airplay'|'airport_shuttle'|'alarm'|'alarm_add'|'alarm_off'|'alarm_on'|'album'|'align_horizontal_center'|'align_horizontal_left'|'align_horizontal_right'|'align_vertical_bottom'|'align_vertical_center'|'align_vertical_top'|'all_inbox'|'all_inclusive'|'all_out'|'alt_route'|'alternate_email'|'analytics'|'anchor'|'android'|'animation'|'announcement'|'aod'|'apartment'|'api'|'app_blocking'|'app_registration'|'app_settings_alt'|'app_shortcut'|'approval'|'apps'|'apps_outage'|'architecture'|'archive'|'area_chart'|'arrow_back'|'arrow_back_ios'|'arrow_back_ios_new'|'arrow_circle_down'|'arrow_circle_left'|'arrow_circle_right'|'arrow_circle_up'|'arrow_downward'|'arrow_drop_down'|'arrow_drop_down_circle'|'arrow_drop_up'|'arrow_forward'|'arrow_forward_ios'|'arrow_left'|'arrow_outward'|'arrow_right'|'arrow_right_alt'|'arrow_upward'|'art_track'|'article'|'aspect_ratio'|'assessment'|'assignment'|'assignment_ind'|'assignment_late'|'assignment_return'|'assignment_returned'|'assignment_turned_in'|'assist_walker'|'assistant'|'assistant_direction'|'assistant_photo'|'assured_workload'|'atm'|'attach_email'|'attach_file'|'attach_money'|'attachment'|'attractions'|'attribution'|'audio_file'|'audiotrack'|'auto_awesome'|'auto_awesome_mosaic'|'auto_awesome_motion'|'auto_delete'|'auto_fix_high'|'auto_fix_normal'|'auto_fix_off'|'auto_graph'|'auto_mode'|'auto_stories'|'autofps_select'|'autorenew'|'av_timer'|'baby_changing_station'|'back_hand'|'backpack'|'backspace'|'backup'|'backup_table'|'badge'|'bakery_dining'|'balance'|'balcony'|'ballot'|'bar_chart'|'batch_prediction'|'bathroom'|'bathtub'|'battery_0_bar'|'battery_1_bar'|'battery_2_bar'|'battery_3_bar'|'battery_4_bar'|'battery_5_bar'|'battery_6_bar'|'battery_alert'|'battery_charging_full'|'battery_full'|'battery_saver'|'battery_std'|'battery_unknown'|'beach_access'|'bed'|'bedroom_baby'|'bedroom_child'|'bedroom_parent'|'bedtime'|'bedtime_off'|'beenhere'|'bento'|'bike_scooter'|'biotech'|'blender'|'blind'|'blinds'|'blinds_closed'|'block'|'bloodtype'|'bluetooth'|'bluetooth_audio'|'bluetooth_connected'|'bluetooth_disabled'|'bluetooth_drive'|'bluetooth_searching'|'blur_circular'|'blur_linear'|'blur_off'|'blur_on'|'bolt'|'book'|'book_online'|'bookmark'|'bookmark_add'|'bookmark_added'|'bookmark_border'|'bookmark_remove'|'bookmarks'|'border_all'|'border_bottom'|'border_clear'|'border_color'|'border_horizontal'|'border_inner'|'border_left'|'border_outer'|'border_right'|'border_style'|'border_top'|'border_vertical'|'boy'|'branding_watermark'|'breakfast_dining'|'brightness_1'|'brightness_2'|'brightness_3'|'brightness_4'|'brightness_5'|'brightness_6'|'brightness_7'|'brightness_auto'|'brightness_high'|'brightness_low'|'brightness_medium'|'broadcast_on_home'|'broadcast_on_personal'|'broken_image'|'browse_gallery'|'browser_not_supported'|'browser_updated'|'brunch_dining'|'brush'|'bubble_chart'|'bug_report'|'build'|'build_circle'|'bungalow'|'burst_mode'|'bus_alert'|'business'|'business_center'|'cabin'|'cable'|'cached'|'cake'|'calculate'|'calendar_month'|'calendar_today'|'calendar_view_day'|'calendar_view_month'|'calendar_view_week'|'call'|'call_end'|'call_made'|'call_merge'|'call_missed'|'call_missed_outgoing'|'call_received'|'call_split'|'call_to_action'|'camera'|'camera_alt'|'camera_enhance'|'camera_front'|'camera_indoor'|'camera_outdoor'|'camera_rear'|'camera_roll'|'cameraswitch'|'campaign'|'cancel'|'cancel_presentation'|'cancel_schedule_send'|'candlestick_chart'|'car_crash'|'car_rental'|'car_repair'|'card_giftcard'|'card_membership'|'card_travel'|'carpenter'|'cases'|'casino'|'cast'|'cast_connected'|'cast_for_education'|'castle'|'catching_pokemon'|'category'|'celebration'|'cell_tower'|'cell_wifi'|'center_focus_strong'|'center_focus_weak'|'chair'|'chair_alt'|'chalet'|'change_circle'|'change_history'|'charging_station'|'chat'|'chat_bubble'|'chat_bubble_outline'|'check'|'check_box'|'check_box_outline_blank'|'check_circle'|'check_circle_outline'|'checklist'|'checklist_rtl'|'checkroom'|'chevron_left'|'chevron_right'|'child_care'|'child_friendly'|'chrome_reader_mode'|'church'|'circle'|'circle_notifications'|'class'|'clean_hands'|'cleaning_services'|'clear'|'clear_all'|'close'|'close_fullscreen'|'closed_caption'|'closed_caption_disabled'|'closed_caption_off'|'cloud'|'cloud_circle'|'cloud_done'|'cloud_download'|'cloud_off'|'cloud_queue'|'cloud_sync'|'cloud_upload'|'co2'|'co_present'|'code'|'code_off'|'coffee'|'coffee_maker'|'collections'|'collections_bookmark'|'color_lens'|'colorize'|'comment'|'comment_bank'|'comments_disabled'|'commit'|'commute'|'compare'|'compare_arrows'|'compass_calibration'|'compost'|'compress'|'computer'|'confirmation_number'|'connect_without_contact'|'connected_tv'|'connecting_airports'|'construction'|'contact_emergency'|'contact_mail'|'contact_page'|'contact_phone'|'contact_support'|'contactless'|'contacts'|'content_copy'|'content_cut'|'content_paste'|'content_paste_go'|'content_paste_off'|'content_paste_search'|'contrast'|'control_camera'|'control_point'|'control_point_duplicate'|'cookie'|'copy_all'|'copyright'|'coronavirus'|'corporate_fare'|'cottage'|'countertops'|'create'|'create_new_folder'|'credit_card'|'credit_card_off'|'credit_score'|'crib'|'crisis_alert'|'crop'|'crop_16_9'|'crop_3_2'|'crop_5_4'|'crop_7_5'|'crop_din'|'crop_free'|'crop_landscape'|'crop_original'|'crop_portrait'|'crop_rotate'|'crop_square'|'cruelty_free'|'css'|'currency_bitcoin'|'currency_exchange'|'currency_franc'|'currency_lira'|'currency_pound'|'currency_ruble'|'currency_rupee'|'currency_yen'|'currency_yuan'|'curtains'|'curtains_closed'|'cyclone'|'dangerous'|'dark_mode'|'dashboard'|'dashboard_customize'|'data_array'|'data_exploration'|'data_object'|'data_saver_off'|'data_saver_on'|'data_thresholding'|'data_usage'|'dataset'|'dataset_linked'|'date_range'|'deblur'|'deck'|'dehaze'|'delete'|'delete_forever'|'delete_outline'|'delete_sweep'|'delivery_dining'|'density_large'|'density_medium'|'density_small'|'departure_board'|'description'|'deselect'|'design_services'|'desk'|'desktop_access_disabled'|'desktop_mac'|'desktop_windows'|'details'|'developer_board'|'developer_board_off'|'developer_mode'|'device_hub'|'device_thermostat'|'device_unknown'|'devices'|'devices_fold'|'devices_other'|'dialer_sip'|'dialpad'|'diamond'|'difference'|'dining'|'dinner_dining'|'directions'|'directions_bike'|'directions_boat'|'directions_boat_filled'|'directions_bus'|'directions_bus_filled'|'directions_car'|'directions_car_filled'|'directions_off'|'directions_railway'|'directions_railway_filled'|'directions_run'|'directions_subway'|'directions_subway_filled'|'directions_transit'|'directions_transit_filled'|'directions_walk'|'dirty_lens'|'disabled_by_default'|'disabled_visible'|'disc_full'|'discount'|'display_settings'|'diversity_1'|'diversity_2'|'diversity_3'|'dns'|'do_disturb'|'do_disturb_alt'|'do_disturb_off'|'do_disturb_on'|'do_not_disturb'|'do_not_disturb_alt'|'do_not_disturb_off'|'do_not_disturb_on'|'do_not_disturb_on_total_silence'|'do_not_step'|'do_not_touch'|'dock'|'document_scanner'|'domain'|'domain_add'|'domain_disabled'|'domain_verification'|'done'|'done_all'|'done_outline'|'donut_large'|'donut_small'|'door_back'|'door_front'|'door_sliding'|'doorbell'|'double_arrow'|'downhill_skiing'|'download'|'download_done'|'download_for_offline'|'downloading'|'drafts'|'drag_handle'|'drag_indicator'|'draw'|'drive_eta'|'drive_file_move'|'drive_file_move_rtl'|'drive_file_rename_outline'|'drive_folder_upload'|'dry'|'dry_cleaning'|'duo'|'dvr'|'dynamic_feed'|'dynamic_form'|'e_mobiledata'|'earbuds'|'earbuds_battery'|'east'|'edgesensor_high'|'edgesensor_low'|'edit'|'edit_attributes'|'edit_calendar'|'edit_location'|'edit_location_alt'|'edit_note'|'edit_notifications'|'edit_off'|'edit_road'|'egg'|'egg_alt'|'eject'|'elderly'|'elderly_woman'|'electric_bike'|'electric_bolt'|'electric_car'|'electric_meter'|'electric_moped'|'electric_rickshaw'|'electric_scooter'|'electrical_services'|'elevator'|'email'|'emergency'|'emergency_recording'|'emergency_share'|'emoji_emotions'|'emoji_events'|'emoji_food_beverage'|'emoji_nature'|'emoji_objects'|'emoji_people'|'emoji_symbols'|'emoji_transportation'|'energy_savings_leaf'|'engineering'|'enhanced_encryption'|'equalizer'|'error'|'error_outline'|'escalator'|'escalator_warning'|'euro'|'euro_symbol'|'ev_station'|'event'|'event_available'|'event_busy'|'event_note'|'event_repeat'|'event_seat'|'exit_to_app'|'expand'|'expand_circle_down'|'expand_less'|'expand_more'|'explicit'|'explore'|'explore_off'|'exposure'|'exposure_neg_1'|'exposure_neg_2'|'exposure_plus_1'|'exposure_plus_2'|'exposure_zero'|'extension'|'extension_off'|'face'|'face_2'|'face_3'|'face_4'|'face_5'|'face_6'|'face_retouching_natural'|'face_retouching_off'|'fact_check'|'factory'|'family_restroom'|'fast_forward'|'fast_rewind'|'fastfood'|'favorite'|'favorite_border'|'fax'|'featured_play_list'|'featured_video'|'feed'|'feedback'|'female'|'fence'|'festival'|'fiber_dvr'|'fiber_manual_record'|'fiber_new'|'fiber_pin'|'fiber_smart_record'|'file_copy'|'file_download'|'file_download_done'|'file_download_off'|'file_open'|'file_present'|'file_upload'|'filter'|'filter_1'|'filter_2'|'filter_3'|'filter_4'|'filter_5'|'filter_6'|'filter_7'|'filter_8'|'filter_9'|'filter_9_plus'|'filter_alt'|'filter_alt_off'|'filter_b_and_w'|'filter_center_focus'|'filter_drama'|'filter_frames'|'filter_hdr'|'filter_list'|'filter_list_off'|'filter_none'|'filter_tilt_shift'|'filter_vintage'|'find_in_page'|'find_replace'|'fingerprint'|'fire_extinguisher'|'fire_hydrant_alt'|'fire_truck'|'fireplace'|'first_page'|'fit_screen'|'fitbit'|'fitness_center'|'flag'|'flag_circle'|'flaky'|'flare'|'flash_auto'|'flash_off'|'flash_on'|'flashlight_off'|'flashlight_on'|'flatware'|'flight'|'flight_class'|'flight_land'|'flight_takeoff'|'flip'|'flip_camera_android'|'flip_camera_ios'|'flip_to_back'|'flip_to_front'|'flood'|'fluorescent'|'flutter_dash'|'fmd_bad'|'fmd_good'|'folder'|'folder_copy'|'folder_delete'|'folder_off'|'folder_open'|'folder_shared'|'folder_special'|'folder_zip'|'follow_the_signs'|'font_download'|'font_download_off'|'food_bank'|'forest'|'fork_left'|'fork_right'|'format_align_center'|'format_align_justify'|'format_align_left'|'format_align_right'|'format_bold'|'format_clear'|'format_color_fill'|'format_color_reset'|'format_color_text'|'format_indent_decrease'|'format_indent_increase'|'format_italic'|'format_line_spacing'|'format_list_bulleted'|'format_list_numbered'|'format_list_numbered_rtl'|'format_overline'|'format_paint'|'format_quote'|'format_shapes'|'format_size'|'format_strikethrough'|'format_textdirection_l_to_r'|'format_textdirection_r_to_l'|'format_underlined'|'fort'|'forum'|'forward'|'forward_10'|'forward_30'|'forward_5'|'forward_to_inbox'|'foundation'|'free_breakfast'|'free_cancellation'|'front_hand'|'fullscreen'|'fullscreen_exit'|'functions'|'g_mobiledata'|'g_translate'|'gamepad'|'games'|'garage'|'gas_meter'|'gavel'|'generating_tokens'|'gesture'|'get_app'|'gif'|'gif_box'|'girl'|'gite'|'golf_course'|'gpp_bad'|'gpp_good'|'gpp_maybe'|'gps_fixed'|'gps_not_fixed'|'gps_off'|'grade'|'gradient'|'grading'|'grain'|'graphic_eq'|'grass'|'grid_3x3'|'grid_4x4'|'grid_goldenratio'|'grid_off'|'grid_on'|'grid_view'|'group'|'group_add'|'group_off'|'group_remove'|'group_work'|'groups'|'groups_2'|'groups_3'|'h_mobiledata'|'h_plus_mobiledata'|'hail'|'handshake'|'handyman'|'hardware'|'hd'|'hdr_auto'|'hdr_auto_select'|'hdr_enhanced_select'|'hdr_off'|'hdr_off_select'|'hdr_on'|'hdr_on_select'|'hdr_plus'|'hdr_strong'|'hdr_weak'|'headphones'|'headphones_battery'|'headset'|'headset_mic'|'headset_off'|'healing'|'health_and_safety'|'hearing'|'hearing_disabled'|'heart_broken'|'heat_pump'|'height'|'help'|'help_center'|'help_outline'|'hevc'|'hexagon'|'hide_image'|'hide_source'|'high_quality'|'highlight'|'highlight_alt'|'highlight_off'|'hiking'|'history'|'history_edu'|'history_toggle_off'|'hive'|'hls'|'hls_off'|'holiday_village'|'home'|'home_max'|'home_mini'|'home_repair_service'|'home_work'|'horizontal_distribute'|'horizontal_rule'|'horizontal_split'|'hot_tub'|'hotel'|'hotel_class'|'hourglass_bottom'|'hourglass_disabled'|'hourglass_empty'|'hourglass_full'|'hourglass_top'|'house'|'house_siding'|'houseboat'|'how_to_reg'|'how_to_vote'|'html'|'http'|'https'|'hub'|'hvac'|'ice_skating'|'icecream'|'image'|'image_aspect_ratio'|'image_not_supported'|'image_search'|'imagesearch_roller'|'import_contacts'|'import_export'|'important_devices'|'inbox'|'incomplete_circle'|'indeterminate_check_box'|'info'|'input'|'insert_chart'|'insert_chart_outlined'|'insert_comment'|'insert_drive_file'|'insert_emoticon'|'insert_invitation'|'insert_link'|'insert_page_break'|'insert_photo'|'insights'|'install_desktop'|'install_mobile'|'integration_instructions'|'interests'|'interpreter_mode'|'inventory'|'inventory_2'|'invert_colors'|'invert_colors_off'|'ios_share'|'iron'|'iso'|'javascript'|'join_full'|'join_inner'|'join_left'|'join_right'|'kayaking'|'kebab_dining'|'key'|'key_off'|'keyboard'|'keyboard_alt'|'keyboard_arrow_down'|'keyboard_arrow_left'|'keyboard_arrow_right'|'keyboard_arrow_up'|'keyboard_backspace'|'keyboard_capslock'|'keyboard_command_key'|'keyboard_control_key'|'keyboard_double_arrow_down'|'keyboard_double_arrow_left'|'keyboard_double_arrow_right'|'keyboard_double_arrow_up'|'keyboard_hide'|'keyboard_option_key'|'keyboard_return'|'keyboard_tab'|'keyboard_voice'|'king_bed'|'kitchen'|'kitesurfing'|'label'|'label_important'|'label_off'|'lan'|'landscape'|'landslide'|'language'|'laptop'|'laptop_chromebook'|'laptop_mac'|'laptop_windows'|'last_page'|'launch'|'layers'|'layers_clear'|'leaderboard'|'leak_add'|'leak_remove'|'legend_toggle'|'lens'|'lens_blur'|'library_add'|'library_add_check'|'library_books'|'library_music'|'light'|'light_mode'|'lightbulb'|'lightbulb_circle'|'line_axis'|'line_style'|'line_weight'|'linear_scale'|'link'|'link_off'|'linked_camera'|'liquor'|'list'|'list_alt'|'live_help'|'live_tv'|'living'|'local_activity'|'local_airport'|'local_atm'|'local_bar'|'local_cafe'|'local_car_wash'|'local_convenience_store'|'local_dining'|'local_drink'|'local_fire_department'|'local_florist'|'local_gas_station'|'local_grocery_store'|'local_hospital'|'local_hotel'|'local_laundry_service'|'local_library'|'local_mall'|'local_movies'|'local_offer'|'local_parking'|'local_pharmacy'|'local_phone'|'local_pizza'|'local_play'|'local_police'|'local_post_office'|'local_printshop'|'local_see'|'local_shipping'|'local_taxi'|'location_city'|'location_disabled'|'location_off'|'location_on'|'location_searching'|'lock'|'lock_clock'|'lock_open'|'lock_person'|'lock_reset'|'login'|'logo_dev'|'logout'|'looks'|'looks_3'|'looks_4'|'looks_5'|'looks_6'|'looks_one'|'looks_two'|'loop'|'loupe'|'low_priority'|'loyalty'|'lte_mobiledata'|'lte_plus_mobiledata'|'luggage'|'lunch_dining'|'lyrics'|'macro_off'|'mail'|'mail_lock'|'mail_outline'|'male'|'man'|'man_2'|'man_3'|'man_4'|'manage_accounts'|'manage_history'|'manage_search'|'map'|'maps_home_work'|'maps_ugc'|'margin'|'mark_as_unread'|'mark_chat_read'|'mark_chat_unread'|'mark_email_read'|'mark_email_unread'|'mark_unread_chat_alt'|'markunread'|'markunread_mailbox'|'masks'|'maximize'|'media_bluetooth_off'|'media_bluetooth_on'|'mediation'|'medical_information'|'medical_services'|'medication'|'medication_liquid'|'meeting_room'|'memory'|'menu'|'menu_book'|'menu_open'|'merge'|'merge_type'|'message'|'mic'|'mic_external_off'|'mic_external_on'|'mic_none'|'mic_off'|'microwave'|'military_tech'|'minimize'|'minor_crash'|'miscellaneous_services'|'missed_video_call'|'mms'|'mobile_friendly'|'mobile_off'|'mobile_screen_share'|'mobiledata_off'|'mode'|'mode_comment'|'mode_edit'|'mode_edit_outline'|'mode_fan_off'|'mode_night'|'mode_of_travel'|'mode_standby'|'model_training'|'monetization_on'|'money'|'money_off'|'money_off_csred'|'monitor'|'monitor_heart'|'monitor_weight'|'monochrome_photos'|'mood'|'mood_bad'|'moped'|'more'|'more_horiz'|'more_time'|'more_vert'|'mosque'|'motion_photos_auto'|'motion_photos_off'|'motion_photos_on'|'motion_photos_pause'|'motion_photos_paused'|'mouse'|'move_down'|'move_to_inbox'|'move_up'|'movie'|'movie_creation'|'movie_filter'|'moving'|'mp'|'multiline_chart'|'multiple_stop'|'museum'|'music_note'|'music_off'|'music_video'|'my_location'|'nat'|'nature'|'nature_people'|'navigate_before'|'navigate_next'|'navigation'|'near_me'|'near_me_disabled'|'nearby_error'|'nearby_off'|'nest_cam_wired_stand'|'network_cell'|'network_check'|'network_locked'|'network_ping'|'network_wifi'|'network_wifi_1_bar'|'network_wifi_2_bar'|'network_wifi_3_bar'|'new_label'|'new_releases'|'newspaper'|'next_plan'|'next_week'|'nfc'|'night_shelter'|'nightlife'|'nightlight'|'nightlight_round'|'nights_stay'|'no_accounts'|'no_adult_content'|'no_backpack'|'no_cell'|'no_crash'|'no_drinks'|'no_encryption'|'no_encryption_gmailerrorred'|'no_flash'|'no_food'|'no_luggage'|'no_meals'|'no_meeting_room'|'no_photography'|'no_sim'|'no_stroller'|'no_transfer'|'noise_aware'|'noise_control_off'|'nordic_walking'|'north'|'north_east'|'north_west'|'not_accessible'|'not_interested'|'not_listed_location'|'not_started'|'note'|'note_add'|'note_alt'|'notes'|'notification_add'|'notification_important'|'notifications'|'notifications_active'|'notifications_none'|'notifications_off'|'notifications_paused'|'numbers'|'offline_bolt'|'offline_pin'|'offline_share'|'oil_barrel'|'on_device_training'|'ondemand_video'|'online_prediction'|'opacity'|'open_in_browser'|'open_in_full'|'open_in_new'|'open_in_new_off'|'open_with'|'other_houses'|'outbound'|'outbox'|'outdoor_grill'|'outlet'|'outlined_flag'|'output'|'padding'|'pages'|'pageview'|'paid'|'palette'|'pan_tool'|'pan_tool_alt'|'panorama'|'panorama_fish_eye'|'panorama_horizontal'|'panorama_horizontal_select'|'panorama_photosphere'|'panorama_photosphere_select'|'panorama_vertical'|'panorama_vertical_select'|'panorama_wide_angle'|'panorama_wide_angle_select'|'paragliding'|'park'|'party_mode'|'password'|'pattern'|'pause'|'pause_circle'|'pause_circle_filled'|'pause_circle_outline'|'pause_presentation'|'payment'|'payments'|'pedal_bike'|'pending'|'pending_actions'|'pentagon'|'people'|'people_alt'|'people_outline'|'percent'|'perm_camera_mic'|'perm_contact_calendar'|'perm_data_setting'|'perm_device_information'|'perm_identity'|'perm_media'|'perm_phone_msg'|'perm_scan_wifi'|'person'|'person_2'|'person_3'|'person_4'|'person_add'|'person_add_alt'|'person_add_alt_1'|'person_add_disabled'|'person_off'|'person_outline'|'person_pin'|'person_pin_circle'|'person_remove'|'person_remove_alt_1'|'person_search'|'personal_injury'|'personal_video'|'pest_control'|'pest_control_rodent'|'pets'|'phishing'|'phone'|'phone_android'|'phone_bluetooth_speaker'|'phone_callback'|'phone_disabled'|'phone_enabled'|'phone_forwarded'|'phone_iphone'|'phone_locked'|'phone_missed'|'phone_paused'|'phonelink'|'phonelink_erase'|'phonelink_lock'|'phonelink_off'|'phonelink_ring'|'phonelink_setup'|'photo'|'photo_album'|'photo_camera'|'photo_camera_back'|'photo_camera_front'|'photo_filter'|'photo_library'|'photo_size_select_actual'|'photo_size_select_large'|'photo_size_select_small'|'php'|'piano'|'piano_off'|'picture_as_pdf'|'picture_in_picture'|'picture_in_picture_alt'|'pie_chart'|'pie_chart_outline'|'pin'|'pin_drop'|'pin_end'|'pin_invoke'|'pinch'|'pivot_table_chart'|'pix'|'place'|'plagiarism'|'play_arrow'|'play_circle'|'play_circle_filled'|'play_circle_outline'|'play_disabled'|'play_for_work'|'play_lesson'|'playlist_add'|'playlist_add_check'|'playlist_add_check_circle'|'playlist_add_circle'|'playlist_play'|'playlist_remove'|'plumbing'|'plus_one'|'podcasts'|'point_of_sale'|'policy'|'poll'|'polyline'|'polymer'|'pool'|'portable_wifi_off'|'portrait'|'post_add'|'power'|'power_input'|'power_off'|'power_settings_new'|'precision_manufacturing'|'pregnant_woman'|'present_to_all'|'preview'|'price_change'|'price_check'|'print'|'print_disabled'|'priority_high'|'privacy_tip'|'private_connectivity'|'production_quantity_limits'|'propane'|'propane_tank'|'psychology'|'psychology_alt'|'public'|'public_off'|'publish'|'published_with_changes'|'punch_clock'|'push_pin'|'qr_code'|'qr_code_2'|'qr_code_scanner'|'query_builder'|'query_stats'|'question_answer'|'question_mark'|'queue'|'queue_music'|'queue_play_next'|'quickreply'|'quiz'|'r_mobiledata'|'radar'|'radio'|'radio_button_checked'|'radio_button_unchecked'|'railway_alert'|'ramen_dining'|'ramp_left'|'ramp_right'|'rate_review'|'raw_off'|'raw_on'|'read_more'|'real_estate_agent'|'receipt'|'receipt_long'|'recent_actors'|'recommend'|'record_voice_over'|'rectangle'|'recycling'|'redeem'|'redo'|'reduce_capacity'|'refresh'|'remember_me'|'remove'|'remove_circle'|'remove_circle_outline'|'remove_done'|'remove_from_queue'|'remove_moderator'|'remove_red_eye'|'remove_road'|'remove_shopping_cart'|'reorder'|'repartition'|'repeat'|'repeat_on'|'repeat_one'|'repeat_one_on'|'replay'|'replay_10'|'replay_30'|'replay_5'|'replay_circle_filled'|'reply'|'reply_all'|'report'|'report_gmailerrorred'|'report_off'|'report_problem'|'request_page'|'request_quote'|'reset_tv'|'restart_alt'|'restaurant'|'restaurant_menu'|'restore'|'restore_from_trash'|'restore_page'|'reviews'|'rice_bowl'|'ring_volume'|'rocket'|'rocket_launch'|'roller_shades'|'roller_shades_closed'|'roller_skating'|'roofing'|'room'|'room_preferences'|'room_service'|'rotate_90_degrees_ccw'|'rotate_90_degrees_cw'|'rotate_left'|'rotate_right'|'roundabout_left'|'roundabout_right'|'rounded_corner'|'route'|'router'|'rowing'|'rss_feed'|'rsvp'|'rtt'|'rule'|'rule_folder'|'run_circle'|'running_with_errors'|'rv_hookup'|'safety_check'|'safety_divider'|'sailing'|'sanitizer'|'satellite'|'satellite_alt'|'save'|'save_alt'|'save_as'|'saved_search'|'savings'|'scale'|'scanner'|'scatter_plot'|'schedule'|'schedule_send'|'schema'|'school'|'science'|'score'|'scoreboard'|'screen_lock_landscape'|'screen_lock_portrait'|'screen_lock_rotation'|'screen_rotation'|'screen_rotation_alt'|'screen_search_desktop'|'screen_share'|'screenshot'|'screenshot_monitor'|'scuba_diving'|'sd'|'sd_card'|'sd_card_alert'|'sd_storage'|'search'|'search_off'|'security'|'security_update'|'security_update_good'|'security_update_warning'|'segment'|'select_all'|'self_improvement'|'sell'|'send'|'send_and_archive'|'send_time_extension'|'send_to_mobile'|'sensor_door'|'sensor_occupied'|'sensor_window'|'sensors'|'sensors_off'|'sentiment_dissatisfied'|'sentiment_neutral'|'sentiment_satisfied'|'sentiment_satisfied_alt'|'sentiment_very_dissatisfied'|'sentiment_very_satisfied'|'set_meal'|'settings'|'settings_accessibility'|'settings_applications'|'settings_backup_restore'|'settings_bluetooth'|'settings_brightness'|'settings_cell'|'settings_ethernet'|'settings_input_antenna'|'settings_input_component'|'settings_input_composite'|'settings_input_hdmi'|'settings_input_svideo'|'settings_overscan'|'settings_phone'|'settings_power'|'settings_remote'|'settings_suggest'|'settings_system_daydream'|'settings_voice'|'severe_cold'|'shape_line'|'share'|'share_location'|'shield'|'shield_moon'|'shop'|'shop_2'|'shop_two'|'shopping_bag'|'shopping_basket'|'shopping_cart'|'shopping_cart_checkout'|'short_text'|'shortcut'|'show_chart'|'shower'|'shuffle'|'shuffle_on'|'shutter_speed'|'sick'|'sign_language'|'signal_cellular_0_bar'|'signal_cellular_4_bar'|'signal_cellular_alt'|'signal_cellular_alt_1_bar'|'signal_cellular_alt_2_bar'|'signal_cellular_connected_no_internet_0_bar'|'signal_cellular_connected_no_internet_4_bar'|'signal_cellular_no_sim'|'signal_cellular_nodata'|'signal_cellular_null'|'signal_cellular_off'|'signal_wifi_0_bar'|'signal_wifi_4_bar'|'signal_wifi_4_bar_lock'|'signal_wifi_bad'|'signal_wifi_connected_no_internet_4'|'signal_wifi_off'|'signal_wifi_statusbar_4_bar'|'signal_wifi_statusbar_connected_no_internet_4'|'signal_wifi_statusbar_null'|'signpost'|'sim_card'|'sim_card_alert'|'sim_card_download'|'single_bed'|'sip'|'skateboarding'|'skip_next'|'skip_previous'|'sledding'|'slideshow'|'slow_motion_video'|'smart_button'|'smart_display'|'smart_screen'|'smart_toy'|'smartphone'|'smoke_free'|'smoking_rooms'|'sms'|'sms_failed'|'snippet_folder'|'snooze'|'snowboarding'|'snowmobile'|'snowshoeing'|'soap'|'social_distance'|'solar_power'|'sort'|'sort_by_alpha'|'sos'|'soup_kitchen'|'source'|'south'|'south_america'|'south_east'|'south_west'|'spa'|'space_bar'|'space_dashboard'|'spatial_audio'|'spatial_audio_off'|'spatial_tracking'|'speaker'|'speaker_group'|'speaker_notes'|'speaker_notes_off'|'speaker_phone'|'speed'|'spellcheck'|'splitscreen'|'spoke'|'sports'|'sports_bar'|'sports_baseball'|'sports_basketball'|'sports_cricket'|'sports_esports'|'sports_football'|'sports_golf'|'sports_gymnastics'|'sports_handball'|'sports_hockey'|'sports_kabaddi'|'sports_martial_arts'|'sports_mma'|'sports_motorsports'|'sports_rugby'|'sports_score'|'sports_soccer'|'sports_tennis'|'sports_volleyball'|'square'|'square_foot'|'ssid_chart'|'stacked_bar_chart'|'stacked_line_chart'|'stadium'|'stairs'|'star'|'star_border'|'star_border_purple500'|'star_half'|'star_outline'|'star_purple500'|'star_rate'|'stars'|'start'|'stay_current_landscape'|'stay_current_portrait'|'stay_primary_landscape'|'stay_primary_portrait'|'sticky_note_2'|'stop'|'stop_circle'|'stop_screen_share'|'storage'|'store'|'store_mall_directory'|'storefront'|'storm'|'straight'|'straighten'|'stream'|'streetview'|'strikethrough_s'|'stroller'|'style'|'subdirectory_arrow_left'|'subdirectory_arrow_right'|'subject'|'subscript'|'subscriptions'|'subtitles'|'subtitles_off'|'subway'|'summarize'|'superscript'|'supervised_user_circle'|'supervisor_account'|'support'|'support_agent'|'surfing'|'surround_sound'|'swap_calls'|'swap_horiz'|'swap_horizontal_circle'|'swap_vert'|'swap_vertical_circle'|'swipe'|'swipe_down'|'swipe_down_alt'|'swipe_left'|'swipe_left_alt'|'swipe_right'|'swipe_right_alt'|'swipe_up'|'swipe_up_alt'|'swipe_vertical'|'switch_access_shortcut'|'switch_access_shortcut_add'|'switch_account'|'switch_camera'|'switch_left'|'switch_right'|'switch_video'|'synagogue'|'sync'|'sync_alt'|'sync_disabled'|'sync_lock'|'sync_problem'|'system_security_update'|'system_security_update_good'|'system_security_update_warning'|'system_update'|'system_update_alt'|'tab'|'tab_unselected'|'table_bar'|'table_chart'|'table_restaurant'|'table_rows'|'table_view'|'tablet'|'tablet_android'|'tablet_mac'|'tag'|'tag_faces'|'takeout_dining'|'tap_and_play'|'tapas'|'task'|'task_alt'|'taxi_alert'|'temple_buddhist'|'temple_hindu'|'terminal'|'terrain'|'text_decrease'|'text_fields'|'text_format'|'text_increase'|'text_rotate_up'|'text_rotate_vertical'|'text_rotation_angledown'|'text_rotation_angleup'|'text_rotation_down'|'text_rotation_none'|'text_snippet'|'textsms'|'texture'|'theater_comedy'|'theaters'|'thermostat'|'thermostat_auto'|'thumb_down'|'thumb_down_alt'|'thumb_down_off_alt'|'thumb_up'|'thumb_up_alt'|'thumb_up_off_alt'|'thumbs_up_down'|'thunderstorm'|'time_to_leave'|'timelapse'|'timeline'|'timer'|'timer_10'|'timer_10_select'|'timer_3'|'timer_3_select'|'timer_off'|'tips_and_updates'|'tire_repair'|'title'|'toc'|'today'|'toggle_off'|'toggle_on'|'token'|'toll'|'tonality'|'topic'|'tornado'|'touch_app'|'tour'|'toys'|'track_changes'|'traffic'|'train'|'tram'|'transcribe'|'transfer_within_a_station'|'transform'|'transgender'|'transit_enterexit'|'translate'|'travel_explore'|'trending_down'|'trending_flat'|'trending_up'|'trip_origin'|'troubleshoot'|'try'|'tsunami'|'tty'|'tune'|'tungsten'|'turn_left'|'turn_right'|'turn_sharp_left'|'turn_sharp_right'|'turn_slight_left'|'turn_slight_right'|'turned_in'|'turned_in_not'|'tv'|'tv_off'|'two_wheeler'|'type_specimen'|'u_turn_left'|'u_turn_right'|'umbrella'|'unarchive'|'undo'|'unfold_less'|'unfold_less_double'|'unfold_more'|'unfold_more_double'|'unpublished'|'unsubscribe'|'upcoming'|'update'|'update_disabled'|'upgrade'|'upload'|'upload_file'|'usb'|'usb_off'|'vaccines'|'vape_free'|'vaping_rooms'|'verified'|'verified_user'|'vertical_align_bottom'|'vertical_align_center'|'vertical_align_top'|'vertical_distribute'|'vertical_shades'|'vertical_shades_closed'|'vertical_split'|'vibration'|'video_call'|'video_camera_back'|'video_camera_front'|'video_chat'|'video_file'|'video_label'|'video_library'|'video_settings'|'video_stable'|'videocam'|'videocam_off'|'videogame_asset'|'videogame_asset_off'|'view_agenda'|'view_array'|'view_carousel'|'view_column'|'view_comfy'|'view_comfy_alt'|'view_compact'|'view_compact_alt'|'view_cozy'|'view_day'|'view_headline'|'view_in_ar'|'view_kanban'|'view_list'|'view_module'|'view_quilt'|'view_sidebar'|'view_stream'|'view_timeline'|'view_week'|'vignette'|'villa'|'visibility'|'visibility_off'|'voice_chat'|'voice_over_off'|'voicemail'|'volcano'|'volume_down'|'volume_mute'|'volume_off'|'volume_up'|'volunteer_activism'|'vpn_key'|'vpn_key_off'|'vpn_lock'|'vrpano'|'wallet'|'wallpaper'|'warehouse'|'warning'|'warning_amber'|'wash'|'watch'|'watch_later'|'watch_off'|'water'|'water_damage'|'water_drop'|'waterfall_chart'|'waves'|'waving_hand'|'wb_auto'|'wb_cloudy'|'wb_incandescent'|'wb_iridescent'|'wb_shade'|'wb_sunny'|'wb_twilight'|'wc'|'web'|'web_asset'|'web_asset_off'|'web_stories'|'webhook'|'weekend'|'west'|'whatshot'|'wheelchair_pickup'|'where_to_vote'|'widgets'|'width_full'|'width_normal'|'width_wide'|'wifi'|'wifi_1_bar'|'wifi_2_bar'|'wifi_calling'|'wifi_calling_3'|'wifi_channel'|'wifi_find'|'wifi_lock'|'wifi_off'|'wifi_password'|'wifi_protected_setup'|'wifi_tethering'|'wifi_tethering_error'|'wifi_tethering_off'|'wind_power'|'window'|'wine_bar'|'woman'|'woman_2'|'work'|'work_history'|'work_off'|'work_outline'|'workspace_premium'|'workspaces'|'wrap_text'|'wrong_location'|'wysiwyg'|'yard'|'youtube_searched_for'|'zoom_in'|'zoom_in_map'|'zoom_out'|'zoom_out_map'
+export declare type IconsProp = '10k'|'10mp'|'11mp'|'123'|'12mp'|'13mp'|'14mp'|'15mp'|'16mp'|'17mp'|'18_up_rating'|'18mp'|'19mp'|'1k'|'1k_plus'|'1x_mobiledata'|'1x_mobiledata_badge'|'20mp'|'21mp'|'22mp'|'23mp'|'24mp'|'2d'|'2k'|'2k_plus'|'2mp'|'30fps'|'30fps_select'|'360'|'3d_rotation'|'3g_mobiledata'|'3g_mobiledata_badge'|'3k'|'3k_plus'|'3mp'|'3p'|'4g_mobiledata'|'4g_mobiledata_badge'|'4g_plus_mobiledata'|'4k'|'4k_plus'|'4mp'|'50mp'|'5g'|'5g_mobiledata_badge'|'5k'|'5k_plus'|'5mp'|'60fps'|'60fps_select'|'6_ft_apart'|'6k'|'6k_plus'|'6mp'|'7k'|'7k_plus'|'7mp'|'8k'|'8k_plus'|'8mp'|'9k'|'9k_plus'|'9mp'|'abc'|'ac_unit'|'access_alarm'|'access_alarms'|'access_time'|'access_time_filled'|'accessibility'|'accessibility_new'|'accessible'|'accessible_forward'|'account_balance'|'account_balance_wallet'|'account_box'|'account_child'|'account_child_invert'|'account_circle'|'account_circle_off'|'account_tree'|'action_key'|'activity_zone'|'acute'|'ad'|'ad_group'|'ad_group_off'|'ad_off'|'ad_units'|'adb'|'add'|'add_a_photo'|'add_ad'|'add_alarm'|'add_alert'|'add_box'|'add_business'|'add_call'|'add_card'|'add_chart'|'add_circle'|'add_circle_outline'|'add_comment'|'add_home'|'add_home_work'|'add_ic_call'|'add_link'|'add_location'|'add_location_alt'|'add_moderator'|'add_notes'|'add_photo_alternate'|'add_reaction'|'add_road'|'add_shopping_cart'|'add_task'|'add_to_drive'|'add_to_home_screen'|'add_to_photos'|'add_to_queue'|'addchart'|'adf_scanner'|'adjust'|'admin_meds'|'admin_panel_settings'|'ads_click'|'agender'|'agriculture'|'air'|'air_freshener'|'air_purifier'|'air_purifier_gen'|'airline_seat_flat'|'airline_seat_flat_angled'|'airline_seat_individual_suite'|'airline_seat_legroom_extra'|'airline_seat_legroom_normal'|'airline_seat_legroom_reduced'|'airline_seat_recline_extra'|'airline_seat_recline_normal'|'airline_stops'|'airlines'|'airplane_ticket'|'airplanemode_active'|'airplanemode_inactive'|'airplay'|'airport_shuttle'|'airware'|'airwave'|'alarm'|'alarm_add'|'alarm_off'|'alarm_on'|'alarm_smart_wake'|'album'|'align_center'|'align_end'|'align_flex_center'|'align_flex_end'|'align_flex_start'|'align_horizontal_center'|'align_horizontal_left'|'align_horizontal_right'|'align_items_stretch'|'align_justify_center'|'align_justify_flex_end'|'align_justify_flex_start'|'align_justify_space_around'|'align_justify_space_between'|'align_justify_space_even'|'align_justify_stretch'|'align_self_stretch'|'align_space_around'|'align_space_between'|'align_space_even'|'align_start'|'align_stretch'|'align_vertical_bottom'|'align_vertical_center'|'align_vertical_top'|'all_inbox'|'all_inclusive'|'all_match'|'all_out'|'allergies'|'allergy'|'alt_route'|'alternate_email'|'altitude'|'ambulance'|'amend'|'amp_stories'|'analytics'|'anchor'|'android'|'animation'|'announcement'|'aod'|'aod_tablet'|'aod_watch'|'apartment'|'api'|'apk_document'|'apk_install'|'app_badging'|'app_blocking'|'app_promo'|'app_registration'|'app_settings_alt'|'app_shortcut'|'apparel'|'approval'|'approval_delegation'|'apps'|'apps_outage'|'aq'|'aq_indoor'|'ar_on_you'|'ar_stickers'|'architecture'|'archive'|'area_chart'|'arming_countdown'|'arrow_and_edge'|'arrow_back'|'arrow_back_ios'|'arrow_back_ios_new'|'arrow_circle_down'|'arrow_circle_left'|'arrow_circle_right'|'arrow_circle_up'|'arrow_downward'|'arrow_downward_alt'|'arrow_drop_down'|'arrow_drop_down_circle'|'arrow_drop_up'|'arrow_forward'|'arrow_forward_ios'|'arrow_insert'|'arrow_left'|'arrow_left_alt'|'arrow_or_edge'|'arrow_outward'|'arrow_range'|'arrow_right'|'arrow_right_alt'|'arrow_selector_tool'|'arrow_split'|'arrow_top_left'|'arrow_top_right'|'arrow_upward'|'arrow_upward_alt'|'arrows_more_down'|'arrows_more_up'|'arrows_outward'|'art_track'|'article'|'article_shortcut'|'artist'|'aspect_ratio'|'assessment'|'assignment'|'assignment_add'|'assignment_ind'|'assignment_late'|'assignment_return'|'assignment_returned'|'assignment_turned_in'|'assist_walker'|'assistant'|'assistant_device'|'assistant_direction'|'assistant_navigation'|'assistant_on_hub'|'assistant_photo'|'assured_workload'|'asterisk'|'atm'|'atr'|'attach_email'|'attach_file'|'attach_file_add'|'attach_money'|'attachment'|'attractions'|'attribution'|'audio_description'|'audio_file'|'audio_video_receiver'|'audiotrack'|'auto_awesome'|'auto_awesome_mosaic'|'auto_awesome_motion'|'auto_delete'|'auto_fix_high'|'auto_fix_normal'|'auto_fix_off'|'auto_graph'|'auto_mode'|'auto_read_pause'|'auto_read_play'|'auto_stories'|'auto_towing'|'auto_transmission'|'autofps_select'|'autopause'|'autoplay'|'autorenew'|'autostop'|'av_timer'|'avg_pace'|'avg_time'|'award_star'|'azm'|'baby_changing_station'|'back_hand'|'back_to_tab'|'background_dot_large'|'background_dot_small'|'background_grid_small'|'background_replace'|'backlight_high'|'backlight_low'|'backpack'|'backspace'|'backup'|'backup_table'|'badge'|'badge_critical_battery'|'bakery_dining'|'balance'|'balcony'|'ballot'|'bar_chart'|'bar_chart_4_bars'|'barcode'|'barcode_reader'|'barcode_scanner'|'barefoot'|'batch_prediction'|'bath_outdoor'|'bath_private'|'bath_public_large'|'bathroom'|'bathtub'|'battery_0_bar'|'battery_1_bar'|'battery_20'|'battery_2_bar'|'battery_30'|'battery_3_bar'|'battery_4_bar'|'battery_50'|'battery_5_bar'|'battery_60'|'battery_6_bar'|'battery_80'|'battery_90'|'battery_alert'|'battery_change'|'battery_charging_20'|'battery_charging_30'|'battery_charging_50'|'battery_charging_60'|'battery_charging_80'|'battery_charging_90'|'battery_charging_full'|'battery_error'|'battery_full'|'battery_full_alt'|'battery_horiz_000'|'battery_horiz_050'|'battery_horiz_075'|'battery_low'|'battery_plus'|'battery_profile'|'battery_saver'|'battery_share'|'battery_status_good'|'battery_std'|'battery_unknown'|'battery_very_low'|'beach_access'|'bed'|'bedroom_baby'|'bedroom_child'|'bedroom_parent'|'bedtime'|'bedtime_off'|'beenhere'|'bento'|'bia'|'bid_landscape'|'bid_landscape_disabled'|'bigtop_updates'|'bike_scooter'|'biotech'|'blanket'|'blender'|'blind'|'blinds'|'blinds_closed'|'block'|'block_flipped'|'blood_pressure'|'bloodtype'|'bluetooth'|'bluetooth_audio'|'bluetooth_connected'|'bluetooth_disabled'|'bluetooth_drive'|'bluetooth_searching'|'blur_circular'|'blur_linear'|'blur_medium'|'blur_off'|'blur_on'|'blur_short'|'body_fat'|'body_system'|'bolt'|'bomb'|'book'|'book_2'|'book_3'|'book_4'|'book_5'|'book_online'|'bookmark'|'bookmark_add'|'bookmark_added'|'bookmark_border'|'bookmark_manager'|'bookmark_remove'|'bookmarks'|'border_all'|'border_bottom'|'border_clear'|'border_color'|'border_horizontal'|'border_inner'|'border_left'|'border_outer'|'border_right'|'border_style'|'border_top'|'border_vertical'|'bottom_app_bar'|'bottom_drawer'|'bottom_navigation'|'bottom_panel_close'|'bottom_panel_open'|'bottom_right_click'|'bottom_sheets'|'box'|'box_add'|'box_edit'|'boy'|'brand_awareness'|'branding_watermark'|'breakfast_dining'|'breaking_news'|'breaking_news_alt_1'|'breastfeeding'|'brightness_1'|'brightness_2'|'brightness_3'|'brightness_4'|'brightness_5'|'brightness_6'|'brightness_7'|'brightness_alert'|'brightness_auto'|'brightness_empty'|'brightness_high'|'brightness_low'|'brightness_medium'|'bring_your_own_ip'|'broadcast_on_home'|'broadcast_on_personal'|'broken_image'|'browse'|'browse_activity'|'browse_gallery'|'browser_not_supported'|'browser_updated'|'brunch_dining'|'brush'|'bubble'|'bubble_chart'|'bubbles'|'bug_report'|'build'|'build_circle'|'bungalow'|'burst_mode'|'bus_alert'|'business'|'business_center'|'business_chip'|'business_messages'|'buttons_alt'|'cabin'|'cable'|'cached'|'cake'|'cake_add'|'calculate'|'calendar_add_on'|'calendar_apps_script'|'calendar_clock'|'calendar_month'|'calendar_today'|'calendar_view_day'|'calendar_view_month'|'calendar_view_week'|'call'|'call_end'|'call_log'|'call_made'|'call_merge'|'call_missed'|'call_missed_outgoing'|'call_quality'|'call_received'|'call_split'|'call_to_action'|'camera'|'camera_alt'|'camera_enhance'|'camera_front'|'camera_indoor'|'camera_outdoor'|'camera_rear'|'camera_roll'|'camera_video'|'cameraswitch'|'campaign'|'camping'|'cancel'|'cancel_presentation'|'cancel_schedule_send'|'candle'|'candlestick_chart'|'captive_portal'|'capture'|'car_crash'|'car_rental'|'car_repair'|'card_giftcard'|'card_membership'|'card_travel'|'cardiology'|'cards'|'carpenter'|'carry_on_bag'|'carry_on_bag_checked'|'carry_on_bag_inactive'|'carry_on_bag_question'|'cases'|'casino'|'cast'|'cast_connected'|'cast_for_education'|'cast_pause'|'cast_warning'|'castle'|'catching_pokemon'|'category'|'celebration'|'cell_merge'|'cell_tower'|'cell_wifi'|'center_focus_strong'|'center_focus_weak'|'chair'|'chair_alt'|'chalet'|'change_circle'|'change_history'|'charger'|'charging_station'|'chart_data'|'chat'|'chat_add_on'|'chat_apps_script'|'chat_bubble'|'chat_bubble_outline'|'chat_error'|'chat_info'|'chat_paste_go'|'check'|'check_box'|'check_box_outline_blank'|'check_circle'|'check_circle_outline'|'check_in_out'|'check_indeterminate_small'|'check_small'|'checkbook'|'checked_bag'|'checked_bag_question'|'checklist'|'checklist_rtl'|'checkroom'|'cheer'|'chess'|'chevron_left'|'chevron_right'|'child_care'|'child_friendly'|'chip_extraction'|'chips'|'chrome_reader_mode'|'chromecast_2'|'chromecast_device'|'chronic'|'church'|'cinematic_blur'|'circle'|'circle_notifications'|'circles'|'circles_ext'|'clarify'|'class'|'clean_hands'|'cleaning'|'cleaning_bucket'|'cleaning_services'|'clear'|'clear_all'|'clear_day'|'clear_night'|'climate_mini_split'|'clinical_notes'|'clock_loader_10'|'clock_loader_20'|'clock_loader_40'|'clock_loader_60'|'clock_loader_80'|'clock_loader_90'|'close'|'close_fullscreen'|'close_small'|'closed_caption'|'closed_caption_disabled'|'closed_caption_off'|'cloud'|'cloud_circle'|'cloud_done'|'cloud_download'|'cloud_off'|'cloud_queue'|'cloud_sync'|'cloud_upload'|'cloudy_snowing'|'co2'|'co_present'|'code'|'code_blocks'|'code_off'|'coffee'|'coffee_maker'|'cognition'|'collapse_all'|'collapse_content'|'collections'|'collections_bookmark'|'color_lens'|'colorize'|'colors'|'comic_bubble'|'comment'|'comment_bank'|'comments_disabled'|'commit'|'communication'|'communities'|'commute'|'compare'|'compare_arrows'|'compass_calibration'|'component_exchange'|'compost'|'compress'|'computer'|'concierge'|'conditions'|'confirmation_number'|'congenital'|'connect_without_contact'|'connected_tv'|'connecting_airports'|'construction'|'contact_emergency'|'contact_mail'|'contact_page'|'contact_phone'|'contact_support'|'contactless'|'contactless_off'|'contacts'|'contacts_product'|'content_copy'|'content_cut'|'content_paste'|'content_paste_go'|'content_paste_off'|'content_paste_search'|'contract'|'contract_delete'|'contract_edit'|'contrast'|'contrast_rtl_off'|'control_camera'|'control_point'|'control_point_duplicate'|'controller_gen'|'conversion_path'|'conversion_path_off'|'conveyor_belt'|'cookie'|'cookie_off'|'cooking'|'cool_to_dry'|'copy_all'|'copyright'|'coronavirus'|'corporate_fare'|'cottage'|'counter_0'|'counter_1'|'counter_2'|'counter_3'|'counter_4'|'counter_5'|'counter_6'|'counter_7'|'counter_8'|'counter_9'|'countertops'|'create'|'create_new_folder'|'credit_card'|'credit_card_gear'|'credit_card_heart'|'credit_card_off'|'credit_score'|'crib'|'crisis_alert'|'crop'|'crop_16_9'|'crop_3_2'|'crop_5_4'|'crop_7_5'|'crop_9_16'|'crop_din'|'crop_free'|'crop_landscape'|'crop_original'|'crop_portrait'|'crop_rotate'|'crop_square'|'crossword'|'crowdsource'|'cruelty_free'|'css'|'csv'|'currency_bitcoin'|'currency_exchange'|'currency_franc'|'currency_lira'|'currency_pound'|'currency_ruble'|'currency_rupee'|'currency_yen'|'currency_yuan'|'curtains'|'curtains_closed'|'custom_typography'|'cut'|'cycle'|'cyclone'|'dangerous'|'dark_mode'|'dashboard'|'dashboard_customize'|'data_alert'|'data_array'|'data_check'|'data_exploration'|'data_info_alert'|'data_loss_prevention'|'data_object'|'data_saver_off'|'data_saver_on'|'data_table'|'data_thresholding'|'data_usage'|'database'|'dataset'|'dataset_linked'|'date_range'|'deblur'|'deceased'|'decimal_decrease'|'decimal_increase'|'deck'|'dehaze'|'delete'|'delete_forever'|'delete_history'|'delete_outline'|'delete_sweep'|'delivery_dining'|'demography'|'density_large'|'density_medium'|'density_small'|'dentistry'|'departure_board'|'deployed_code'|'deployed_code_account'|'deployed_code_alert'|'deployed_code_history'|'deployed_code_update'|'dermatology'|'description'|'deselect'|'design_services'|'desk'|'deskphone'|'desktop_access_disabled'|'desktop_mac'|'desktop_windows'|'destruction'|'details'|'detection_and_zone'|'detector'|'detector_alarm'|'detector_battery'|'detector_co'|'detector_offline'|'detector_smoke'|'detector_status'|'developer_board'|'developer_board_off'|'developer_guide'|'developer_mode'|'developer_mode_tv'|'device_hub'|'device_reset'|'device_thermostat'|'device_unknown'|'devices'|'devices_fold'|'devices_off'|'devices_other'|'devices_wearables'|'dew_point'|'diagnosis'|'dialer_sip'|'dialogs'|'dialpad'|'diamond'|'dictionary'|'difference'|'digital_out_of_home'|'digital_wellbeing'|'dining'|'dinner_dining'|'directions'|'directions_alt'|'directions_alt_off'|'directions_bike'|'directions_boat'|'directions_boat_filled'|'directions_bus'|'directions_bus_filled'|'directions_car'|'directions_car_filled'|'directions_off'|'directions_railway'|'directions_railway_filled'|'directions_run'|'directions_subway'|'directions_subway_filled'|'directions_transit'|'directions_transit_filled'|'directions_walk'|'directory_sync'|'dirty_lens'|'disabled_by_default'|'disabled_visible'|'disc_full'|'discount'|'discover_tune'|'dishwasher'|'dishwasher_gen'|'display_external_input'|'display_settings'|'distance'|'diversity_1'|'diversity_2'|'diversity_3'|'diversity_4'|'dns'|'do_disturb'|'do_disturb_alt'|'do_disturb_off'|'do_disturb_on'|'do_not_disturb'|'do_not_disturb_alt'|'do_not_disturb_off'|'do_not_disturb_on'|'do_not_disturb_on_total_silence'|'do_not_step'|'do_not_touch'|'dock'|'dock_to_bottom'|'dock_to_left'|'dock_to_right'|'docs_add_on'|'docs_apps_script'|'document_scanner'|'domain'|'domain_add'|'domain_disabled'|'domain_verification'|'domain_verification_off'|'domino_mask'|'done'|'done_all'|'done_outline'|'donut_large'|'donut_small'|'door_back'|'door_front'|'door_open'|'door_sensor'|'door_sliding'|'doorbell'|'doorbell_3p'|'doorbell_chime'|'double_arrow'|'downhill_skiing'|'download'|'download_2'|'download_done'|'download_for_offline'|'downloading'|'draft'|'draft_orders'|'drafts'|'drag_click'|'drag_handle'|'drag_indicator'|'drag_pan'|'draw'|'draw_abstract'|'draw_collage'|'dresser'|'drive_eta'|'drive_file_move'|'drive_file_move_outline'|'drive_file_move_rtl'|'drive_file_rename_outline'|'drive_folder_upload'|'dropdown'|'dry'|'dry_cleaning'|'dual_screen'|'duo'|'dvr'|'dynamic_feed'|'dynamic_form'|'e911_avatar'|'e911_emergency'|'e_mobiledata'|'e_mobiledata_badge'|'earbuds'|'earbuds_battery'|'early_on'|'earthquake'|'east'|'ecg'|'ecg_heart'|'eco'|'eda'|'edgesensor_high'|'edgesensor_low'|'edit'|'edit_attributes'|'edit_calendar'|'edit_document'|'edit_location'|'edit_location_alt'|'edit_note'|'edit_notifications'|'edit_off'|'edit_road'|'edit_square'|'editor_choice'|'egg'|'egg_alt'|'eject'|'elderly'|'elderly_woman'|'electric_bike'|'electric_bolt'|'electric_car'|'electric_meter'|'electric_moped'|'electric_rickshaw'|'electric_scooter'|'electrical_services'|'elevation'|'elevator'|'email'|'emergency'|'emergency_heat'|'emergency_home'|'emergency_recording'|'emergency_share'|'emergency_share_off'|'emoji_emotions'|'emoji_events'|'emoji_flags'|'emoji_food_beverage'|'emoji_nature'|'emoji_objects'|'emoji_people'|'emoji_symbols'|'emoji_transportation'|'emoticon'|'empty_dashboard'|'enable'|'encrypted'|'endocrinology'|'energy'|'energy_program_saving'|'energy_program_time_used'|'energy_savings_leaf'|'engineering'|'enhanced_encryption'|'ent'|'enterprise'|'enterprise_off'|'equal'|'equalizer'|'error'|'error_med'|'error_outline'|'escalator'|'escalator_warning'|'euro'|'euro_symbol'|'ev_charger'|'ev_mobiledata_badge'|'ev_shadow'|'ev_shadow_add'|'ev_shadow_minus'|'ev_station'|'event'|'event_available'|'event_busy'|'event_list'|'event_note'|'event_repeat'|'event_seat'|'event_upcoming'|'exclamation'|'exercise'|'exit_to_app'|'expand'|'expand_all'|'expand_circle_down'|'expand_circle_right'|'expand_circle_up'|'expand_content'|'expand_less'|'expand_more'|'experiment'|'explicit'|'explore'|'explore_nearby'|'explore_off'|'explosion'|'export_notes'|'exposure'|'exposure_neg_1'|'exposure_neg_2'|'exposure_plus_1'|'exposure_plus_2'|'exposure_zero'|'extension'|'extension_off'|'eyeglasses'|'face'|'face_2'|'face_3'|'face_4'|'face_5'|'face_6'|'face_retouching_natural'|'face_retouching_off'|'face_unlock'|'fact_check'|'factory'|'falling'|'familiar_face_and_zone'|'family_history'|'family_home'|'family_link'|'family_restroom'|'family_star'|'farsight_digital'|'fast_forward'|'fast_rewind'|'fastfood'|'faucet'|'favorite'|'favorite_border'|'fax'|'feature_search'|'featured_play_list'|'featured_seasonal_and_gifts'|'featured_video'|'feed'|'feedback'|'female'|'femur'|'femur_alt'|'fence'|'fertile'|'festival'|'fiber_dvr'|'fiber_manual_record'|'fiber_new'|'fiber_pin'|'fiber_smart_record'|'file_copy'|'file_download'|'file_download_done'|'file_download_off'|'file_map'|'file_open'|'file_present'|'file_save'|'file_save_off'|'file_upload'|'file_upload_off'|'filter'|'filter_1'|'filter_2'|'filter_3'|'filter_4'|'filter_5'|'filter_6'|'filter_7'|'filter_8'|'filter_9'|'filter_9_plus'|'filter_alt'|'filter_alt_off'|'filter_b_and_w'|'filter_center_focus'|'filter_drama'|'filter_frames'|'filter_hdr'|'filter_list'|'filter_list_alt'|'filter_list_off'|'filter_none'|'filter_retrolux'|'filter_tilt_shift'|'filter_vintage'|'finance'|'finance_chip'|'finance_mode'|'find_in_page'|'find_replace'|'fingerprint'|'fire_extinguisher'|'fire_hydrant'|'fire_hydrant_alt'|'fire_truck'|'fireplace'|'first_page'|'fit_page'|'fit_screen'|'fit_width'|'fitbit'|'fitness_center'|'flag'|'flag_circle'|'flaky'|'flare'|'flash_auto'|'flash_off'|'flash_on'|'flashlight_off'|'flashlight_on'|'flatware'|'flex_direction'|'flex_no_wrap'|'flex_wrap'|'flight'|'flight_class'|'flight_land'|'flight_takeoff'|'flights_and_hotels'|'flightsmode'|'flip'|'flip_camera_android'|'flip_camera_ios'|'flip_to_back'|'flip_to_front'|'flood'|'floor'|'floor_lamp'|'flowsheet'|'fluid'|'fluid_balance'|'fluid_med'|'fluorescent'|'flutter'|'flutter_dash'|'fmd_bad'|'fmd_good'|'foggy'|'folded_hands'|'folder'|'folder_copy'|'folder_data'|'folder_delete'|'folder_managed'|'folder_off'|'folder_open'|'folder_shared'|'folder_special'|'folder_supervised'|'folder_zip'|'follow_the_signs'|'font_download'|'font_download_off'|'food_bank'|'foot_bones'|'footprint'|'for_you'|'forest'|'fork_left'|'fork_right'|'forklift'|'format_align_center'|'format_align_justify'|'format_align_left'|'format_align_right'|'format_bold'|'format_clear'|'format_color_fill'|'format_color_reset'|'format_color_text'|'format_h1'|'format_h2'|'format_h3'|'format_h4'|'format_h5'|'format_h6'|'format_image_left'|'format_image_right'|'format_indent_decrease'|'format_indent_increase'|'format_ink_highlighter'|'format_italic'|'format_letter_spacing'|'format_letter_spacing_2'|'format_letter_spacing_standard'|'format_letter_spacing_wide'|'format_letter_spacing_wider'|'format_line_spacing'|'format_list_bulleted'|'format_list_bulleted_add'|'format_list_numbered'|'format_list_numbered_rtl'|'format_overline'|'format_paint'|'format_paragraph'|'format_quote'|'format_shapes'|'format_size'|'format_strikethrough'|'format_text_clip'|'format_text_overflow'|'format_text_wrap'|'format_textdirection_l_to_r'|'format_textdirection_r_to_l'|'format_underlined'|'format_underlined_squiggle'|'forms_add_on'|'forms_apps_script'|'fort'|'forum'|'forward'|'forward_10'|'forward_30'|'forward_5'|'forward_circle'|'forward_media'|'forward_to_inbox'|'foundation'|'frame_inspect'|'frame_person'|'frame_person_off'|'frame_reload'|'frame_source'|'free_breakfast'|'free_cancellation'|'front_hand'|'front_loader'|'full_coverage'|'full_hd'|'full_stacked_bar_chart'|'fullscreen'|'fullscreen_exit'|'function'|'functions'|'g_mobiledata'|'g_mobiledata_badge'|'g_translate'|'gallery_thumbnail'|'gamepad'|'games'|'garage'|'garage_door'|'garage_home'|'garden_cart'|'gas_meter'|'gastroenterology'|'gate'|'gavel'|'general_device'|'generating_tokens'|'genetics'|'genres'|'gesture'|'gesture_select'|'get_app'|'gif'|'gif_box'|'girl'|'gite'|'glass_cup'|'globe'|'globe_asia'|'globe_uk'|'glucose'|'glyphs'|'go_to_line'|'golf_course'|'google_home_devices'|'google_tv_remote'|'google_wifi'|'gpp_bad'|'gpp_good'|'gpp_maybe'|'gps_fixed'|'gps_not_fixed'|'gps_off'|'grade'|'gradient'|'grading'|'grain'|'graphic_eq'|'grass'|'grid_3x3'|'grid_3x3_off'|'grid_4x4'|'grid_goldenratio'|'grid_guides'|'grid_off'|'grid_on'|'grid_view'|'grocery'|'group'|'group_add'|'group_off'|'group_remove'|'group_work'|'grouped_bar_chart'|'groups'|'groups_2'|'groups_3'|'gynecology'|'h_mobiledata'|'h_mobiledata_badge'|'h_plus_mobiledata'|'h_plus_mobiledata_badge'|'hail'|'hallway'|'hand_bones'|'hand_gesture'|'handshake'|'handyman'|'hangout_video'|'hangout_video_off'|'hard_drive'|'hard_drive_2'|'hardware'|'hd'|'hdr_auto'|'hdr_auto_select'|'hdr_enhanced_select'|'hdr_off'|'hdr_off_select'|'hdr_on'|'hdr_on_select'|'hdr_plus'|'hdr_plus_off'|'hdr_strong'|'hdr_weak'|'headphones'|'headphones_battery'|'headset'|'headset_mic'|'headset_off'|'healing'|'health_and_beauty'|'health_and_safety'|'health_metrics'|'heap_snapshot_large'|'heap_snapshot_multiple'|'heap_snapshot_thumbnail'|'hearing'|'hearing_disabled'|'heart_broken'|'heart_check'|'heart_minus'|'heart_plus'|'heat'|'heat_pump'|'heat_pump_balance'|'height'|'helicopter'|'help'|'help_center'|'help_clinic'|'help_outline'|'hematology'|'hevc'|'hexagon'|'hide'|'hide_image'|'hide_source'|'high_density'|'high_quality'|'high_res'|'highlight'|'highlight_alt'|'highlight_keyboard_focus'|'highlight_mouse_cursor'|'highlight_off'|'highlight_text_cursor'|'highlighter_size_1'|'highlighter_size_2'|'highlighter_size_3'|'highlighter_size_4'|'highlighter_size_5'|'hiking'|'history'|'history_edu'|'history_toggle_off'|'hive'|'hls'|'hls_off'|'holiday_village'|'home'|'home_and_garden'|'home_app_logo'|'home_filled'|'home_health'|'home_improvement_and_tools'|'home_iot_device'|'home_max'|'home_max_dots'|'home_mini'|'home_pin'|'home_repair_service'|'home_speaker'|'home_storage'|'home_work'|'horizontal_distribute'|'horizontal_rule'|'horizontal_split'|'hot_tub'|'hotel'|'hotel_class'|'hourglass'|'hourglass_bottom'|'hourglass_disabled'|'hourglass_empty'|'hourglass_full'|'hourglass_top'|'house'|'house_siding'|'house_with_shield'|'houseboat'|'household_supplies'|'how_to_reg'|'how_to_vote'|'hr_resting'|'html'|'http'|'https'|'hub'|'humerus'|'humerus_alt'|'humidity_high'|'humidity_indoor'|'humidity_low'|'humidity_mid'|'humidity_percentage'|'hvac'|'ice_skating'|'icecream'|'ifl'|'iframe'|'iframe_off'|'image'|'image_aspect_ratio'|'image_not_supported'|'image_search'|'imagesearch_roller'|'imagesmode'|'immunology'|'import_contacts'|'import_export'|'important_devices'|'in_home_mode'|'inactive_order'|'inbox'|'inbox_customize'|'incomplete_circle'|'indeterminate_check_box'|'indeterminate_question_box'|'info'|'info_i'|'info_outline'|'infrared'|'ink_eraser'|'ink_eraser_off'|'ink_highlighter'|'ink_highlighter_move'|'ink_marker'|'ink_pen'|'inpatient'|'input'|'input_circle'|'insert_chart'|'insert_chart_outlined'|'insert_comment'|'insert_drive_file'|'insert_emoticon'|'insert_invitation'|'insert_link'|'insert_page_break'|'insert_photo'|'insert_text'|'insights'|'install_desktop'|'install_mobile'|'instant_mix'|'integration_instructions'|'interactive_space'|'interests'|'interpreter_mode'|'inventory'|'inventory_2'|'invert_colors'|'invert_colors_off'|'ios'|'ios_share'|'iron'|'iso'|'jamboard_kiosk'|'javascript'|'join'|'join_full'|'join_inner'|'join_left'|'join_right'|'joystick'|'jump_to_element'|'kayaking'|'kebab_dining'|'kettle'|'key'|'key_off'|'key_vertical'|'key_visualizer'|'keyboard'|'keyboard_alt'|'keyboard_arrow_down'|'keyboard_arrow_left'|'keyboard_arrow_right'|'keyboard_arrow_up'|'keyboard_backspace'|'keyboard_capslock'|'keyboard_capslock_badge'|'keyboard_command_key'|'keyboard_control_key'|'keyboard_double_arrow_down'|'keyboard_double_arrow_left'|'keyboard_double_arrow_right'|'keyboard_double_arrow_up'|'keyboard_external_input'|'keyboard_full'|'keyboard_hide'|'keyboard_keys'|'keyboard_off'|'keyboard_onscreen'|'keyboard_option_key'|'keyboard_previous_language'|'keyboard_return'|'keyboard_tab'|'keyboard_tab_rtl'|'keyboard_voice'|'kid_star'|'king_bed'|'kitchen'|'kitesurfing'|'lab_panel'|'lab_profile'|'lab_research'|'label'|'label_important'|'label_important_outline'|'label_off'|'labs'|'lan'|'landscape'|'landslide'|'language'|'language_chinese_array'|'language_chinese_cangjie'|'language_chinese_dayi'|'language_chinese_pinyin'|'language_chinese_quick'|'language_chinese_wubi'|'language_french'|'language_gb_english'|'language_international'|'language_japanese_kana'|'language_korean_latin'|'language_pinyin'|'language_spanish'|'language_us'|'language_us_colemak'|'language_us_dvorak'|'laps'|'laptop'|'laptop_chromebook'|'laptop_mac'|'laptop_windows'|'lasso_select'|'last_page'|'launch'|'laundry'|'layers'|'layers_clear'|'lda'|'leaderboard'|'leak_add'|'leak_remove'|'left_click'|'left_panel_close'|'left_panel_open'|'legend_toggle'|'lens'|'lens_blur'|'letter_switch'|'library_add'|'library_add_check'|'library_books'|'library_music'|'license'|'lift_to_talk'|'light'|'light_group'|'light_mode'|'light_off'|'lightbulb'|'lightbulb_circle'|'lightbulb_outline'|'lightning_stand'|'line_axis'|'line_curve'|'line_end'|'line_end_arrow'|'line_end_arrow_notch'|'line_end_circle'|'line_end_diamond'|'line_end_square'|'line_start'|'line_start_arrow'|'line_start_arrow_notch'|'line_start_circle'|'line_start_diamond'|'line_start_square'|'line_style'|'line_weight'|'linear_scale'|'link'|'link_off'|'linked_camera'|'linked_services'|'liquor'|'list'|'list_alt'|'list_alt_add'|'lists'|'live_help'|'live_tv'|'living'|'local_activity'|'local_airport'|'local_atm'|'local_bar'|'local_cafe'|'local_car_wash'|'local_convenience_store'|'local_dining'|'local_drink'|'local_fire_department'|'local_florist'|'local_gas_station'|'local_grocery_store'|'local_hospital'|'local_hotel'|'local_laundry_service'|'local_library'|'local_mall'|'local_movies'|'local_offer'|'local_parking'|'local_pharmacy'|'local_phone'|'local_pizza'|'local_play'|'local_police'|'local_post_office'|'local_printshop'|'local_see'|'local_shipping'|'local_taxi'|'location_away'|'location_chip'|'location_city'|'location_disabled'|'location_home'|'location_off'|'location_on'|'location_pin'|'location_searching'|'lock'|'lock_clock'|'lock_open'|'lock_open_right'|'lock_outline'|'lock_person'|'lock_reset'|'login'|'logo_dev'|'logout'|'looks'|'looks_3'|'looks_4'|'looks_5'|'looks_6'|'looks_one'|'looks_two'|'loop'|'loupe'|'low_density'|'low_priority'|'loyalty'|'lte_mobiledata'|'lte_mobiledata_badge'|'lte_plus_mobiledata'|'lte_plus_mobiledata_badge'|'luggage'|'lunch_dining'|'lyrics'|'macro_auto'|'macro_off'|'magnification_large'|'magnification_small'|'magnify_docked'|'magnify_fullscreen'|'mail'|'mail_lock'|'mail_outline'|'male'|'man'|'man_2'|'man_3'|'man_4'|'manage_accounts'|'manage_history'|'manage_search'|'manga'|'manufacturing'|'map'|'maps_home_work'|'maps_ugc'|'margin'|'mark_as_unread'|'mark_chat_read'|'mark_chat_unread'|'mark_email_read'|'mark_email_unread'|'mark_unread_chat_alt'|'markdown'|'markdown_copy'|'markdown_paste'|'markunread'|'markunread_mailbox'|'masked_transitions'|'masks'|'match_case'|'match_word'|'matter'|'maximize'|'measuring_tape'|'media_bluetooth_off'|'media_bluetooth_on'|'media_link'|'mediation'|'medical_information'|'medical_mask'|'medical_services'|'medication'|'medication_liquid'|'meeting_room'|'memory'|'memory_alt'|'menstrual_health'|'menu'|'menu_book'|'menu_open'|'merge'|'merge_type'|'message'|'metabolism'|'mfg_nest_yale_lock'|'mic'|'mic_double'|'mic_external_off'|'mic_external_on'|'mic_none'|'mic_off'|'microbiology'|'microwave'|'microwave_gen'|'military_tech'|'mimo'|'mimo_disconnect'|'mindfulness'|'minimize'|'minor_crash'|'mintmark'|'miscellaneous_services'|'missed_video_call'|'missing_controller'|'mist'|'mitre'|'mixture_med'|'mms'|'mobile_friendly'|'mobile_off'|'mobile_screen_share'|'mobiledata_off'|'mode'|'mode_comment'|'mode_cool'|'mode_cool_off'|'mode_dual'|'mode_edit'|'mode_edit_outline'|'mode_fan'|'mode_fan_off'|'mode_heat'|'mode_heat_cool'|'mode_heat_off'|'mode_night'|'mode_of_travel'|'mode_off_on'|'mode_standby'|'model_training'|'monetization_on'|'money'|'money_off'|'money_off_csred'|'monitor'|'monitor_heart'|'monitor_weight'|'monitor_weight_gain'|'monitor_weight_loss'|'monitoring'|'monochrome_photos'|'mood'|'mood_bad'|'mop'|'moped'|'more'|'more_down'|'more_horiz'|'more_time'|'more_up'|'more_vert'|'mosque'|'motion_blur'|'motion_mode'|'motion_photos_auto'|'motion_photos_off'|'motion_photos_on'|'motion_photos_pause'|'motion_photos_paused'|'motion_sensor_active'|'motion_sensor_alert'|'motion_sensor_idle'|'motion_sensor_urgent'|'motorcycle'|'mountain_flag'|'mouse'|'move'|'move_down'|'move_group'|'move_item'|'move_location'|'move_selection_down'|'move_selection_left'|'move_selection_right'|'move_selection_up'|'move_to_inbox'|'move_up'|'moved_location'|'movie'|'movie_creation'|'movie_edit'|'movie_filter'|'movie_info'|'moving'|'moving_beds'|'moving_ministry'|'mp'|'multicooker'|'multiline_chart'|'multiple_stop'|'museum'|'music_cast'|'music_note'|'music_off'|'music_video'|'my_location'|'mystery'|'nat'|'nature'|'nature_people'|'navigate_before'|'navigate_next'|'navigation'|'near_me'|'near_me_disabled'|'nearby'|'nearby_error'|'nearby_off'|'nephrology'|'nest_audio'|'nest_cam_floodlight'|'nest_cam_indoor'|'nest_cam_iq'|'nest_cam_iq_outdoor'|'nest_cam_magnet_mount'|'nest_cam_outdoor'|'nest_cam_stand'|'nest_cam_wall_mount'|'nest_cam_wired_stand'|'nest_clock_farsight_analog'|'nest_clock_farsight_digital'|'nest_connect'|'nest_detect'|'nest_display'|'nest_display_max'|'nest_doorbell_visitor'|'nest_eco_leaf'|'nest_farsight_weather'|'nest_found_savings'|'nest_gale_wifi'|'nest_heat_link_e'|'nest_heat_link_gen_3'|'nest_hello_doorbell'|'nest_mini'|'nest_multi_room'|'nest_protect'|'nest_remote'|'nest_remote_comfort_sensor'|'nest_secure_alarm'|'nest_sunblock'|'nest_tag'|'nest_thermostat'|'nest_thermostat_e_eu'|'nest_thermostat_gen_3'|'nest_thermostat_sensor'|'nest_thermostat_sensor_eu'|'nest_thermostat_zirconium_eu'|'nest_true_radiant'|'nest_wake_on_approach'|'nest_wake_on_press'|'nest_wifi_point'|'nest_wifi_pro'|'nest_wifi_pro_2'|'nest_wifi_router'|'network_cell'|'network_check'|'network_intelligence_history'|'network_intelligence_update'|'network_locked'|'network_manage'|'network_node'|'network_ping'|'network_wifi'|'network_wifi_1_bar'|'network_wifi_1_bar_locked'|'network_wifi_2_bar'|'network_wifi_2_bar_locked'|'network_wifi_3_bar'|'network_wifi_3_bar_locked'|'network_wifi_locked'|'neurology'|'new_label'|'new_releases'|'new_window'|'news'|'newsmode'|'newspaper'|'newsstand'|'next_plan'|'next_week'|'nfc'|'night_shelter'|'night_sight_auto'|'night_sight_auto_off'|'night_sight_max'|'nightlife'|'nightlight'|'nightlight_round'|'nights_stay'|'no_accounts'|'no_adult_content'|'no_backpack'|'no_cell'|'no_crash'|'no_drinks'|'no_encryption'|'no_encryption_gmailerrorred'|'no_flash'|'no_food'|'no_luggage'|'no_meals'|'no_meals_ouline'|'no_meeting_room'|'no_photography'|'no_sim'|'no_sound'|'no_stroller'|'no_transfer'|'noise_aware'|'noise_control_off'|'noise_control_on'|'nordic_walking'|'north'|'north_east'|'north_west'|'not_accessible'|'not_accessible_forward'|'not_interested'|'not_listed_location'|'not_started'|'note'|'note_add'|'note_alt'|'note_stack'|'note_stack_add'|'notes'|'notification_add'|'notification_important'|'notification_multiple'|'notifications'|'notifications_active'|'notifications_none'|'notifications_off'|'notifications_paused'|'notifications_unread'|'numbers'|'nutrition'|'ods'|'odt'|'offline_bolt'|'offline_pin'|'offline_share'|'oil_barrel'|'on_device_training'|'on_hub_device'|'oncology'|'ondemand_video'|'online_prediction'|'onsen'|'opacity'|'open_in_browser'|'open_in_full'|'open_in_new'|'open_in_new_down'|'open_in_new_off'|'open_in_phone'|'open_jam'|'open_with'|'ophthalmology'|'oral_disease'|'order_approve'|'order_play'|'orders'|'orthopedics'|'other_admission'|'other_houses'|'outbound'|'outbox'|'outbox_alt'|'outdoor_garden'|'outdoor_grill'|'outgoing_mail'|'outlet'|'outlined_flag'|'outpatient'|'outpatient_med'|'output'|'output_circle'|'oven'|'oven_gen'|'overview'|'overview_key'|'oxygen_saturation'|'p2p'|'pace'|'pacemaker'|'package'|'package_2'|'padding'|'page_control'|'page_info'|'pageless'|'pages'|'pageview'|'paid'|'palette'|'pallet'|'pan_tool'|'pan_tool_alt'|'pan_zoom'|'panorama'|'panorama_fish_eye'|'panorama_horizontal'|'panorama_horizontal_select'|'panorama_photosphere'|'panorama_photosphere_select'|'panorama_vertical'|'panorama_vertical_select'|'panorama_wide_angle'|'panorama_wide_angle_select'|'paragliding'|'park'|'partly_cloudy_day'|'partly_cloudy_night'|'partner_exchange'|'partner_reports'|'party_mode'|'passkey'|'password'|'patient_list'|'pattern'|'pause'|'pause_circle'|'pause_circle_filled'|'pause_circle_outline'|'pause_presentation'|'payment'|'payments'|'pedal_bike'|'pediatrics'|'pen_size_1'|'pen_size_2'|'pen_size_3'|'pen_size_4'|'pen_size_5'|'pending'|'pending_actions'|'pentagon'|'people'|'people_alt'|'people_outline'|'percent'|'pergola'|'perm_camera_mic'|'perm_contact_calendar'|'perm_data_setting'|'perm_device_information'|'perm_identity'|'perm_media'|'perm_phone_msg'|'perm_scan_wifi'|'person'|'person_2'|'person_3'|'person_4'|'person_add'|'person_add_alt'|'person_add_alt_1'|'person_add_disabled'|'person_alert'|'person_apron'|'person_book'|'person_cancel'|'person_celebrate'|'person_check'|'person_off'|'person_outline'|'person_pin'|'person_pin_circle'|'person_play'|'person_raised_hand'|'person_remove'|'person_remove_alt_1'|'person_search'|'personal_bag'|'personal_bag_off'|'personal_bag_question'|'personal_injury'|'personal_places'|'personal_video'|'pest_control'|'pest_control_rodent'|'pet_supplies'|'pets'|'phishing'|'phone'|'phone_android'|'phone_bluetooth_speaker'|'phone_callback'|'phone_disabled'|'phone_enabled'|'phone_forwarded'|'phone_in_talk'|'phone_iphone'|'phone_locked'|'phone_missed'|'phone_paused'|'phonelink'|'phonelink_erase'|'phonelink_lock'|'phonelink_off'|'phonelink_ring'|'phonelink_ring_off'|'phonelink_setup'|'photo'|'photo_album'|'photo_auto_merge'|'photo_camera'|'photo_camera_back'|'photo_camera_front'|'photo_filter'|'photo_frame'|'photo_library'|'photo_prints'|'photo_size_select_actual'|'photo_size_select_large'|'photo_size_select_small'|'php'|'physical_therapy'|'piano'|'piano_off'|'picture_as_pdf'|'picture_in_picture'|'picture_in_picture_alt'|'picture_in_picture_center'|'picture_in_picture_large'|'picture_in_picture_medium'|'picture_in_picture_mobile'|'picture_in_picture_off'|'picture_in_picture_small'|'pie_chart'|'pie_chart_outline'|'pie_chart_outlined'|'pill'|'pill_off'|'pin'|'pin_drop'|'pin_end'|'pin_invoke'|'pinch'|'pinch_zoom_in'|'pinch_zoom_out'|'pip'|'pip_exit'|'pivot_table_chart'|'pix'|'place'|'place_item'|'plagiarism'|'planner_banner_ad_pt'|'planner_review'|'play_arrow'|'play_circle'|'play_circle_filled'|'play_circle_outline'|'play_disabled'|'play_for_work'|'play_lesson'|'play_pause'|'play_shapes'|'playing_cards'|'playlist_add'|'playlist_add_check'|'playlist_add_check_circle'|'playlist_add_circle'|'playlist_play'|'playlist_remove'|'plumbing'|'plus_one'|'podcasts'|'podiatry'|'podium'|'point_of_sale'|'point_scan'|'policy'|'poll'|'polyline'|'polymer'|'pool'|'portable_wifi_off'|'portrait'|'position_bottom_left'|'position_bottom_right'|'position_top_right'|'post'|'post_add'|'potted_plant'|'power'|'power_input'|'power_off'|'power_settings_new'|'prayer_times'|'precision_manufacturing'|'pregnancy'|'pregnant_woman'|'preliminary'|'prescriptions'|'present_to_all'|'preview'|'preview_off'|'price_change'|'price_check'|'print'|'print_add'|'print_connect'|'print_disabled'|'print_error'|'print_lock'|'priority'|'priority_high'|'privacy'|'privacy_tip'|'private_connectivity'|'problem'|'procedure'|'process_chart'|'production_quantity_limits'|'productivity'|'progress_activity'|'propane'|'propane_tank'|'psychiatry'|'psychology'|'psychology_alt'|'public'|'public_off'|'publish'|'published_with_changes'|'pulmonology'|'pulse_alert'|'punch_clock'|'push_pin'|'qr_code'|'qr_code_2'|'qr_code_2_add'|'qr_code_scanner'|'query_builder'|'query_stats'|'question_answer'|'question_exchange'|'question_mark'|'queue'|'queue_music'|'queue_play_next'|'quick_phrases'|'quick_reference'|'quick_reference_all'|'quick_reorder'|'quickreply'|'quiet_time'|'quiet_time_active'|'quiz'|'r_mobiledata'|'radar'|'radio'|'radio_button_checked'|'radio_button_partial'|'radio_button_unchecked'|'radiology'|'railway_alert'|'rainy'|'rainy_heavy'|'rainy_light'|'rainy_snow'|'ramen_dining'|'ramp_left'|'ramp_right'|'range_hood'|'rate_review'|'raven'|'raw_off'|'raw_on'|'read_more'|'readiness_score'|'real_estate_agent'|'rear_camera'|'rebase'|'rebase_edit'|'receipt'|'receipt_long'|'recent_actors'|'recent_patient'|'recommend'|'record_voice_over'|'rectangle'|'recycling'|'redeem'|'redo'|'reduce_capacity'|'refresh'|'regular_expression'|'relax'|'release_alert'|'remember_me'|'reminder'|'remote_gen'|'remove'|'remove_circle'|'remove_circle_outline'|'remove_done'|'remove_from_queue'|'remove_moderator'|'remove_red_eye'|'remove_road'|'remove_selection'|'remove_shopping_cart'|'reopen_window'|'reorder'|'repartition'|'repeat'|'repeat_on'|'repeat_one'|'repeat_one_on'|'replay'|'replay_10'|'replay_30'|'replay_5'|'replay_circle_filled'|'reply'|'reply_all'|'report'|'report_gmailerrorred'|'report_off'|'report_problem'|'request_page'|'request_quote'|'reset_image'|'reset_tv'|'reset_wrench'|'resize'|'respiratory_rate'|'responsive_layout'|'restart_alt'|'restaurant'|'restaurant_menu'|'restore'|'restore_from_trash'|'restore_page'|'resume'|'reviews'|'rewarded_ads'|'rheumatology'|'rib_cage'|'rice_bowl'|'right_click'|'right_panel_close'|'right_panel_open'|'ring_volume'|'ripples'|'robot'|'robot_2'|'rocket'|'rocket_launch'|'roller_shades'|'roller_shades_closed'|'roller_skating'|'roofing'|'room'|'room_preferences'|'room_service'|'rotate_90_degrees_ccw'|'rotate_90_degrees_cw'|'rotate_left'|'rotate_right'|'roundabout_left'|'roundabout_right'|'rounded_corner'|'route'|'router'|'routine'|'rowing'|'rss_feed'|'rsvp'|'rtt'|'rubric'|'rule'|'rule_folder'|'rule_settings'|'run_circle'|'running_with_errors'|'rv_hookup'|'safety_check'|'safety_check_off'|'safety_divider'|'sailing'|'salinity'|'sanitizer'|'satellite'|'satellite_alt'|'sauna'|'save'|'save_alt'|'save_as'|'saved_search'|'savings'|'scale'|'scan'|'scan_delete'|'scanner'|'scatter_plot'|'scene'|'schedule'|'schedule_send'|'schema'|'school'|'science'|'science_off'|'score'|'scoreboard'|'screen_lock_landscape'|'screen_lock_portrait'|'screen_lock_rotation'|'screen_record'|'screen_rotation'|'screen_rotation_alt'|'screen_rotation_up'|'screen_search_desktop'|'screen_share'|'screenshot'|'screenshot_frame'|'screenshot_keyboard'|'screenshot_monitor'|'screenshot_region'|'screenshot_tablet'|'scrollable_header'|'scuba_diving'|'sd'|'sd_card'|'sd_card_alert'|'sd_storage'|'sdk'|'search'|'search_check'|'search_hands_free'|'search_off'|'security'|'security_key'|'security_update'|'security_update_good'|'security_update_warning'|'segment'|'select'|'select_all'|'select_check_box'|'select_to_speak'|'select_window'|'select_window_off'|'self_care'|'self_improvement'|'sell'|'send'|'send_and_archive'|'send_money'|'send_time_extension'|'send_to_mobile'|'sensor_door'|'sensor_occupied'|'sensor_window'|'sensors'|'sensors_krx'|'sensors_krx_off'|'sensors_off'|'sentiment_calm'|'sentiment_content'|'sentiment_dissatisfied'|'sentiment_excited'|'sentiment_extremely_dissatisfied'|'sentiment_frustrated'|'sentiment_neutral'|'sentiment_sad'|'sentiment_satisfied'|'sentiment_satisfied_alt'|'sentiment_stressed'|'sentiment_very_dissatisfied'|'sentiment_very_satisfied'|'sentiment_worried'|'service_toolbox'|'set_meal'|'settings'|'settings_accessibility'|'settings_account_box'|'settings_alert'|'settings_applications'|'settings_b_roll'|'settings_backup_restore'|'settings_bluetooth'|'settings_brightness'|'settings_cell'|'settings_cinematic_blur'|'settings_ethernet'|'settings_heart'|'settings_input_antenna'|'settings_input_component'|'settings_input_composite'|'settings_input_hdmi'|'settings_input_svideo'|'settings_motion_mode'|'settings_night_sight'|'settings_overscan'|'settings_panorama'|'settings_phone'|'settings_photo_camera'|'settings_power'|'settings_remote'|'settings_slow_motion'|'settings_suggest'|'settings_system_daydream'|'settings_timelapse'|'settings_video_camera'|'settings_voice'|'settop_component'|'severe_cold'|'shadow'|'shadow_add'|'shadow_minus'|'shape_line'|'shapes'|'share'|'share_location'|'share_off'|'share_reviews'|'share_windows'|'sheets_rtl'|'shelf_auto_hide'|'shelf_position'|'shelves'|'shield'|'shield_lock'|'shield_locked'|'shield_moon'|'shield_person'|'shield_question'|'shield_with_heart'|'shield_with_house'|'shift'|'shift_lock'|'shop'|'shop_2'|'shop_two'|'shopping_bag'|'shopping_basket'|'shopping_cart'|'shopping_cart_checkout'|'shoppingmode'|'short_stay'|'short_text'|'shortcut'|'show_chart'|'shower'|'shuffle'|'shuffle_on'|'shutter_speed'|'shutter_speed_add'|'shutter_speed_minus'|'sick'|'side_navigation'|'sign_language'|'signal_cellular_0_bar'|'signal_cellular_1_bar'|'signal_cellular_2_bar'|'signal_cellular_3_bar'|'signal_cellular_4_bar'|'signal_cellular_add'|'signal_cellular_alt'|'signal_cellular_alt_1_bar'|'signal_cellular_alt_2_bar'|'signal_cellular_connected_no_internet_0_bar'|'signal_cellular_connected_no_internet_1_bar'|'signal_cellular_connected_no_internet_2_bar'|'signal_cellular_connected_no_internet_3_bar'|'signal_cellular_connected_no_internet_4_bar'|'signal_cellular_no_sim'|'signal_cellular_nodata'|'signal_cellular_null'|'signal_cellular_off'|'signal_cellular_pause'|'signal_disconnected'|'signal_wifi_0_bar'|'signal_wifi_1_bar'|'signal_wifi_1_bar_lock'|'signal_wifi_2_bar'|'signal_wifi_2_bar_lock'|'signal_wifi_3_bar'|'signal_wifi_3_bar_lock'|'signal_wifi_4_bar'|'signal_wifi_4_bar_lock'|'signal_wifi_bad'|'signal_wifi_connected_no_internet_0'|'signal_wifi_connected_no_internet_1'|'signal_wifi_connected_no_internet_2'|'signal_wifi_connected_no_internet_3'|'signal_wifi_connected_no_internet_4'|'signal_wifi_off'|'signal_wifi_statusbar_1_bar'|'signal_wifi_statusbar_2_bar'|'signal_wifi_statusbar_3_bar'|'signal_wifi_statusbar_4_bar'|'signal_wifi_statusbar_connected_no_internet'|'signal_wifi_statusbar_connected_no_internet_1'|'signal_wifi_statusbar_connected_no_internet_2'|'signal_wifi_statusbar_connected_no_internet_3'|'signal_wifi_statusbar_connected_no_internet_4'|'signal_wifi_statusbar_not_connected'|'signal_wifi_statusbar_null'|'signature'|'signpost'|'sim_card'|'sim_card_alert'|'sim_card_download'|'single_bed'|'sip'|'skateboarding'|'skeleton'|'skillet'|'skillet_cooktop'|'skip_next'|'skip_previous'|'skull'|'sledding'|'sleep_score'|'slide_library'|'sliders'|'slideshow'|'slow_motion_video'|'smart_button'|'smart_display'|'smart_outlet'|'smart_screen'|'smart_toy'|'smartphone'|'smb_share'|'smoke_free'|'smoking_rooms'|'sms'|'sms_failed'|'snippet_folder'|'snooze'|'snowboarding'|'snowing'|'snowing_heavy'|'snowmobile'|'snowshoeing'|'soap'|'social_distance'|'social_leaderboard'|'solar_power'|'sort'|'sort_by_alpha'|'sos'|'sound_detection_dog_barking'|'sound_detection_glass_break'|'sound_detection_loud_sound'|'sound_sampler'|'soup_kitchen'|'source'|'source_environment'|'source_notes'|'south'|'south_america'|'south_east'|'south_west'|'spa'|'space_bar'|'space_dashboard'|'spatial_audio'|'spatial_audio_off'|'spatial_tracking'|'speaker'|'speaker_group'|'speaker_notes'|'speaker_notes_off'|'speaker_phone'|'special_character'|'specific_gravity'|'speech_to_text'|'speed'|'spellcheck'|'splitscreen'|'splitscreen_bottom'|'splitscreen_left'|'splitscreen_right'|'splitscreen_top'|'spo2'|'spoke'|'sports'|'sports_and_outdoors'|'sports_bar'|'sports_baseball'|'sports_basketball'|'sports_cricket'|'sports_esports'|'sports_football'|'sports_golf'|'sports_gymnastics'|'sports_handball'|'sports_hockey'|'sports_kabaddi'|'sports_martial_arts'|'sports_mma'|'sports_motorsports'|'sports_rugby'|'sports_score'|'sports_soccer'|'sports_tennis'|'sports_volleyball'|'sprinkler'|'sprint'|'square'|'square_foot'|'ssid_chart'|'stack'|'stack_off'|'stack_star'|'stacked_bar_chart'|'stacked_email'|'stacked_inbox'|'stacked_line_chart'|'stacks'|'stadia_controller'|'stadium'|'stairs'|'star'|'star_border'|'star_border_purple500'|'star_half'|'star_outline'|'star_purple500'|'star_rate'|'star_rate_half'|'stars'|'start'|'stat_0'|'stat_1'|'stat_2'|'stat_3'|'stat_minus_1'|'stat_minus_2'|'stat_minus_3'|'stay_current_landscape'|'stay_current_portrait'|'stay_primary_landscape'|'stay_primary_portrait'|'step'|'step_into'|'step_out'|'step_over'|'steppers'|'steps'|'stethoscope'|'stethoscope_arrow'|'stethoscope_check'|'sticky_note'|'sticky_note_2'|'stock_media'|'stockpot'|'stop'|'stop_circle'|'stop_screen_share'|'storage'|'store'|'store_mall_directory'|'storefront'|'storm'|'straight'|'straighten'|'strategy'|'stream'|'stream_apps'|'streetview'|'stress_management'|'strikethrough_s'|'stroke_full'|'stroke_partial'|'stroller'|'style'|'styler'|'stylus'|'stylus_laser_pointer'|'stylus_note'|'subdirectory_arrow_left'|'subdirectory_arrow_right'|'subheader'|'subject'|'subscript'|'subscriptions'|'subtitles'|'subtitles_off'|'subway'|'summarize'|'sunny'|'sunny_snowing'|'superscript'|'supervised_user_circle'|'supervised_user_circle_off'|'supervisor_account'|'support'|'support_agent'|'surfing'|'surgical'|'surround_sound'|'swap_calls'|'swap_driving_apps'|'swap_driving_apps_wheel'|'swap_horiz'|'swap_horizontal_circle'|'swap_vert'|'swap_vertical_circle'|'sweep'|'swipe'|'swipe_down'|'swipe_down_alt'|'swipe_left'|'swipe_left_alt'|'swipe_right'|'swipe_right_alt'|'swipe_up'|'swipe_up_alt'|'swipe_vertical'|'switch'|'switch_access'|'switch_access_2'|'switch_access_shortcut'|'switch_access_shortcut_add'|'switch_account'|'switch_camera'|'switch_left'|'switch_right'|'switch_video'|'switches'|'sword_rose'|'swords'|'symptoms'|'synagogue'|'sync'|'sync_alt'|'sync_disabled'|'sync_lock'|'sync_problem'|'sync_saved_locally'|'syringe'|'system_security_update'|'system_security_update_good'|'system_security_update_warning'|'system_update'|'system_update_alt'|'tab'|'tab_close'|'tab_close_right'|'tab_duplicate'|'tab_group'|'tab_move'|'tab_new_right'|'tab_recent'|'tab_unselected'|'table'|'table_bar'|'table_chart'|'table_chart_view'|'table_lamp'|'table_restaurant'|'table_rows'|'table_rows_narrow'|'table_view'|'tablet'|'tablet_android'|'tablet_mac'|'tabs'|'tactic'|'tag'|'tag_faces'|'takeout_dining'|'tamper_detection_off'|'tamper_detection_on'|'tap_and_play'|'tapas'|'target'|'task'|'task_alt'|'taunt'|'taxi_alert'|'team_dashboard'|'temp_preferences_eco'|'temple_buddhist'|'temple_hindu'|'tenancy'|'terminal'|'terrain'|'text_ad'|'text_decrease'|'text_fields'|'text_fields_alt'|'text_format'|'text_increase'|'text_rotate_up'|'text_rotate_vertical'|'text_rotation_angledown'|'text_rotation_angleup'|'text_rotation_down'|'text_rotation_none'|'text_select_end'|'text_select_jump_to_beginning'|'text_select_jump_to_end'|'text_select_move_back_character'|'text_select_move_back_word'|'text_select_move_down'|'text_select_move_forward_character'|'text_select_move_forward_word'|'text_select_move_up'|'text_select_start'|'text_snippet'|'text_to_speech'|'textsms'|'texture'|'texture_add'|'texture_minus'|'theater_comedy'|'theaters'|'thermometer'|'thermometer_add'|'thermometer_gain'|'thermometer_loss'|'thermometer_minus'|'thermostat'|'thermostat_auto'|'thermostat_carbon'|'things_to_do'|'thumb_down'|'thumb_down_alt'|'thumb_down_off_alt'|'thumb_up'|'thumb_up_alt'|'thumb_up_off_alt'|'thumbnail_bar'|'thumbs_up_down'|'thunderstorm'|'tibia'|'tibia_alt'|'time_auto'|'time_to_leave'|'timelapse'|'timeline'|'timer'|'timer_10'|'timer_10_alt_1'|'timer_10_select'|'timer_3'|'timer_3_alt_1'|'timer_3_select'|'timer_off'|'tips_and_updates'|'tire_repair'|'title'|'toast'|'toc'|'today'|'toggle_off'|'toggle_on'|'token'|'toll'|'tonality'|'toolbar'|'tools_flat_head'|'tools_installation_kit'|'tools_ladder'|'tools_level'|'tools_phillips'|'tools_pliers_wire_stripper'|'tools_power_drill'|'tooltip'|'top_panel_close'|'top_panel_open'|'topic'|'tornado'|'total_dissolved_solids'|'touch_app'|'touchpad_mouse'|'tour'|'toys'|'toys_and_games'|'toys_fan'|'track_changes'|'traffic'|'trail_length'|'trail_length_medium'|'trail_length_short'|'train'|'tram'|'transcribe'|'transfer_within_a_station'|'transform'|'transgender'|'transit_enterexit'|'transition_chop'|'transition_dissolve'|'transition_fade'|'transition_push'|'transition_slide'|'translate'|'transportation'|'travel'|'travel_explore'|'travel_luggage_and_bags'|'trending_down'|'trending_flat'|'trending_up'|'trip'|'trip_origin'|'trolley'|'trophy'|'troubleshoot'|'try'|'tsunami'|'tsv'|'tty'|'tune'|'tungsten'|'turn_left'|'turn_right'|'turn_sharp_left'|'turn_sharp_right'|'turn_slight_left'|'turn_slight_right'|'turned_in'|'turned_in_not'|'tv'|'tv_gen'|'tv_guide'|'tv_off'|'tv_options_edit_channels'|'tv_options_input_settings'|'tv_remote'|'tv_signin'|'tv_with_assistant'|'two_pager'|'two_wheeler'|'type_specimen'|'u_turn_left'|'u_turn_right'|'ulna_radius'|'ulna_radius_alt'|'umbrella'|'unarchive'|'undo'|'unfold_less'|'unfold_less_double'|'unfold_more'|'unfold_more_double'|'ungroup'|'universal_currency'|'universal_currency_alt'|'universal_local'|'unknown_2'|'unknown_5'|'unknown_document'|'unknown_med'|'unlicense'|'unpublished'|'unsubscribe'|'upcoming'|'update'|'update_disabled'|'upgrade'|'upload'|'upload_2'|'upload_file'|'urology'|'usb'|'usb_off'|'user_attributes'|'vaccines'|'vacuum'|'valve'|'vape_free'|'vaping_rooms'|'variable_add'|'variable_insert'|'variable_remove'|'variables'|'ventilator'|'verified'|'verified_user'|'vertical_align_bottom'|'vertical_align_center'|'vertical_align_top'|'vertical_distribute'|'vertical_shades'|'vertical_shades_closed'|'vertical_split'|'vibration'|'video_call'|'video_camera_back'|'video_camera_front'|'video_camera_front_off'|'video_chat'|'video_file'|'video_label'|'video_library'|'video_search'|'video_settings'|'video_stable'|'videocam'|'videocam_off'|'videogame_asset'|'videogame_asset_off'|'view_agenda'|'view_array'|'view_carousel'|'view_column'|'view_column_2'|'view_comfy'|'view_comfy_alt'|'view_compact'|'view_compact_alt'|'view_cozy'|'view_day'|'view_headline'|'view_in_ar'|'view_in_ar_off'|'view_kanban'|'view_list'|'view_module'|'view_quilt'|'view_sidebar'|'view_stream'|'view_timeline'|'view_week'|'vignette'|'villa'|'visibility'|'visibility_lock'|'visibility_off'|'vital_signs'|'voice_chat'|'voice_over_off'|'voice_selection'|'voicemail'|'volcano'|'volume_down'|'volume_down_alt'|'volume_mute'|'volume_off'|'volume_up'|'volunteer_activism'|'voting_chip'|'vpn_key'|'vpn_key_alert'|'vpn_key_off'|'vpn_lock'|'vr180_create2d'|'vr180_create2d_off'|'vrpano'|'wall_art'|'wall_lamp'|'wallet'|'wallpaper'|'wallpaper_slideshow'|'ward'|'warehouse'|'warning'|'warning_amber'|'warning_off'|'wash'|'watch'|'watch_button_press'|'watch_later'|'watch_off'|'watch_screentime'|'watch_wake'|'water'|'water_bottle'|'water_bottle_large'|'water_damage'|'water_do'|'water_drop'|'water_ec'|'water_full'|'water_heater'|'water_lock'|'water_loss'|'water_lux'|'water_medium'|'water_orp'|'water_ph'|'water_pump'|'water_voc'|'waterfall_chart'|'waves'|'waving_hand'|'wb_auto'|'wb_cloudy'|'wb_incandescent'|'wb_iridescent'|'wb_shade'|'wb_sunny'|'wb_twighlight'|'wb_twilight'|'wc'|'weather_hail'|'weather_mix'|'weather_snowy'|'web'|'web_asset'|'web_asset_off'|'web_stories'|'web_traffic'|'webhook'|'weekend'|'weight'|'west'|'whatshot'|'wheelchair_pickup'|'where_to_vote'|'widgets'|'width'|'width_full'|'width_normal'|'width_wide'|'wifi'|'wifi_1_bar'|'wifi_2_bar'|'wifi_add'|'wifi_calling'|'wifi_calling_1'|'wifi_calling_2'|'wifi_calling_3'|'wifi_channel'|'wifi_find'|'wifi_home'|'wifi_lock'|'wifi_notification'|'wifi_off'|'wifi_password'|'wifi_protected_setup'|'wifi_proxy'|'wifi_tethering'|'wifi_tethering_error'|'wifi_tethering_off'|'wind_power'|'window'|'window_closed'|'window_open'|'window_sensor'|'wine_bar'|'woman'|'woman_2'|'work'|'work_alert'|'work_history'|'work_off'|'work_outline'|'work_update'|'workspace_premium'|'workspaces'|'workspaces_filled'|'workspaces_outline'|'wounds_injuries'|'wrap_text'|'wrist'|'wrong_location'|'wysiwyg'|'yard'|'your_trips'|'youtube_activity'|'youtube_searched_for'|'zone_person_alert'|'zone_person_idle'|'zone_person_urgent'|'zoom_in'|'zoom_in_map'|'zoom_out'|'zoom_out_map'

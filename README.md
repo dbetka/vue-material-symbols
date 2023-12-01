@@ -1,6 +1,9 @@
-# vue-material-icons
-> Vue3 material design icons with easy access to icons names and types (all available in IDE hints).
-Hints were tested on IntelliJ IDE. Fonts based on https://fonts.google.com/icons.
+# vue-material-symbols
+> Vue3 material design symbols component with typed props like name and symbol type. We provide easy customization by CSS styles.
+
+[![npm version](https://badge.fury.io/js/%40dbetka%2Fvue-material-symbols.svg)](https://badge.fury.io/js/%40dbetka%2Fvue-material-symbols)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Fonts based on https://fonts.google.com/icons.
 
 - [How to start](#how-to-start)
   - [Installation](#installation)
@@ -16,7 +19,7 @@ Hints were tested on IntelliJ IDE. Fonts based on https://fonts.google.com/icons
 
 ### Installation
 ```bash
-npm install -D @dbetka/vue-material-icons@latest
+npm install -D @dbetka/vue-material-symbols
 ```
 
 ### Setup in project

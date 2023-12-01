@@ -7,7 +7,7 @@ const {
 } = require('../lib/icon-list-generator')
 const logs = require('../lib/logs')
 
-const iconListSource = 'https://fonts.google.com/metadata/icons'
+const iconListSource = 'https://fonts.google.com/metadata/icons?key=material_symbols&incomplete=true'
 const jscache = './src/jscache/'
 const iconListDestination = jscache + 'icons-names.ts'
 const iconTypesDestination = jscache + 'icons-types.ts'

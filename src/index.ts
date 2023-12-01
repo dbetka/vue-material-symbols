@@ -13,7 +13,7 @@ export declare interface MaterialIcons {
 
 export declare interface ConstructorOptions {
   defaultWeight?: '100' | '200' | '300' | '400' | '500' | '600' | '700'
-  defaultGrade?: 'thin' | 'medium' | 'semibold' | 'bold'
+  defaultGrade?: 'thin' | 'medium' | 'bold'
   defaultSize?: number | string
   defaultType?: IconsTypesProp
 }
@@ -30,8 +30,8 @@ export default {
   MaterialIcon,
   useIcons,
   materialIcons,
-  install: (app: App) => {
-    app.config.globalProperties.$icons = materialIcons
+  install: (app: App, options: ConstructorOptions) => {
+    app.config.globalProperties.materialIconsDefaults = options
     app.component('MaterialIcon', MaterialIcon)
   }
 }

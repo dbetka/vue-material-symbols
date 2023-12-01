@@ -1,35 +1,53 @@
 <template>
-  <div style="margin-top: 30px">
-    {{ $icons.names.add_box }}
+  <div style="height: 30px" />
+  <div
+    v-for="size in sizes"
+    :key="size"
+  >
     <material-icon
-      name="add_box"
+      name="home"
       type="outlined"
-      class="f-test"
-      size="26"
+      :size="size"
+      grade="thin"
+    />
+    <material-icon
+      name="home"
+      type="rounded"
+      :size="size"
+      grade="medium"
+    />
+    <material-icon
+      name="home"
+      type="sharp"
+      :size="size"
+      grade="bold"
+    />
+    <material-icon
+      name="home"
+      type="outlined"
+      filled
+      :size="size"
+      grade="bold"
+    />
+    <material-icon
+      name="home"
+      type="outlined"
+      filled
+      :size="size"
+      grade="bold"
+      class="text-green"
     />
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  name: 'Demo',
-  components: {
-  },
-  setup() {
-    const handleSelection = (name: string) => {
-      console.log(name)
-    }
-
-    return {
-      handleSelection,
-    }
-  },
-})
+<script setup lang="ts">
+const sizes = [ undefined, 40, 56, 72, 96, 128 ]
 </script>
 
 <style lang="scss" scoped>
+.text-green {
+  color: green;
+}
 img {
   max-width: 100%;
   border-radius: 8px;
