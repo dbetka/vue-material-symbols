@@ -11,6 +11,7 @@ export declare interface MaterialIcons {
 }
 
 export declare interface ConstructorOptions {
+  defaultComponentName?: string
   defaultFilled?: boolean
   defaultWeight?: '100' | '200' | '300' | '400' | '500' | '600' | '700'
   defaultGrade?: 'thin' | 'medium' | 'bold'
@@ -34,9 +35,9 @@ export default {
   MaterialIcon,
   useIcons,
   materialIcons,
-  install: (app: App, options: ConstructorOptions) => {
-    window.$materialIconsDefaults = options
-    app.component('MaterialIcon', MaterialIcon)
+  install: (app: App, options?: ConstructorOptions) => {
+    window.$materialIconsDefaults = options || {}
+    app.component(options?.defaultComponentName || 'MaterialSymbol', MaterialIcon)
   }
 }
 

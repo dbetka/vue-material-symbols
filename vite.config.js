@@ -24,13 +24,6 @@ export default defineConfig({
       },
       exclude: [ 'vite.config.ts' ]
     }),
-    {
-      closeBundle () {
-        const file = fs.readFileSync('./node_modules/material-symbols/index.css', 'utf8')
-        const newFile = file.replace(/url\("\.\/material-symbols/g, 'url("material-symbols/material-symbols')
-        fs.writeFileSync('./dist/index.css', newFile, 'utf8')
-      }
-    }
   ],
   build: {
     cssCodeSplit: true,

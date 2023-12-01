@@ -5,16 +5,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Fonts based on https://fonts.google.com/icons.
 
-- [How to start](#how-to-start)
-  - [Installation](#installation)
-  - [Setup in project](#setup-in-project)
-- [Usage](#usage)
-  - [Base examples](#base-examples)
-  - [Usage in Composition API](#usage-in-composition-api)
-- [Own styles](#own-styles)
-  - [Set icon color](#set-icon-color)
-  - [Set icon size by style](#set-icon-size-by-style)
-
 ## How to start
 
 ### Installation
@@ -26,8 +16,8 @@ npm install -D @dbetka/vue-material-symbols
 
 Add as Vue3 plugin:
 ```js
-import '@dbetka/vue-material-symbols/dist/index.css'
 import materialIcons from '@dbetka/vue-material-symbols';
+import 'material-symbols/index.css';
 
 const app = createApp(App);
 app.use(materialIcons);
@@ -36,11 +26,12 @@ app.use(materialIcons);
 ### Setup in project with configuration
 
 ```js
-import '@dbetka/vue-material-symbols/dist/index.css'
 import materialIcons from '@dbetka/vue-material-symbols';
+import 'material-symbols/index.css';
 
 const app = createApp(App);
 app.use(materialIcons, {
+  defaultComponentName: 'BaseSymbol',
   defaultWeight: '100',
   defaultGrade: 'thin',
   defaultSize: 24,
@@ -70,7 +61,7 @@ app.use(materialIcons, {
 ```vue
 <template>
   <div>
-    <symbol :name="iconName" />
+    <material-symbol :name="iconName" />
   </div>
 </template>
 
