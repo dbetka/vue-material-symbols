@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.5] - 2023-12.09
+### Changed
+- Correct instruction to install package in readme.
+- Update some dependencies.
+
 ## [1.1.4] - 2023-12.09
 ### Changed
 - Correct way to export plugin modules.

@@ -15,7 +15,7 @@
 
 ### Installation
 ```bash
-npm install -D @dbetka/vue-material-symbols
+npm install @dbetka/vue-material-symbols
 ```
 
 ### Setup in project with default configuration
