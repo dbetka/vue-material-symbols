@@ -1,5 +1,5 @@
 import MaterialSymbol from './MaterialSymbol.vue'
-import type { App } from 'vue'
+import type { App, Plugin } from 'vue'
 import { icons } from './jscache/icons-names'
 import { iconsTypes } from './jscache/icons-types'
 import FontFaceObserver from 'fontfaceobserver'
@@ -8,7 +8,7 @@ export declare type Symbols = typeof icons
 export declare type SymbolsProp = keyof typeof icons
 export declare type SymbolsTypes = typeof iconsTypes
 export declare type SymbolsTypesProp = keyof typeof iconsTypes
-export declare interface MaterialSymbols {
+export declare interface MaterialSymbolsLists {
   readonly names: Symbols;
   readonly types: SymbolsTypes;
 }
@@ -25,18 +25,16 @@ declare global {
   interface Window { $materialSymbolsDefaults: ConstructorOptions; }
 }
 
-const materialSymbols: MaterialSymbols = {
+const materialSymbolsLists: MaterialSymbolsLists = {
   names: icons as Symbols,
   types: iconsTypes as SymbolsTypes,
 }
 
-function useSymbols (): MaterialSymbols {
-  return materialSymbols as MaterialSymbols
+function useSymbols (): MaterialSymbolsLists {
+  return materialSymbolsLists as MaterialSymbolsLists
 }
-export default {
-  MaterialSymbol,
-  useSymbols,
-  materialSymbols,
+
+const materialSymbolsPlugin = {
   install: (_app: App, options?: ConstructorOptions) => {
     const fontOutlined = new FontFaceObserver('Material Symbols Outlined')
     const fontRounded = new FontFaceObserver('Material Symbols Rounded')
@@ -47,10 +45,10 @@ export default {
 
     window.$materialSymbolsDefaults = options || {}
   }
-}
+} as Plugin<ConstructorOptions>
 
 export {
-  MaterialSymbol,
+  materialSymbolsPlugin as default,
   useSymbols,
-  materialSymbols,
+  MaterialSymbol,
 }

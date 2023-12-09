@@ -34,6 +34,7 @@
       "vite/client"
     ],
     "paths": {
+      "@root": ["./"],
       "@/*": ["src/*"],
     },
     "lib": [

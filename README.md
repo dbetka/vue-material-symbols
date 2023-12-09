@@ -22,11 +22,11 @@ npm install -D @dbetka/vue-material-symbols
 
 Add as Vue3 plugin:
 ```js
-import materialIcons from '@dbetka/vue-material-symbols';
+import materialSymbolsPlugin from '@dbetka/vue-material-symbols';
 import 'material-symbols/index.css';
 
 const app = createApp(App);
-app.use(materialIcons);
+app.use(materialSymbolsPlugin);
 // defaultType: 'outlined',
 // defaultWeight: '300',
 // defaultGrade:  'medium',
@@ -37,11 +37,11 @@ app.use(materialIcons);
 ### Setup in project with configuration
 
 ```js
-import materialIcons from '@dbetka/vue-material-symbols';
+import materialSymbolsPlugin from '@dbetka/vue-material-symbols';
 import 'material-symbols/index.css';
 
 const app = createApp(App);
-app.use(materialIcons, {
+app.use(materialSymbolsPlugin, {
   defaultWeight: '100',
   defaultGrade: 'thin',
   defaultSize: 24,

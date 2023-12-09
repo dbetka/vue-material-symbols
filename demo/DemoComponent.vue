@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { MaterialSymbol } from '@'
+import { MaterialSymbol } from '@root'
 
 const sizes = [ undefined, 40, 56, 72, 96, 128 ]
 </script>
