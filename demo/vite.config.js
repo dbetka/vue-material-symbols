@@ -16,7 +16,7 @@ export default defineConfig({
       check: false,
       tsconfigOverride: {
         compilerOptions: {
-          outDir: 'public',
+          outDir: '../docs',
           sourceMap: false,
           declaration: false,
           declarationMap: false,
@@ -27,7 +27,7 @@ export default defineConfig({
   ],
   build: {
     emptyOutDir: true,
-    outDir: 'public',
+    outDir: '../docs',
     cssCodeSplit: true,
   },
   resolve: {
