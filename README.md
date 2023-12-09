@@ -1,13 +1,15 @@
 # vue-material-symbols
-> Vue3 material design symbols fully typed component. Works well with TypeScript and JavaScript. We provide easy customization by CSS classes.
+> Vue3 material design symbols fully typed component. 
+> Works well with TypeScript and JavaScript. 
+> Provides easy customization by CSS classes.
+> Fonts based on https://fonts.google.com/icons.
 
 [![npm version](https://badge.fury.io/js/%40dbetka%2Fvue-material-symbols.svg)](https://badge.fury.io/js/%40dbetka%2Fvue-material-symbols)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-Fonts based on https://fonts.google.com/icons.
 
 ## Demo
 
-[Demo](https://dbetka.github.io/vue-material-symbols/)
+[Open demo](https://dbetka.github.io/vue-material-symbols/)
 
 ## How to start
 
