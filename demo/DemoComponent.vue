@@ -1,36 +1,42 @@
+<script setup lang="ts">
+import { MaterialSymbol } from '@'
+
+const sizes = [ undefined, 40, 56, 72, 96, 128 ]
+</script>
+
 <template>
   <div style="height: 30px" />
   <div
     v-for="size in sizes"
     :key="size"
   >
-    <material-icon
+    <MaterialSymbol
       name="home"
       type="outlined"
       :size="size"
       grade="thin"
       :filled="false"
     />
-    <material-icon
+    <MaterialSymbol
       name="home"
       type="rounded"
       :size="size"
       grade="medium"
     />
-    <material-icon
+    <MaterialSymbol
       name="home"
       type="sharp"
       :size="size"
       grade="bold"
     />
-    <material-icon
+    <MaterialSymbol
       name="home"
       type="outlined"
       filled
       :size="size"
       grade="bold"
     />
-    <material-icon
+    <MaterialSymbol
       name="home"
       type="outlined"
       :size="size"
@@ -39,10 +45,6 @@
     />
   </div>
 </template>
-
-<script setup lang="ts">
-const sizes = [ undefined, 40, 56, 72, 96, 128 ]
-</script>
 
 <style lang="scss" scoped>
 .text-green {

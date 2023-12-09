@@ -1,9 +1,13 @@
 # vue-material-symbols
-> Vue3 material design symbols component with typed props like name and symbol type. We provide easy customization by CSS styles.
+> Vue3 material design symbols fully typed component. Works well with TypeScript and JavaScript. We provide easy customization by CSS classes.
 
 [![npm version](https://badge.fury.io/js/%40dbetka%2Fvue-material-symbols.svg)](https://badge.fury.io/js/%40dbetka%2Fvue-material-symbols)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Fonts based on https://fonts.google.com/icons.
+
+## Demo
+
+[Demo](https://dbetka.github.io/vue-material-symbols/)
 
 ## How to start
 
@@ -12,7 +16,7 @@ Fonts based on https://fonts.google.com/icons.
 npm install -D @dbetka/vue-material-symbols
 ```
 
-### Setup in project
+### Setup in project with default configuration
 
 Add as Vue3 plugin:
 ```js
@@ -21,6 +25,11 @@ import 'material-symbols/index.css';
 
 const app = createApp(App);
 app.use(materialIcons);
+// defaultType: 'outlined',
+// defaultWeight: '300',
+// defaultGrade:  'medium',
+// defaultSize: 24,
+// defaultFilled: false,
 ```
 
 ### Setup in project with configuration
@@ -31,11 +40,11 @@ import 'material-symbols/index.css';
 
 const app = createApp(App);
 app.use(materialIcons, {
-  defaultComponentName: 'BaseSymbol',
   defaultWeight: '100',
   defaultGrade: 'thin',
   defaultSize: 24,
   defaultType: 'outlined',
+  defaultFilled: false,
 });
 ```
 
@@ -44,45 +53,57 @@ app.use(materialIcons, {
 
 ### Base examples
 ```vue
+<script setup>
+  import { MaterialSymbol } from '@dbetka/vue-material-symbols';
+</script>
 <template>
   <div>
-    <material-symbol name="delete" />
-    <material-symbol name="delete" filled/>
-    <material-symbol name="delete" outlined/>
-    <material-symbol name="delete" round/>
-    <material-symbol name="delete" sharp/>
-    <material-symbol name="delete" two-tone/>
-    <material-symbol name="delete" size="26"/>
+    <MaterialSymbol name="delete" />
+    <MaterialSymbol name="delete" filled />
+    <MaterialSymbol name="delete" type="outlined" />
+    <MaterialSymbol name="delete" type="rounded" />
+    <MaterialSymbol name="delete" type="sharp" />
+    <MaterialSymbol name="delete" size="26" />
   </div>
 </template>
 ```
 
 ### Usage in Composition API
 ```vue
+<script setup lang="ts">
+  import { MaterialSymbol, SymbolsProp } from '@dbetka/vue-material-symbols';
+  import { computed } from 'vue';
+
+  const props = defineProps({
+    done: Boolean,
+  });
+
+  const symbolName = computed<SymbolsProp>(() => props.done ? 'done' : 'hourglass_empty')
+</script>
 <template>
   <div>
-    <material-symbol :name="iconName" />
+    <MaterialSymbol :name="symbolName" />
   </div>
 </template>
+```
+Or without TypeScript:
+```vue
+<script setup>
+  import { useSymbols, MaterialSymbol } from '@dbetka/vue-material-symbols';
+  import { computed } from 'vue';
 
-<script>
-import { useIcons } from '@dbetka/vue-material-symbols';
-
-export default {
-  props: {
+  const props = defineProps({
     done: Boolean,
-  },
-  setup(props) {
-    const icons = useIcons()
-    
-    const iconName = computed(() => props.done ? icons.names.done : icons.names.hourglass_empty)
-    
-    return {
-      iconName
-    }
-  }
-};
+  });
+
+  const symbols = useSymbols()
+  const symbolName = computed(() => props.done ? symbols.names.done : symbols.names.hourglass_empty)
 </script>
+<template>
+  <div>
+    <MaterialSymbol :name="symbolName" />
+  </div>
+</template>
 ```
 
 ## Own styles
@@ -91,9 +112,12 @@ export default {
 
 Component with CSS example:
 ```vue
+<script setup>
+  import { MaterialSymbol } from '@dbetka/vue-material-symbols';
+</script>
 <template>
   <div>
-    <material-symbol name="delete" class="red"/>
+    <MaterialSymbol name="delete" class="red"/>
   </div>
 </template>
 

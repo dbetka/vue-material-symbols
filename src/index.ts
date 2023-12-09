@@ -1,48 +1,56 @@
-import MaterialIcon from './material-icon.vue'
-import { App } from 'vue'
+import MaterialSymbol from './MaterialSymbol.vue'
+import type { App } from 'vue'
 import { icons } from './jscache/icons-names'
-import { iconsTypes, IconsTypesProp } from './jscache/icons-types'
+import { iconsTypes } from './jscache/icons-types'
+import FontFaceObserver from 'fontfaceobserver'
 
-export declare type Icons = typeof icons
-export declare type IconsTypes = typeof iconsTypes
-export declare interface MaterialIcons {
-  readonly names: Icons;
-  readonly types: IconsTypes;
+export declare type Symbols = typeof icons
+export declare type SymbolsProp = keyof typeof icons
+export declare type SymbolsTypes = typeof iconsTypes
+export declare type SymbolsTypesProp = keyof typeof iconsTypes
+export declare interface MaterialSymbols {
+  readonly names: Symbols;
+  readonly types: SymbolsTypes;
 }
 
 export declare interface ConstructorOptions {
-  defaultComponentName?: string
   defaultFilled?: boolean
   defaultWeight?: '100' | '200' | '300' | '400' | '500' | '600' | '700'
   defaultGrade?: 'thin' | 'medium' | 'bold'
   defaultSize?: number | string
-  defaultType?: IconsTypesProp
+  defaultType?: SymbolsTypesProp
 }
 
 declare global {
-  interface Window { $materialIconsDefaults: ConstructorOptions; }
+  interface Window { $materialSymbolsDefaults: ConstructorOptions; }
 }
 
-const materialIcons: MaterialIcons = {
-  names: icons as Icons,
-  types: iconsTypes as IconsTypes,
+const materialSymbols: MaterialSymbols = {
+  names: icons as Symbols,
+  types: iconsTypes as SymbolsTypes,
 }
 
-function useIcons (): MaterialIcons {
-  return materialIcons as MaterialIcons
+function useSymbols (): MaterialSymbols {
+  return materialSymbols as MaterialSymbols
 }
 export default {
-  MaterialIcon,
-  useIcons,
-  materialIcons,
-  install: (app: App, options?: ConstructorOptions) => {
-    window.$materialIconsDefaults = options || {}
-    app.component(options?.defaultComponentName || 'MaterialSymbol', MaterialIcon)
+  MaterialSymbol,
+  useSymbols,
+  materialSymbols,
+  install: (_app: App, options?: ConstructorOptions) => {
+    const fontOutlined = new FontFaceObserver('Material Symbols Outlined')
+    const fontRounded = new FontFaceObserver('Material Symbols Rounded')
+    const fontSharp = new FontFaceObserver('Material Symbols Sharp')
+    fontOutlined.load()
+    fontRounded.load()
+    fontSharp.load()
+
+    window.$materialSymbolsDefaults = options || {}
   }
 }
 
 export {
-  MaterialIcon,
-  useIcons,
-  materialIcons,
+  MaterialSymbol,
+  useSymbols,
+  materialSymbols,
 }
