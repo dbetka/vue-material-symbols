@@ -7,6 +7,7 @@ import fs from 'fs'
 
 export default defineConfig({
   root: 'demo',
+  base: '/vue-material-symbols/',
   plugins: [
     vuePlugin(),
     dts({
