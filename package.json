@@ -25,6 +25,8 @@
     "dev": "vite",
     "download-and-build": "npm run download-icons && npm run build",
     "build": "vite build",
+    "build-demo": "vite build --config demo/vite.config.js",
+    "demo-build-preview": "vite preview --config demo/vite.config.js",
     "lint": "eslint src/**/*.vue"
   },
   "main": "dist/index.es.js",

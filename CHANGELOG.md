@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2023-12.09
+### Changed
+- Add demo page and configuration for it.
+
 ## [1.1.0] - 2023-12.09
 ### Changed
 - Change component name and way to import component.
