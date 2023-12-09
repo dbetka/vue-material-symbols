@@ -1,5 +1,5 @@
 import MaterialSymbol from './MaterialSymbol.vue';
-import type { Plugin } from 'vue';
+import type { App } from 'vue';
 import { icons } from './jscache/icons-names';
 import { iconsTypes } from './jscache/icons-types';
 export declare type Symbols = typeof icons;
@@ -23,5 +23,7 @@ declare global {
     }
 }
 declare function useSymbols(): MaterialSymbolsLists;
-declare const materialSymbolsPlugin: Plugin<ConstructorOptions>;
+declare const materialSymbolsPlugin: {
+    install: (_app: App, options?: ConstructorOptions) => void;
+};
 export { materialSymbolsPlugin as default, useSymbols, MaterialSymbol, };

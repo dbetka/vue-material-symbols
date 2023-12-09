@@ -45,7 +45,7 @@ const materialSymbolsPlugin = {
 
     window.$materialSymbolsDefaults = options || {}
   }
-} as Plugin<ConstructorOptions>
+}
 
 export {
   materialSymbolsPlugin as default,
