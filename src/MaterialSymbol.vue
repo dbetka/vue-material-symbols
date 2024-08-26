@@ -33,8 +33,8 @@ const styles = computed(() => {
   const fill = props.filled ? '1' : '0'
   const weight = props.weight
   const grade = GRADES[props.grade]
-  const size = Number.isIntefer(props.size) ? `${props.size}px` : props.size
-  const opsz = Number.isIntefer(props.size) ? props.size : window.$materialSymbolsDefaults?.defaultSize || DEFAULT_SIZE,
+  const size = Number.isInteger(props.size) ? `${props.size}px` : props.size
+  const opsz = Number.isInteger(props.size) ? props.size : window.$materialSymbolsDefaults?.defaultSize || DEFAULT_SIZE
 
   return [
     `font-size: ${size};`,

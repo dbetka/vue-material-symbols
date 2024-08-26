@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.7] - 2024-26.08
+### Changed
+- Correction for icon size, accepting responsive size strings like '1.5em'.
+
 ## [1.1.6] - 2023-12.09
 ### Changed
 - Correction for plugin type.
