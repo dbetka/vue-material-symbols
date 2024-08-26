@@ -18,7 +18,7 @@
 npm install @dbetka/vue-material-symbols
 ```
 
-### Setup in project with default configuration
+### Setup in a project with default configuration
 
 Add as Vue3 plugin:
 ```js
@@ -132,9 +132,7 @@ Component with CSS example:
 
 ## Symbols metadata
 
-### Access to symbols metadata
-
-Component with CSS example:
+Access to symbols metadata:
 ```vue
 <script setup lang="ts">
   import { useSymbols } from '@dbetka/vue-material-symbols';

@@ -1,5 +1,5 @@
 # vue-material-icons (maintenance)
-> Vue2 material design icons with easy access to icons names and types (all available in IDE hints).
+> Vue2 material design icons with easy access to icon names and types (all available in IDE hints).
 Hints were tested on IntelliJ IDE. Fonts based on https://fonts.google.com/icons.
 
 - [How to start](#how-to-start)
@@ -14,12 +14,6 @@ Hints were tested on IntelliJ IDE. Fonts based on https://fonts.google.com/icons
 ### Get repository
 ```bash
 git clone https://github.com/dbetka/vue-material-symbols.git
-```
-
-### Installation
-```bash
-npm i
-sudo npm install -g @microsoft/api-extractor
 ```
 
 ### Scripts descriptions
