@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import { MaterialSymbol } from '@root'
+import { MaterialSymbol, useSymbols } from '@root'
 
 const sizes = [ undefined, 40, 56, 72, 96, 128 ]
+
+const { metadata } = useSymbols()
+console.log(metadata)
 </script>
 
 <template>
