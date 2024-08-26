@@ -130,3 +130,31 @@ Component with CSS example:
 </style>
 ```
 
+## Symbols metadata
+
+### Access to symbols metadata
+
+Component with CSS example:
+```vue
+<script setup lang="ts">
+  import { useSymbols } from '@dbetka/vue-material-symbols';
+  import { computed } from 'vue';
+  
+  /*** SymbolMetadata
+    name: string
+    version: number
+    popularity: number
+    codepoint: number
+    categories: string[]
+    tags: string[]
+   */
+  const { metadata } = useSymbols()
+  
+  const symbolsSortedByPopularity = computed(() => metadata.sort((a, b) => b.popularity - a.popularity))
+</script>
+<template>
+  <div>
+    <MaterialSymbol v-for="symbol of symbolsSortedByPopularity" :key="symbol.name" :name="symbol.name" />
+  </div>
+</template>
+```
