@@ -18,7 +18,7 @@
 npm install @dbetka/vue-material-symbols
 ```
 
-### Setup in project with default configuration
+### Setup in a project with default configuration
 
 Add as Vue3 plugin:
 ```js
@@ -142,3 +142,29 @@ Component with CSS example:
 </style>
 ```
 
+## Symbols metadata
+
+Access to symbols metadata:
+```vue
+<script setup lang="ts">
+  import { useSymbols } from '@dbetka/vue-material-symbols';
+  import { computed } from 'vue';
+  
+  /*** SymbolMetadata
+    name: string
+    version: number
+    popularity: number
+    codepoint: number
+    categories: string[]
+    tags: string[]
+   */
+  const { metadata } = useSymbols()
+  
+  const symbolsSortedByPopularity = computed(() => metadata.sort((a, b) => b.popularity - a.popularity))
+</script>
+<template>
+  <div>
+    <MaterialSymbol v-for="symbol of symbolsSortedByPopularity" :key="symbol.name" :name="symbol.name" />
+  </div>
+</template>
+```
