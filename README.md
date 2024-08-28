@@ -50,6 +50,18 @@ app.use(materialSymbolsPlugin, {
 });
 ```
 
+### Setup in project with responsive size
+
+```js
+import materialSymbolsPlugin from '@dbetka/vue-material-symbols';
+import 'material-symbols/index.css';
+
+const app = createApp(App);
+app.use(materialSymbolsPlugin, {
+  defaultSize: '1.5em',
+});
+```
+
 
 ## Usage
 

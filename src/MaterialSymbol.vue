@@ -3,6 +3,8 @@ import { computed } from 'vue'
 import { IconsTypesProp } from '@/jscache/icons-types'
 import { IconsProp } from '@/jscache/icons-names'
 
+const DEFAULT_SIZE = 24
+
 const props = withDefaults(
   defineProps<{
     name: IconsProp | '' | null | undefined
@@ -16,7 +18,7 @@ const props = withDefaults(
     type: () => window.$materialSymbolsDefaults?.defaultType || 'outlined',
     weight: () => window.$materialSymbolsDefaults?.defaultWeight || '300',
     grade: () => window.$materialSymbolsDefaults?.defaultGrade || 'medium',
-    size: () => window.$materialSymbolsDefaults?.defaultSize || 24,
+    size: () => window.$materialSymbolsDefaults?.defaultSize || DEFAULT_SIZE,
     filled: () => window.$materialSymbolsDefaults?.defaultFilled || false,
   }
 )
@@ -31,11 +33,12 @@ const styles = computed(() => {
   const fill = props.filled ? '1' : '0'
   const weight = props.weight
   const grade = GRADES[props.grade]
-  const size = props.size
+  const size = Number.isInteger(props.size) ? `${props.size}px` : props.size
+  const opsz = Number.isInteger(props.size) ? props.size : window.$materialSymbolsDefaults?.defaultSize || DEFAULT_SIZE
 
   return [
-    `font-size: ${size}px;`,
-    `font-variation-settings: 'FILL' ${fill}, 'wght' ${weight}, 'GRAD' ${grade}, 'opsz' ${size};`,
+    `font-size: ${size};`,
+    `font-variation-settings: 'FILL' ${fill}, 'wght' ${weight}, 'GRAD' ${grade}, 'opsz' ${opsz};`,
   ]
 })
 
