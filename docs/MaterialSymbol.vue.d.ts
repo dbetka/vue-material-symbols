@@ -8,7 +8,7 @@ declare const _default: import("vue").DefineComponent<__VLS_WithDefaults<__VLS_T
     size?: string | number | undefined;
     filled?: boolean | undefined;
 }>, {
-    type: () => keyof import('./jscache/icons-types').IconsTypes;
+    type: () => "outlined" | "rounded" | "sharp";
     weight: () => "100" | "200" | "300" | "400" | "500" | "600" | "700";
     grade: () => "thin" | "medium" | "bold";
     size: () => string | number;
@@ -21,7 +21,7 @@ declare const _default: import("vue").DefineComponent<__VLS_WithDefaults<__VLS_T
     size?: string | number | undefined;
     filled?: boolean | undefined;
 }>, {
-    type: () => keyof import('./jscache/icons-types').IconsTypes;
+    type: () => "outlined" | "rounded" | "sharp";
     weight: () => "100" | "200" | "300" | "400" | "500" | "600" | "700";
     grade: () => "thin" | "medium" | "bold";
     size: () => string | number;

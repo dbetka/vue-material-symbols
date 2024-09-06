@@ -3,7 +3,6 @@ import typescript2 from 'rollup-plugin-typescript2'
 import dts from 'vite-plugin-dts'
 import { defineConfig } from 'vite'
 import vuePlugin from '@vitejs/plugin-vue'
-import fs from 'fs'
 
 export default defineConfig({
   plugins: [
@@ -29,16 +28,17 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: 'src/index.ts',
+      entry: [ 'src/index.ts', 'src/metadata.ts' ],
       name: 'myLibraryVueTs',
-      formats: [ 'es', 'cjs' ],
-      fileName: format => `index.${format}.js`
+      formats: [ 'es' ],
+      fileName: (format, entryName) => entryName.includes('metadata') ? 'metadata.js' : 'index.js',
     },
     rollupOptions: {
       // make sure to externalize deps that should not be bundled
       // into your library
       input: {
-        main: path.resolve(__dirname, 'src/index.ts')
+        main: path.resolve(__dirname, 'src/index.ts'),
+        metadata: path.resolve(__dirname, 'src/metadata.ts')
       },
       external: [ 'vue' ],
       output: {

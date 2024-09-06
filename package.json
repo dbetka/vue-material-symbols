@@ -29,7 +29,7 @@
     "demo-build-preview": "vite preview --config demo/vite.config.js",
     "lint": "eslint src/**/*.vue"
   },
-  "main": "dist/index.es.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"

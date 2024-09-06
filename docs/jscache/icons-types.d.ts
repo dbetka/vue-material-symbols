@@ -3,5 +3,9 @@ export declare type IconsTypes = {
     'rounded': 'rounded';
     'sharp': 'sharp';
 };
-export declare const iconsTypes: IconsTypes;
+export declare const iconsTypes: {
+    outlined: string;
+    rounded: string;
+    sharp: string;
+};
 export declare type IconsTypesProp = 'outlined' | 'rounded' | 'sharp';
