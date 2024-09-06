@@ -20,19 +20,19 @@ const sizes = [ undefined, 40, 56, 72, 96, '7.5em' ]
     <MaterialSymbol
       name="home"
       type="rounded"
+      :filled="false"
+      :size="size"
+      grade="bold"
+    />
+    <MaterialSymbol
+      name="home"
+      type="rounded"
       :size="size"
       grade="medium"
     />
     <MaterialSymbol
       name="home"
       type="sharp"
-      :size="size"
-      grade="bold"
-    />
-    <MaterialSymbol
-      name="home"
-      type="outlined"
-      filled
       :size="size"
       grade="bold"
     />
