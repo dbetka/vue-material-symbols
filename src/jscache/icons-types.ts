@@ -4,7 +4,7 @@ export declare type IconsTypes = {
   'sharp': 'sharp'
 };
 
-export const iconsTypes = {
+export const iconsTypes: IconsTypes = {
   'outlined': 'outlined',
   'rounded': 'rounded',
   'sharp': 'sharp',
