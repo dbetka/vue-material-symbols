@@ -147,7 +147,7 @@ Component with CSS example:
 Access to symbols metadata:
 ```vue
 <script setup lang="ts">
-  import { useSymbols } from '@dbetka/vue-material-symbols';
+  import { metadata } from '@dbetka/vue-material-symbols/dist/metadata';
   import { computed } from 'vue';
   
   /*** SymbolMetadata
@@ -158,7 +158,6 @@ Access to symbols metadata:
     categories: string[]
     tags: string[]
    */
-  const { metadata } = useSymbols()
   
   const symbolsSortedByPopularity = computed(() => metadata.sort((a, b) => b.popularity - a.popularity))
 </script>
